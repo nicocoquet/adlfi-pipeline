@@ -1,0 +1,11 @@
+Rapport d’enrichissement PACTOLS
+
+Fichier : AdlFI_Poitou-Charentes_2012_86.xml
+SHA-256 du fichier : bb2a729b5a39e57a8809013adbf27ea3e129cebb13ae380896616d9653f3c7dd
+Référentiel PACTOLS : PACTOLS 2026-07-22 (69bf9697e24cefd645a69465bbd271702786285a)
+SHA-256 Sujets : cd38ef8bd875e96ed9220274ecc12a679b382a520779654eb3bf8141fd16e98b
+SHA-256 Chronologie : ea081dcc12d7cc1f1a74ad5aeeca2c90b1733999dba6b41f97ac85843003eaaa
+
+Concepts rencontrés : 0
+
+Exceptions : 0
