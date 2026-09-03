@@ -124,3 +124,24 @@ def test_unexpected_child_markup_is_left_unchanged(tmp_path):
 
     assert tree.xpath('count(//tei:p[@xml:id="p3"]/tei:hi)', namespaces={**NS, "xml": "http://www.w3.org/XML/1998/namespace"}) == 1
     assert entries[0].status == "invalid_structure"
+
+
+def test_unknown_term_is_unchanged_and_documented(tmp_path):
+    subjects, chronology = vocabularies(tmp_path)
+    source = write_fixture(
+        tmp_path / "unknown.xml",
+        """<TEI xmlns="http://www.tei-c.org/ns/1.0"><text><body>
+<p xml:id="p3" rend="archeo_keywords_subjects">terme sans concept</p>
+</body></text></TEI>""",
+    )
+
+    tree, entries = Enricher(subjects, chronology).enrich_file(source)
+    paragraph = tree.xpath(
+        '//*[@xml:id="p3"]',
+        namespaces={"xml": "http://www.w3.org/XML/1998/namespace"},
+    )[0]
+
+    assert paragraph.text == "terme sans concept"
+    assert len(paragraph) == 0
+    assert entries[0].status == "not_found"
+    assert "XML laissé inchangé" in entries[0].detail
