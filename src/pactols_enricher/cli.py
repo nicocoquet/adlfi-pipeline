@@ -43,7 +43,10 @@ def main(argv: list[str] | None = None) -> int:
         chronology,
         args.pactols_version,
     )
-    unresolved = sum(entry.status != "indexed_exact" for entry in entries)
+    unresolved = sum(
+        entry.status not in {"indexed_exact", "indexed_typographic"}
+        for entry in entries
+    )
     print(f"{len(entries)} concept(s), {unresolved} exception(s)")
     return 0
 

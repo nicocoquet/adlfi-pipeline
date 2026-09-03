@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import re
 import unicodedata
 from collections import defaultdict
 from pathlib import Path
@@ -24,6 +25,7 @@ class Vocabulary:
         self.sha256 = hashlib.sha256(path.read_bytes()).hexdigest()
         self.concepts: dict[str, Concept] = {}
         self.by_french_label: dict[str, list[Concept]] = defaultdict(list)
+        self.by_typographic_label: dict[str, list[Concept]] = defaultdict(list)
         self._load()
 
     def _load(self) -> None:
@@ -54,17 +56,18 @@ class Vocabulary:
         for concept in self.concepts.values():
             for label in concept.french_labels:
                 self.by_french_label[label].append(concept)
+                key = _typographic_key(label)
+                if concept not in self.by_typographic_label[key]:
+                    self.by_typographic_label[key].append(concept)
 
     def exact(self, label: str) -> list[Concept]:
         return self.by_french_label.get(label, [])
 
-    def typographic_candidates(self, label: str) -> list[str]:
-        normalized = _typographic_key(label)
-        return sorted(
-            candidate
-            for candidate in self.by_french_label
-            if candidate != label and _typographic_key(candidate) == normalized
-        )
+    def typographic_matches(self, label: str) -> list[Concept]:
+        return self.by_typographic_label.get(_typographic_key(label), [])
+
+    def french_labels_for(self, concepts: list[Concept]) -> list[str]:
+        return sorted({label for concept in concepts for label in concept.french_labels})
 
     def path_to(self, concept: Concept) -> list[Concept]:
         reverse_path = [concept]
@@ -88,7 +91,7 @@ class Vocabulary:
 
 
 def _typographic_key(value: str) -> str:
-    return (
+    normalized = (
         unicodedata.normalize("NFKC", value)
         .replace("’", "'")
         .replace("‘", "'")
@@ -97,3 +100,6 @@ def _typographic_key(value: str) -> str:
         .replace("\u00a0", " ")
         .casefold()
     )
+    normalized = " ".join(normalized.split())
+    # PACTOLS écrit par exemple « III a », tandis que la source peut porter « IIIa ».
+    return re.sub(r"\b([ivxlcdm]+)\s+([a-z])\b", r"\1\2", normalized)

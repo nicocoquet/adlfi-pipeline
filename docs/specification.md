@@ -15,14 +15,19 @@ reste hors des éléments `index`.
 
 ## Règle de correspondance
 
-Un concept est enrichi uniquement lorsqu’un et un seul `skos:prefLabel`
-français du vocabulaire approprié est strictement identique au texte source.
+Un concept est enrichi lorsqu’un et un seul `skos:prefLabel` français du
+vocabulaire approprié est soit strictement identique au texte source, soit
+équivalent après normalisation typographique.
 
 - Les `skos:altLabel` ne déclenchent pas d’enrichissement.
-- La casse, les apostrophes et les espaces ne sont pas normalisés pour décider
-  de l’enrichissement.
-- Une normalisation typographique sert seulement à proposer un candidat dans
-  le rapport.
+- La normalisation couvre la casse, les espaces ordinaires ou insécables, les
+  apostrophes droites ou courbes, `œ`/`oe` et l’espace entre un chiffre romain
+  et son suffixe alphabétique (`IIIa`/`III a`).
+- La normalisation ne modifie jamais le libellé source : il est conservé tel
+  quel dans `term[@type="orig"]`.
+- Une équivalence typographique n’est automatique que si elle conduit à un
+  concept unique. Une collision entre plusieurs concepts est signalée comme
+  ambiguë et n’est pas enrichie.
 - Un terme non résolu reste inchangé dans le XML.
 
 ## Structure produite
