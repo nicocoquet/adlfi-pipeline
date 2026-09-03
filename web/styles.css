@@ -212,7 +212,21 @@ button:disabled { cursor: not-allowed; opacity: 0.74; }
 }
 
 .output-item + .output-item { border-left: 1px solid var(--line); }
-.extension { color: var(--copper-dark); font: 700 1.15rem/1 Georgia, serif; }
+.output-icon {
+  flex: 0 0 auto;
+  width: 38px;
+  color: var(--copper-dark);
+}
+.output-icon svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 .output-item strong, .output-item small { display: block; }
 .output-item small { margin-top: 5px; color: var(--ink-soft); font-size: 0.8rem; }
 
@@ -241,6 +255,7 @@ footer p { margin-bottom: 0; }
   .site-header { min-height: 78px; }
   .brand small, .repository-link { display: none; }
   .workspace { padding-top: 48px; }
+  .introduction h1 { margin-inline: auto; text-align: center; }
   .drop-panel { padding: 42px 28px; }
   .principle-grid { grid-template-columns: 1fr; }
   .outputs-heading, footer { align-items: start; flex-direction: column; }
