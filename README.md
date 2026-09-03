@@ -80,3 +80,7 @@ pytest
 
 La spécification fonctionnelle est disponible dans
 [`docs/specification.md`](docs/specification.md).
+
+### GitHub Pages
+
+https://nicocoquet.github.io/adlfi-pipeline/
