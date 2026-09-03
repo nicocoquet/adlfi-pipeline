@@ -34,7 +34,11 @@ def write_reports(
         f"Concepts rencontrés : {len(entries)}",
     ]
     lines.extend(f"{status} : {count}" for status, count in sorted(counts.items()))
-    exceptions = [entry for entry in entries if entry.status != "indexed_exact"]
+    exceptions = [
+        entry
+        for entry in entries
+        if entry.status not in {"indexed_exact", "indexed_typographic"}
+    ]
     lines.extend(["", f"Exceptions : {len(exceptions)}"])
     for entry in exceptions:
         lines.extend(

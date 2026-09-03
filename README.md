@@ -12,10 +12,11 @@ Le premier module enrichit trois zones des XML-TEI issus de Métopes :
 - la partie située après `Nature de l’opération : ` dans
   `archeo_fieldwork_method`, avec `pactols:Sujets`.
 
-Le traitement est strict et déterministe. Seule une correspondance exacte et
-unique avec un `skos:prefLabel` français est enrichie. Les variantes
-typographiques, absences et ambiguïtés sont laissées intactes et consignées
-dans les rapports TXT et CSV.
+Le traitement est strict et déterministe. Une correspondance exacte ou une
+équivalence typographique unique avec un `skos:prefLabel` français est
+enrichie. La graphie du XML source est toujours conservée dans
+`term[@type="orig"]`. Les absences et ambiguïtés restent intactes et sont
+consignées dans les rapports TXT et CSV.
 
 ### Installation
 

@@ -105,14 +105,27 @@ class Enricher:
                 detail="plusieurs prefLabel français identiques",
             )
         if not matches:
-            candidates = vocabulary.typographic_candidates(label)
-            status = "typographic_variant" if candidates else "not_found"
-            return None, ReportEntry(
-                **metadata,
-                label=label,
-                status=status,
-                candidate=" | ".join(candidates),
-            )
+            typographic_matches = vocabulary.typographic_matches(label)
+            candidates = vocabulary.french_labels_for(typographic_matches)
+            if len(typographic_matches) > 1:
+                return None, ReportEntry(
+                    **metadata,
+                    label=label,
+                    status="ambiguous_typographic",
+                    candidate=" | ".join(candidates),
+                    detail="la forme normalisée correspond à plusieurs concepts",
+                )
+            if len(typographic_matches) == 1:
+                matches = typographic_matches
+                match_status = "indexed_typographic"
+            else:
+                return None, ReportEntry(
+                    **metadata,
+                    label=label,
+                    status="not_found",
+                )
+        else:
+            match_status = "indexed_exact"
         try:
             path = vocabulary.path_to(matches[0])
         except VocabularyError as error:
@@ -124,7 +137,12 @@ class Enricher:
             )
         return (
             _build_index(label, path, index_name),
-            ReportEntry(**metadata, label=label, status="indexed_exact"),
+            ReportEntry(
+                **metadata,
+                label=label,
+                status=match_status,
+                candidate=(matches[0].french_labels[0] if match_status == "indexed_typographic" else ""),
+            ),
         )
 
     @staticmethod

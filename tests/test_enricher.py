@@ -50,6 +50,7 @@ def vocabularies(tmp_path):
             [
                 concept(base + "chronology-root", [("fr", "entités temporelles")]),
                 concept(base + "roman", [("fr", "Haut-Empire romain"), ("en", "Early Roman Empire")], base + "chronology-root"),
+                concept(base + "bronze", [("fr", "Bronze final III a")], base + "chronology-root"),
             ]
         )
     )
@@ -66,7 +67,7 @@ def input_xml(tmp_path):
 <TEI xmlns="http://www.tei-c.org/ns/1.0"><text><body>
 <div subtype="notice"><head>Anais – Churet</head>
 <p xml:id="p3" rend="archeo_keywords_subjects">établissement rural, bois d’œuvre</p>
-<p xml:id="p4" rend="archeo_keywords_subjects:chronology">Haut-Empire romain</p>
+<p xml:id="p4" rend="archeo_keywords_subjects:chronology">Haut-Empire romain, Bronze final IIIa</p>
 <p xml:id="p8" rend="archeo_fieldwork_method">Nature de l’opération : opération de diagnostic</p>
 </div></body></text></TEI>""",
     )
@@ -80,17 +81,19 @@ def test_enriches_three_zones_and_preserves_separator_and_prefix(tmp_path):
     p4 = tree.xpath('//*[@xml:id="p4"]', namespaces={"xml": "http://www.w3.org/XML/1998/namespace"})[0]
     p8 = tree.xpath('//*[@xml:id="p8"]', namespaces={"xml": "http://www.w3.org/XML/1998/namespace"})[0]
 
-    assert p3.xpath('./tei:index/tei:term[@type="orig"]/text()', namespaces=NS) == ["établissement rural"]
-    assert p3[0].tail == ", bois d’œuvre"
-    assert p3.xpath('.//tei:index/@source', namespaces=NS) == ["26678/subject-root", "26678/rural"]
-    assert p3.xpath('./tei:index/tei:index/@indexName', namespaces=NS) == ["pactols:Sujets"]
-    assert p4.xpath('./tei:index/tei:index/@indexName', namespaces=NS) == ["pactols:Chronologie"]
+    assert p3.xpath('./tei:index/tei:term[@type="orig"]/text()', namespaces=NS) == ["établissement rural", "bois d’œuvre"]
+    assert p3[0].tail == ", "
+    assert p3.xpath('.//tei:index/@source', namespaces=NS) == ["26678/subject-root", "26678/rural", "26678/subject-root", "26678/variant"]
+    assert p3.xpath('./tei:index/tei:index/@indexName', namespaces=NS) == ["pactols:Sujets"] * 2
+    assert p4.xpath('./tei:index/tei:index/@indexName', namespaces=NS) == ["pactols:Chronologie"] * 2
+    assert p4.xpath('./tei:index/tei:term[@type="orig"]/text()', namespaces=NS) == ["Haut-Empire romain", "Bronze final IIIa"]
     assert p8.text == "Nature de l’opération : "
     assert p8.xpath('./tei:index/tei:term[@type="orig"]/text()', namespaces=NS) == ["opération de diagnostic"]
 
     statuses = {(entry.label, entry.status, entry.candidate) for entry in entries}
     assert ("établissement rural", "indexed_exact", "") in statuses
-    assert ("bois d’œuvre", "typographic_variant", "bois d'oeuvre") in statuses
+    assert ("bois d’œuvre", "indexed_typographic", "bois d'oeuvre") in statuses
+    assert ("Bronze final IIIa", "indexed_typographic", "Bronze final III a") in statuses
     assert ("Haut-Empire romain", "indexed_exact", "") in statuses
     assert ("opération de diagnostic", "indexed_exact", "") in statuses
 
@@ -104,7 +107,7 @@ def test_second_run_does_not_duplicate_indexes(tmp_path):
 
     second_tree, entries = enricher.enrich_file(enriched)
 
-    assert len(second_tree.xpath("//tei:index[@indexName='Index']", namespaces=NS)) == 3
+    assert len(second_tree.xpath("//tei:index[@indexName='Index']", namespaces=NS)) == 5
     assert [entry.status for entry in entries] == ["already_indexed"] * 3
 
 
