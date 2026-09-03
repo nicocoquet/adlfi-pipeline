@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "input/**/*.xml"
+      - ".github/workflows/enrich-pactols.yml"
   workflow_dispatch:
 
 permissions:
