@@ -28,7 +28,9 @@ vocabulaire approprié est soit strictement identique au texte source, soit
 - Une équivalence typographique n’est automatique que si elle conduit à un
   concept unique. Une collision entre plusieurs concepts est signalée comme
   ambiguë et n’est pas enrichie.
-- Un terme non résolu reste inchangé dans le XML.
+- Un terme non résolu reste inchangé dans le XML. Cette non-indexation est une
+  sortie normale du processus : elle ne déclenche aucune correction ni
+  substitution automatique.
 
 ## Structure produite
 
@@ -46,5 +48,8 @@ Chaque concept résolu devient un `index` TEI externe contenant :
 - Un paragraphe contenant déjà un `index` est laissé intact.
 - Un paragraphe contenant un balisage enfant inattendu est laissé intact.
 - Les sorties comprennent le XML enrichi et des rapports TXT et CSV.
+- Chaque occurrence non indexée est consignée dans les rapports avec son
+  fichier, sa notice, son paragraphe, sa zone, son libellé, son statut et le
+  motif de la non-indexation.
 - Les rapports indiquent la version déclarée de PACTOLS et le SHA-256 des
   fichiers d’entrée et de référentiel.

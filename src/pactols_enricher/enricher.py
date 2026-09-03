@@ -123,6 +123,10 @@ class Enricher:
                     **metadata,
                     label=label,
                     status="not_found",
+                    detail=(
+                        "aucun prefLabel français exact ou équivalent "
+                        "typographique unique ; XML laissé inchangé"
+                    ),
                 )
         else:
             match_status = "indexed_exact"

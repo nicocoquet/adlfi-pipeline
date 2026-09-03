@@ -16,7 +16,7 @@ Le traitement est strict et déterministe. Une correspondance exacte ou une
 équivalence typographique unique avec un `skos:prefLabel` français est
 enrichie. La graphie du XML source est toujours conservée dans
 `term[@type="orig"]`. Les absences et ambiguïtés restent intactes et sont
-consignées dans les rapports TXT et CSV.
+consignées dans les rapports TXT et CSV, sans aucune correction du XML.
 
 ### Installation
 
