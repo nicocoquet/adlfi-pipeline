@@ -3,18 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Enrichissement déterministe de fichiers XML-TEI avec le thésaurus PACTOLS.">
-    <title>PACTOLS — Enrichir un fichier XML-TEI</title>
+    <meta name="description" content="Enrichissement déterministe de fichiers XML-TEI avec le thésaurus Pactols.">
+    <title>Pactols — Enrichir un fichier XML-TEI</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="./" aria-label="Accueil du service d’enrichissement PACTOLS">
+      <a class="brand" href="./" aria-label="Accueil du service d’enrichissement Pactols">
         <span class="brand-mark" aria-hidden="true">
           <img src="assets/pactols.png" alt="" width="25" height="32">
         </span>
         <span>
-          <strong>Automatisation de l’indexation PACTOLS</strong>
+          <strong>Automatisation de l’indexation Pactols</strong>
           <small>XML-TEI pour l’édition en archéologie</small>
         </span>
       </a>
@@ -28,11 +28,10 @@
       <section class="workspace" aria-labelledby="page-title">
         <div class="introduction">
           <p class="eyebrow">Archéologie de la France – Informations</p>
-          <h1 id="page-title">Indexation PACTOLS</h1>
+          <h1 id="page-title">Indexation Pactols</h1>
           <p class="lead">
-            Déposez un fichier XML-TEI issu de <strong>Métopes 3.1.+.</strong></br>
-            Les correspondances certaines (mots-clés, chronologie et natures d’opération) seront
-            enrichies en lot avec leur ARK, leurs traductions et leur hiérarchie PACTOLS.
+            Les correspondances certaines (mots-clés, chronologie et natures d’opération) sont
+            enrichies en lot avec leur ARK, leurs traductions et leur hiérarchie Pactols.
           </p>
         </div>
 
@@ -43,12 +42,12 @@
               <path d="M29 2v12h11M18 27l-5 6 5 6M30 27l5 6-5 6M27 24l-6 18" />
             </svg>
           </div>
-          <h2>Déposer un fichier XML</br>issu de <strong>Métopes 3.1.+.</strong></h2>
-          <p>Glissez-déposez ici votre fichier</br>ou sélectionnez-le depuis votre ordinateur</p>
+          <h2>Déposer un fichier XML</h2>
+          <p>issu de <strong>Métopes 3.1.+</strong></p>
           <button type="button" disabled>Sélectionner un fichier</button>
           <p class="format">Un seul fichier par traitement</p>
           <p class="prototype" id="prototype-note">
-            Le dépôt et le traitement ne sont pas encore actifs dans cette interface.
+            Dépôt et traitement ne sont pas encore actifs dans cette interface.
           </p>
         </div>
       </section>
@@ -61,15 +60,15 @@
         <div class="principle-grid">
           <article>
             <h3>Correspondances sûres</h3>
-            <p>Les libellés exacts et les seules équivalences typographiques validées sont indexés.</p>
+            <p>Les libellés exacts ou les seules variations typographiques validées sont indexés.</p>
           </article>
           <article>
             <h3>Texte préservé</h3>
-            <p>La graphie originale reste inchangée dans le XML, même lorsqu’une variante est reconnue dans le thesaurus.</p>
+            <p>La graphie originale reste inchangée dans le XML source, même lorsqu’une variante est reconnue dans le thesaurus.</p>
           </article>
           <article>
             <h3>Exceptions documentées</h3>
-            <p>Les concepts absents ou ambigus ne sont jamais corrigés automatiquement.</p>
+            <p>Les concepts absents ou ambigus ne sont pas corrigés automatiquement.</p>
           </article>
         </div>
       </section>
@@ -80,7 +79,7 @@
             <p class="section-number">02</p>
             <h2 id="outputs-title">Trois fichiers à récupérer</h2>
           </div>
-          <p>Chaque résultat mentionne la version précise du référentiel PACTOLS employée.</p>
+          <p>Chaque résultat mentionne la version du référentiel Pactols employée.</p>
         </div>
         <div class="output-list">
           <div class="output-item">
@@ -100,8 +99,8 @@
     </main>
 
     <footer>
-      <p>Prototype développé pour le pipeline éditorial de la revue <em>AdlFI</em>.</p>
-      <p>Nicolas Coquet & Gaëlle David (MSH Mondes)</p>
+      <p>Prototype développé pour le pipeline éditorial de la revue <em>AdlFI</em> : https://journals.openedition.org/adlfi/</p>
+      <p>Crédits : Nicolas Coquet & Gaëlle David (MSH Mondes, UAR 3225)</p>
     </footer>
   </body>
 </html>
