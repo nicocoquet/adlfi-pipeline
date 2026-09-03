@@ -1,0 +1,231 @@
+Rapport d’enrichissement PACTOLS
+
+Fichier : AdlFI_PACA_2022_Alpes-de-Haute-Provence.xml
+SHA-256 du fichier : d8767cafe07282d8b6799573387bba4bb9cf719c018756ec91a63317e9af5ed5
+Référentiel PACTOLS : PACTOLS 2026-07-22 (69bf9697e24cefd645a69465bbd271702786285a)
+SHA-256 Sujets : cd38ef8bd875e96ed9220274ecc12a679b382a520779654eb3bf8141fd16e98b
+SHA-256 Chronologie : ea081dcc12d7cc1f1a74ad5aeeca2c90b1733999dba6b41f97ac85843003eaaa
+
+Concepts rencontrés : 170
+indexed_exact : 133
+indexed_typographic : 10
+invalid_structure : 1
+not_found : 26
+
+Exceptions : 27
+
+NOTICE : Allemagne-en-Provence – Notre-Dame
+PARAGRAPHE : p4
+ZONE : subjects
+VALEUR : église, abside, muret, sépulture, céramique médiévale, pégau, habitat, four
+STATUT : invalid_structure
+CANDIDAT : 
+DÉTAIL : balisage enfant inattendu
+
+NOTICE : Annot – Abri sous roche de la Gourdiano
+PARAGRAPHE : p25
+ZONE : subjects
+VALEUR : terrasse
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aubignosc – Le Dessus des Crouzourets
+PARAGRAPHE : p44
+ZONE : subjects
+VALEUR : céramique protohistorique
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aubignosc – Champ Girard
+PARAGRAPHE : p61
+ZONE : subjects
+VALEUR : céramique protohistorique
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aubignosc – Champ Girard
+PARAGRAPHE : p62
+ZONE : chronology
+VALEUR : âge du Bronze final
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : La Brillanne – Jardins de Luna 2
+PARAGRAPHE : p73
+ZONE : subjects
+VALEUR : céramique protohistorique
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Céreste – Nouvelle gendarmerie
+PARAGRAPHE : p83
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Céreste – Nouvelle gendarmerie
+PARAGRAPHE : p83
+ZONE : subjects
+VALEUR : céramique protohistorique
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Céreste – Nouvelle gendarmerie
+PARAGRAPHE : p98
+ZONE : subjects
+VALEUR : restes d’origine biologique
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Céreste – Nouvelle gendarmerie
+PARAGRAPHE : p99
+ZONE : chronology
+VALEUR : Paléolithique supérieur
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Mane – Nouvelle station d’épuration
+PARAGRAPHE : p139
+ZONE : subjects
+VALEUR : foyer
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Mane – Nouvelle station d’épuration
+PARAGRAPHE : p139
+ZONE : subjects
+VALEUR : puits
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Mane – Nouvelle station d’épuration
+PARAGRAPHE : p139
+ZONE : subjects
+VALEUR : céramique protohistorique
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Manosque – Boulevard des Combes
+PARAGRAPHE : p155
+ZONE : subjects
+VALEUR : %céramique antique
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Manosque – Boulevard des Combes
+PARAGRAPHE : p155
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Méailles – Grotte de Pertus II
+PARAGRAPHE : p167
+ZONE : subjects
+VALEUR : foyer
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Méailles – Grotte de Pertus II
+PARAGRAPHE : p167
+ZONE : subjects
+VALEUR : Chasséen
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Les Mées – Les plaines de la Haute Montagne M19
+PARAGRAPHE : p182
+ZONE : subjects
+VALEUR : foyer
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Les Mées – Les plaines de la Haute Montagne M19
+PARAGRAPHE : p183
+ZONE : chronology
+VALEUR : Haut-Empire
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Reillanne – Le Couvent
+PARAGRAPHE : p216
+ZONE : chronology
+VALEUR : Haut-Empire
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Rougon – Grotte d’Encastel
+PARAGRAPHE : p231
+ZONE : subjects
+VALEUR : céramique protohistorique
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Rougon – Grotte d’Encastel
+PARAGRAPHE : p231
+ZONE : subjects
+VALEUR : foyer
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Saint-Geniez – Notre-Dame-des-Groseilles
+PARAGRAPHE : p246
+ZONE : subjects
+VALEUR : mur gouttereau
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Thorame-Basse – Saint-Pierre II
+PARAGRAPHE : p285
+ZONE : subjects
+VALEUR : céramique protohistorique
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Thorame-Basse – Saint-Pierre II
+PARAGRAPHE : p286
+ZONE : chronology
+VALEUR : Haut-Empire
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Thorame-Basse et Thorame-Haute – Territoire communaux
+PARAGRAPHE : p303
+ZONE : subjects
+VALEUR : céramique
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Thorame-Basse et Thorame-Haute – Territoire communaux
+PARAGRAPHE : p303
+ZONE : subjects
+VALEUR : table de mouture
+STATUT : not_found
+CANDIDAT : 
+DÉTAIL : aucun prefLabel français exact ou équivalent typographique unique ; XML laissé inchangé
