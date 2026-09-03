@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: pactols-enrichment
@@ -62,16 +63,87 @@ jobs:
             --pactols-version "${PACTOLS_VERSION} (${PACTOLS_COMMIT})"
 
       - name: Publier les résultats dans le dépôt
+        id: publish
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add generated/xml generated/reports
           if git diff --cached --quiet; then
             echo "Aucune modification à publier."
+            echo "published=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore: enrichir les XML avec PACTOLS"
             git push
+            echo "published=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Signaler les fichiers enrichis disponibles
+        if: steps.publish.outputs.published == 'true' && github.ref == 'refs/heads/main'
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require("fs");
+            const { execFileSync } = require("child_process");
+
+            const changedReports = execFileSync(
+              "git",
+              [
+                "diff-tree",
+                "--no-commit-id",
+                "--name-only",
+                "-r",
+                "HEAD",
+                "--",
+                "generated/reports",
+              ],
+              { encoding: "utf8" },
+            )
+              .trim()
+              .split("\n")
+              .filter((path) => path.endsWith("_report.txt") && fs.existsSync(path));
+
+            const value = (report, label) => {
+              const match = report.match(new RegExp(`^${label} : (.+)$`, "m"));
+              return match ? match[1] : "0";
+            };
+            const commit = execFileSync("git", ["rev-parse", "HEAD"], {
+              encoding: "utf8",
+            }).trim();
+
+            for (const reportPath of changedReports) {
+              const report = fs.readFileSync(reportPath, "utf8");
+              const source = value(report, "Fichier");
+              const base = source.replace(/\.xml$/i, "");
+              const xmlPath = `generated/xml/${base}_enriched.xml`;
+              const csvPath = `generated/reports/${base}_report.csv`;
+              const repositoryUrl = `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}`;
+              const fileUrl = (path) => `${repositoryUrl}/blob/${commit}/${path}`;
+              const body = [
+                `@${context.repo.owner} — le traitement PACTOLS est terminé.`,
+                "",
+                `| Indicateur | Résultat |`,
+                `| --- | ---: |`,
+                `| Concepts rencontrés | ${value(report, "Concepts rencontrés")} |`,
+                `| Correspondances exactes | ${value(report, "indexed_exact")} |`,
+                `| Équivalences typographiques | ${value(report, "indexed_typographic")} |`,
+                `| Exceptions à examiner | ${value(report, "Exceptions")} |`,
+                "",
+                `- [Télécharger le XML enrichi](${fileUrl(xmlPath)})`,
+                `- [Lire le rapport TXT](${fileUrl(reportPath)})`,
+                `- [Ouvrir le rapport CSV](${fileUrl(csvPath)})`,
+                "",
+                `Référentiel : ${value(report, "Référentiel PACTOLS")}`,
+                `Commit de génération : \`${commit}\``,
+              ].join("\n");
+
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `PACTOLS — ${source} traité`,
+                body,
+                assignees: [context.repo.owner],
+              });
+            }
 
       - name: Conserver les résultats comme artefact
         uses: actions/upload-artifact@v6
