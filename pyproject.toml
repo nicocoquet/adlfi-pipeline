@@ -17,6 +17,7 @@ dev = ["pytest>=8.0"]
 
 [project.scripts]
 pactols-enrich = "pactols_enricher.cli:main"
+pactols-enrich-batch = "pactols_enricher.batch:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -1,0 +1,70 @@
+name: Enrichissement PACTOLS
+
+on:
+  push:
+    paths:
+      - "input/**/*.xml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pactols-enrichment
+  cancel-in-progress: false
+
+env:
+  PACTOLS_COMMIT: 69bf9697e24cefd645a69465bbd271702786285a
+  PACTOLS_VERSION: PACTOLS 2026-07-22
+  PACTOLS_DIRECTORY: pactols-latest-version/pactols_sujets_collection_20260722
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le pipeline
+        uses: actions/checkout@v7
+
+      - name: Récupérer la version figée de PACTOLS
+        uses: actions/checkout@v7
+        with:
+          repository: nicocoquet/PACTOLS
+          ref: ${{ env.PACTOLS_COMMIT }}
+          path: pactols-reference
+          sparse-checkout: ${{ env.PACTOLS_DIRECTORY }}
+
+      - name: Installer Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer le pipeline
+        run: python -m pip install .
+
+      - name: Enrichir les XML
+        run: |
+          pactols-enrich-batch input \
+            --subjects "pactols-reference/${PACTOLS_DIRECTORY}/Pactols_Sujets_P1-SUJETS.rdf" \
+            --chronology "pactols-reference/${PACTOLS_DIRECTORY}/Pactols_Sujets_P1-CHRONOLOGIE.rdf" \
+            --output-dir generated/xml \
+            --reports-dir generated/reports \
+            --pactols-version "${PACTOLS_VERSION} (${PACTOLS_COMMIT})"
+
+      - name: Publier les résultats dans le dépôt
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated/xml generated/reports
+          if git diff --cached --quiet; then
+            echo "Aucune modification à publier."
+          else
+            git commit -m "chore: enrichir les XML avec PACTOLS"
+            git push
+          fi
+
+      - name: Conserver les résultats comme artefact
+        uses: actions/upload-artifact@v6
+        with:
+          name: enrichissement-pactols
+          path: generated/
