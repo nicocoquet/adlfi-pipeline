@@ -32,12 +32,18 @@ jobs:
           ref: ${{ env.PACTOLS_COMMIT }}
           path: pactols-reference
           sparse-checkout: ${{ env.PACTOLS_DIRECTORY }}
+          lfs: true
 
       - name: Installer Python
         uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
+
+      - name: Vérifier les fichiers PACTOLS
+        run: |
+          grep -q '^<?xml' "pactols-reference/${PACTOLS_DIRECTORY}/Pactols_Sujets_P1-SUJETS.rdf"
+          grep -q '^<?xml' "pactols-reference/${PACTOLS_DIRECTORY}/Pactols_Sujets_P1-CHRONOLOGIE.rdf"
 
       - name: Installer le pipeline
         run: python -m pip install .
