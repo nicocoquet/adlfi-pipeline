@@ -25,7 +25,8 @@ def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     inputs = sorted(args.input_dir.rglob("*.xml"))
     if not inputs:
-        raise SystemExit(f"aucun fichier XML trouvé dans {args.input_dir}")
+        print(f"Aucun fichier XML à traiter dans {args.input_dir}.")
+        return 0
 
     subjects = Vocabulary(args.subjects)
     chronology = Vocabulary(args.chronology)
