@@ -1,4 +1,4 @@
-# adlfi-pipeline
+# Pipeline AdlFI
 
 Outils ouverts et reproductibles pour le traitement éditorial AdlFI : du PDF
 BSR au XML-TEI enrichi et contrôlé.
