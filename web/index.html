@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Enrichissement déterministe de fichiers XML-TEI avec le thésaurus PACTOLS.">
+    <title>PACTOLS — Enrichir un fichier XML-TEI</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Accueil du service d’enrichissement PACTOLS">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span>
+          <strong>Enrichissement PACTOLS</strong>
+          <small>XML-TEI pour l’édition archéologique</small>
+        </span>
+      </a>
+      <a class="repository-link" href="https://github.com/nicocoquet/adlfi-pipeline">Voir le code source</a>
+    </header>
+
+    <main>
+      <section class="workspace" aria-labelledby="page-title">
+        <div class="introduction">
+          <p class="eyebrow">Outil ouvert · Traitement local · Sans intelligence artificielle</p>
+          <h1 id="page-title">Relier automatiquement vos concepts à PACTOLS</h1>
+          <p class="lead">
+            Déposez un fichier XML-TEI issu de Métopes. Les correspondances certaines seront
+            enrichies avec leur ARK et leur hiérarchie PACTOLS ; les exceptions resteront
+            intactes et seront consignées dans un rapport.
+          </p>
+        </div>
+
+        <div class="drop-panel" aria-describedby="prototype-note">
+          <div class="file-symbol" aria-hidden="true">
+            <svg viewBox="0 0 48 56" role="img">
+              <path d="M8 2h21l11 11v39a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z" />
+              <path d="M29 2v12h11M15 29h18M15 37h18M15 45h11" />
+            </svg>
+          </div>
+          <h2>Déposer un fichier XML</h2>
+          <p>Glissez-déposez votre fichier ici, ou sélectionnez-le depuis votre ordinateur.</p>
+          <button type="button" disabled>Sélectionner un fichier</button>
+          <p class="format">Format accepté : XML · Un fichier par traitement</p>
+          <p class="prototype" id="prototype-note">
+            Prototype d’interface — le dépôt et le traitement seront activés dans une prochaine étape.
+          </p>
+        </div>
+      </section>
+
+      <section class="principles" aria-labelledby="principles-title">
+        <div>
+          <p class="section-number">01</p>
+          <h2 id="principles-title">Ce que fait le traitement</h2>
+        </div>
+        <div class="principle-grid">
+          <article>
+            <h3>Correspondances sûres</h3>
+            <p>Les libellés exacts et les seules équivalences typographiques validées sont indexés.</p>
+          </article>
+          <article>
+            <h3>Texte préservé</h3>
+            <p>La graphie originale reste inchangée dans le XML, même lorsqu’une variante est reconnue.</p>
+          </article>
+          <article>
+            <h3>Exceptions documentées</h3>
+            <p>Les termes absents ou ambigus ne sont jamais corrigés automatiquement.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="outputs" aria-labelledby="outputs-title">
+        <div class="outputs-heading">
+          <div>
+            <p class="section-number">02</p>
+            <h2 id="outputs-title">Trois fichiers à récupérer</h2>
+          </div>
+          <p>Chaque résultat mentionne la version précise du référentiel PACTOLS employée.</p>
+        </div>
+        <div class="output-list">
+          <div class="output-item">
+            <span class="extension">XML</span>
+            <div><strong>Fichier enrichi</strong><small>Prêt à être ouvert dans XMLmind</small></div>
+          </div>
+          <div class="output-item">
+            <span class="extension">TXT</span>
+            <div><strong>Rapport de lecture</strong><small>Bilan synthétique du traitement</small></div>
+          </div>
+          <div class="output-item">
+            <span class="extension">CSV</span>
+            <div><strong>Rapport détaillé</strong><small>Une ligne par concept rencontré</small></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Prototype développé pour le pipeline éditorial AdlFI.</p>
+      <p>Code ouvert · Traitement déterministe · Référentiel PACTOLS versionné</p>
+    </footer>
+  </body>
+</html>
