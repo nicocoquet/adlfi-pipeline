@@ -5,6 +5,29 @@ from pactols_enricher.batch import main
 from test_enricher import RDF_TEMPLATE, concept, write_fixture
 
 
+def test_empty_input_directory_is_a_successful_no_op(tmp_path: Path, capsys):
+    input_dir = tmp_path / "input"
+    input_dir.mkdir()
+
+    result = main(
+        [
+            str(input_dir),
+            "--subjects",
+            str(tmp_path / "unused-subjects.rdf"),
+            "--chronology",
+            str(tmp_path / "unused-chronology.rdf"),
+            "--output-dir",
+            str(tmp_path / "generated" / "xml"),
+            "--reports-dir",
+            str(tmp_path / "generated" / "reports"),
+        ]
+    )
+
+    assert result == 0
+    assert "Aucun fichier XML à traiter" in capsys.readouterr().out
+    assert not (tmp_path / "generated").exists()
+
+
 def test_batch_preserves_subdirectories_and_writes_reports(tmp_path: Path):
     base = "https://ark.frantiq.fr/ark:/26678/"
     subjects = write_fixture(

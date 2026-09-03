@@ -54,6 +54,8 @@ déjà enrichi n’ajoute aucun doublon.
 Le workflow peut aussi être lancé manuellement depuis l’onglet **Actions**.
 PACTOLS est identifié par un commit Git précis dans le workflow : chaque
 traitement est ainsi reproductible. Le pipeline n’utilise aucun service d’IA.
+La suppression du dernier XML de `input/` se termine comme une opération vide
+réussie et ne provoque pas de fausse alerte d’échec.
 
 ### Traitement local par lot
 
