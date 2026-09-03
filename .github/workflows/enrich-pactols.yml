@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - "input/**/*.xml"
+      - "src/**/*.py"
+      - "pyproject.toml"
+      - ".gitignore"
       - ".github/workflows/enrich-pactols.yml"
   workflow_dispatch:
 
