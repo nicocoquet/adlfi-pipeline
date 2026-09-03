@@ -50,6 +50,9 @@ déjà enrichi n’ajoute aucun doublon.
    référentiel et traite récursivement tous les XML du dossier.
 3. Il publie les XML enrichis dans `generated/xml/` et les rapports TXT et CSV
    dans `generated/reports/`.
+4. Lorsqu’un résultat a réellement changé sur `main`, il crée une issue
+   assignée au propriétaire du dépôt avec les statistiques et les liens vers
+   les fichiers produits. Une exécution sans changement ne crée aucune issue.
 
 Le workflow peut aussi être lancé manuellement depuis l’onglet **Actions**.
 PACTOLS est identifié par un commit Git précis dans le workflow : chaque
