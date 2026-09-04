@@ -152,7 +152,7 @@ async def github_request(
     if response.status_code >= 400:
         message = response.json().get("message", "Erreur GitHub")
         if response.status_code == 422 and "sha" in message.lower():
-            message = "Un fichier portant ce nom existe déjà dans input/."
+            message = "Un fichier portant ce nom existe déjà dans le dépôt : renommez votre fichier."
         raise HTTPException(status_code=response.status_code, detail=message)
     return response.json() if response.content else None
 
