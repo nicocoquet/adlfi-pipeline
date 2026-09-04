@@ -21,12 +21,18 @@ ZONES = {
 
 
 class Enricher:
-    def __init__(self, subjects: Vocabulary, chronology: Vocabulary):
+    def __init__(
+        self,
+        subjects: Vocabulary,
+        chronology: Vocabulary,
+        deprecated: Vocabulary | None = None,
+    ):
         self.vocabularies = {
             "subjects": subjects,
             "fieldwork_method": subjects,
             "chronology": chronology,
         }
+        self.deprecated = deprecated
 
     def enrich_file(self, input_path: Path) -> tuple[etree._ElementTree, list[ReportEntry]]:
         parser = etree.XMLParser(remove_blank_text=False, resolve_entities=False)
@@ -96,40 +102,64 @@ class Enricher:
         index_name: str,
         metadata: dict[str, str],
     ) -> tuple[etree._Element | None, ReportEntry]:
-        matches = vocabulary.exact(label)
-        if len(matches) > 1:
+        stages = (
+            (
+                vocabulary.exact(label),
+                "indexed_exact",
+                "ambiguous",
+                "plusieurs prefLabel français identiques",
+            ),
+            (
+                vocabulary.exact_alt(label),
+                "indexed_altlabel",
+                "ambiguous_altlabel",
+                "un même altLabel français désigne plusieurs concepts actifs",
+            ),
+            (
+                vocabulary.typographic_matches(label),
+                "indexed_typographic",
+                "ambiguous_typographic",
+                "la forme normalisée correspond à plusieurs prefLabel actifs",
+            ),
+            (
+                vocabulary.typographic_alt_matches(label),
+                "indexed_altlabel_typographic",
+                "ambiguous_altlabel_typographic",
+                "la forme normalisée correspond à plusieurs altLabel actifs",
+            ),
+        )
+        matches: list[Concept] = []
+        match_status = ""
+        for stage_matches, stage_status, ambiguous_status, ambiguous_detail in stages:
+            if len(stage_matches) > 1:
+                return None, ReportEntry(
+                    **metadata,
+                    label=label,
+                    status=ambiguous_status,
+                    candidate=" | ".join(
+                        vocabulary.french_labels_for(stage_matches)
+                    ),
+                    detail=ambiguous_detail,
+                )
+            if stage_matches:
+                matches = stage_matches
+                match_status = stage_status
+                break
+
+        if not matches:
+            deprecated_entry = self._deprecated_entry(vocabulary, label, metadata)
+            if deprecated_entry is not None:
+                return None, deprecated_entry
             return None, ReportEntry(
                 **metadata,
                 label=label,
-                status="ambiguous",
-                detail="plusieurs prefLabel français identiques",
+                status="not_found",
+                detail=(
+                    "aucun prefLabel ou altLabel français actif, exact ou "
+                    "équivalent typographique unique ; XML laissé inchangé"
+                ),
             )
-        if not matches:
-            typographic_matches = vocabulary.typographic_matches(label)
-            candidates = vocabulary.french_labels_for(typographic_matches)
-            if len(typographic_matches) > 1:
-                return None, ReportEntry(
-                    **metadata,
-                    label=label,
-                    status="ambiguous_typographic",
-                    candidate=" | ".join(candidates),
-                    detail="la forme normalisée correspond à plusieurs concepts",
-                )
-            if len(typographic_matches) == 1:
-                matches = typographic_matches
-                match_status = "indexed_typographic"
-            else:
-                return None, ReportEntry(
-                    **metadata,
-                    label=label,
-                    status="not_found",
-                    detail=(
-                        "aucun prefLabel français exact ou équivalent "
-                        "typographique unique ; XML laissé inchangé"
-                    ),
-                )
-        else:
-            match_status = "indexed_exact"
+
         try:
             path = vocabulary.path_to(matches[0])
         except VocabularyError as error:
@@ -145,9 +175,75 @@ class Enricher:
                 **metadata,
                 label=label,
                 status=match_status,
-                candidate=(matches[0].french_labels[0] if match_status == "indexed_typographic" else ""),
+                candidate=(
+                    matches[0].french_labels[0]
+                    if match_status != "indexed_exact"
+                    else ""
+                ),
+                concept_uri=matches[0].uri,
+                detail=(
+                    "enrichissement effectué depuis un skos:altLabel français"
+                    if match_status.startswith("indexed_altlabel")
+                    else ""
+                ),
             ),
         )
+
+    def _deprecated_entry(
+        self,
+        vocabulary: Vocabulary,
+        label: str,
+        metadata: dict[str, str],
+    ) -> ReportEntry | None:
+        vocabularies = [vocabulary]
+        if self.deprecated is not None:
+            vocabularies.append(self.deprecated)
+
+        stages = (
+            ("prefLabel", False, "deprecated_exact"),
+            ("altLabel", False, "deprecated_exact_alt"),
+            ("prefLabel", True, "deprecated_typographic_matches"),
+            ("altLabel", True, "deprecated_typographic_alt_matches"),
+        )
+        for label_type, typographic, method_name in stages:
+            matches = _unique_concepts(
+                concept
+                for item in vocabularies
+                for concept in getattr(item, method_name)(label)
+            )
+            if len(matches) > 1:
+                return ReportEntry(
+                    **metadata,
+                    label=label,
+                    status="ambiguous_deprecated",
+                    candidate=" | ".join(
+                        sorted(
+                            {
+                                french_label
+                                for concept in matches
+                                for french_label in concept.french_labels
+                            }
+                        )
+                    ),
+                    detail=(
+                        "plusieurs concepts dépréciés correspondent à cette forme ; "
+                        "XML laissé inchangé"
+                    ),
+                )
+            if matches:
+                concept = matches[0]
+                return ReportEntry(
+                    **metadata,
+                    label=label,
+                    status=("deprecated_typographic" if typographic else "deprecated"),
+                    candidate=(concept.french_labels[0] if concept.french_labels else ""),
+                    concept_uri=concept.uri,
+                    detail=(
+                        f"correspondance avec un {label_type} français d’un concept "
+                        "PACTOLS déprécié ; XML laissé inchangé"
+                    ),
+                )
+        return None
 
     @staticmethod
     def _metadata(
@@ -210,3 +306,7 @@ def _append_text(parent: etree._Element, text: str) -> None:
         last.tail = (last.tail or "") + text
     else:
         parent.text = (parent.text or "") + text
+
+
+def _unique_concepts(concepts) -> list[Concept]:
+    return list({concept.uri: concept for concept in concepts}.values())

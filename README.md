@@ -12,11 +12,13 @@ Le premier module enrichit trois zones des XML-TEI issus de Métopes :
 - la partie située après `Nature de l’opération : ` dans
   `archeo_fieldwork_method`, avec `pactols:Sujets`.
 
-Le traitement est strict et déterministe. Une correspondance exacte ou une
-équivalence typographique unique avec un `skos:prefLabel` français est
-enrichie. La graphie du XML source est toujours conservée dans
-`term[@type="orig"]`. Les absences et ambiguïtés restent intactes et sont
-consignées dans les rapports TXT et CSV, sans aucune correction du XML.
+Le traitement est strict et déterministe. Une correspondance unique avec un
+`skos:prefLabel` ou un `skos:altLabel` français actif est enrichie, exactement
+ou après normalisation typographique. La graphie du XML source est toujours
+conservée dans `term[@type="orig"]`. Les enrichissements obtenus par
+`altLabel` sont signalés comme avertissements avec le `prefLabel` actuel. Les
+concepts dépréciés, les absences et les ambiguïtés restent intacts et sont
+consignés dans les rapports TXT et CSV.
 
 ### Installation
 
@@ -33,6 +35,7 @@ pactols-enrich \
   input.xml \
   --subjects /chemin/vers/Pactols_Sujets_P1-SUJETS.rdf \
   --chronology /chemin/vers/Pactols_Sujets_P1-CHRONOLOGIE.rdf \
+  --deprecated "/chemin/vers/Pactols_Sujets_P2-Concepts dépréciés.rdf" \
   --output output/input_enriched.xml \
   --report-text reports/input_report.txt \
   --report-csv reports/input_report.csv \
@@ -66,6 +69,7 @@ réussie et ne provoque pas de fausse alerte d’échec.
 pactols-enrich-batch input \
   --subjects /chemin/vers/Pactols_Sujets_P1-SUJETS.rdf \
   --chronology /chemin/vers/Pactols_Sujets_P1-CHRONOLOGIE.rdf \
+  --deprecated "/chemin/vers/Pactols_Sujets_P2-Concepts dépréciés.rdf" \
   --output-dir generated/xml \
   --reports-dir generated/reports \
   --pactols-version "PACTOLS 2026-07-22"
