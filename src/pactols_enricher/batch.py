@@ -4,6 +4,7 @@ import argparse
 from pathlib import Path
 
 from .enricher import Enricher
+from .model import INDEXED_STATUSES, WARNING_STATUSES
 from .report import write_reports
 from .vocabulary import Vocabulary
 
@@ -15,6 +16,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("input_dir", type=Path)
     parser.add_argument("--subjects", type=Path, required=True)
     parser.add_argument("--chronology", type=Path, required=True)
+    parser.add_argument("--deprecated", type=Path)
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--reports-dir", type=Path, required=True)
     parser.add_argument("--pactols-version", default="non renseignée")
@@ -30,8 +32,14 @@ def main(argv: list[str] | None = None) -> int:
 
     subjects = Vocabulary(args.subjects)
     chronology = Vocabulary(args.chronology)
-    enricher = Enricher(subjects, chronology)
+    deprecated = (
+        Vocabulary(args.deprecated, all_concepts_deprecated=True)
+        if args.deprecated
+        else None
+    )
+    enricher = Enricher(subjects, chronology, deprecated)
     total_concepts = 0
+    total_warnings = 0
     total_exceptions = 0
 
     for input_path in inputs:
@@ -59,18 +67,21 @@ def main(argv: list[str] | None = None) -> int:
             subjects,
             chronology,
             args.pactols_version,
+            deprecated,
         )
-        exceptions = sum(
-            entry.status not in {"indexed_exact", "indexed_typographic"}
-            for entry in entries
-        )
+        warnings = sum(entry.status in WARNING_STATUSES for entry in entries)
+        exceptions = sum(entry.status not in INDEXED_STATUSES for entry in entries)
         total_concepts += len(entries)
+        total_warnings += warnings
         total_exceptions += exceptions
-        print(f"{relative}: {len(entries)} concept(s), {exceptions} exception(s)")
+        print(
+            f"{relative}: {len(entries)} concept(s), {warnings} avertissement(s), "
+            f"{exceptions} exception(s)"
+        )
 
     print(
         f"Lot terminé : {len(inputs)} fichier(s), {total_concepts} concept(s), "
-        f"{total_exceptions} exception(s)"
+        f"{total_warnings} avertissement(s), {total_exceptions} exception(s)"
     )
     return 0
 

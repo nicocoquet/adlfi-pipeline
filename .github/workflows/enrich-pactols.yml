@@ -49,6 +49,7 @@ jobs:
         run: |
           grep -q '^<?xml' "pactols-reference/${PACTOLS_DIRECTORY}/Pactols_Sujets_P1-SUJETS.rdf"
           grep -q '^<?xml' "pactols-reference/${PACTOLS_DIRECTORY}/Pactols_Sujets_P1-CHRONOLOGIE.rdf"
+          grep -q '^<?xml' "pactols-reference/${PACTOLS_DIRECTORY}/Pactols_Sujets_P2-Concepts dépréciés.rdf"
 
       - name: Installer le pipeline
         run: python -m pip install .
@@ -58,6 +59,7 @@ jobs:
           pactols-enrich-batch input \
             --subjects "pactols-reference/${PACTOLS_DIRECTORY}/Pactols_Sujets_P1-SUJETS.rdf" \
             --chronology "pactols-reference/${PACTOLS_DIRECTORY}/Pactols_Sujets_P1-CHRONOLOGIE.rdf" \
+            --deprecated "pactols-reference/${PACTOLS_DIRECTORY}/Pactols_Sujets_P2-Concepts dépréciés.rdf" \
             --output-dir generated/xml \
             --reports-dir generated/reports \
             --pactols-version "${PACTOLS_VERSION} (${PACTOLS_COMMIT})"
@@ -126,6 +128,9 @@ jobs:
                 `| Concepts rencontrés | ${value(report, "Concepts rencontrés")} |`,
                 `| Correspondances exactes | ${value(report, "indexed_exact")} |`,
                 `| Équivalences typographiques | ${value(report, "indexed_typographic")} |`,
+                `| Libellés alternatifs | ${value(report, "indexed_altlabel")} |`,
+                `| Libellés alternatifs typographiques | ${value(report, "indexed_altlabel_typographic")} |`,
+                `| Avertissements | ${value(report, "Avertissements")} |`,
                 `| Exceptions à examiner | ${value(report, "Exceptions")} |`,
                 "",
                 `- [Télécharger le XML enrichi](${fileUrl(xmlPath)})`,

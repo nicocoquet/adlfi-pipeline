@@ -33,7 +33,11 @@ def test_batch_preserves_subdirectories_and_writes_reports(tmp_path: Path):
     subjects = write_fixture(
         tmp_path / "subjects.rdf",
         RDF_TEMPLATE.format(
-            concepts=concept(base + "rural", [("fr", "établissement rural")])
+            concepts=concept(
+                base + "rural",
+                [("fr", "établissement rural")],
+                alt_labels=[("fr", "habitat rural")],
+            )
         ),
     )
     chronology = write_fixture(
@@ -42,12 +46,18 @@ def test_batch_preserves_subdirectories_and_writes_reports(tmp_path: Path):
             concepts=concept(base + "roman", [("fr", "Haut-Empire romain")])
         ),
     )
+    deprecated = write_fixture(
+        tmp_path / "deprecated.rdf",
+        RDF_TEMPLATE.format(
+            concepts=concept(base + "old", [("fr", "ancien concept")])
+        ),
+    )
     source = tmp_path / "input" / "lot-a" / "notice.xml"
     source.parent.mkdir(parents=True)
     write_fixture(
         source,
         """<TEI xmlns="http://www.tei-c.org/ns/1.0"><text><body>
-<p rend="archeo_keywords_subjects">établissement rural, terme absent</p>
+<p rend="archeo_keywords_subjects">habitat rural, terme absent, ancien concept</p>
 </body></text></TEI>""",
     )
 
@@ -58,6 +68,8 @@ def test_batch_preserves_subdirectories_and_writes_reports(tmp_path: Path):
             str(subjects),
             "--chronology",
             str(chronology),
+            "--deprecated",
+            str(deprecated),
             "--output-dir",
             str(tmp_path / "generated" / "xml"),
             "--reports-dir",
@@ -75,4 +87,9 @@ def test_batch_preserves_subdirectories_and_writes_reports(tmp_path: Path):
     assert report.exists()
     assert csv_report.exists()
     assert "terme absent" in report.read_text(encoding="utf-8")
+    assert "ancien concept" in report.read_text(encoding="utf-8")
+    assert "STATUT : deprecated" in report.read_text(encoding="utf-8")
+    assert "Avertissements : 1" in report.read_text(encoding="utf-8")
+    assert "STATUT : indexed_altlabel" in report.read_text(encoding="utf-8")
+    assert "Exceptions : 2" in report.read_text(encoding="utf-8")
     assert "XML laissé inchangé" in report.read_text(encoding="utf-8")

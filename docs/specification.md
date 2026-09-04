@@ -15,11 +15,16 @@ reste hors des éléments `index`.
 
 ## Règle de correspondance
 
-Un concept est enrichi lorsqu’un et un seul `skos:prefLabel` français du
-vocabulaire approprié est soit strictement identique au texte source, soit
-équivalent après normalisation typographique.
+Un concept actif est enrichi lorsqu’un et un seul `skos:prefLabel` ou
+`skos:altLabel` français du vocabulaire approprié est soit strictement
+identique au texte source, soit équivalent après normalisation typographique.
 
-- Les `skos:altLabel` ne déclenchent pas d’enrichissement.
+- L’ordre de résolution est : `prefLabel` exact, `altLabel` exact,
+  `prefLabel` équivalent typographiquement, puis `altLabel` équivalent
+  typographiquement. Un `prefLabel` exact reste donc prioritaire si la même
+  chaîne est aussi l’`altLabel` d’un autre concept.
+- Un enrichissement obtenu par `altLabel` conserve le texte source et produit
+  un avertissement indiquant le `prefLabel` actuel et l’ARK du concept.
 - La normalisation couvre la casse, les espaces ordinaires ou insécables, les
   apostrophes droites ou courbes, `œ`/`oe` et l’espace entre un chiffre romain
   et son suffixe alphabétique (`IIIa`/`III a`).
@@ -28,6 +33,9 @@ vocabulaire approprié est soit strictement identique au texte source, soit
 - Une équivalence typographique n’est automatique que si elle conduit à un
   concept unique. Une collision entre plusieurs concepts est signalée comme
   ambiguë et n’est pas enrichie.
+- Si aucune forme active ne correspond, les concepts dépréciés sont interrogés.
+  Une correspondance dépréciée n’est jamais enrichie : le XML reste inchangé
+  et le rapport indique le statut, l’ancien `prefLabel` et l’ancien ARK.
 - Un terme non résolu reste inchangé dans le XML. Cette non-indexation est une
   sortie normale du processus : elle ne déclenche aucune correction ni
   substitution automatique.
@@ -48,8 +56,9 @@ Chaque concept résolu devient un `index` TEI externe contenant :
 - Un paragraphe contenant déjà un `index` est laissé intact.
 - Un paragraphe contenant un balisage enfant inattendu est laissé intact.
 - Les sorties comprennent le XML enrichi et des rapports TXT et CSV.
-- Chaque occurrence non indexée est consignée dans les rapports avec son
-  fichier, sa notice, son paragraphe, sa zone, son libellé, son statut et le
-  motif de la non-indexation.
+- Chaque occurrence est consignée dans le CSV. Le TXT distingue les
+  avertissements indexés par `altLabel` des exceptions non indexées. Les deux
+  rapports indiquent le fichier, la notice, le paragraphe, la zone, le libellé,
+  le statut, le `prefLabel` ou candidat, l’ARK disponible et le détail.
 - Les rapports indiquent la version déclarée de PACTOLS et le SHA-256 des
   fichiers d’entrée et de référentiel.

@@ -5,7 +5,7 @@ import hashlib
 from collections import Counter
 from pathlib import Path
 
-from .model import ReportEntry
+from .model import INDEXED_STATUSES, WARNING_STATUSES, ReportEntry
 from .vocabulary import Vocabulary
 
 
@@ -17,6 +17,7 @@ def write_reports(
     subjects: Vocabulary,
     chronology: Vocabulary,
     pactols_version: str,
+    deprecated: Vocabulary | None = None,
 ) -> None:
     text_path.parent.mkdir(parents=True, exist_ok=True)
     csv_path.parent.mkdir(parents=True, exist_ok=True)
@@ -30,29 +31,25 @@ def write_reports(
         f"Référentiel PACTOLS : {pactols_version}",
         f"SHA-256 Sujets : {subjects.sha256}",
         f"SHA-256 Chronologie : {chronology.sha256}",
-        "",
-        f"Concepts rencontrés : {len(entries)}",
     ]
+    if deprecated is not None:
+        lines.append(f"SHA-256 Concepts dépréciés : {deprecated.sha256}")
+    lines.extend(["", f"Concepts rencontrés : {len(entries)}"])
     lines.extend(f"{status} : {count}" for status, count in sorted(counts.items()))
+    warnings = [entry for entry in entries if entry.status in WARNING_STATUSES]
     exceptions = [
         entry
         for entry in entries
-        if entry.status not in {"indexed_exact", "indexed_typographic"}
+        if entry.status not in INDEXED_STATUSES
     ]
+
+    lines.extend(["", f"Avertissements : {len(warnings)}"])
+    for entry in warnings:
+        lines.extend(_text_entry(entry))
+
     lines.extend(["", f"Exceptions : {len(exceptions)}"])
     for entry in exceptions:
-        lines.extend(
-            [
-                "",
-                f"NOTICE : {entry.notice}",
-                f"PARAGRAPHE : {entry.paragraph_id}",
-                f"ZONE : {entry.zone}",
-                f"VALEUR : {entry.label}",
-                f"STATUT : {entry.status}",
-                f"CANDIDAT : {entry.candidate}",
-                f"DÉTAIL : {entry.detail}",
-            ]
-        )
+        lines.extend(_text_entry(entry))
     text_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     fields = list(ReportEntry.__dataclass_fields__)
@@ -61,3 +58,17 @@ def write_reports(
         writer.writeheader()
         for entry in entries:
             writer.writerow({field: getattr(entry, field) for field in fields})
+
+
+def _text_entry(entry: ReportEntry) -> list[str]:
+    return [
+        "",
+        f"NOTICE : {entry.notice}",
+        f"PARAGRAPHE : {entry.paragraph_id}",
+        f"ZONE : {entry.zone}",
+        f"VALEUR : {entry.label}",
+        f"STATUT : {entry.status}",
+        f"PREFLABEL/CANDIDAT : {entry.candidate}",
+        f"ARK : {entry.concept_uri}",
+        f"DÉTAIL : {entry.detail}",
+    ]

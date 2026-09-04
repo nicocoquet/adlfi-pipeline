@@ -12,6 +12,7 @@ from .model import Concept, Label
 
 RDF = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 SKOS = "http://www.w3.org/2004/02/skos/core#"
+OWL = "http://www.w3.org/2002/07/owl#"
 XML = "http://www.w3.org/XML/1998/namespace"
 
 
@@ -20,12 +21,19 @@ class VocabularyError(ValueError):
 
 
 class Vocabulary:
-    def __init__(self, path: Path):
+    def __init__(self, path: Path, *, all_concepts_deprecated: bool = False):
         self.path = path
+        self.all_concepts_deprecated = all_concepts_deprecated
         self.sha256 = hashlib.sha256(path.read_bytes()).hexdigest()
         self.concepts: dict[str, Concept] = {}
         self.by_french_label: dict[str, list[Concept]] = defaultdict(list)
         self.by_typographic_label: dict[str, list[Concept]] = defaultdict(list)
+        self.by_french_alt_label: dict[str, list[Concept]] = defaultdict(list)
+        self.by_typographic_alt_label: dict[str, list[Concept]] = defaultdict(list)
+        self.by_deprecated_french_label: dict[str, list[Concept]] = defaultdict(list)
+        self.by_deprecated_typographic_label: dict[str, list[Concept]] = defaultdict(list)
+        self.by_deprecated_french_alt_label: dict[str, list[Concept]] = defaultdict(list)
+        self.by_deprecated_typographic_alt_label: dict[str, list[Concept]] = defaultdict(list)
         self._load()
 
     def _load(self) -> None:
@@ -41,30 +49,93 @@ class Vocabulary:
             )
             if not is_concept:
                 continue
-            concept = Concept(uri=uri)
+            concept = Concept(uri=uri, deprecated=self.all_concepts_deprecated)
             for child in description:
                 if child.tag == f"{{{SKOS}}}prefLabel" and child.text:
                     concept.labels.append(
+                        Label(child.get(f"{{{XML}}}lang", ""), child.text)
+                    )
+                elif child.tag == f"{{{SKOS}}}altLabel" and child.text:
+                    concept.alt_labels.append(
                         Label(child.get(f"{{{XML}}}lang", ""), child.text)
                     )
                 elif child.tag == f"{{{SKOS}}}broader":
                     broader = child.get(f"{{{RDF}}}resource")
                     if broader:
                         concept.broader.append(broader)
+                elif child.tag == f"{{{OWL}}}deprecated":
+                    concept.deprecated = concept.deprecated or (
+                        (child.text or "").strip().lower() == "true"
+                    )
             self.concepts[uri] = concept
 
         for concept in self.concepts.values():
-            for label in concept.french_labels:
-                self.by_french_label[label].append(concept)
-                key = _typographic_key(label)
-                if concept not in self.by_typographic_label[key]:
-                    self.by_typographic_label[key].append(concept)
+            if concept.deprecated:
+                self._index_labels(
+                    concept,
+                    concept.french_labels,
+                    self.by_deprecated_french_label,
+                    self.by_deprecated_typographic_label,
+                )
+                self._index_labels(
+                    concept,
+                    concept.french_alt_labels,
+                    self.by_deprecated_french_alt_label,
+                    self.by_deprecated_typographic_alt_label,
+                )
+            else:
+                self._index_labels(
+                    concept,
+                    concept.french_labels,
+                    self.by_french_label,
+                    self.by_typographic_label,
+                )
+                self._index_labels(
+                    concept,
+                    concept.french_alt_labels,
+                    self.by_french_alt_label,
+                    self.by_typographic_alt_label,
+                )
+
+    @staticmethod
+    def _index_labels(
+        concept: Concept,
+        labels: list[str],
+        exact_index: dict[str, list[Concept]],
+        typographic_index: dict[str, list[Concept]],
+    ) -> None:
+        for label in labels:
+            if concept not in exact_index[label]:
+                exact_index[label].append(concept)
+            key = _typographic_key(label)
+            if concept not in typographic_index[key]:
+                typographic_index[key].append(concept)
 
     def exact(self, label: str) -> list[Concept]:
         return self.by_french_label.get(label, [])
 
     def typographic_matches(self, label: str) -> list[Concept]:
         return self.by_typographic_label.get(_typographic_key(label), [])
+
+    def exact_alt(self, label: str) -> list[Concept]:
+        return self.by_french_alt_label.get(label, [])
+
+    def typographic_alt_matches(self, label: str) -> list[Concept]:
+        return self.by_typographic_alt_label.get(_typographic_key(label), [])
+
+    def deprecated_exact(self, label: str) -> list[Concept]:
+        return self.by_deprecated_french_label.get(label, [])
+
+    def deprecated_typographic_matches(self, label: str) -> list[Concept]:
+        return self.by_deprecated_typographic_label.get(_typographic_key(label), [])
+
+    def deprecated_exact_alt(self, label: str) -> list[Concept]:
+        return self.by_deprecated_french_alt_label.get(label, [])
+
+    def deprecated_typographic_alt_matches(self, label: str) -> list[Concept]:
+        return self.by_deprecated_typographic_alt_label.get(
+            _typographic_key(label), []
+        )
 
     def french_labels_for(self, concepts: list[Concept]) -> list[str]:
         return sorted({label for concept in concepts for label in concept.french_labels})

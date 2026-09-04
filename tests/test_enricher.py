@@ -7,23 +7,33 @@ from pactols_enricher.vocabulary import Vocabulary
 
 RDF_TEMPLATE = """<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
 {concepts}
 </rdf:RDF>
 """
 
 
-def concept(uri, labels, broader=""):
+def concept(uri, labels, broader="", alt_labels=(), deprecated=False):
     label_xml = "".join(
         f'<skos:prefLabel xml:lang="{lang}">{text}</skos:prefLabel>'
         for lang, text in labels
     )
+    alt_label_xml = "".join(
+        f'<skos:altLabel xml:lang="{lang}">{text}</skos:altLabel>'
+        for lang, text in alt_labels
+    )
     broader_xml = (
         f'<skos:broader rdf:resource="{broader}"/>' if broader else ""
     )
+    deprecated_xml = (
+        '<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>'
+        if deprecated
+        else ""
+    )
     return f"""<rdf:Description rdf:about="{uri}">
   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  {label_xml}{broader_xml}
+  {label_xml}{alt_label_xml}{broader_xml}{deprecated_xml}
 </rdf:Description>"""
 
 
@@ -145,3 +155,187 @@ def test_unknown_term_is_unchanged_and_documented(tmp_path):
     assert len(paragraph) == 0
     assert entries[0].status == "not_found"
     assert "XML laissé inchangé" in entries[0].detail
+
+
+def test_altlabels_are_enriched_and_report_current_preflabel(tmp_path):
+    base = "https://ark.frantiq.fr/ark:/26678/"
+    subjects = Vocabulary(
+        write_fixture(
+            tmp_path / "subjects.rdf",
+            RDF_TEMPLATE.format(
+                concepts="".join(
+                    [
+                        concept(base + "root", [("fr", "racine")]),
+                        concept(
+                            base + "rural",
+                            [("fr", "établissement rural")],
+                            base + "root",
+                            alt_labels=[
+                                ("fr", "habitat rural"),
+                                ("fr", "forme d'oeuvre"),
+                            ],
+                        ),
+                    ]
+                )
+            ),
+        )
+    )
+    chronology = Vocabulary(
+        write_fixture(
+            tmp_path / "chronology.rdf",
+            RDF_TEMPLATE.format(concepts=concept(base + "chronology", [("fr", "chronologie")])),
+        )
+    )
+    source = write_fixture(
+        tmp_path / "altlabels.xml",
+        """<TEI xmlns="http://www.tei-c.org/ns/1.0"><text><body>
+<p rend="archeo_keywords_subjects">habitat rural, forme d’œuvre</p>
+</body></text></TEI>""",
+    )
+
+    tree, entries = Enricher(subjects, chronology).enrich_file(source)
+
+    assert tree.xpath(
+        './tei:text/tei:body/tei:p/tei:index/tei:term[@type="orig"]/text()',
+        namespaces=NS,
+    ) == ["habitat rural", "forme d’œuvre"]
+    assert [(entry.status, entry.candidate) for entry in entries] == [
+        ("indexed_altlabel", "établissement rural"),
+        ("indexed_altlabel_typographic", "établissement rural"),
+    ]
+    assert all(entry.concept_uri == base + "rural" for entry in entries)
+
+
+def test_exact_preflabel_has_priority_over_same_altlabel(tmp_path):
+    base = "https://ark.frantiq.fr/ark:/26678/"
+    subjects = Vocabulary(
+        write_fixture(
+            tmp_path / "subjects.rdf",
+            RDF_TEMPLATE.format(
+                concepts="".join(
+                    [
+                        concept(base + "preferred", [("fr", "terme prioritaire")]),
+                        concept(
+                            base + "other",
+                            [("fr", "autre concept")],
+                            alt_labels=[("fr", "terme prioritaire")],
+                        ),
+                    ]
+                )
+            ),
+        )
+    )
+    chronology = Vocabulary(
+        write_fixture(
+            tmp_path / "chronology.rdf",
+            RDF_TEMPLATE.format(concepts=concept(base + "chronology", [("fr", "chronologie")])),
+        )
+    )
+    source = write_fixture(
+        tmp_path / "priority.xml",
+        """<TEI xmlns="http://www.tei-c.org/ns/1.0"><text><body>
+<p rend="archeo_keywords_subjects">terme prioritaire</p>
+</body></text></TEI>""",
+    )
+
+    _, entries = Enricher(subjects, chronology).enrich_file(source)
+
+    assert entries[0].status == "indexed_exact"
+    assert entries[0].concept_uri == base + "preferred"
+
+
+def test_duplicate_altlabel_is_ambiguous_and_left_unchanged(tmp_path):
+    base = "https://ark.frantiq.fr/ark:/26678/"
+    subjects = Vocabulary(
+        write_fixture(
+            tmp_path / "subjects.rdf",
+            RDF_TEMPLATE.format(
+                concepts="".join(
+                    [
+                        concept(base + "one", [("fr", "concept un")], alt_labels=[("fr", "terme partagé")]),
+                        concept(base + "two", [("fr", "concept deux")], alt_labels=[("fr", "terme partagé")]),
+                    ]
+                )
+            ),
+        )
+    )
+    chronology = Vocabulary(
+        write_fixture(
+            tmp_path / "chronology.rdf",
+            RDF_TEMPLATE.format(concepts=concept(base + "chronology", [("fr", "chronologie")])),
+        )
+    )
+    source = write_fixture(
+        tmp_path / "ambiguous.xml",
+        """<TEI xmlns="http://www.tei-c.org/ns/1.0"><text><body>
+<p rend="archeo_keywords_subjects">terme partagé</p>
+</body></text></TEI>""",
+    )
+
+    tree, entries = Enricher(subjects, chronology).enrich_file(source)
+
+    paragraph = tree.xpath("//tei:p", namespaces=NS)[0]
+    assert paragraph.text == "terme partagé"
+    assert len(paragraph) == 0
+    assert entries[0].status == "ambiguous_altlabel"
+
+
+def test_deprecated_concept_is_reported_without_xml_enrichment(tmp_path):
+    base = "https://ark.frantiq.fr/ark:/26678/"
+    subjects, chronology = vocabularies(tmp_path)
+    deprecated = Vocabulary(
+        write_fixture(
+            tmp_path / "deprecated.rdf",
+            RDF_TEMPLATE.format(
+                concepts=concept(
+                    base + "old",
+                    [("fr", "ancien concept")],
+                    alt_labels=[("fr", "ancienne variante")],
+                )
+            ),
+        ),
+        all_concepts_deprecated=True,
+    )
+    source = write_fixture(
+        tmp_path / "deprecated.xml",
+        """<TEI xmlns="http://www.tei-c.org/ns/1.0"><text><body>
+<p rend="archeo_keywords_subjects">ancien concept, ancienne variante</p>
+</body></text></TEI>""",
+    )
+
+    tree, entries = Enricher(subjects, chronology, deprecated).enrich_file(source)
+
+    paragraph = tree.xpath("//tei:p", namespaces=NS)[0]
+    assert paragraph.text == "ancien concept, ancienne variante"
+    assert len(paragraph) == 0
+    assert [entry.status for entry in entries] == ["deprecated", "deprecated"]
+    assert all(entry.concept_uri == base + "old" for entry in entries)
+    assert all("XML laissé inchangé" in entry.detail for entry in entries)
+
+
+def test_active_concept_has_priority_over_deprecated_same_label(tmp_path):
+    base = "https://ark.frantiq.fr/ark:/26678/"
+    subjects, chronology = vocabularies(tmp_path)
+    deprecated = Vocabulary(
+        write_fixture(
+            tmp_path / "deprecated.rdf",
+            RDF_TEMPLATE.format(
+                concepts=concept(
+                    base + "old-rural", [("fr", "établissement rural")]
+                )
+            ),
+        ),
+        all_concepts_deprecated=True,
+    )
+    source = write_fixture(
+        tmp_path / "active-priority.xml",
+        """<TEI xmlns="http://www.tei-c.org/ns/1.0"><text><body>
+<p rend="archeo_keywords_subjects">établissement rural</p>
+</body></text></TEI>""",
+    )
+
+    tree, entries = Enricher(subjects, chronology, deprecated).enrich_file(source)
+
+    assert len(tree.xpath("//tei:index[@indexName='Index']", namespaces=NS)) == 1
+    assert entries[0].status == "indexed_exact"
+    assert entries[0].concept_uri == base + "rural"
