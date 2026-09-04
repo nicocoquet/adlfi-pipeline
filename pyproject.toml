@@ -20,8 +20,9 @@ web = ["fastapi>=0.116", "httpx>=0.28", "uvicorn[standard]>=0.35"]
 pactols-enrich = "pactols_enricher.cli:main"
 pactols-enrich-batch = "pactols_enricher.batch:main"
 
-[tool.setuptools.packages.find]
-where = ["src"]
+[tool.setuptools]
+packages = ["pactols_enricher", "service"]
+package-dir = {pactols_enricher = "src/pactols_enricher", service = "service"}
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
