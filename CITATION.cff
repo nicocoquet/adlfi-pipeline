@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce logiciel, merci de le citer à l’aide des métadonnées ci-dessous."
+type: software
+title: "Pipeline AdlFI — enrichissement XML-TEI avec PACTOLS"
+version: 0.1.0
+date-released: 2026-09-04
+authors:
+  - family-names: Coquet
+    given-names: Nicolas
+    affiliation: "MSH Mondes, UAR 3225"
+  - family-names: David
+    given-names: Gaëlle
+    affiliation: "MSH Mondes, UAR 3225"
+repository-code: "https://github.com/nicocoquet/adlfi-pipeline"
+url: "https://nicocoquet.github.io/adlfi-pipeline/"
+license: MIT
+keywords:
+  - XML-TEI
+  - PACTOLS
+  - archéologie
+  - édition scientifique
+  - Métopes

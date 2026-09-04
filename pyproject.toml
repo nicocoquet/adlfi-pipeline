@@ -9,7 +9,10 @@ description = "Enrichissement déterministe de zones XML-TEI avec PACTOLS"
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
-authors = [{name = "Projet AdlFI"}]
+authors = [
+  {name = "Nicolas Coquet"},
+  {name = "Gaëlle David"},
+]
 dependencies = ["lxml>=5.0"]
 
 [project.optional-dependencies]

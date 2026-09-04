@@ -3,6 +3,13 @@
 Outils ouverts et reproductibles pour le traitement éditorial AdlFI : du PDF
 BSR au XML-TEI enrichi et contrôlé.
 
+## État du projet
+
+La version `0.1.0` couvre l’enrichissement déterministe des XML-TEI Métopes
+avec le thésaurus PACTOLS, les rapports de contrôle et l’interface web de dépôt.
+La rétroconversion PDF BSR → DOCX structuré appartient à la feuille de route
+du projet et n’est pas comprise dans cette première release.
+
 ## Enrichissement PACTOLS
 
 Le premier module enrichit trois zones des XML-TEI issus de Métopes :
@@ -92,5 +99,26 @@ https://nicocoquet.github.io/adlfi-pipeline/
 L’interface interactive est limitée à `nicocoquet` et `gaelle-david`. Le
 JavaScript public ne contient aucun secret : le petit service dans
 [`service/`](service/) assure la connexion GitHub, le dépôt dans `input/` et le
-suivi des Actions. Tant que son URL n’est pas renseignée dans `web/config.js`,
-la page présente l’interface sans autoriser l’envoi.
+suivi des Actions.
+
+Pour lancer un traitement depuis l’interface :
+
+1. se connecter avec un compte GitHub autorisé ;
+2. sélectionner ou déposer un fichier XML-TEI Métopes ;
+3. confirmer que le fichier source et les résultats seront temporairement
+   publics dans le dépôt ;
+4. lancer le traitement et attendre la production des trois sorties ;
+5. télécharger le XML enrichi ainsi que les rapports TXT et CSV.
+
+Le service d’authentification est hébergé sur une instance gratuite Render.
+Après une période d’inactivité, son premier réveil peut prendre une
+cinquantaine de secondes.
+
+## Auteurs
+
+- Nicolas Coquet — MSH Mondes, UAR 3225 ;
+- Gaëlle David — MSH Mondes, UAR 3225.
+
+Le logiciel est distribué sous licence MIT. Les informations de citation sont
+fournies dans [`CITATION.cff`](CITATION.cff) et l’historique des versions dans
+[`CHANGELOG.md`](CHANGELOG.md).

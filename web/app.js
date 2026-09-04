@@ -29,6 +29,7 @@
     downloadXml: document.querySelector("#download-xml"),
     downloadTxt: document.querySelector("#download-txt"),
     downloadCsv: document.querySelector("#download-csv"),
+    downloadStatus: document.querySelector("#download-status"),
     newTreatment: document.querySelector("#new-treatment-button"),
     steps: {
       upload: document.querySelector("#step-upload"),
@@ -185,6 +186,8 @@
     const originalLabel = label.textContent;
     link.setAttribute("aria-busy", "true");
     label.textContent = "Téléchargement…";
+    elements.downloadStatus.hidden = true;
+    elements.downloadStatus.textContent = "";
 
     try {
       const response = await fetch(url);
@@ -198,7 +201,8 @@
       temporaryLink.remove();
       window.setTimeout(() => URL.revokeObjectURL(blobUrl), 1000);
     } catch {
-      setStatus("Le téléchargement a échoué. Veuillez réessayer.", "error");
+      elements.downloadStatus.textContent = "Le téléchargement a échoué. Veuillez réessayer.";
+      elements.downloadStatus.hidden = false;
     } finally {
       link.removeAttribute("aria-busy");
       label.textContent = originalLabel;
@@ -342,6 +346,8 @@
   elements.newTreatment.addEventListener("click", () => {
     elements.resultsPanel.hidden = true;
     elements.dropPanel.hidden = false;
+    elements.downloadStatus.hidden = true;
+    elements.downloadStatus.textContent = "";
     clearFile();
   });
   [elements.downloadXml, elements.downloadTxt, elements.downloadCsv].forEach((link) => {
