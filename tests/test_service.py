@@ -50,3 +50,11 @@ def test_health_endpoint():
     settings = Settings("client", "secret", "session-secret")
     client = TestClient(create_app(settings))
     assert client.get("/health").json() == {"status": "ok"}
+
+
+def test_service_starts_before_github_credentials_are_configured():
+    settings = Settings("", "", "session-secret")
+    client = TestClient(create_app(settings))
+    response = client.get("/auth/github")
+    assert response.status_code == 503
+    assert response.json()["detail"] == "La connexion GitHub n’est pas encore configurée."

@@ -37,21 +37,20 @@ class Settings:
 
     @classmethod
     def from_environment(cls) -> "Settings":
-        required = {
+        values = {
             "github_client_id": os.getenv("GITHUB_CLIENT_ID", ""),
             "github_client_secret": os.getenv("GITHUB_CLIENT_SECRET", ""),
             "session_secret": os.getenv("SESSION_SECRET", ""),
         }
-        missing = [name.upper() for name, value in required.items() if not value]
-        if missing:
-            raise RuntimeError(f"Variables d’environnement manquantes : {', '.join(missing)}")
+        if not values["session_secret"]:
+            raise RuntimeError("Variable d’environnement manquante : SESSION_SECRET")
         users = tuple(
             item.strip()
             for item in os.getenv("ALLOWED_USERS", "nicocoquet,gaelle-david").split(",")
             if item.strip()
         )
         return cls(
-            **required,
+            **values,
             repository=os.getenv("GITHUB_REPOSITORY", "nicocoquet/adlfi-pipeline"),
             pages_url=os.getenv("PAGES_URL", "https://nicocoquet.github.io/adlfi-pipeline/"),
             allowed_users=users,
@@ -185,6 +184,8 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
     @app.get("/auth/github")
     async def login(returnTo: str = Query(default="")) -> RedirectResponse:  # noqa: N803
+        if not settings.github_client_id or not settings.github_client_secret:
+            raise HTTPException(status_code=503, detail="La connexion GitHub n’est pas encore configurée.")
         destination = allowed_return_url(returnTo or settings.pages_url, settings.pages_url)
         state = sign_payload({"returnTo": destination, "exp": int(time.time()) + 600}, settings.session_secret)
         query = urlencode({"client_id": settings.github_client_id, "state": state})
@@ -192,6 +193,8 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
     @app.get("/auth/callback")
     async def callback(code: str, state: str) -> RedirectResponse:
+        if not settings.github_client_id or not settings.github_client_secret:
+            raise HTTPException(status_code=503, detail="La connexion GitHub n’est pas encore configurée.")
         state_payload = verify_payload(state, settings.session_secret)
         async with httpx.AsyncClient(timeout=30) as client:
             token_response = await client.post(

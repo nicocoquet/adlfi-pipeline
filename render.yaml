@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: adlfi-pactols-auth
+    runtime: docker
+    plan: free
+    region: frankfurt
+    branch: main
+    dockerfilePath: ./service/Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    autoDeployTrigger: off
+    envVars:
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: GITHUB_REPOSITORY
+        value: nicocoquet/adlfi-pipeline
+      - key: PAGES_URL
+        value: https://nicocoquet.github.io/adlfi-pipeline/
+      - key: ALLOWED_USERS
+        value: nicocoquet,gaelle-david
