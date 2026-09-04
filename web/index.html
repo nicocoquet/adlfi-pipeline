@@ -6,6 +6,8 @@
     <meta name="description" content="Enrichissement déterministe de fichiers XML-TEI avec le thésaurus Pactols.">
     <title>Pactols — Enrichir un fichier XML-TEI</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="config.js"></script>
+    <script src="app.js" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -35,7 +37,27 @@
           </p>
         </div>
 
-        <div class="drop-panel" aria-describedby="prototype-note">
+        <div class="service-panel">
+          <div class="session-bar" id="session-bar">
+            <span class="session-indicator" aria-hidden="true"></span>
+            <span id="session-label">Connexion GitHub requise</span>
+            <button class="session-button" id="login-button" type="button">
+              <img src="assets/github-mark.svg" alt="">
+              Se connecter
+            </button>
+            <button class="session-button session-button--secondary" id="logout-button" type="button" hidden>
+              Se déconnecter
+            </button>
+          </div>
+
+          <div
+            class="drop-panel"
+            id="drop-panel"
+            role="button"
+            tabindex="0"
+            aria-describedby="upload-help upload-status"
+            aria-label="Sélectionner ou déposer un fichier XML"
+          >
           <div class="file-symbol" aria-hidden="true">
             <svg viewBox="0 0 48 56" role="img">
               <path d="M8 2h21l11 11v39a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z" />
@@ -43,12 +65,50 @@
             </svg>
           </div>
           <h2>Déposer un fichier XML</h2>
-          <p>issu de <strong>Métopes 3.1.+</strong></br>(fichier stylé Commons Publishing)</p>
-          <button type="button" disabled>Sélectionner un fichier</button>
-          <p class="format">Un seul fichier par traitement</p>
-          <p class="prototype" id="prototype-note">
-            Dépôt et traitement ne sont pas encore actifs dans cette interface.
+          <p id="upload-help">issu de <strong>Métopes 3.1.+</strong><br>(fichier stylé Commons Publishing)</p>
+          <input id="file-input" type="file" accept=".xml,application/xml,text/xml" hidden>
+          <button id="select-button" type="button">Sélectionner un fichier</button>
+          <p class="format">ou le faire glisser ici · un seul fichier par traitement</p>
+          <div class="selected-file" id="selected-file" hidden>
+            <span class="selected-file__icon" aria-hidden="true">XML</span>
+            <span class="selected-file__details">
+              <strong id="selected-file-name"></strong>
+              <small id="selected-file-size"></small>
+            </span>
+            <button id="remove-file-button" class="icon-button" type="button" aria-label="Retirer le fichier">×</button>
+          </div>
+          <label class="public-notice" id="public-notice" hidden>
+            <input id="public-confirmation" type="checkbox">
+            <span>Je comprends que le fichier source et les résultats seront visibles publiquement dans le dépôt GitHub.</span>
+          </label>
+          <button class="submit-button" id="submit-button" type="button" disabled>Envoyer et lancer le traitement</button>
+          <p class="upload-status" id="upload-status" role="status" aria-live="polite">
+            Sélectionnez un fichier XML pour commencer.
           </p>
+          </div>
+
+          <section class="progress-panel" id="progress-panel" aria-labelledby="progress-title" hidden>
+            <p class="section-number">Traitement</p>
+            <h2 id="progress-title">Enrichissement en cours</h2>
+            <ol class="progress-list">
+              <li id="step-upload"><span></span>Fichier déposé dans <code>input/</code></li>
+              <li id="step-workflow"><span></span>Enrichissement Pactols</li>
+              <li id="step-results"><span></span>Publication des résultats</li>
+            </ol>
+            <p id="progress-message" class="progress-message" role="status" aria-live="polite"></p>
+          </section>
+
+          <section class="results-panel" id="results-panel" aria-labelledby="results-panel-title" hidden>
+            <p class="section-number">Traitement terminé</p>
+            <h2 id="results-panel-title">Vos fichiers sont prêts</h2>
+            <p id="results-summary"></p>
+            <div class="result-actions">
+              <a id="download-xml" class="download-button" href="#">Télécharger le XML enrichi</a>
+              <a id="download-txt" href="#">Rapport TXT</a>
+              <a id="download-csv" href="#">Rapport CSV</a>
+            </div>
+            <button id="new-treatment-button" class="new-treatment-button" type="button">Nouveau traitement</button>
+          </section>
         </div>
       </section>
 

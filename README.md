@@ -88,3 +88,9 @@ La spécification fonctionnelle est disponible dans
 ### GitHub Pages
 
 https://nicocoquet.github.io/adlfi-pipeline/
+
+L’interface interactive est limitée à `nicocoquet` et `gaelle-david`. Le
+JavaScript public ne contient aucun secret : le petit service dans
+[`service/`](service/) assure la connexion GitHub, le dépôt dans `input/` et le
+suivi des Actions. Tant que son URL n’est pas renseignée dans `web/config.js`,
+la page présente l’interface sans autoriser l’envoi.
