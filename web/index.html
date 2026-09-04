@@ -103,9 +103,33 @@
             <h2 id="results-panel-title">Vos fichiers sont prêts</h2>
             <p id="results-summary"></p>
             <div class="result-actions">
-              <a id="download-xml" class="download-button" href="#">Télécharger le XML enrichi</a>
-              <a id="download-txt" href="#">Rapport TXT</a>
-              <a id="download-csv" href="#">Rapport CSV</a>
+              <a id="download-xml" class="result-download" href="#" download>
+                <span class="output-icon" aria-hidden="true">
+                  <svg viewBox="0 0 48 56">
+                    <path d="M8 2h21l11 11v39a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z" />
+                    <path d="M29 2v12h11M18 27l-5 6 5 6M30 27l5 6-5 6M27 24l-6 18" />
+                  </svg>
+                </span>
+                <span>Télécharger le XML enrichi</span>
+              </a>
+              <a id="download-txt" class="result-download" href="#" download>
+                <span class="output-icon" aria-hidden="true">
+                  <svg viewBox="0 0 48 56">
+                    <path d="M8 2h21l11 11v39a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z" />
+                    <path d="M29 2v12h11M14 27h20M14 34h20M14 41h14" />
+                  </svg>
+                </span>
+                <span>Télécharger le rapport TXT</span>
+              </a>
+              <a id="download-csv" class="result-download" href="#" download>
+                <span class="output-icon" aria-hidden="true">
+                  <svg viewBox="0 0 48 56">
+                    <path d="M8 2h21l11 11v39a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z" />
+                    <path d="M29 2v12h11M14 26h20v17H14zM14 32h20M14 38h20M21 26v17M28 26v17" />
+                  </svg>
+                </span>
+                <span>Télécharger le rapport CSV</span>
+              </a>
             </div>
             <button id="new-treatment-button" class="new-treatment-button" type="button">Nouveau traitement</button>
           </section>
