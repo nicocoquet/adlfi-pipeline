@@ -169,6 +169,42 @@
     elements.downloadCsv.href = job.files.csv;
   }
 
+  function filenameFromUrl(url) {
+    try {
+      return decodeURIComponent(new URL(url).pathname.split("/").pop());
+    } catch {
+      return "resultat-pactols";
+    }
+  }
+
+  async function downloadResult(event) {
+    event.preventDefault();
+    const link = event.currentTarget;
+    const url = link.href;
+    const label = link.querySelector(":scope > span:last-child");
+    const originalLabel = label.textContent;
+    link.setAttribute("aria-busy", "true");
+    label.textContent = "Téléchargement…";
+
+    try {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`Erreur de téléchargement (${response.status}).`);
+      const blobUrl = URL.createObjectURL(await response.blob());
+      const temporaryLink = document.createElement("a");
+      temporaryLink.href = blobUrl;
+      temporaryLink.download = filenameFromUrl(url);
+      document.body.appendChild(temporaryLink);
+      temporaryLink.click();
+      temporaryLink.remove();
+      window.setTimeout(() => URL.revokeObjectURL(blobUrl), 1000);
+    } catch {
+      setStatus("Le téléchargement a échoué. Veuillez réessayer.", "error");
+    } finally {
+      link.removeAttribute("aria-busy");
+      label.textContent = originalLabel;
+    }
+  }
+
   function showJobFailure(job) {
     clearTimeout(state.pollTimer);
     elements.progressPanel.hidden = true;
@@ -307,6 +343,9 @@
     elements.resultsPanel.hidden = true;
     elements.dropPanel.hidden = false;
     clearFile();
+  });
+  [elements.downloadXml, elements.downloadTxt, elements.downloadCsv].forEach((link) => {
+    link.addEventListener("click", downloadResult);
   });
 
   loadSession();
