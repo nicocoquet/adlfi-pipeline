@@ -1,0 +1,45 @@
+Rapport d’enrichissement PACTOLS
+
+Fichier : Drassm_2020_BdR.xml
+SHA-256 du fichier : e300e3480bd34ef5b281c75a730cad87adf20a4967dd1cddf5df45820f960021
+Référentiel PACTOLS : PACTOLS 2026-07-22 (69bf9697e24cefd645a69465bbd271702786285a)
+SHA-256 Sujets : cd38ef8bd875e96ed9220274ecc12a679b382a520779654eb3bf8141fd16e98b
+SHA-256 Chronologie : ea081dcc12d7cc1f1a74ad5aeeca2c90b1733999dba6b41f97ac85843003eaaa
+SHA-256 Concepts dépréciés : 6a60f6b3da9682d216514e9167bfee7233013000e3d1c713e493f2d400a5771b
+
+Concepts rencontrés : 27
+indexed_altlabel : 1
+indexed_exact : 21
+indexed_typographic : 3
+not_found : 2
+
+Avertissements : 1
+
+NOTICE : Au large de Marseille – Port de Pomègues 4
+PARAGRAPHE : p51
+ZONE : subjects
+VALEUR : navire de commerce
+STATUT : indexed_altlabel
+PREFLABEL/CANDIDAT : navire marchand
+ARK : https://ark.frantiq.fr/ark:/26678/crta2cBc4b1DW
+DÉTAIL : enrichissement effectué depuis un skos:altLabel français
+
+Exceptions : 2
+
+NOTICE : Au large de Cassis – ZMEL, réfection des pontons de Port-Miou
+PARAGRAPHE : p5
+ZONE : chronology
+VALEUR : Diachronique
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Au large de Cassis – ZMEL, réfection des pontons de Port-Miou
+PARAGRAPHE : p5
+ZONE : chronology
+VALEUR : période moderne
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
