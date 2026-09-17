@@ -20,7 +20,7 @@ body {
   margin: 0;
   color: var(--ink);
   background-color: var(--paper);
-  background-image: linear-gradient(rgba(244, 240, 229, 0.945), rgba(244, 240, 229, 0.945)), url("assets/table-peutinger.jpg");
+  background-image: linear-gradient(rgba(244, 240, 229, 0.88), rgba(244, 240, 229, 0.88)), url("assets/table-peutinger.jpg");
   background-position: center top;
   background-size: auto, cover;
   background-attachment: fixed;
@@ -32,6 +32,7 @@ body {
 a { color: inherit; }
 
 .site-header,
+.brand-banner,
 main,
 footer {
   width: min(1160px, calc(100% - 40px));
@@ -88,59 +89,20 @@ footer {
 }
 
 .brand-banner {
-  position: relative;
   display: grid;
-  width: 100%;
-  min-height: clamp(118px, 11vw, 168px);
+  min-height: 164px;
   overflow: hidden;
   place-items: center;
-  color: #f3ead6;
-  background: linear-gradient(90deg, rgba(6, 31, 49, 0.94), rgba(13, 58, 79, 0.78), rgba(6, 31, 49, 0.94)), url("assets/table-peutinger.jpg") center 43% / cover;
+  background: #06283d;
   border-block: 1px solid rgba(232, 223, 200, 0.42);
-  box-shadow: inset 0 -8px 0 rgba(232, 223, 200, 0.92);
+  border-radius: 3px;
+  box-shadow: inset 0 -6px 0 rgba(232, 223, 200, 0.92), 0 12px 38px rgba(6, 31, 49, 0.12);
 }
 
-.brand-banner::before,
-.brand-banner::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: min(22vw, 330px);
-  height: 100%;
-  background: rgba(99, 144, 160, 0.16);
-  transform: skewX(-34deg);
-}
-
-.brand-banner::before { left: -8%; }
-.brand-banner::after { right: -8%; }
-
-.brand-banner__content {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  align-items: baseline;
-  gap: clamp(20px, 3vw, 44px);
-  padding: 18px 24px 25px;
-  text-align: center;
-}
-
-.brand-banner__content strong {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(3.6rem, 7vw, 6.7rem);
-  font-style: italic;
-  font-weight: 500;
-  letter-spacing: -0.075em;
-  line-height: 0.8;
-  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.35);
-}
-
-.brand-banner__content span {
-  padding-left: clamp(18px, 3vw, 42px);
-  border-left: 1px solid rgba(243, 234, 214, 0.6);
-  font-size: clamp(0.72rem, 1.3vw, 1rem);
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+.brand-banner img {
+  display: block;
+  width: min(340px, calc(100% - 36px));
+  height: auto;
 }
 
 .workspace {
@@ -601,10 +563,8 @@ footer a { text-decoration-color: var(--copper); text-underline-offset: 4px; }
   .principle-grid { grid-template-columns: 1fr; }
   .outputs-heading, footer { align-items: start; flex-direction: column; }
   footer { gap: 8px; }
-  .brand-banner { min-height: 128px; box-shadow: inset 0 -5px 0 rgba(232, 223, 200, 0.92); }
-  .brand-banner__content { display: block; padding: 23px 18px 28px; }
-  .brand-banner__content strong { display: block; margin-bottom: 15px; font-size: 4.15rem; }
-  .brand-banner__content span { display: block; padding: 0; border-left: 0; font-size: 0.67rem; }
+  .brand-banner { min-height: 132px; box-shadow: inset 0 -5px 0 rgba(232, 223, 200, 0.92); }
+  .brand-banner img { width: min(280px, calc(100% - 32px)); }
   .workspace--module .introduction { padding-left: 20px; }
 }
 
