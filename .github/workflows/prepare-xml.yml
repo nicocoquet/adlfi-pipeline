@@ -1,0 +1,106 @@
+name: Préparation XML
+
+on:
+  push:
+    paths:
+      - "input/preparation/**/*.xml"
+      - "src/xml_preparer/**/*.py"
+      - "pyproject.toml"
+      - ".github/workflows/prepare-xml.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: adlfi-generated-publication
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le pipeline
+        uses: actions/checkout@v7
+
+      - name: Installer Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer le pipeline
+        run: python -m pip install .
+
+      - name: Préparer les XML
+        run: |
+          tei-prepare-batch input/preparation \
+            --output-dir generated/preparation/xml \
+            --reports-dir generated/preparation/reports
+
+      - name: Publier les résultats dans le dépôt
+        id: publish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- generated/preparation
+          if git diff --cached --quiet; then
+            echo "Aucune modification à publier."
+            echo "published=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore: préparer les XML"
+            git push
+            echo "published=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Signaler les fichiers préparés disponibles
+        if: steps.publish.outputs.published == 'true' && github.ref == 'refs/heads/main'
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require("fs");
+            const { execFileSync } = require("child_process");
+            const reports = execFileSync(
+              "git",
+              ["diff-tree", "--no-commit-id", "--name-only", "-r", "HEAD", "--", "generated/preparation/reports"],
+              { encoding: "utf8" },
+            ).trim().split("\n").filter((path) => path.endsWith("_prepared_report.txt") && fs.existsSync(path));
+            const value = (report, label) => {
+              const match = report.match(new RegExp(`^${label} : (.+)$`, "m"));
+              return match ? match[1] : "0";
+            };
+            const commit = execFileSync("git", ["rev-parse", "HEAD"], { encoding: "utf8" }).trim();
+            const repositoryUrl = `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}`;
+            const fileUrl = (path) => `${repositoryUrl}/blob/${commit}/${path}`;
+            for (const reportPath of reports) {
+              const report = fs.readFileSync(reportPath, "utf8");
+              const source = value(report, "Fichier");
+              const base = source.replace(/\.xml$/i, "");
+              const xmlPath = `generated/preparation/xml/${base}_prepared.xml`;
+              const body = [
+                `@${context.repo.owner} — la préparation XML est terminée.`, "",
+                `| Indicateur | Résultat |`, `| --- | ---: |`,
+                `| Figures rencontrées | ${value(report, "Figures rencontrées")} |`,
+                `| Éléments graphic ajoutés | ${value(report, "Éléments graphic ajoutés")} |`,
+                `| Éléments graphic déjà présents | ${value(report, "Éléments graphic déjà présents")} |`,
+                `| Éléments anchor supprimés | ${value(report, "Éléments anchor supprimés")} |`,
+                `| Avertissements | ${value(report, "Avertissements")} |`, "",
+                `- [Télécharger le XML préparé](${fileUrl(xmlPath)})`,
+                `- [Lire le rapport TXT](${fileUrl(reportPath)})`, "",
+                `Commit de génération : \`${commit}\``,
+              ].join("\n");
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `Préparation XML — ${source} traité`,
+                body,
+                assignees: [context.repo.owner],
+              });
+            }
+
+      - name: Conserver les résultats comme artefact
+        uses: actions/upload-artifact@v6
+        with:
+          name: preparation-xml
+          path: generated/preparation/

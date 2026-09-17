@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tei-pactols-enricher"
-version = "0.1.0"
-description = "Enrichissement déterministe de zones XML-TEI avec PACTOLS"
+version = "0.2.0"
+description = "Préparation et enrichissement déterministes de fichiers XML-TEI AdlFI"
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
@@ -22,10 +22,12 @@ web = ["fastapi>=0.116", "httpx>=0.28", "uvicorn[standard]>=0.35"]
 [project.scripts]
 pactols-enrich = "pactols_enricher.cli:main"
 pactols-enrich-batch = "pactols_enricher.batch:main"
+tei-prepare = "xml_preparer.cli:main"
+tei-prepare-batch = "xml_preparer.batch:main"
 
 [tool.setuptools]
-packages = ["pactols_enricher", "service"]
-package-dir = {pactols_enricher = "src/pactols_enricher", service = "service"}
+packages = ["pactols_enricher", "xml_preparer", "service"]
+package-dir = {pactols_enricher = "src/pactols_enricher", xml_preparer = "src/xml_preparer", service = "service"}
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

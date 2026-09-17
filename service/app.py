@@ -10,7 +10,7 @@ import secrets
 import time
 from dataclasses import dataclass
 from pathlib import PurePath
-from typing import Any
+from typing import Any, Literal
 from urllib.parse import urlencode, urlparse
 
 import httpx
@@ -24,6 +24,25 @@ GITHUB_API = "https://api.github.com"
 GITHUB_ACCEPT = "application/vnd.github+json"
 FILENAME_PATTERN = re.compile(r"^[^/\\\x00-\x1f]+\.xml$", re.IGNORECASE)
 MAX_FILE_SIZE = 25 * 1024 * 1024
+MODULES = {
+    "preparation": {
+        "input_dir": "input/preparation",
+        "workflow": "prepare-xml.yml",
+        "outputs": {
+            "xml": "generated/preparation/xml/{base}_prepared.xml",
+            "txt": "generated/preparation/reports/{base}_prepared_report.txt",
+        },
+    },
+    "pactols": {
+        "input_dir": "input/pactols",
+        "workflow": "enrich-pactols.yml",
+        "outputs": {
+            "xml": "generated/pactols/xml/{base}_enriched.xml",
+            "txt": "generated/pactols/reports/{base}_report.txt",
+            "csv": "generated/pactols/reports/{base}_report.csv",
+        },
+    },
+}
 
 
 @dataclass(frozen=True)
@@ -60,6 +79,7 @@ class Settings:
 class UploadRequest(BaseModel):
     filename: str
     content: str
+    module: Literal["preparation", "pactols"] = "pactols"
 
 
 class SessionStore:
@@ -160,7 +180,7 @@ async def github_request(
 def create_app(settings: Settings | None = None) -> FastAPI:
     settings = settings or Settings.from_environment()
     sessions = SessionStore()
-    app = FastAPI(title="Interface d’indexation Pactols", docs_url=None, redoc_url=None)
+    app = FastAPI(title="Outils XML pour AdlFI", docs_url=None, redoc_url=None)
     app.add_middleware(
         CORSMiddleware,
         allow_origins=[f"{urlparse(settings.pages_url).scheme}://{urlparse(settings.pages_url).netloc}"],
@@ -240,12 +260,13 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             raise HTTPException(status_code=400, detail="Le fichier doit peser entre 1 octet et 25 Mo.")
         session_data = data[1]
         owner, repo = settings.repository.split("/", 1)
+        module = MODULES[upload.module]
         result = await github_request(
             "PUT",
-            f"/repos/{owner}/{repo}/contents/input/{filename}",
+            f"/repos/{owner}/{repo}/contents/{module['input_dir']}/{filename}",
             session_data["github_token"],
             json={
-                "message": f"input: déposer {filename} via l’interface web",
+                "message": f"input({upload.module}): déposer {filename} via l’interface web",
                 "content": upload.content,
                 "branch": "main",
             },
@@ -254,6 +275,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             "filename": filename,
             "sha": result["commit"]["sha"],
             "login": session_data["login"],
+            "module": upload.module,
             "exp": int(time.time()) + 24 * 60 * 60,
         }
         return {"id": sign_payload(job, settings.session_secret)}
@@ -266,10 +288,14 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         job = verify_payload(job_id, settings.session_secret)
         if job["login"] != data[1]["login"]:
             raise HTTPException(status_code=403, detail="Ce traitement appartient à un autre utilisateur.")
+        module_name = job.get("module", "pactols")
+        if module_name not in MODULES:
+            raise HTTPException(status_code=400, detail="Type de traitement invalide.")
+        module = MODULES[module_name]
         owner, repo = settings.repository.split("/", 1)
         runs = await github_request(
             "GET",
-            f"/repos/{owner}/{repo}/actions/workflows/enrich-pactols.yml/runs",
+            f"/repos/{owner}/{repo}/actions/workflows/{module['workflow']}/runs",
             data[1]["github_token"],
             params={"head_sha": job["sha"], "per_page": 1},
         )
@@ -286,11 +312,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
                 "workflowUrl": run["html_url"],
             }
         base = filename_without_xml(job["filename"])
-        paths = {
-            "xml": f"generated/xml/{base}_enriched.xml",
-            "txt": f"generated/reports/{base}_report.txt",
-            "csv": f"generated/reports/{base}_report.csv",
-        }
+        paths = {kind: template.format(base=base) for kind, template in module["outputs"].items()}
         files: dict[str, str] = {}
         try:
             for kind, path in paths.items():
@@ -307,10 +329,15 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             return {
                 "status": "failed",
                 "sourceName": job["filename"],
-                "message": "Le workflow s’est terminé sans produire les trois fichiers attendus.",
+                "message": "Le workflow s’est terminé sans produire tous les fichiers attendus.",
                 "workflowUrl": run["html_url"],
             }
-        return {"status": "completed", "sourceName": job["filename"], "files": files}
+        return {
+            "status": "completed",
+            "sourceName": job["filename"],
+            "module": module_name,
+            "files": files,
+        }
 
     return app
 

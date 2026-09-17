@@ -128,6 +128,20 @@ h2 { font-size: clamp(1.8rem, 3vw, 2.7rem); line-height: 1.08; }
 
 .page-intro h1 { max-width: 780px; }
 
+.account-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(430px, 1.1fr);
+  align-items: center;
+  gap: clamp(48px, 7vw, 96px);
+  padding: 36px 0;
+  border-top: 1px solid var(--line);
+}
+
+.account-panel h2 { margin-bottom: 8px; font-size: 1.65rem; }
+.account-panel p { margin-bottom: 0; color: var(--ink-soft); }
+.account-panel .session-bar { border-bottom: 1px solid rgba(18, 35, 63, 0.16); }
+.session-message { grid-column: 2; min-height: 1.4em; color: #822f2f !important; font-size: 0.82rem; }
+
 .workspace--module {
   padding: clamp(48px, 7vw, 84px) 0;
   border-top: 1px solid var(--line);
@@ -239,7 +253,8 @@ h2 { font-size: clamp(1.8rem, 3vw, 2.7rem); line-height: 1.08; }
 }
 
 .file-symbol svg { display: block; fill: none; stroke: currentColor; stroke-width: 2; }
-.drop-panel h2 { margin-bottom: 12px; font-size: 1.8rem; }
+.drop-panel h2,
+.drop-panel h3 { position: relative; z-index: 1; margin-bottom: 12px; font-family: Georgia, "Times New Roman", serif; font-size: 1.8rem; font-weight: 500; }
 .drop-panel > p { max-width: 470px; margin-inline: auto; color: var(--ink-soft); }
 
 button {
@@ -334,7 +349,9 @@ button:disabled { cursor: not-allowed; opacity: 0.52; }
 }
 
 .progress-panel h2,
-.results-panel h2 { margin-bottom: 28px; font-size: 1.8rem; }
+.results-panel h2,
+.progress-panel h3,
+.results-panel h3 { margin-bottom: 28px; font-family: Georgia, "Times New Roman", serif; font-size: 1.8rem; font-weight: 500; }
 
 .progress-list { margin: 0; padding: 0; list-style: none; }
 .progress-list li {
@@ -374,6 +391,7 @@ button:disabled { cursor: not-allowed; opacity: 0.52; }
 
 .results-panel > p:not(.section-number) { color: var(--ink-soft); }
 .result-actions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 26px 0 22px; }
+.result-actions--two { grid-template-columns: repeat(2, 1fr); }
 .result-download {
   display: flex;
   align-items: center;
@@ -402,6 +420,8 @@ button:disabled { cursor: not-allowed; opacity: 0.52; }
   font-weight: 700;
 }
 .new-treatment-button { margin: 0; padding-left: 0; color: var(--copper-dark); background: transparent; text-decoration: underline; text-underline-offset: 4px; }
+.completion-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 20px; }
+.continue-button { margin: 0; }
 
 [hidden] { display: none !important; }
 
@@ -477,6 +497,8 @@ footer p { margin-bottom: 0; }
 
 @media (max-width: 850px) {
   .workspace { grid-template-columns: 1fr; }
+  .account-panel { grid-template-columns: 1fr; gap: 20px; }
+  .session-message { grid-column: 1; }
   .principles { grid-template-columns: 1fr; gap: 22px; }
   .principle-grid { gap: 18px; }
   .output-list { grid-template-columns: 1fr; }

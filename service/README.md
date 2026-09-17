@@ -2,8 +2,8 @@
 
 Ce petit service conserve les secrets et les jetons GitHub hors de la page
 publique. Il n’enrichit pas les XML et ne les stocke pas : il transmet le
-fichier à `input/`, suit le workflow existant et renvoie les liens vers les
-résultats.
+fichier au sous-dossier de `input/` correspondant au module demandé, suit le
+workflow concerné et renvoie les liens vers les résultats.
 
 Le fichier [`../render.yaml`](../render.yaml) permet de créer une instance
 temporaire gratuite dans la région de Francfort. Son déploiement automatique

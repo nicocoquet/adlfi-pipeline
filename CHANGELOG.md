@@ -2,6 +2,19 @@
 
 Toutes les modifications notables du projet sont consignées dans ce fichier.
 
+## [0.2.0] — 2026-09-17
+
+### Ajouté
+
+- préparation des XML par ajout des `graphic` manquants et suppression des `anchor` ;
+- rapport TXT de préparation et contrôles d’idempotence ;
+- enchaînement facultatif du XML préparé vers l’indexation PACTOLS.
+
+### Modifié
+
+- séparation des entrées et sorties des deux modules ;
+- authentification GitHub commune à toute l’interface Pages.
+
 ## [0.1.0] — 2026-09-04
 
 Première version publique du module d’enrichissement PACTOLS.

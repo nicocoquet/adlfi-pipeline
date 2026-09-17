@@ -1,10 +1,10 @@
 # Dépôt des XML
 
-Déposer ici les fichiers XML-TEI Métopes non indexés, directement ou dans des
-sous-dossiers. Chaque ajout ou modification d’un fichier `*.xml` déclenche le
-workflow GitHub « Enrichissement PACTOLS ».
+Deux entrées indépendantes sont disponibles :
 
-Le fichier source reste inchangé. Les sorties sont écrites dans :
+- `preparation/` : ajout des éléments `graphic` manquants et suppression des
+  éléments TEI `anchor` ;
+- `pactols/` : enrichissement des zones d’indexation avec PACTOLS.
 
-- `generated/xml/` pour les XML enrichis ;
-- `generated/reports/` pour les rapports TXT et CSV.
+Chaque ajout ou modification d’un fichier `*.xml` déclenche uniquement le
+workflow correspondant. Le fichier source reste inchangé.

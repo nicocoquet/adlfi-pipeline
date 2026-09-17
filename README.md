@@ -5,10 +5,25 @@ BSR au XML-TEI enrichi et contrôlé.
 
 ## État du projet
 
-La version `0.1.0` couvre l’enrichissement déterministe des XML-TEI Métopes
-avec le thésaurus PACTOLS, les rapports de contrôle et l’interface web de dépôt.
+La version `0.2.0` couvre la préparation des XML-TEI Métopes, leur
+enrichissement déterministe avec le thésaurus PACTOLS, les rapports de contrôle
+et l’interface web de dépôt.
 La rétroconversion PDF BSR → DOCX structuré appartient à la feuille de route
 du projet et n’est pas comprise dans cette première release.
+
+## Préparation du XML
+
+Le premier module ajoute `<graphic url="???"/>` comme premier enfant de chaque
+élément TEI `figure` qui ne contient pas encore de `graphic`. Il supprime aussi
+les éléments TEI `anchor` en conservant intégralement le texte qui les suit.
+Les `graphic` existants ne sont jamais modifiés et les anomalies sont consignées
+dans un rapport TXT.
+
+```bash
+tei-prepare input.xml \
+  --output output/input_prepared.xml \
+  --report-text reports/input_prepared_report.txt
+```
 
 ## Enrichissement PACTOLS
 
@@ -54,12 +69,12 @@ déjà enrichi n’ajoute aucun doublon.
 
 ### Utilisation sur GitHub
 
-1. Déposer un ou plusieurs XML non indexés dans [`input/`](input/), puis
+1. Déposer un ou plusieurs XML non indexés dans `input/pactols/`, puis
    valider les changements sur la branche `main`.
 2. Le workflow **Enrichissement PACTOLS** récupère la version figée du
    référentiel et traite récursivement tous les XML du dossier.
-3. Il publie les XML enrichis dans `generated/xml/` et les rapports TXT et CSV
-   dans `generated/reports/`.
+3. Il publie les XML enrichis dans `generated/pactols/xml/` et les rapports TXT
+   et CSV dans `generated/pactols/reports/`.
 4. Lorsqu’un résultat a réellement changé sur `main`, il crée une issue
    assignée au propriétaire du dépôt avec les statistiques et les liens vers
    les fichiers produits. Une exécution sans changement ne crée aucune issue.
@@ -73,12 +88,12 @@ réussie et ne provoque pas de fausse alerte d’échec.
 ### Traitement local par lot
 
 ```bash
-pactols-enrich-batch input \
+pactols-enrich-batch input/pactols \
   --subjects /chemin/vers/Pactols_Sujets_P1-SUJETS.rdf \
   --chronology /chemin/vers/Pactols_Sujets_P1-CHRONOLOGIE.rdf \
   --deprecated "/chemin/vers/Pactols_Sujets_P2-Concepts dépréciés.rdf" \
-  --output-dir generated/xml \
-  --reports-dir generated/reports \
+  --output-dir generated/pactols/xml \
+  --reports-dir generated/pactols/reports \
   --pactols-version "PACTOLS 2026-07-22"
 ```
 
@@ -96,8 +111,9 @@ La spécification fonctionnelle est disponible dans
 
 https://nicocoquet.github.io/adlfi-pipeline/
 
-L’interface interactive est limitée à `nicocoquet` et `gaelle-david`. Le
-JavaScript public ne contient aucun secret : le petit service dans
+L’interface interactive est limitée à `nicocoquet` et `gaelle-david`. Une
+connexion GitHub unique donne accès aux modules de préparation et d’indexation.
+Le JavaScript public ne contient aucun secret : le petit service dans
 [`service/`](service/) assure la connexion GitHub, le dépôt dans `input/` et le
 suivi des Actions.
 
@@ -107,8 +123,9 @@ Pour lancer un traitement depuis l’interface :
 2. sélectionner ou déposer un fichier XML-TEI Métopes ;
 3. confirmer que le fichier source et les résultats seront temporairement
    publics dans le dépôt ;
-4. lancer le traitement et attendre la production des trois sorties ;
-5. télécharger le XML enrichi ainsi que les rapports TXT et CSV.
+4. lancer le traitement choisi ;
+5. télécharger ses résultats ou transmettre directement le XML préparé au
+   module d’indexation PACTOLS.
 
 Le service d’authentification est hébergé sur une instance gratuite Render.
 Après une période d’inactivité, son premier réveil peut prendre une

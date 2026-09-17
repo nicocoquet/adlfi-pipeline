@@ -1,10 +1,11 @@
 # Fichiers générés
 
-Ce dossier est alimenté automatiquement par GitHub Actions.
+Ce dossier est alimenté automatiquement par GitHub Actions :
 
-- `xml/` contient les XML enrichis ;
-- `reports/` contient, pour chaque XML, un rapport TXT lisible et un rapport
-  CSV exploitable dans un tableur.
+- `preparation/xml/` et `preparation/reports/` contiennent les XML préparés et
+  leur rapport TXT ;
+- `pactols/xml/` et `pactols/reports/` contiennent les XML indexés ainsi que
+  leurs rapports TXT et CSV.
 
-Les fichiers absents ou ambigus dans PACTOLS restent inchangés dans le XML et
-sont consignés dans les rapports.
+Les deux familles de résultats sont séparées afin que les traitements puissent
+être utilisés indépendamment ou successivement.

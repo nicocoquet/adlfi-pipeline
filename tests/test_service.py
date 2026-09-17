@@ -5,6 +5,7 @@ from fastapi import HTTPException
 from fastapi.testclient import TestClient
 
 from service.app import (
+    MODULES,
     Settings,
     allowed_return_url,
     create_app,
@@ -44,6 +45,14 @@ def test_return_url_is_limited_to_pages_url():
 
 def test_output_basename_is_case_insensitive():
     assert filename_without_xml("notice.XML") == "notice"
+
+
+def test_modules_use_separate_inputs_outputs_and_workflows():
+    assert MODULES["preparation"]["input_dir"] == "input/preparation"
+    assert MODULES["pactols"]["input_dir"] == "input/pactols"
+    assert MODULES["preparation"]["workflow"] != MODULES["pactols"]["workflow"]
+    assert MODULES["preparation"]["outputs"]["xml"].startswith("generated/preparation/")
+    assert MODULES["pactols"]["outputs"]["xml"].startswith("generated/pactols/")
 
 
 def test_health_endpoint():
