@@ -1,0 +1,53 @@
+Rapport d’enrichissement PACTOLS
+
+Fichier : Drassm_2020_Bretagne.xml
+SHA-256 du fichier : ae7a1314f0a7c4bb137753edd6fafa0257fed91dd320ac3905888b38596ed633
+Référentiel PACTOLS : PACTOLS 2026-07-22 (69bf9697e24cefd645a69465bbd271702786285a)
+SHA-256 Sujets : cd38ef8bd875e96ed9220274ecc12a679b382a520779654eb3bf8141fd16e98b
+SHA-256 Chronologie : ea081dcc12d7cc1f1a74ad5aeeca2c90b1733999dba6b41f97ac85843003eaaa
+SHA-256 Concepts dépréciés : 6a60f6b3da9682d216514e9167bfee7233013000e3d1c713e493f2d400a5771b
+
+Concepts rencontrés : 62
+indexed_exact : 57
+indexed_typographic : 1
+not_found : 4
+
+Avertissements : 0
+
+Exceptions : 4
+
+NOTICE : Au large de Penmarch – Identification de la frégate La Volontaire
+PARAGRAPHE : p77
+ZONE : subjects
+VALEUR : lest
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Au large de Penmarch – Identification de la frégate La Volontaire
+PARAGRAPHE : p81
+ZONE : fieldwork_method
+VALEUR : sondage programmé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Au large de l’île de Groix – Le Frelon, l’épave de Locmaria
+PARAGRAPHE : p136
+ZONE : subjects
+VALEUR : lest
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Au large de la Bretagne, Charente-Maritime, Loire-Atlantique – Atlas archéologique des biens culturels maritimes de l’Arc atlantique
+PARAGRAPHE : p159
+ZONE : subjects
+VALEUR : ligne de défense
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
