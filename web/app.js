@@ -272,6 +272,7 @@
 
   async function loadSession() {
     if (!apiBaseUrl) { updateSession(null); account.message.textContent = "Le service de connexion GitHub reste à configurer."; return; }
+    if (!state.session) { updateSession(null); account.message.textContent = ""; return; }
     try {
       const session = await api("/auth/session");
       if (session?.user && !allowedUsers.has(session.user.login)) throw new Error("Ce compte GitHub n’est pas autorisé à utiliser cette interface.");
