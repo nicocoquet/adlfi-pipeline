@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Enrichissement déterministe de fichiers XML-TEI avec le thésaurus Pactols.">
-    <title>Pactols — Enrichir un fichier XML-TEI</title>
+    <meta name="description" content="Outils de traitement et d’enrichissement des fichiers XML-TEI de la revue AdlFI.">
+    <title>AdlFI — Traitement des fichiers XML-TEI</title>
     <link rel="stylesheet" href="styles.css">
     <script src="config.js"></script>
     <script src="app.js" defer></script>
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="./" aria-label="Accueil du service d’enrichissement Pactols">
+      <a class="brand" href="./" aria-label="Accueil des outils XML AdlFI">
         <span class="brand-mark" aria-hidden="true">
           <img src="assets/pactols.png" alt="" width="25" height="32">
         </span>
         <span>
-          <strong>Automatisation de l’indexation Pactols</strong>
+          <strong>Outils XML pour AdlFI</strong>
           <small>XML-TEI pour l’édition en archéologie</small>
         </span>
       </a>
@@ -27,10 +27,51 @@
     </header>
 
     <main>
-      <section class="workspace" aria-labelledby="page-title">
+      <section class="page-intro" aria-labelledby="page-title">
+        <p class="eyebrow">Archéologie de la France – Informations</p>
+        <h1 id="page-title">Traitement des fichiers XML-TEI</h1>
+        <p class="lead">
+          Des modules indépendants accompagnent la préparation et l’enrichissement des fichiers
+          XML produits avec Métopes, tout en conservant les sources et en documentant chaque traitement.
+        </p>
+      </section>
+
+      <section class="workspace workspace--module workspace--graphic" aria-labelledby="graphic-title">
         <div class="introduction">
-          <p class="eyebrow">Archéologie de la France – Informations</p>
-          <h1 id="page-title">Indexation Pactols</h1>
+          <p class="eyebrow">01 · Module en préparation</p>
+          <h2 id="graphic-title">Intégration des illustrations</h2>
+          <p class="lead">
+            Ce module ajoutera automatiquement les balises <code>&lt;graphic&gt;</code> attendues
+            dans le fichier XML à partir des informations éditoriales relatives aux illustrations.
+          </p>
+        </div>
+
+        <div class="service-panel service-panel--pending">
+          <div class="session-bar module-status" data-state="pending">
+            <span class="session-indicator" aria-hidden="true"></span>
+            <span>Fonctionnalité en préparation</span>
+          </div>
+
+          <div class="drop-panel drop-panel--disabled" aria-disabled="true">
+            <div class="file-symbol" aria-hidden="true">
+              <svg viewBox="0 0 48 56" role="img">
+                <path d="M8 2h21l11 11v39a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z" />
+                <path d="M29 2v12h11M18 27l-5 6 5 6M30 27l5 6-5 6M27 24l-6 18" />
+              </svg>
+            </div>
+            <h3>Déposer un fichier XML</h3>
+            <p>Le dépôt sera activé après validation des modèles XML avant et après intégration.</p>
+            <button type="button" disabled>Sélectionner un fichier</button>
+            <p class="format">Un seul fichier par traitement</p>
+            <p class="upload-status">Module bientôt disponible.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace workspace--module workspace--pactols" aria-labelledby="pactols-title">
+        <div class="introduction">
+          <p class="eyebrow">02 · Module opérationnel</p>
+          <h2 id="pactols-title">Indexation Pactols</h2>
           <p class="lead">
             Les correspondances certaines (mots-clés, chronologie et natures d’opération) sont
             enrichies en lot avec leur ARK, leurs traductions et leur hiérarchie Pactols.
@@ -139,8 +180,8 @@
 
       <section class="principles" aria-labelledby="principles-title">
         <div>
-          <p class="section-number">01</p>
-          <h2 id="principles-title">Ce que fait le traitement</h2>
+          <p class="section-number">03</p>
+          <h2 id="principles-title">Ce que fait l’indexation Pactols</h2>
         </div>
         <div class="principle-grid">
           <article>
@@ -161,7 +202,7 @@
       <section class="outputs" aria-labelledby="outputs-title">
         <div class="outputs-heading">
           <div>
-            <p class="section-number">02</p>
+            <p class="section-number">04</p>
             <h2 id="outputs-title">Trois fichiers à récupérer</h2>
           </div>
           <p>Chaque résultat mentionne la version du référentiel Pactols employée.</p>
