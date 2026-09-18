@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI
+change="commons_edition"
+xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:ns5="http://www.w3.org/1999/xlink"
+xmlns:ns4="http://www.w3.org/2001/XInclude"
+xmlns:ns3="http://www.w3.org/1998/Math/MathML"
+xmlns:ns="http://www.tei-c.org/ns/1.0"
+><teiHeader
+><fileDesc
+><titleStmt
+><title
+type="main"
+>2020</title
+></titleStmt
+><publicationStmt
+><ab
+type="expression"
+><bibl
+><publisher
+></publisher
+><availability
+ana="aiPolicy:default-opt-in"
+><licence
+target="#"
+></licence
+><p
+></p
+></availability
+></bibl
+></ab
+><ab
+type="book"
+><bibl
+><date
+type="publishing"
+></date
+><biblScope
+from="na"
+unit="page"
+></biblScope
+></bibl
+></ab
+><ab
+subtype="PDF"
+type="digital_download"
+><bibl
+><idno
+subtype="-"
+type="DOI"
+></idno
+><ref
+type="DOI"
+></ref
+><ref
+type="site"
+></ref
+><distributor
+></distributor
+><date
+type="publishing"
+></date
+><dim
+type="weight"
+unit="Mo"
+></dim
+></bibl
+></ab
+><ab
+subtype="EPUB"
+type="digital_download"
+><bibl
+><idno
+subtype="-"
+type="DOI"
+></idno
+><ref
+type="DOI"
+></ref
+><ref
+type="site"
+></ref
+><distributor
+></distributor
+><date
+type="publishing"
+></date
+><dim
+type="weight"
+unit="Ko"
+></dim
+></bibl
+><desc
+type="accessMode"
+>textual</desc
+><desc
+type="accessibilityFeature"
+>ARIA</desc
+><desc
+type="accessibilityFeature"
+>highContrastDisplay</desc
+><desc
+type="accessibilityFeature"
+>readingOrder</desc
+><desc
+type="accessibilityFeature"
+>structuralNavigation</desc
+><desc
+type="accessibilityFeature"
+>tableOfContents</desc
+><desc
+type="accessibilityFeature"
+>unlocked</desc
+><desc
+type="accessibilityFeature"
+>alternativeText</desc
+><desc
+subtype="soundHazard"
+type="accessibilityHazard"
+>noSoundHazard</desc
+><desc
+subtype="flashingHazard"
+type="accessibilityHazard"
+>noFlashingHazard</desc
+><desc
+subtype="motionSimulationHazard"
+type="accessibilityHazard"
+>noMotionSimulationHazard</desc
+><desc
+type="accessModeSufficient"
+>textual</desc
+><desc
+type="accessibilitySummary"
+>Cette publication est conforme aux normes d’accessibilité WCAG 2.0, au moins au niveau A.</desc
+></ab
+><ab
+subtype="HTML"
+type="digital_online"
+><bibl
+><distributor
+>OpenEdition</distributor
+><name
+type="CMS"
+>Lodel 1</name
+><idno
+subtype="-"
+type="DOI"
+></idno
+><ref
+type="DOI"
+></ref
+><ref
+type="site"
+></ref
+><date
+type="publishing"
+></date
+><date
+type="embargoend"
+></date
+><date
+type="early"
+when="2026-09-21"
+></date
+><idno
+type="documentnumber"
+></idno
+></bibl
+></ab
+></publicationStmt
+><sourceDesc
+><bibl
+></bibl
+></sourceDesc
+></fileDesc
+><encodingDesc
+><appInfo
+><application
+ident="Word-tpl"
+version="1.0"
+><label
+>Word template</label
+><desc
+>Version of MS Word template used</desc
+><ref
+target="#"
+></ref
+></application
+><application
+ident="circe-Metopes"
+version="0.0.103"
+><label
+>Circé</label
+><desc
+>Document converted into TEI using Circé application (doc2tei pipeline).</desc
+><ref
+target="#"
+></ref
+></application
+><application
+ident="commons-publishing-metopes"
+version="1.0"
+><label
+>Schéma XML-TEI</label
+><desc
+>Commons Publishing Métopes 1.0</desc
+><ref
+target="#"
+></ref
+></application
+></appInfo
+><tagsDecl
+><rendition
+scheme="css"
+xml:id="list-ndash"
+>list-style-type:"–";</rendition
+></tagsDecl
+><editorialDecl
+><normalization
+rendition="notes"
+><p
+rendition="note"
+select="restart"
+></p
+><p
+rendition="table"
+select="restart"
+></p
+><p
+rendition="annexe"
+select="restart"
+></p
+><p
+rendition="floatingText"
+select="restart"
+></p
+></normalization
+><normalization
+rendition="quotes"
+><p
+rendition="rom"
+select="romain"
+></p
+><p
+rendition="ital"
+select="romain"
+></p
+></normalization
+></editorialDecl
+></encodingDesc
+><profileDesc
+><langUsage
+><language
+ident="fr-FR"
+></language
+></langUsage
+></profileDesc
+><revisionDesc
+><listChange
+><change
+type="creation"
+when="2026-09-18"
+>XML-TEI file creation</change
+></listChange
+></revisionDesc
+></teiHeader
+><text
+type="feature"
+xml:id="text"
+><front
+><div
+type="titlePage"
+><p
+rend="title-main"
+>2020</p
+></div
+></front
+><body
+><div
+subtype="rubrique"
+type="section1"
+xml:id="div01"
+><head
+>Littoral Manche-Mer du Nord</head
+><div
+subtype="notice"
+type="section2"
+xml:id="div02"
+><head
+>Au large de Granville – Les estrans des îlots de Chausey</head
+><p
+rend="archeo_type"
+xml:id="p1"
+>Prospection inventaire (2020)</p
+><p
+rend="archeo_authority"
+xml:id="p2"
+><name
+role="aut fld"
+>Henri Gandois</name
+><affiliation
+xml:id="aff01"
+>CreAAH UMR 6566</affiliation
+></p
+><p
+rend="archeo_authority"
+xml:id="p3"
+><name
+role="aut"
+>Yvon Dréano</name
+></p
+><p
+rend="archeo_authority"
+xml:id="p4"
+><name
+role="aut"
+>Laurent Quesnel</name
+><affiliation
+xml:id="aff02"
+>CreAAH UMR 6566</affiliation
+></p
+><p
+rend="archeo_authority"
+xml:id="p5"
+><name
+role="aut"
+>Clémentine Rime</name
+></p
+><p
+rend="archeo_authority"
+xml:id="p6"
+><name
+role="aut"
+>Jimena Torres Elgueta</name
+><affiliation
+xml:id="aff03"
+>Universitad de Magallanes</affiliation
+></p
+><p
+rend="archeo_keywords_subjects"
+xml:id="p7"
+>estran, pêcherie, barrage, amas coquillier, lest, murex, pourpre (teinture)</p
+><p
+rend="archeo_keywords_subjects:chronology"
+xml:id="p8"
+>époque mérovingienne</p
+><p
+rend="archeo_IDpatriarche"
+xml:id="p9"
+>Numéro d’opération : <idno
+type="patriarche"
+>304499</idno
+></p
+><p
+rend="archeo_fieldwork_year"
+xml:id="p10"
+>Année de l’opération : <date
+>2020</date
+></p
+><p
+rend="archeo_fieldwork_method"
+xml:id="p11"
+>Nature de l’opération : prospection inventaire</p
+><p
+rend="archeo_holder"
+xml:id="p12"
+>Organisme porteur de l’opération : CreAAH UMR 6566</p
+><p
+rend="archeo_reportlink"
+xml:id="p13"
+><hi
+rend="bold"
+>Gandois H., Torres Elgueta J. (dir.) 2020</hi
+> : <hi
+rend="italic"
+>Rapport d’opération de prospections archéologiques sur le domaine public maritime dans l’archipel de Chausey (Granville, Manche)</hi
+>, 89 p.</p
+><p
+xml:id="p14"
+>Lors des marées d’équinoxe d’automne 2020, une opération de prospection a eu lieu sur les estrans autour des îles et îlots de l’archipel de Chausey (Granville, Manche). Cette opération faisait suite à une première campagne qui s’est déroulée en 2019, mais qui n’avait concerné alors que les estrans des îles et îlots accessibles à pied à basse mer à partir de Grande Île (Gandois <hi
+rend="italic"
+>et al</hi
+>. 2019). L’opération de 2019 faisait elle-même suite à des prospections organisées sur la partie terrestre et les microfalaises de Grande Île (Sévin-Allouet <hi
+rend="italic"
+>et al</hi
+>. 2014). En outre un pré-inventaire des barrages de pêcherie avait été réalisé l’année suivante (Langouët 2015) en se basant sur les photographies aériennes, l’auteur insistant sur la nécessité de vérifier ces informations par une visite sur le terrain.</p
+><p
+xml:id="p15"
+>Cette opération visait donc à compléter et terminer les prospections sur le DPM de l’archipel et donc :</p
+><list
+rendition="#list-ndash"
+type="unordered"
+xml:id="list1"
+><item
+><p
+xml:id="p16"
+>repérer, documenter et caractériser d’éventuels sites en microfalaise sur les îles et îlots,</p
+></item
+><item
+><p
+xml:id="p17"
+>réaliser des prélèvements sur ces sites afin si possible de les dater ;</p
+></item
+><item
+><p
+xml:id="p18"
+>valider et compléter l’inventaire des barrages de pêcherie et autres structures liées à la pêche.</p
+></item
+></list
+><p
+xml:id="p19"
+>Ce sont maintenant 40 sites ou indices de sites qui sont connus sur les estrans et en microfalaise dans l’archipel de Chausey (fig. 1).</p
+><figure
+xml:id="figure01"
+><head
+><hi
+rend="bold"
+>Fig. 1 –</hi
+> <hi
+rend="bold"
+>A, </hi
+>la zone d’estran parcourue lors des prospections (en rouge 2019, en violet 2020) ; <hi
+rend="bold"
+>B, </hi
+>localisation des sites et indices de sites identifiés lors des prospections (en rouge 2019, en bleu 2020)</head
+><p
+rend="credits"
+>A, d’après la carte SHOM n<hi
+rend="sup"
+>o</hi
+> 829 levée en 1831 par les ingénieurs hydrographes de la Marine, sous les ordres de M. Beautemps Beaupré, Hurel <hi
+rend="italic"
+>et al</hi
+>. 2006 ; B, Géoportail IGN.</p
+></figure
+><p
+xml:id="p20"
+>La mission s’est déroulée sur un peu moins d’une semaine, du 17 au 21 septembre inclus, avec un coefficient de marée maximal de 113 le samedi 19 septembre. Étant donnée la localisation des îlots à prospecter, des moyens nautiques étaient nécessaires (kayaks) pour y accéder, permettant donc de s’affranchir des coefficients ; néanmoins certaines structures potentielles étant très basses sur l’estran, la période de l’équinoxe a été privilégiée afin de pouvoir bénéficier d’un marnage important. Ce sont au final les estrans autour de 13 îlots qui ont été prospectés ; certains sites découverts l’année dernière ont été également revus.</p
+><p
+xml:id="p21"
+>Malgré des espoirs importants notamment en termes d’amas coquilliers en microfalaise, les résultats de cette année sont décevants. Durant cette opération ce sont 2 barrages de pêcherie, 2 doubles lignes de lests de filet, 2 amas coquilliers (dont un parfaitement contemporain) et 4 autres sites avec du mobilier épars qui ont pu être documentés. L’objectif était de visiter tous les îlots avec une partie végétalisée qui n’avaient pu être prospectés en 2019. Ceci n’a été que partiellement rempli car les Huguenants, la Vache et le petit îlot au nord d’Aneret n’ont pour leur part pas été vus.</p
+><p
+xml:id="p22"
+>Les pêcheries et structures assimilées témoignent d’une variabilité importante dans leurs méthodes de constructions (fig. 2). Sur Chausey, on dénombre au final :</p
+><list
+rendition="#list-ndash"
+type="unordered"
+xml:id="list2"
+><item
+>trois barrages en V constitués de pierres servant vraisemblablement à caler des éléments en matière organique de type clayonnage ;</item
+><item
+>deux pêcheries rectilignes avec des éléments de calage en pierre également dont l’une pouvait peut-être aussi accueillir un filet étant donné le petit module des pierres ;</item
+><item
+>deux pêcheries en arc de cercle dont l’élévation permet de penser qu’il n’y avait pas de structure en matériau organique sauf très probablement au niveau des pertuis ;</item
+><item
+>deux doubles lignes de lests de filets.</item
+></list
+><figure
+xml:id="figure02"
+><head
+><hi
+rend="bold"
+>Fig. 2 –</hi
+> Exemples de barrages de pêcherie inventoriés sur l’archipel de Chausey</head
+><p
+rend="caption"
+><hi
+rend="bold"
+>A,</hi
+> vue oblique par hélicoptère du barrage en arc de cercle des Meulettes, site n<hi
+rend="sup"
+>o</hi
+> 58 ; <hi
+rend="bold"
+>B,</hi
+> vue oblique du barrage en arc de cercle des Moines, site n<hi
+rend="sup"
+>o</hi
+> 23 ; <hi
+rend="bold"
+>C,</hi
+> vue du barrage en V de Port Homard, site n<hi
+rend="sup"
+>o</hi
+> 49 ; <hi
+rend="bold"
+>D,</hi
+> vue aérienne du barrage en V au nord de la Meule.</p
+><p
+rend="credits"
+>Cliché A : A. Guigny (SYMEL) ; clichés B et C : H. Gandois ; cliché D : Géoportail IGN.</p
+></figure
+><p
+xml:id="p23"
+>Trois autres structures sont plus problématiques en raison de leur mode de construction et de leur emplacement sur l’estran. Faites de gros blocs non jointifs et placés de chant, il est tentant de les rapprocher du cromlech de l’œillet et des alignements l’avoisinant, même si cette hypothèse reste bien fragile (fig. 3).</p
+><figure
+xml:id="figure03"
+><head
+><hi
+rend="bold"
+>Fig. 3 –</hi
+> Dalles plantées de chant en arc de cercle sur estran, site n<hi
+rend="sup"
+>o</hi
+> 27</head
+><p
+rend="credits"
+>Clichés : H. Gandois ; réalisation : L. Quesnel (CNRS, UMR 6566 CReAAH).</p
+></figure
+><p
+xml:id="p24"
+>La problématique des datations est essentielle concernant ces structures, et en l’absence de tout élément organique permettant une datation radiocarbone, la méthode se basant sur la courbe de remontée du niveau marin est privilégiée. Elle l’a été avec succès dans le cadre de pêcheries de la mer d’Iroise (Gandois <hi
+rend="italic"
+>et al</hi
+>. 2018) et est actuellement en train d’être testée sur les structures normandes (P. Stéphan, CNRS, UMR 6554 LETG). Il faut néanmoins rester conscient que les conditions particulières de l’archipel de Chausey, à savoir des fonds sableux qui empêchent d’estimer clairement la hauteur des barrages, un marnage exceptionnel et des mouvements sédimentaires importants, constituent une véritable gageure. L’inventaire établi ici de ce type de structure ne peut pas être exhaustif, les mouvements de sable et de vase, toujours imprévisibles, peuvent masquer ou bien faire apparaître des structures similaires, c’est pourquoi un suivi régulier est nécessaire.</p
+><p
+xml:id="p25"
+>En outre ce sont maintenant 15 amas coquilliers qui sont documentés sur l’archipel de Chausey. Beaucoup d’entre eux sont en lien avec les activités de carriers et/ou de goémoniers. Cependant quatre sont clairement spécialisés dans l’extraction de glandes tinctoriales de pourpres (<hi
+rend="italic"
+>Nucella lapillus</hi
+>) et de murex (<hi
+rend="italic"
+>Ocenebra orinaceus</hi
+>) (Dupont 2013) (fig. 4).</p
+><figure
+xml:id="figure04"
+><head
+><hi
+rend="bold"
+>Fig. 4 –</hi
+> Amas coquilliers spécialisés dans l’extraction des glandes tinctoriales de pourpres et de murex datés de l’époque mérovingienne</head
+><p
+rend="caption"
+><hi
+rend="bold"
+>A,</hi
+> pointe de l’Enfer, Grande Île, site n<hi
+rend="sup"
+>o</hi
+> 9, vue de l’amas vers le nord et relevé ; <hi
+rend="bold"
+>B,</hi
+> Le Hérisset, site n<hi
+rend="sup"
+>o</hi
+> 33, vue de détail et relevé de la zone de plus grande concentration de pourpres et de murex.<lb
+></lb
+><hi
+rend="bold"
+>US 009.001,</hi
+> dune végétalisée ; <hi
+rend="bold"
+>US 009.002,</hi
+> amas coquillier lité à matrice sableuse micacée argileuse brun-noir ; <hi
+rend="bold"
+>US 009.002a,</hi
+> niveau riche en patelles et en petits gastéropodes ; <hi
+rend="bold"
+>US 009.002b,</hi
+> niveau matrice dominante incluant quelques gastéropodes et de rares huîtres ; <hi
+rend="bold"
+>US 009.002c,</hi
+> niveau très riche en gastéropodes ; <hi
+rend="bold"
+>US 009.003,</hi
+> colluvions sablo-graveleuses (arène granitique) pédogénétisées (composante argileuse brune) ; <hi
+rend="bold"
+>US 009.004,</hi
+> limon argileux à légère composante et de rares blocs de granite altéré, tente brun orangé, lentille de galets (placage de fond de grotte ?) ; <hi
+rend="bold"
+>US 009.005,</hi
+> sable moyen oxydé, brun-rouge, emballant des galets, sable littoral reposant sur une plate-forme d’abrasion marine.</p
+><p
+rend="credits"
+>Cliché A : H. Gandois ; relevé A : d’après Sévin-Allouet <hi
+rend="italic"
+>et al.</hi
+> 2014, fig. 19, p. 32 ; relevé B : H. Gandois, L. Quesnel, Y. Dréano ; DAO : C. Rime.</p
+></figure
+><p
+xml:id="p26"
+>Deux de ces amas ont été datés (sur os) de la période mérovingienne et les deux autres sont en cours de datation (sur os et charbon ; les quatre amas sont également en cours de datation sur coquille de pourpre afin d’estimer l’effet réservoir) ; on peut émettre raisonnablement l’hypothèse que la même période leur sera attribuée. D’un point de vue archéologique, la période mérovingienne n’était à ce jour absolument pas représentée sur l’archipel ; au niveau historique, à part une vague mention de deux ermites au <hi
+rend="small-caps"
+>vi</hi
+><hi
+rend="sup"
+>e</hi
+> s., rien n’est documenté non plus. L’absence quasi totale d’artefacts se rattachant à la culture matérielle dans les amas pourrait indiquer des missions spécialisées venant du continent pour aller collecter pourpres et murex. La pourpre à l’époque mérovingienne, et ce perpétuant une tradition romaine, était réservée aux plus hautes élites comme en témoignent les vêtements teintés de pourpre des souverains mérovingiens Childéric et Arégonde. Les études, notamment malacologiques, concernant ces dépôts spécialisés sont en cours. Des microsondages en arrière des amas coquilliers avec pourpres et murex sont envisagés, afin de connaître leur étendue. Celui du Hérisset ainsi que celui de la pointe de l’Enfer pourraient être de très grandes dimensions.</p
+><p
+xml:id="p27"
+>Les opérations vont se poursuivre sur l’archipel avec une étude des données LiDAR maintenant disponibles. Divers alignements de pierres autour du cromlech sont suspectés et une demande de prospection géomagnétique pourrait être déposée, tout comme une demande de sondage sur celui-ci afin de trouver des éléments datants.</p
+><p
+xml:id="p28"
+>Une demande de prospection sur la partie terrestre va être déposée pour l’année 2021, elle va concerner la Grande Île, la Genêtaie, le Hérisset, la Houlée et la Meule. Un relevé précis avec modélisation en trois dimensions des structures mégalithique va être réalisé. En effet certaines structures ne sont connues que via quelques relevés ou photos (notamment sur la Genêtaie) voire uniquement par de simples mentions. L’inventaire avec une documentation précise doit donc être complété.</p
+><div
+type="feature_bibliography"
+xml:id="bibliography-feature1"
+><head
+>Bibliographie</head
+><bibl
+xml:id="bibl001"
+><hi
+rend="bold"
+>Dupont C. 2013</hi
+> : Teinture et exploitation du pourpre <hi
+rend="italic"
+>Nucella lapillus</hi
+> le long du littoral atlantique français, <hi
+rend="italic"
+>in</hi
+> Daire M.-Y., Dupont C., Baudry A., Billard C., Large J.-M., Lespez L., Normand É., Scarre C. (dir.),<hi
+rend="italic"
+> Anciens peuplements littoraux et relations homme/milieu sur les côtes de l’Europe atlantique</hi
+>, Actes du colloque HOMER 2011, Vannes, 28 septembre-1<hi
+rend="sup"
+>er</hi
+> octobre 2011, Oxford, Archaeopress (coll. British Archaeological Reports, International Series 2570), p. 459-467.</bibl
+><bibl
+xml:id="bibl002"
+><hi
+rend="bold"
+>Gandois H., Cuisinier D., Ehrhold A., Franzetti M., Hulot O., Le Dantec N., Paul M., Stephan P. 2018</hi
+>: The stone tidal fish weirs of the Molène Archipelago, Iroise Sea, Brittany, Western France: A long-term tradition with early megalithic origins, <hi
+rend="italic"
+>International Journal of Nautical Archaeology</hi
+>, 47-1, p. 1-23.</bibl
+><bibl
+xml:id="bibl003"
+><hi
+rend="bold"
+>Gandois H., Torres Elgueta J. (dir.), avec la contrib. de Quesnel L., Rime C. et la collab. de Dréano Y. 2019</hi
+> : <hi
+rend="italic"
+>Rapport d’opérations de prospections archéologiques sur le domaine public maritime dans l’archipel de Chausey (Granville, Manche)</hi
+>, opération n<hi
+rend="sup"
+>o</hi
+> OA-3817, Drassm, 81 p.</bibl
+><bibl
+xml:id="bibl004"
+><hi
+rend="bold"
+>Hurel C., Hurel G., Eve J.-L. 2006</hi
+> : <hi
+rend="italic"
+>Îles Chausey – Histoire des toponymes</hi
+>, Saint-Lô, Aquarelles Ed., 152 p.</bibl
+><bibl
+xml:id="bibl005"
+><hi
+rend="bold"
+>Langouët L. 2015</hi
+> : Pré-inventaire des pêcheries des îles Chausey, <hi
+rend="italic"
+>Bulletin de l’Amarai,</hi
+> 28, p. 21-28.</bibl
+><bibl
+xml:id="bibl006"
+><hi
+rend="bold"
+>Sevin-Allouet C. (dir.), Fouriaux F., Gautier N., Huet M., Laforge M., avec les contrib. de Audouard L., Hamon G., Bailiff I. et la collab. de Rivière J. 2014</hi
+> : <hi
+rend="italic"
+>Rapport de prospection, Of Men and Islands : Programme archéologique des îles Chausey (Granville – Manche) – Rapport n</hi
+><hi
+rend="italic sup"
+>o</hi
+><hi
+rend="italic"
+> 1</hi
+>, opérations n<hi
+rend="sup"
+>os</hi
+> 16-3515 et 16-3585, 114 p.</bibl
+></div
+></div
+><div
+subtype="notice"
+type="section2"
+xml:id="div04"
+><head
+>Au large de Réville – La fosse clayonnée de la pointe Dranguet</head
+><p
+rend="archeo_type"
+xml:id="p29"
+>Fouille d’urgence (2020)</p
+><p
+rend="archeo_authority"
+xml:id="p30"
+><name
+role="aut fld"
+>Henri Gandois</name
+><affiliation
+xml:id="aff04"
+>CReAAH UMR 6566</affiliation
+></p
+><p
+rend="archeo_authority"
+xml:id="p31"
+><name
+role="aut fld"
+>Cécile Sauvage</name
+><affiliation
+xml:id="aff05"
+>Drassm</affiliation
+></p
+><p
+rend="archeo_authority"
+xml:id="p32"
+><name
+role="aut"
+>Catherine Lavier</name
+><affiliation
+xml:id="aff06"
+>C2RMF</affiliation
+></p
+><p
+rend="archeo_keywords_subjects"
+xml:id="p33"
+>estran, fosse, clayonnage</p
+><p
+rend="archeo_keywords_subjects:chronology"
+xml:id="p34"
+>premier âge du Fer</p
+><p
+rend="archeo_IDpatriarche"
+xml:id="p35"
+>Numéro d’opération : <idno
+type="patriarche"
+>303920</idno
+></p
+><p
+rend="archeo_fieldwork_year"
+xml:id="p36"
+>Année de l’opération : <date
+>2020</date
+></p
+><p
+rend="archeo_fieldwork_method"
+xml:id="p37"
+>Nature de l’opération : fouille préventive</p
+><p
+rend="archeo_holder"
+xml:id="p38"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rend="archeo_reportlink"
+xml:id="p39"
+><hi
+rend="bold"
+>Gandois H., Lavier C., Sauvage C. 2020</hi
+> : <hi
+rend="italic"
+>Rapport d’opération (fouilles archéologiques d’urgence en contexte d’estran), pointe du Dranguet, Réville (Manche)</hi
+>, 58 p.</p
+><p
+xml:id="p40"
+>Une opération sur une fosse clayonnée à la pointe de Dranguet (Réville, 50) (EA 304436) s’est déroulée sur une journée, et plus précisément sur le temps d’une marée le 28 février 2019 (fig. 1). Elle a permis de terminer la fouille entreprise en décembre 2015 d’un premier quart de cette structure en creux circulaire (Gandois dir. 2015). La fosse a pu être vidée entièrement et relevée via des modèles photogrammétriques en trois dimensions, méthode qui a été privilégiée étant donné le peu de temps d’intervention disponible. Très peu de mobilier a été retrouvé dans le comblement et ce dernier n’est pas diagnostique, il renvoie simplement à la Protohistoire au sens large. Quatre nouvelles datations ont été réalisées, elles confirment l’attribution au premier âge du Fer déjà obtenue sur un premier prélèvement de 2015.</p
+><figure
+xml:id="figure05"
+><head
+><hi
+rend="bold"
+>Fig. 1</hi
+> – Localisation du site</head
+><p
+rend="credits"
+>Source : Géoportail IGN ; DAO : H. Gandois.</p
+></figure
+><p
+xml:id="p41"
+>La fosse se caractérise par un creusement dans le substrat limono-lœssique argileux, creusement dont les parois ont été tapissées d’une tangue gris-bleu imperméable traduisant ainsi une volonté d’étanchéifier la structure (fig. 2). Les parois ont été ensuite renforcées par un dispositif en clayonnage fait de branche de bouleau de quelques centimètres de diamètre (fig. 3, A). L’étude de ces branches montre qu’elles ont été coupées à la fin de l’été ou au début de l’automne et qu’elles ont été mises en place peu de temps après leur coupe. La structure dispose d’un dispositif d’accès (fig. 3, B) aménagé sous la forme d’un escalier fait de blocs roulés en granite dont la dernière assise repose sur des longerons horizontaux disposés à travers le clayonnage. Cette structure est en tous points similaire à celle qui a été fouillée juste au nord dans l’anse de Fouly et elle aussi datée du premier âge du Fer (Gandois, Marcigny dir. 2016).</p
+><figure
+xml:id="figure06"
+><head
+><hi
+rend="bold"
+>Fig. 2 –</hi
+> <hi
+rend="bold"
+>A,</hi
+> stratigraphie observée dans l’anse de Fouly à 500 m au nord ; <hi
+rend="bold"
+>B,</hi
+> vue de la fosse avant intervention en décembre 2015</head
+><p
+rend="caption"
+>Les trois unités stratigraphiques (002, 004 et 005) sont bien visibles.</p
+><p
+rend="credits"
+>DAO : M. Laforge (Éveha), H. Gandois.</p
+></figure
+><figure
+xml:id="figure07"
+><head
+><hi
+rend="bold"
+>Fig. 3 –</hi
+> <hi
+rend="bold"
+>A,</hi
+> vue de détail du dispositif de clayonnage en bouleau ; <hi
+rend="bold"
+>B,</hi
+> vue zénithale de fin de fouille</head
+><p
+rend="caption"
+>Noter le dispositif d’accès en haut à droite.</p
+><p
+rend="credits"
+>Clichés : H. Gandois.</p
+></figure
+><p
+xml:id="p42"
+>La fonction de la fosse n’est pas connue de manière certaine et plusieurs hypothèses peuvent être évoquées comme un puits, un puisard pour capter des résurgences d’eau douce, une fosse de rouissage (certaines sont documentées au premier âge du Fer en Angleterre) ou bien encore une fosse pour concentrer de la saumure afin d’obtenir du sel, ou enfin un vivier, autant de structures offrant des caractéristiques relativement similaires. Néanmoins, selon nous l’hypothèse la plus crédible reste celle du vivier qui correspond le mieux aux principales caractéristiques de la fosse de Dranguet, à savoir :</p
+><list
+rendition="#list-ndash"
+type="unordered"
+xml:id="list3"
+><item
+><p
+xml:id="p43"
+>étanchéification de la structure avec une tangue bleue très imperméable ;</p
+></item
+><item
+><p
+xml:id="p44"
+>mise en place dans un milieu humide proche de l’estran ;</p
+></item
+><item
+><p
+xml:id="p45"
+>maintien de l’ensemble avec un clayonnage en bouleau collé contre la tangue ;</p
+></item
+><item
+><p
+xml:id="p46"
+>dispositif d’accès.</p
+></item
+></list
+><p
+xml:id="p47"
+>La densité de structures en creux sur la zone est importante, mais elles ne sont pas toutes synchrones car des datations du Bronze ancien, mais également de la seconde moitié du III<hi
+rend="sup"
+>e</hi
+> millénaire av. J.-C. ont aussi été obtenues (Gandois, Marcigny dir. 2016).</p
+><p
+xml:id="p48"
+>À 1 500 m au nord une autre structure en clayonnage, semblable à celles de la pointe de Dranguet et de l’anse de Fouly, a été aperçue lors d’un fort amaigrissement de la plage, indiquant peut-être un prolongement du site nettement plus au nord.</p
+><p
+xml:id="p49"
+>Les désensablements sur la côte de Réville sont de plus en plus réguliers et importants, c’est pourquoi il était nécessaire de finir la fouille de cette structure avant qu’elle ne soit totalement effacée par la mer. L’érosion du trait de côte à cet endroit est d’environ 1 m par an sur les 45 dernières années (données ROLNHDF, Réseau d’observation du littoral de Normandie et des Hauts-de-France), et les structures archéologiques les plus avancées sur l’estran disparaissent inexorablement chaque année.</p
+><p
+xml:id="p50"
+>Hormis des objets isolés, le premier âge du Fer n’est que très peu attesté dans le nord Cotentin, mais ces découvertes, tout comme les deux dates obtenues sur deux poches cendreuses repérées en coupe de microfalaise sur l’île de Tatihou juste au sud (Gandois <hi
+rend="italic"
+>et al</hi
+>. 2019, p. 53-56), complètent l’inventaire. Cette opération vient donc affiner nos connaissances sur cette période, mais également documenter un type de structure (s’il s’agit bien d’un vivier) très peu connue et toujours très rare s’agissant d’éléments organiques.</p
+><div
+type="feature_bibliography"
+xml:id="bibliography-feature2"
+><head
+>Bibliographie</head
+><bibl
+xml:id="bibl007"
+><hi
+rend="bold"
+>Gandois H. (dir.) 2015</hi
+> : <hi
+rend="italic"
+>Rapport d’opération (fouilles archéologiques d’urgence en contexte d’estran), pointe de Dranguet, Réville (Manche)</hi
+>, opération n<hi
+rend="sup"
+>o</hi
+> OA-2895, Drassm, 25 p.</bibl
+><bibl
+xml:id="bibl008"
+><hi
+rend="bold"
+>Gandois H., Marcigny C. (dir.), avec les contrib. de Bernard V., Dréano Y., Farnie-Lobensteiner C., Laforge M., Rousseau L. et la collab. de Billard C., Quesnel L. 2016</hi
+> : <hi
+rend="italic"
+>Rapport final d’opération de sondages, anse de Fouly, Réville, Cotentin (Manche)</hi
+>, opération n<hi
+rend="sup"
+>o</hi
+> OA-2885, Drassm, 119 p.</bibl
+><bibl
+xml:id="bibl009"
+><hi
+rend="bold"
+>Gandois H., Marcigny C., Stéphan P. (dir.), avec les contrib. de Burlot A., Ghesquière E., Giazzon D., Gorcynska A., Lamache J.-L., Lereverrend J., Marie E., Palluau J.-M., Pedel N., Penaud A., Vidal M., Vipard L. 2019</hi
+> : <hi
+rend="italic"
+>Rapport final d’opération – Autour de Tatihou, étude du territoire de l’âge du Bronze au premier âge du Fer, prospections thématiques</hi
+>, opération n<hi
+rend="sup"
+>o</hi
+> 164143, Inrap Grand-Ouest, 101 p.</bibl
+></div
+></div
+><div
+subtype="notice"
+type="section2"
+xml:id="div06"
+><head
+>Au large de Dunkerque – Évaluations archéologiques conduites en 2020 sur la façade maritime Manche–Mer du Nord</head
+><p
+rend="archeo_type"
+xml:id="p51"
+>Prospection inventaire (2020)</p
+><p
+rend="archeo_authority"
+xml:id="p52"
+><name
+role="aut fld"
+>Cécile Sauvage</name
+><affiliation
+xml:id="aff07"
+>Drassm</affiliation
+></p
+><p
+rend="archeo_authority"
+xml:id="p53"
+><name
+role="aut"
+>Nicolas Bigourdan</name
+><affiliation
+xml:id="aff08"
+>Drassm</affiliation
+></p
+><p
+rend="archeo_authority"
+xml:id="p54"
+><name
+role="aut"
+>Denis Dégez</name
+><affiliation
+xml:id="aff09"
+>Drassm</affiliation
+></p
+><p
+rend="archeo_authority"
+xml:id="p55"
+><name
+role="aut"
+>Alexis Rochat</name
+><affiliation
+xml:id="aff10"
+>Drassm</affiliation
+></p
+><p
+rend="archeo_keywords_subjects"
+xml:id="p56"
+>navigation maritime, ancre</p
+><p
+rend="archeo_IDpatriarche"
+xml:id="p57"
+>Numéro d’opération : <idno
+type="patriarche"
+>304632</idno
+></p
+><p
+rend="archeo_fieldwork_year"
+xml:id="p58"
+>Année de l’opération : <date
+>2020</date
+></p
+><p
+rend="archeo_fieldwork_method"
+xml:id="p59"
+>Nature de l’opération : prospection inventaire</p
+><p
+rend="archeo_holder"
+xml:id="p60"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rend="archeo_reportlink"
+xml:id="p61"
+><hi
+rend="bold"
+>Sauvage C., Degez D., Rochat A.2020</hi
+> : <hi
+rend="italic"
+>Évaluation archéologique de l’interconnexion électrique GridLink</hi
+>, rapport final d’opération, 138 p.</p
+><p
+xml:id="p62"
+>Le dispositif des évaluations archéologiques, désormais pleinement intégré dans la législation française (article L. 524-6 du code du Patrimoine), permet aux aménageurs, en mer, de procéder à l’évaluation archéologique d’un projet via un conventionnement avec le ministère de la Culture. En 2020, deux évaluations archéologiques ont ainsi été réalisées par le Drassm en Manche–Mer du Nord à la demande d’aménageurs.</p
+><p
+xml:id="p63"
+>La méthodologie employée pour ces évaluations est similaire à celle utilisée lors des précédentes campagnes d’évaluation archéologique : à une phase de détection géophysique avec instruments qui vise à cartographier les anomalies visibles à la surface du fond marin ou peu enfouies succède une étape d’analyse des données géophysiques, laquelle précède enfin une phase de vérification en immersion (humaine ou robotisée) des anomalies potentiellement anthropiques.</p
+><p
+xml:id="p64"
+>L’interconnexion électrique Gridlink (fig. 1) vise à renforcer les échanges électriques entre la France et l’Angleterre. Il s’agit d’implanter deux câbles électriques sur une longueur totale de 156 km (dont 32 km dans les eaux territoriales françaises), entre le secteur de Dunkerque et la région de Kingsnorth (Angleterre). Le projet, porté par la société de projet Gridlink Interconnector Ltd et dirigé par la société privée Elan Energy, implique, en mer, la réalisation d’une tranchée accueillant deux câbles et, dans le secteur d’atterrage, la réalisation d’un forage dirigé. L’évaluation archéologique réalisée par le Drassm a porté sur la portion de 32 km de long située dans les eaux sous juridiction française et a concerné un corridor de 100 m de part et d’autre du tracé envisagé. L’emprise totale évaluée, après prise en compte d’une modification de tracé souhaitée par l’aménageur en juin 2020, est de 7,5 km<hi
+rend="sup"
+>2</hi
+>. La profondeur maximum de la zone évaluée est quant à elle d’environ 35 m au zéro des cartes.</p
+><figure
+xml:id="figure08"
+><head
+><hi
+rend="bold"
+>Fig. 1 –</hi
+> Carte synthétisant les résultats de la campagne d’évaluation archéologique de l’interconnexion électrique Gridlink</head
+><p
+rend="credits"
+>DAO : A. Rochat (Drassm).</p
+></figure
+><p
+xml:id="p65"
+>La sélection des anomalies à expertiser s’est basée sur les données géophysiques fournies par le prestataire de l’aménageur (société MMT). Elle a suivi le protocole habituel, c’est-à-dire en croisant tout d’abord la sélection de contacts sonar du prestataire (1 344 occurrences) avec la liste fournie des anomalies magnétiques, pour obtenir 260 anomalies corrélées, qui ont dans un second temps été filtrées suivant des critères de taille, de forme et d’arrangement pour les contacts sonar, et de profondeur d’enfouissement et d’équivalent masse-fer pour les anomalies magnétiques. Un deuxième filtre a de plus été opéré en contrôlant bande par bande les levés sonar de façon à pointer les contacts ou plus vraisemblablement les arrangements de microcontacts susceptibles de porter indice de l’existence de sites en partie enfouis. Les zones de perturbations du champ magnétique, pouvant être l’indice de présence diffuse et dispersée de matériel métallique sans pour autant être pointé comme « anomalie ponctuelle », ont également été prises en compte. Enfin, en amont des expertises de terrain, les anomalies magnétiques sans signature sonar ont été écartées, de même que de potentielles anomalies anthropiques de dimensions trop réduites pour présenter un réel intérêt. Ainsi, un total de 39 anomalies a donc été retenu pour la phase d’expertise en immersion.</p
+><p
+xml:id="p66"
+>Les opérations d’expertise en immersion ont été réalisées par le Drassm, avec l’appui de Vincent Creuze (Laboratoire d’informatique, de robotique et de microélectronique de Montpellier), à partir de l’<hi
+rend="italic"
+>André</hi
+> <hi
+rend="italic"
+>Malraux</hi
+>, du 31 août au 15 septembre 2020 (OA 4632). Malgré leur faible profondeur, la majorité des expertises a été réalisée au moyen d’un ROV (ROV Basile, complété par la caméra acoustique Occulus – Blue Print 1200d). Ceci permettait de limiter les risques dans les zones fortement fréquentées tel le chenal d’accès au port de Dunkerque ou le diverticule du dispositif de séparation du trafic (DST) du Pas-de-Calais. Le fait de privilégier les expertises robotisées permettait en outre de diminuer le nombre de participants à l’opération, en cohérence avec les contraintes liées à la situation sanitaire (pandémie de Covid-19). Néanmoins, la première semaine de l’opération a été consacrée à des expertises en plongée humaine (fig. 2). La faible profondeur de certaines des anomalies (inférieure à 6 m) rendait en effet difficile leur étude à l’aide d’un ROV, dont la localisation et le suivi, assurés par une liaison acoustique, nécessitent une hauteur d’eau minimale pour pouvoir le déployer dans de bonnes conditions.</p
+><figure
+xml:id="figure09"
+><head
+><hi
+rend="bold"
+>Fig. 2 –</hi
+> Retour des plongeurs à bord de l’<hi
+rend="italic"
+>André</hi
+> <hi
+rend="italic"
+>Malraux</hi
+></head
+><p
+rend="credits"
+>Cliché : F. Osada (Drassm).</p
+></figure
+><p
+xml:id="p67"
+>7 des 39 anomalies géophysiques sélectionnées pour expertise n’ont pas été retrouvées, malgré des recherches approfondies et alors même que des anomalies de faibles dimensions ont bien été retrouvées. Les éléments non retrouvés ont dû se déplacer sous l’action du courant ou l’effet de chaluts ou s’ensabler entre le moment du <hi
+rend="italic"
+>survey</hi
+> (été 2019) et les expertises du Drassm (septembre 2020). Les 32 anomalies restantes ont été trouvées et expertisées. Parmi ces dernières, 18 correspondent à des éléments naturels tels que des roches ou des dunes de sable dont la forme correspond bien aux signatures observées sur les images obtenues au sondeur à balayage latéral. 14 anomalies sont d’origine anthropique : chaînes et câbles métalliques, barre de type IPN ou encore plaque métallique. Seule une ancre semble présenter un intérêt archéologique ou historique (fig. 3). La visibilité quasi nulle dans sa zone de découverte n’a pas permis de la dater précisément, mais l’image obtenue à la caméra acoustique montre qu’il s’agit d’une ancre à jas qui mesure environ 2,4 m de longueur pour 1,3 m de largeur (largeur du jas). Une prescription d’évitement a été formulée dans la foulée des expertises afin d’établir une mesure conservatoire pour cette ancre (EA 6367). Dans un secteur pourtant fortement marqué par les affrontements des deux conflits mondiaux, aucun engin explosif n’a été repéré. Il n’est cependant pas exclu que des artefacts de ce type soient, en raison de leur densité, encore enfouis dans le sédiment sableux.</p
+><figure
+xml:id="figure10"
+><head
+><hi
+rend="bold"
+>Fig. 3 –</hi
+> Image obtenue à l’aide de la caméra acoustique de l’ancre (EA 6367) découverte sur le tracé du câble Gridlink</head
+><p
+rend="credits"
+>Cliché : Drassm.</p
+></figure
+><p
+xml:id="p68"
+>La seconde évaluation archéologique menée en 2020 en Manche–Mer du Nord concerne le raccordement électrique du futur parc éolien au large de Dunkerque<hi
+rend="bold"
+>, </hi
+>projet porté par RTE (Réseau de transport d’électricité). La création du parc éolien, attribuée en juin 2019 à la société Éoliennes en mer de Dunkerque, devrait quant à elle faire l’objet d’une évaluation archéologique ultérieure. Le raccordement assuré par RTE consiste en une double liaison électrique (deux câbles posés dans une même tranchée) d’environ 16 km de longueur, entre le futur parc et la zone d’atterrage située dans l’emprise du Grand Port maritime de Dunkerque, mais aussi en la création d’un poste électrique en mer, muni de fondations sur pieux. À la demande de RTE, l’évaluation a porté sur une zone particulièrement large (corridor de 200 m de part et d’autre d’une ligne définie par RTE) qui correspond au corridor prévisionnel d’emplacement des futurs câbles et du poste électrique. L’évaluation a ainsi porté sur une superficie totale de près de 7 km<hi
+rend="sup"
+>2</hi
+>, à une profondeur maximale de 22 m au zéro des cartes (fig. 4).</p
+><figure
+xml:id="figure11"
+><head
+><hi
+rend="bold"
+>Fig. 4 –</hi
+> Carte synthétisant les résultats de la campagne d’évaluation archéologique du raccordement électrique du futur parc éolien au large de Dunkerque</head
+><p
+rend="credits"
+>Réalisation : A. Rochat (Drassm).</p
+></figure
+><p
+xml:id="p69"
+>À l’issue de l’analyse des données géophysiques acquises par le prestataire de l’aménageur (société iXblue), selon le protocole décrit plus haut, le Drassm a sélectionné 32 anomalies potentiellement anthropiques en vue de la phase d’expertises en immersion. L’opération d’expertises (OA 4633) a été réalisée en parallèle de celle du projet GridLink, avec les mêmes moyens et suivant la même méthodologie. Au total, 19 des 32 anomalies géophysiques qui devaient être expertisées n’ont pas été retrouvées. Les différences de morphologie des fonds sableux dans les zones concernées entre la phase de <hi
+rend="italic"
+>survey</hi
+> (fin 2019) et celle d’expertises (septembre 2020) permettent de croire que les anomalies ont pu s’enfouir dans ce laps de temps. Les 13 anomalies restantes ont été trouvées et expertisées. Six correspondent à des anomalies naturelles. Les sept anomalies restantes sont d’origine anthropique. Cependant, aucune d’entre elles ne présente d’intérêt historique ou archéologique et n’a de ce fait justifié l’édiction de mesures conservatoires.</p
+></div
+><div
+subtype="notice"
+type="section2"
+xml:id="div07"
+><head
+>Au large de Gravelines – Mesures comparatives sur le <hi
+rend="italic"
+>Dansted</hi
+></head
+><p
+rend="archeo_type"
+xml:id="p70"
+>Prospection géophysique (2020)</p
+><p
+rend="archeo_authority"
+xml:id="p71"
+><name
+role="aut fld"
+>Bertrand Splingart </name
+><affiliation
+xml:id="aff11"
+>Université du littoral Côte d’Opale</affiliation
+></p
+><p
+rend="archeo_keywords_subjects"
+xml:id="p72"
+>épave sous-marine, coque (bateau)</p
+><p
+rend="archeo_keywords_subjects:chronology"
+xml:id="p73"
+>époque contemporaine</p
+><p
+rend="archeo_IDpatriarche"
+xml:id="p74"
+>Numéro d’opération : <idno
+type="patriarche"
+>304478</idno
+></p
+><p
+rend="archeo_fieldwork_year"
+xml:id="p75"
+>Année de l’opération : <date
+>2020</date
+></p
+><p
+rend="archeo_fieldwork_method"
+xml:id="p76"
+>Nature de l’opération : prospection géophysique</p
+><p
+rend="archeo_holder"
+xml:id="p77"
+>Organisme porteur de l’opération : Université du Littoral Côte d’Opale</p
+><p
+rend="archeo_reportlink"
+xml:id="p78"
+><hi
+rend="bold"
+>Splingart B. 2020</hi
+> : <hi
+rend="italic"
+>Rapport final d’opération : mesures comparatives </hi
+>Dansted, 11 p.</p
+><p
+xml:id="p79"
+>Nous souhaitons comparer la réponse de différents magnétomètres et de différents sonars latéraux sur un même site de mesure. Le site choisi est le <hi
+rend="italic"
+>Dansted</hi
+> (EA 304439), épave en fer de 72 m de long située devant Gravelines à 15 m de profondeur et dont l’accès est proche de la sortie du port. La première journée a été consacrée aux sonars latéraux : le « Helix7 » de Humminbird, le Axiom 9 de Raymarine et le SartFish 450F de Tritech. Le magnétomètre « Explorer » de Marine magnetics a été utilisé lors de la deuxième journée. La figure 1A représente l’image de l’épave donnée par le sonar à balayage latéral Axiom 9. Les carrés sombres semblent être des cales de chargement. L’épave est complète mais présente un creux ou un affaissement aux deux tiers de sa longueur. Par ailleurs, les variations de profondeur détectées par le sonar montrent la présence d’une souille dans la direction du sud. La figure 1B présente en 3D le champ magnétique obtenu à l’aide du magnétomètre Explorer. Les creux et les bosses représentent respectivement les minimums et les maximums de champ magnétique. Ces résultats sont ceux attendus pour une épave de 72 m orientée plutôt nord-sud. De plus, trois pics importants sont visibles à la frontière du creux. Ces pics ne sont pas un artefact de mesure. Ils apparaissent également sur le logiciel « Bob » utilisé avec le magnétomètre Explorer pour visualiser les valeurs de champ magnétique en temps réel (fig. 2) ; les marqueurs rouges représentent les pics observés sur la représentation 3D. Ces pics proviennent certainement de masses ferreuses localisées rendant l’épave inhomogène.</p
+><figure
+xml:id="figure12"
+><head
+><hi
+rend="bold"
+>Fig. 1 –</hi
+> <hi
+rend="bold"
+>A,</hi
+> vue traversante obtenue par le Axiom 9 ; <hi
+rend="bold"
+>B,</hi
+> cartographie magnétique 3D</head
+><p
+rend="credits"
+>Réalisation : B. Splingart.</p
+></figure
+><figure
+xml:id="figure13"
+><head
+><hi
+rend="bold"
+>Fig. 2 –</hi
+> Visualisation sur le logiciel « Bob » des pics observés sur la figure 1B</head
+><p
+rend="credits"
+>Réalisation : B. Splingart.</p
+></figure
+></div
+><div
+subtype="notice"
+type="section2"
+xml:id="div08"
+><head
+>Au large de Dieppe – Étude de la corrosion et du biotope via l’implantation <hi
+rend="italic"
+>in situ</hi
+> d’échantillons de métal – <hi
+rend="italic"
+>HMS Daffodil</hi
+></head
+><p
+rend="archeo_type"
+xml:id="p80"
+>Autre étude (2020)</p
+><p
+rend="archeo_authority"
+xml:id="p81"
+><name
+role="aut fld"
+>Lila Reboul</name
+><affiliation
+xml:id="aff12"
+>Drassm</affiliation
+></p
+><p
+rend="archeo_keywords_subjects"
+xml:id="p82"
+>épave sous-marine, navire de guerre, inhibition du métal</p
+><p
+rend="archeo_keywords_subjects:chronology"
+xml:id="p83"
+>époque contemporaine, Seconde Guerre mondiale</p
+><p
+rend="archeo_IDpatriarche"
+xml:id="p84"
+>Numéro d’opération : <idno
+type="patriarche"
+>304541</idno
+></p
+><p
+rend="archeo_fieldwork_year"
+xml:id="p85"
+>Année de l’opération : <date
+>2020</date
+></p
+><p
+rend="archeo_holder"
+xml:id="p86"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rend="archeo_reportlink"
+xml:id="p87"
+><hi
+rend="bold"
+>Reboul L., Bayle M., Gallien J.-P., Huet N., Memet J.-B., Mercier F., Urios L. 2020</hi
+> : <hi
+rend="italic"
+>Projet S.O.S. </hi
+>HMS Daffodil<hi
+rend="italic"
+> – EA 2591</hi
+>, rapport d’opération 2020, 44 p.</p
+><p
+xml:id="p88"
+>L’opération menée en 2020 sur le <hi
+rend="italic"
+>HMS Daffodil </hi
+>(EA 2591) ex-<hi
+rend="italic"
+>Train Ferry n</hi
+><hi
+rend="italic sup"
+>o</hi
+><hi
+rend="italic"
+> 3</hi
+> au large de Dieppe (76) est la troisième campagne de terrain dans le cadre du programme SOS. Les campagnes de terrain devant se dérouler tous les six mois selon le programme établi dans le cadre du projet SOS, cette opération était initialement prévue pour avril 2020. Compte tenu de l’épidémie de Coronavirus (Covid-19), elle a été reportée et s’est déroulée du 24 au 28 août 2020 à l’aide du support surface l’<hi
+rend="italic"
+>André Malraux.</hi
+></p
+><p
+xml:id="p89"
+>La très mauvaise météo ne nous a permis d’effectuer que deux plongées sur les six prévues initialement. Les objectifs ont donc été réduits à l’essentiel et nous avons dû faire l’impasse sur les plongées de documentation de l’épave et de son état de dégradation. Nous avons procédé à l’installation des deux porte-échantillons sur les points 2 (P2 avant tribord) et 3 (P3 bâbord après la cassure) (fig. 1).</p
+><figure
+xml:id="figure14"
+><head
+><hi
+rend="bold"
+>Fig. 1 –</hi
+> Zones d’installation des porte-échantillons sur le <hi
+rend="italic"
+>HMS Daffodil</hi
+>, vue par tribord</head
+><p
+rend="credits"
+>Levé multifaisceaux : Drassm.</p
+></figure
+><p
+xml:id="p90"
+>Ces deux plongées, espacées de 7h environ, ont permis d’apprécier la vitesse de développement des produits de corrosion à la surface des coupons de métal non protégés de la plaque P2 (fig. 2 et 3). On peut observer que les produits de corrosion se forment très vite à la surface sur les rangs qui ne sont pas protégés cathodiquement. L’amorçage de la corrosion se fait sur une hétérogénéité de surface (inclusion de MnS, de Cu, etc.) et se développe ensuite en fonction de la microcourantologie sur une partie de la surface. En 48h-72h, la corrosion gagne l’ensemble de la surface. À la surface des plaques protégées se créent des microdépôts calcaires.</p
+><figure
+xml:id="figure15"
+><head
+><hi
+rend="bold"
+>Fig. 2 –</hi
+> Porte-échantillons P2 le 27/08/2020 à 8h05, après la pose</head
+><p
+rend="caption"
+>Tous les échantillons ont la même couleur.</p
+></figure
+><figure
+xml:id="figure16"
+><head
+><hi
+rend="bold"
+>Fig. 3 –</hi
+> Porte-échantillons P2 le 27/08/2020 à 15h12</head
+><p
+rend="caption"
+>Les échantillons non protégés catholiquement commencent à se couvrir de produits de corrosion orangés.</p
+><p
+rend="credits"
+>Cliché : F. Osada, Images Explorations.</p
+></figure
+><p
+xml:id="p91"
+>La pose des échantillons métalliques est une étape indispensable à la suite du programme de recherche. En mars 2021, nous devrons récupérer les premières séries afin de procéder d’une part aux analyses des produits de corrosions et des communautés microbiennes et d’autre part d’estimer la protection cathodique et d’évaluer la densité de courant nécessaire à une bonne protection.</p
+></div
+><div
+subtype="notice"
+type="section2"
+xml:id="div09"
+><head
+>Au large de Barneville-Carteret – Diagnostic archéologique du chenal et de la zone d’échouage du port</head
+><p
+rend="archeo_type"
+xml:id="p92"
+>Opération de diagnostic (2020)</p
+><p
+rend="archeo_authority"
+xml:id="p93"
+><name
+role="aut fld"
+>Fabrice Lecampion</name
+><affiliation
+xml:id="aff13"
+>Inrap</affiliation
+></p
+><p
+rend="archeo_keywords_subjects"
+xml:id="p94"
+>estran</p
+><p
+rend="archeo_IDpatriarche"
+xml:id="p95"
+>Numéro d’opération : <idno
+type="patriarche"
+>303405</idno
+></p
+><p
+rend="archeo_fieldwork_year"
+xml:id="p96"
+>Année de l’opération : <date
+>2020</date
+></p
+><p
+rend="archeo_fieldwork_method"
+xml:id="p97"
+>Nature de l’opération : opération de diagnostic</p
+><p
+rend="archeo_holder"
+xml:id="p98"
+>Organisme porteur de l’opération : Inrap</p
+><p
+rend="archeo_reportlink"
+xml:id="p99"
+><hi
+rend="bold"
+>Lecampion F. 2020</hi
+> : <hi
+rend="italic"
+>Mise à l’eau du chenal et de la zone d’échouage du port</hi
+>, rapport final d’opération diagnostic archéologique, 115 p.</p
+><p
+xml:id="p100"
+>La surveillance des travaux du port d’échouage de Barneville-Carteret n’a pas permis de mettre au jour des vestiges archéologiques. La méthodologie employée pour les travaux et les questions de sécurité ont rendu impossible toute observation fine par les archéologues.</p
+><p
+xml:id="p101"
+>L’étude historique réalisée par Jean-Luc Lahitte nous a montré que le port de Carteret apparaît dans les textes au <hi
+rend="small-caps"
+>xiii</hi
+><hi
+rend="sup"
+>e</hi
+> s. et que l’activité maritime semble limitée à un cabotage et des relations commerciales avec les îles anglo-normandes. L’ensablement du havre à partir du <hi
+rend="small-caps"
+>xviii</hi
+><hi
+rend="sup"
+>e</hi
+> s. limitant ainsi la jauge des bateaux pouvant mouiller ici, les localisations des naufrages mentionnés sont situées entre l’estran et les barres de sables, et non dans la zone d’échouage, ainsi que la récupération traditionnelle des matériaux issus d’éventuels échouages ou bateaux obsolètes, raisons potentielles pour lesquelles aucun vestige n’est présent. De plus, le curage réalisé au milieu des années 1990 à cet endroit a également pu effacer toute trace de vestiges archéologiques.</p
+></div
+><div
+subtype="notice"
+type="section2"
+xml:id="div10"
+><head
+>Au large de Dunkerque – Observations sur l’épave « Nemo » au large de Dunkerque</head
+><p
+rend="archeo_type"
+xml:id="p102"
+>Prospection inventaire (2020 et 2022)</p
+><p
+rend="archeo_authority"
+xml:id="p103"
+><name
+role="aut fld"
+>Cécile Sauvage</name
+><affiliation
+xml:id="aff14"
+>Drassm</affiliation
+></p
+><p
+rend="archeo_keywords_subjects"
+xml:id="p104"
+>épave sous-marine, bateau</p
+><p
+rend="archeo_keywords_subjects:chronology"
+xml:id="p105"
+>époque moderne</p
+><p
+rend="archeo_IDpatriarche"
+xml:id="p106"
+>Numéro d’opération : <idno
+type="patriarche"
+>304634</idno
+></p
+><p
+rend="archeo_fieldwork_year"
+xml:id="p107"
+>Année de l’opération : <date
+>2020</date
+>, <date
+>2022</date
+></p
+><p
+rend="archeo_fieldwork_method"
+xml:id="p108"
+>Nature de l’opération : prospection inventaire</p
+><p
+rend="archeo_holder"
+xml:id="p109"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rend="archeo_reportlink"
+xml:id="p110"
+><hi
+rend="bold"
+>Sauvage C. 2020</hi
+> : <hi
+rend="italic"
+>Compte-rendu de l’opération OA 4634, épave dite « Nemo »</hi
+>, 6 p.</p
+><p
+xml:id="p111"
+>L’épave dite « Nemo » (EA 5238), située à 16 min au nord de Dunkerque dans la zone contiguë au DPM français, a été découverte en amont de l’installation d’un câble électrique sous-marin, le câble Nemo Link. Ce projet a fait l’objet d’une demande volontaire de réalisation de diagnostic archéologique par l’aménageur, la société de projet Nemo Link Limited. L’épave a été découverte et déclarée par cette société en février 2017 au cours de travaux d’identification de munitions (UXO) effectués au moyen d’un ROV. Le site, qui apparaît clairement sur les images du ROV comme une portion d’épave en bois dépassant du fond sableux, est situé à proximité d’une obstruction répertoriée par le SHOM.</p
+><p
+xml:id="p112"
+>L’épave a fait l’objet de premières observations en plongée humaine dans le cadre du diagnostic conduit par l’Inrap début 2017 sous la responsabilité de Marjolaine De Muylder (Inrap). Juste à l’est de l’anomalie sonar 22, les archéologues ont découvert un assemblage de bois désensablé sur 7,8 m de long, incluant huit membrures de 15 cm de largeur (maille de 14 cm), deux pièces munies d’une encoche interprétées comme des carlingots, un vaigrage de 5 cm d’épaisseur et quatre virures de bordé de même épaisseur. Le bordage est à franc-bord et l’assemblage vaigrage/membrures est assuré par des gournables de 3 cm de diamètre. Une pièce métallique courbe de 50 cm de long et une sorte de caisson en bois ont également été vus dans cette zone.</p
+><p
+xml:id="p113"
+>Environ 25 m plus à l’est, la présence de débris de bois a été notée. L’Inrap a déduit de ces observations que l’épave pourrait mesurer 25 m de longueur par 4 m de largeur et serait orientée nord-ouest – sud-est. Un prélèvement réalisé sur le vaigrage a donné la datation radiocarbone suivante, dans laquelle l’effet réservoir marin n’a peut-être pas été pris en compte : 1470-1640 cal. AD.</p
+><p
+xml:id="p114"
+>Étant donné l’intérêt du site, l’épave a fait l’objet d’une demande d’évitement de la part du Drassm. Après échanges avec l’aménageur, celui-ci a implanté le câble électrique à 37 m au sud de l’épave. L’interconnexion étant en fonctionnement depuis janvier 2019, le Drassm a décidé de profiter d’un séjour de l’<hi
+rend="italic"
+>André</hi
+> <hi
+rend="italic"
+>Malraux</hi
+> à Dunkerque dans la foulée d’opérations d’évaluations archéologiques, pour procéder à une reconnaissance de surface autour du site, le 15 septembre 2020. Il s’agissait de voir si l’évitement avait bien été respecté et si la pose du câble n’avait pas endommagé le site, mais aussi de constater l’état actuel de l’épave afin de déterminer la pertinence et la faisabilité d’un sondage ultérieur.</p
+><p
+xml:id="p115"
+>Le Drassm a ainsi réalisé plusieurs passages au sondeur multifaisceaux en ultra haute résolution (UHR), complétés de plongées robotisées. L’acquisition multifaisceaux a été conduite par Alexis Rochat et Denis Dégez (Drassm). Le robot (ROV Basile) a quant à lui été piloté par Vincent Creuze (LIRMM). Aucun indice de l’installation du câble ni de la présence de l’épave n’est apparu sur le levé multifaisceaux. L’expertise robotisée a cependant permis de retrouver les restes de l’épave, largement réensablés, à 36 m de profondeur (en fonction du marnage, le site se trouve entre 35 et 40 m de fond). Plusieurs pièces de bois dépassant de quelques centimètres du sable et souvent couvertes de végétation ont été retrouvées à l’ouest du point connu, à l’aide de la caméra acoustique du ROV. Afin de déterminer l’emprise globale du site, le ROV a été progressivement déplacé, de mètre en mètre, en suivant l’alignement des têtes de membrures et ses moteurs ont été utilisés pour effectuer un désensablement de surface des vestiges. Les pièces de bois observées ont été localisées à l’aide du positionnement du ROV grâce à la balise GAPS. L’emplacement des pièces de bois retrouvées est cohérent avec l’orientation nord-ouest – sud-est du site signalée par l’Inrap. Le site s’étant largement ensablé depuis 2017, il s’avère difficile d’identifier les différentes pièces de bois observées. Un désensablement plus important effectué, sur une zone réduite, à l’aide des moteurs du ROV révèle cependant un assemblage bordé / membrure / vaigrage. La forte érosion constatée sur ces vestiges plaide en faveur de leur ancienneté et le site mériterait donc, au regard de la première datation obtenue, la réalisation d’un sondage. Un tel sondage, sur un site relativement éloigné des côtes françaises et dans ce secteur de forts courants, est contraint mais néanmoins envisageable.</p
+><p
+xml:id="p116"
+>Deux ans plus tard, en avril 2022, ce même site a à nouveau fait l’objet d’observations robotisées en marge de l’évaluation du câble Q&amp;E Nord (ROV Basile, pilote Alexis Rochat). L’épave était cette fois-ci davantage dégagée : une structure linéaire d’une dizaine de mètres de long était nettement visible sur l’écran de la caméra acoustique. En plongée, le vaigrage, les têtes de membrures et les virures de bordé apparaissaient, encore plus nettement qu’en 2020. Protégé par la couverture sableuse, le site attend patiemment la réalisation d’observations plus poussées.</p
+><figure
+xml:id="figure17"
+><head
+><hi
+rend="bold"
+>Fig. 1 –</hi
+> L’épave, bien visible sur l’écran de la caméra acoustique du ROV, en 2022</head
+><p
+rend="credits"
+>Cliché : Drassm.</p
+></figure
+><figure
+xml:id="figure18"
+><head
+><hi
+rend="bold"
+>Fig. 2 –</hi
+> Vaigrage, membrures et bordé apparaissant sur les données du ROV</head
+><p
+rend="credits"
+>Cliché : Drassm.</p
+></figure
+></div
+></div
+></body
+></text
+></TEI
+>
