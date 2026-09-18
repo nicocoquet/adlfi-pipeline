@@ -1,0 +1,36 @@
+Rapport d’enrichissement PACTOLS
+
+Fichier : Drassm_2020_Var_Alpes-Mar_prepared.xml
+SHA-256 du fichier : 0294dfbda2768e5d599e82b07748e7cd343316d8fa4a82ec44f04cb66f5d1ca4
+Référentiel PACTOLS : PACTOLS 2026-07-22 (69bf9697e24cefd645a69465bbd271702786285a)
+SHA-256 Sujets : cd38ef8bd875e96ed9220274ecc12a679b382a520779654eb3bf8141fd16e98b
+SHA-256 Chronologie : ea081dcc12d7cc1f1a74ad5aeeca2c90b1733999dba6b41f97ac85843003eaaa
+SHA-256 Concepts dépréciés : 6a60f6b3da9682d216514e9167bfee7233013000e3d1c713e493f2d400a5771b
+
+Concepts rencontrés : 32
+indexed_altlabel_typographic : 1
+indexed_exact : 29
+indexed_typographic : 1
+not_found : 1
+
+Avertissements : 1
+
+NOTICE : Au large de Toulon – Plongée d’expertise sur l’épave du sous-marin Minerve perdu le 27 janvier 1968
+PARAGRAPHE : p65
+ZONE : chronology
+VALEUR : Période contemporaine
+STATUT : indexed_altlabel_typographic
+PREFLABEL/CANDIDAT : époque contemporaine
+ARK : https://ark.frantiq.fr/ark:/26678/pcrt59R77d1H15
+DÉTAIL : enrichissement effectué depuis un skos:altLabel français
+
+Exceptions : 1
+
+NOTICE : Au large de Hyères – Grande Passe 1
+PARAGRAPHE : p52
+ZONE : fieldwork_method
+VALEUR : sondage programmé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
