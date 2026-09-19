@@ -200,21 +200,12 @@ h2 { font-size: clamp(1.8rem, 3vw, 2.7rem); line-height: 1.08; }
 .module-grid[data-locked="true"] { cursor: not-allowed; }
 
 .module-grid[data-locked="true"] .workspace--module::after {
-  content: "Connexion GitHub requise";
+  content: "";
   position: absolute;
   z-index: 20;
   inset: 0;
-  display: grid;
-  place-items: center;
-  padding: 24px;
-  color: var(--ink);
   background: rgba(244, 240, 229, 0.64);
   border-radius: 3px;
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-align: center;
-  text-transform: uppercase;
   cursor: not-allowed;
 }
 
