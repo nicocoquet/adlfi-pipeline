@@ -178,6 +178,7 @@ h2 { font-size: clamp(1.8rem, 3vw, 2.7rem); line-height: 1.08; }
 }
 
 .workspace--module {
+  position: relative;
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 28px;
@@ -186,6 +187,35 @@ h2 { font-size: clamp(1.8rem, 3vw, 2.7rem); line-height: 1.08; }
   border: 1px solid var(--line);
   border-top: 4px solid var(--deep-blue);
   border-radius: 3px;
+  transition: filter 180ms ease, opacity 180ms ease;
+}
+
+.module-grid[data-locked="true"] .workspace--module {
+  filter: grayscale(0.78);
+  opacity: 0.7;
+  pointer-events: none;
+  user-select: none;
+}
+
+.module-grid[data-locked="true"] { cursor: not-allowed; }
+
+.module-grid[data-locked="true"] .workspace--module::after {
+  content: "Connexion GitHub requise";
+  position: absolute;
+  z-index: 20;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  color: var(--ink);
+  background: rgba(244, 240, 229, 0.64);
+  border-radius: 3px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: not-allowed;
 }
 
 .workspace--module .introduction {

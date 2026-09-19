@@ -16,6 +16,7 @@
     help: document.querySelector("#session-help"),
     connectedActions: document.querySelector("#session-connected-actions"),
     message: document.querySelector("#session-message"),
+    moduleGrid: document.querySelector("#module-grid"),
   };
 
   function moduleElements(name) {
@@ -106,6 +107,9 @@
     account.kicker.textContent = connected ? "Connecté avec GitHub" : "Accès aux traitements";
     account.label.textContent = connected ? user.login : "Connexion GitHub requise";
     account.help.hidden = connected;
+    account.moduleGrid.dataset.locked = connected ? "false" : "true";
+    account.moduleGrid.setAttribute("aria-disabled", String(!connected));
+    account.moduleGrid.toggleAttribute("inert", !connected);
     Object.values(modules).forEach(updateSubmitState);
   }
 

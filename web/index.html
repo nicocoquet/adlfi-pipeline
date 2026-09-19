@@ -6,8 +6,8 @@
     <meta name="description" content="Outils de préparation et d’enrichissement des fichiers XML-TEI de la revue AdlFI.">
     <title>AdlFI — Outils XML</title>
     <link rel="icon" href="assets/open-book.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=0.6.6">
-    <script src="config.js?v=0.2.0"></script><script src="app.js?v=0.2.2" defer></script>
+    <link rel="stylesheet" href="styles.css?v=0.6.7">
+    <script src="config.js?v=0.2.0"></script><script src="app.js?v=0.2.3" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -41,7 +41,7 @@
         </div>
       </section>
 
-      <div class="module-grid">
+      <div class="module-grid" id="module-grid" data-locked="true" aria-disabled="true" inert>
       <section class="workspace workspace--module" aria-labelledby="preparation-title">
         <div class="introduction"><p class="eyebrow">Étape 01</p><h2 id="preparation-title">Préparation du XML</h2><p class="lead">Le module ajoute <code>&lt;graphic url="???"/&gt;</code> dans chaque figure qui en est dépourvue et supprime les éléments techniques <code>&lt;anchor&gt;</code> sans altérer le texte.</p></div>
         <div class="service-panel" data-module="preparation">
