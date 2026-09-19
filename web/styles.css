@@ -279,21 +279,19 @@ h2 { font-size: clamp(1.8rem, 3vw, 2.7rem); line-height: 1.08; }
   color: var(--deep-blue);
   background: var(--map-ivory);
   border-radius: 50%;
-  font-size: 0.78rem;
 }
-.session-service-icon { display: none; position: absolute; top: 18px; right: 18px; width: 20px; height: 20px; filter: invert(1); }
+.session-avatar img { display: block; width: 29px; height: 29px; }
 
 .session-indicator {
   width: 9px;
   height: 9px;
+  flex: 0 0 9px;
   background: #7b8492;
   border-radius: 50%;
 }
 
 .session-bar[data-state="connected"] { min-height: 132px; padding-bottom: 52px; color: #fff; background: var(--deep-blue); border-color: var(--deep-blue); }
 .session-bar[data-state="connected"] .session-avatar { display: grid; }
-.session-bar[data-state="connected"] .session-service-icon { display: block; }
-.session-bar[data-state="connected"] .session-copy { padding-right: 26px; }
 .session-bar[data-state="connected"] .session-copy strong { color: #fff; }
 .session-bar[data-state="connected"] .session-copy small { color: #bdced7; }
 .session-bar[data-state="connected"] .session-indicator { background: #58b584; }
@@ -309,7 +307,7 @@ h2 { font-size: clamp(1.8rem, 3vw, 2.7rem); line-height: 1.08; }
   padding-top: 10px;
   border-top: 1px solid rgba(255, 255, 255, 0.18);
 }
-.session-authorized { display: inline-flex; align-items: center; gap: 7px; color: #dce7eb; font-size: 0.72rem; }
+.session-authorized { display: inline-flex; align-items: center; gap: 7px; color: #dce7eb; font-size: 0.72rem; white-space: nowrap; }
 
 .session-button {
   display: inline-flex;
@@ -622,6 +620,9 @@ footer a {
   .drop-panel { min-height: 0; padding: 34px 24px 28px; }
   .session-bar { flex-wrap: wrap; text-align: left; }
   .session-button { width: 100%; justify-content: center; margin-left: 0; }
+  .session-bar[data-state="connected"] { min-height: 132px; padding: 18px 18px 58px; }
+  .session-bar[data-state="connected"] .session-connected-actions { right: 18px; bottom: 16px; left: 18px; padding-top: 12px; }
+  .session-bar[data-state="connected"] .session-button--secondary { width: auto; margin-left: auto; justify-content: flex-end; }
   .principle-grid { grid-template-columns: 1fr; }
   .outputs-heading, footer { align-items: start; flex-direction: column; }
   footer { gap: 8px; }
