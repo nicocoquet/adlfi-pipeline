@@ -6,8 +6,8 @@
     <meta name="description" content="Outils de préparation et d’enrichissement des fichiers XML-TEI de la revue AdlFI.">
     <title>AdlFI — Outils XML</title>
     <link rel="icon" href="assets/open-book.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=0.6.4">
-    <script src="config.js?v=0.2.0"></script><script src="app.js?v=0.2.0" defer></script>
+    <link rel="stylesheet" href="styles.css?v=0.6.5">
+    <script src="config.js?v=0.2.0"></script><script src="app.js?v=0.2.1" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -19,10 +19,27 @@
     </div>
     <main>
       <section class="page-intro" aria-labelledby="page-title">
-        <p class="eyebrow">Archéologie de la France – Informations</p><h1 id="page-title">Traitement des fichiers XML-TEI</h1>
-        <p class="lead">Deux modules accompagnent la préparation puis l’indexation des fichiers XML produits avec <a href="https://www.metopes.fr/" target="_blank" rel="noopener noreferrer">Métopes</a> 3.1.+ (Commons Publishing) pour <em>AdlFI</em>.<br>Ils peuvent être utilisés séparément ou successivement.</p>
-        <div class="session-bar" id="session-bar"><span class="session-indicator" aria-hidden="true"></span><span id="session-label">Connexion GitHub requise</span><button class="session-button" id="login-button" type="button"><img src="assets/github-mark.svg" alt="">Se connecter</button><button class="session-button session-button--secondary" id="logout-button" type="button" hidden>Se déconnecter</button></div>
-        <p id="session-message" class="session-message" role="status" aria-live="polite"></p>
+        <div class="page-intro__text">
+          <p class="eyebrow">Archéologie de la France – Informations</p><h1 id="page-title">Traitement des fichiers XML-TEI</h1>
+          <p class="lead">Deux modules accompagnent la préparation puis l’indexation des fichiers XML produits avec <a href="https://www.metopes.fr/" target="_blank" rel="noopener noreferrer">Métopes</a> 3.1.+ (Commons Publishing) pour <em>AdlFI</em>.<br>Ils peuvent être utilisés séparément ou successivement.</p>
+        </div>
+        <div class="account-area">
+          <div class="session-bar" id="session-bar" data-state="disconnected">
+            <span class="session-avatar" id="session-avatar" aria-hidden="true">GH</span>
+            <span class="session-copy">
+              <small id="session-kicker">Accès aux traitements</small>
+              <strong id="session-label">Connexion GitHub requise</strong>
+              <small id="session-help">Une seule connexion pour les deux modules.</small>
+            </span>
+            <img class="session-service-icon" src="assets/github-mark.svg" alt="" aria-hidden="true">
+            <button class="session-button" id="login-button" type="button"><img src="assets/github-mark.svg" alt="">Se connecter avec GitHub</button>
+            <span class="session-connected-actions" id="session-connected-actions" hidden>
+              <span class="session-authorized"><span class="session-indicator" aria-hidden="true"></span>Accès autorisé</span>
+              <button class="session-button session-button--secondary" id="logout-button" type="button" hidden>Se déconnecter</button>
+            </span>
+          </div>
+          <p id="session-message" class="session-message" role="status" aria-live="polite"></p>
+        </div>
       </section>
 
       <div class="module-grid">

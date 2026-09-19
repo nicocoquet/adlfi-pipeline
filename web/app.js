@@ -12,6 +12,10 @@
     logout: document.querySelector("#logout-button"),
     bar: document.querySelector("#session-bar"),
     label: document.querySelector("#session-label"),
+    kicker: document.querySelector("#session-kicker"),
+    help: document.querySelector("#session-help"),
+    avatar: document.querySelector("#session-avatar"),
+    connectedActions: document.querySelector("#session-connected-actions"),
     message: document.querySelector("#session-message"),
   };
 
@@ -99,7 +103,13 @@
     account.bar.dataset.state = connected ? "connected" : "disconnected";
     account.login.hidden = connected;
     account.logout.hidden = !connected;
-    account.label.textContent = connected ? `Connecté avec GitHub : ${user.login}` : "Connexion GitHub requise";
+    account.connectedActions.hidden = !connected;
+    account.kicker.textContent = connected ? "Connecté avec GitHub" : "Accès aux traitements";
+    account.label.textContent = connected ? user.login : "Connexion GitHub requise";
+    account.help.hidden = connected;
+    account.avatar.textContent = connected
+      ? user.login.split(/[-_.]/).map((part) => part[0]).join("").slice(0, 2).toUpperCase()
+      : "GH";
     Object.values(modules).forEach(updateSubmitState);
   }
 
