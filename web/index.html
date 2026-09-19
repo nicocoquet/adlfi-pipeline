@@ -6,8 +6,8 @@
     <meta name="description" content="Outils de préparation et d’enrichissement des fichiers XML-TEI de la revue AdlFI.">
     <title>AdlFI — Outils XML</title>
     <link rel="icon" href="assets/open-book.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=0.6.8">
-    <script src="config.js?v=0.2.0"></script><script src="app.js?v=0.2.4" defer></script>
+    <link rel="stylesheet" href="styles.css?v=0.6.9">
+    <script src="config.js?v=0.2.0"></script><script src="app.js?v=0.2.5" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -84,7 +84,46 @@
       </section>
       </div>
 
-      <section class="principles" aria-labelledby="principles-title"><div><p class="section-number">Principes</p><h2 id="principles-title">Des traitements contrôlés</h2></div><div class="principle-grid"><article><h3>Sources préservées</h3><p>Le fichier déposé n’est jamais modifié : chaque module produit une nouvelle version.</p></article><article><h3>Opérations déterministes</h3><p>Les règles de transformation sont explicites et documentées.</p></article><article><h3>Rapports de contrôle</h3><p>Chaque traitement rend compte des modifications et des exceptions qui nécessitent une lecture critique.</p></article></div></section>
+      <section class="principles" aria-labelledby="principles-title">
+        <div><p class="section-number">Principes</p><h2 id="principles-title">Des traitements contrôlés</h2></div>
+        <div class="principles-content">
+          <div class="principle-grid" role="tablist" aria-label="Principes de contrôle du pipeline">
+            <button class="principle-item" id="principle-source-tab" type="button" role="tab" aria-controls="principle-source-panel" aria-selected="true">
+              <span class="principle-item__title">Sources préservées</span>
+              <span class="principle-item__summary">Le fichier déposé n’est jamais modifié : chaque module produit une nouvelle version.</span>
+              <span class="principle-item__action">En savoir plus <span aria-hidden="true">↓</span></span>
+            </button>
+            <button class="principle-item" id="principle-rules-tab" type="button" role="tab" aria-controls="principle-rules-panel" aria-selected="false">
+              <span class="principle-item__title">Opérations déterministes</span>
+              <span class="principle-item__summary">Les règles de transformation sont explicites et documentées.</span>
+              <span class="principle-item__action">En savoir plus <span aria-hidden="true">↓</span></span>
+            </button>
+            <button class="principle-item" id="principle-reports-tab" type="button" role="tab" aria-controls="principle-reports-panel" aria-selected="false">
+              <span class="principle-item__title">Rapports de contrôle</span>
+              <span class="principle-item__summary">Chaque traitement rend compte des modifications et des exceptions.</span>
+              <span class="principle-item__action">En savoir plus <span aria-hidden="true">↓</span></span>
+            </button>
+          </div>
+          <div class="principle-detail" id="principle-source-panel" role="tabpanel" aria-labelledby="principle-source-tab">
+            <p class="principle-detail__label">Sources préservées</p>
+            <h3>Conserver chaque état du document</h3>
+            <p>Le XML transmis sert uniquement de source au traitement. Il n’est ni réécrit ni remplacé : le pipeline crée un nouveau fichier, clairement identifié par son suffixe, ainsi qu’un rapport distinct.</p>
+            <p>Cette séparation permet de comparer l’état initial et le résultat, de reprendre une étape et de conserver une chaîne éditoriale vérifiable. Le fichier préparé peut ensuite être transmis à Pactols, tout en restant téléchargeable comme état intermédiaire.</p>
+          </div>
+          <div class="principle-detail" id="principle-rules-panel" role="tabpanel" aria-labelledby="principle-rules-tab" hidden>
+            <p class="principle-detail__label">Opérations déterministes</p>
+            <h3>Appliquer des règles reproductibles</h3>
+            <p>À version identique du code et des référentiels, un même XML produit le même résultat. L’ajout des éléments <code>graphic</code>, la suppression des <code>anchor</code> et les correspondances Pactols suivent des règles programmées et testées.</p>
+            <p>Le pipeline ne complète pas une information incertaine par hypothèse. Les ambiguïtés, concepts absents ou structures inattendues restent inchangés et sont signalés pour examen.</p>
+          </div>
+          <div class="principle-detail" id="principle-reports-panel" role="tabpanel" aria-labelledby="principle-reports-tab" hidden>
+            <p class="principle-detail__label">Rapports de contrôle</p>
+            <h3>Cibler la vérification humaine</h3>
+            <p>La préparation produit un rapport TXT qui compte les figures, les éléments <code>graphic</code> ajoutés ou déjà présents, les ancres supprimées et les références à contrôler.</p>
+            <p>L’indexation Pactols ajoute un rapport CSV détaillé : correspondances exactes, variantes de libellé, concepts dépréciés, ambiguïtés et absences. Ces rapports permettent d’orienter l’éditeur·trice dans ses choix d’indexation.</p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer><p>Outils développés pour le pipeline éditorial de la revue <a href="https://journals.openedition.org/adlfi/" target="_blank" rel="noopener noreferrer"><em>AdlFI</em></a>.</p><p>🌿 Nicolas Coquet &amp; Gaëlle David (<a href="https://www.mshmondes.cnrs.fr/" target="_blank" rel="noopener noreferrer">MSH Mondes</a>, UAR 3225)</p></footer>
   </body>

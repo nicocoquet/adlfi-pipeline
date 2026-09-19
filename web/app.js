@@ -280,6 +280,35 @@
     [module.downloadXml, module.downloadTxt, module.downloadCsv].filter(Boolean).forEach((link) => link.addEventListener("click", (event) => downloadResult(event, module)));
   }
 
+  function bindPrinciples() {
+    const tabs = [...document.querySelectorAll(".principle-item[role=\"tab\"]")];
+    const activate = (activeTab, moveFocus = false) => {
+      tabs.forEach((tab) => {
+        const selected = tab === activeTab;
+        tab.setAttribute("aria-selected", String(selected));
+        tab.tabIndex = selected ? 0 : -1;
+        document.querySelector(`#${tab.getAttribute("aria-controls")}`).hidden = !selected;
+      });
+      if (moveFocus) activeTab.focus();
+    };
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener("click", () => activate(tab));
+      tab.addEventListener("keydown", (event) => {
+        let nextIndex = null;
+        if (event.key === "ArrowRight") nextIndex = (index + 1) % tabs.length;
+        if (event.key === "ArrowLeft") nextIndex = (index - 1 + tabs.length) % tabs.length;
+        if (event.key === "Home") nextIndex = 0;
+        if (event.key === "End") nextIndex = tabs.length - 1;
+        if (nextIndex === null) return;
+        event.preventDefault();
+        activate(tabs[nextIndex], true);
+      });
+    });
+
+    activate(tabs.find((tab) => tab.getAttribute("aria-selected") === "true") || tabs[0]);
+  }
+
   async function loadSession() {
     if (!apiBaseUrl) { updateSession(null); account.message.textContent = "Le service de connexion GitHub reste à configurer."; return; }
     if (!state.session) { updateSession(null); account.message.textContent = ""; return; }
@@ -305,6 +334,7 @@
     } catch (error) { account.message.textContent = error.message; }
   });
   Object.values(modules).forEach(bindModule);
+  bindPrinciples();
   document.querySelector("#preparation-continue-button").addEventListener("click", continueWithPactols);
   loadSession();
 })();
