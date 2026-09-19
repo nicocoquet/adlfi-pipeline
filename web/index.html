@@ -20,14 +20,14 @@
     <main>
       <section class="page-intro" aria-labelledby="page-title">
         <p class="eyebrow">Archéologie de la France – Informations</p><h1 id="page-title">Traitement des fichiers XML-TEI</h1>
-        <p class="lead">Deux modules accompagnent la préparation puis l’indexation des fichiers XML produits avec Métopes. Ils peuvent être utilisés séparément ou successivement.</p>
+        <p class="lead">Deux modules accompagnent la préparation puis l’indexation des fichiers XML produits avec <a href="https://www.metopes.fr/" target="_blank">Métopes/a>. Ils peuvent être utilisés séparément ou successivement.</p>
         <div class="session-bar" id="session-bar"><span class="session-indicator" aria-hidden="true"></span><span id="session-label">Connexion GitHub requise</span><button class="session-button" id="login-button" type="button"><img src="assets/github-mark.svg" alt="">Se connecter</button><button class="session-button session-button--secondary" id="logout-button" type="button" hidden>Se déconnecter</button></div>
         <p id="session-message" class="session-message" role="status" aria-live="polite"></p>
       </section>
 
       <div class="module-grid">
       <section class="workspace workspace--module" aria-labelledby="preparation-title">
-        <div class="introduction"><p class="eyebrow">01 · Première étape</p><h2 id="preparation-title">Préparation du XML</h2><p class="lead">Le module ajoute <code>&lt;graphic url="???"/&gt;</code> dans chaque figure qui en est dépourvue et supprime les éléments techniques <code>&lt;anchor&gt;</code> sans altérer le texte.</p></div>
+        <div class="introduction"><p class="eyebrow">Étape 01</p><h2 id="preparation-title">Préparation du XML</h2><p class="lead">Le module ajoute <code>&lt;graphic url="???"/&gt;</code> dans chaque figure qui en est dépourvue et supprime les éléments techniques <code>&lt;anchor&gt;</code> sans altérer le texte.</p></div>
         <div class="service-panel" data-module="preparation">
           <div class="drop-panel" id="preparation-drop-panel" role="button" tabindex="0" aria-label="Sélectionner ou déposer un fichier XML à préparer">
             <div class="file-symbol" aria-hidden="true"><svg viewBox="0 0 48 56"><path d="M8 2h21l11 11v39a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z"/><path d="M29 2v12h11M18 27l-5 6 5 6M30 27l5 6-5 6M27 24l-6 18"/></svg></div>
@@ -47,7 +47,7 @@
       </section>
 
       <section class="workspace workspace--module" id="pactols-module" aria-labelledby="pactols-title">
-        <div class="introduction"><p class="eyebrow">02 · Deuxième étape</p><h2 id="pactols-title">Indexation Pactols</h2><p class="lead">Les correspondances certaines — mots-clés, chronologie et natures d’opération — sont enrichies avec leur ARK, leurs traductions et leur hiérarchie Pactols.</p></div>
+        <div class="introduction"><p class="eyebrow">Étape 02</p><h2 id="pactols-title">Indexation Pactols</h2><p class="lead">Les correspondances certaines — mots-clés, chronologie et natures d’opération — sont enrichies avec leur ARK, leurs traductions et leur hiérarchie Pactols.</p></div>
         <div class="service-panel" data-module="pactols">
           <div class="drop-panel" id="pactols-drop-panel" role="button" tabindex="0" aria-label="Sélectionner ou déposer un fichier XML à indexer">
             <div class="file-symbol" aria-hidden="true"><svg viewBox="0 0 48 56"><path d="M8 2h21l11 11v39a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z"/><path d="M29 2v12h11M18 27l-5 6 5 6M30 27l5 6-5 6M27 24l-6 18"/></svg></div>
