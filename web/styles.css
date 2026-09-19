@@ -20,11 +20,6 @@ body {
   margin: 0;
   color: var(--ink);
   background-color: var(--paper);
-  background-image: linear-gradient(rgba(244, 240, 229, 0.88), rgba(244, 240, 229, 0.88)), url("assets/table-peutinger.jpg");
-  background-position: left top, center top;
-  background-size: auto, 1600px auto;
-  background-repeat: repeat, repeat-y;
-  background-attachment: scroll, scroll;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
@@ -91,7 +86,6 @@ footer {
 
 .brand-banner {
   display: grid;
-  min-height: 164px;
   overflow: hidden;
   place-items: center;
   background: #06283d;
@@ -102,7 +96,7 @@ footer {
 
 .brand-banner img {
   display: block;
-  width: min(340px, calc(100% - 36px));
+  width: 100%;
   height: auto;
 }
 
@@ -555,7 +549,6 @@ footer a { text-decoration-color: var(--copper); text-underline-offset: 4px; }
 }
 
 @media (max-width: 620px) {
-  body { background-size: auto, 920px auto; }
   .site-header, .brand-banner, main, footer { width: min(100% - 28px, 1160px); }
   .site-header { min-height: 68px; }
   .brand small, .repository-link { display: none; }
@@ -572,8 +565,7 @@ footer a { text-decoration-color: var(--copper); text-underline-offset: 4px; }
   .principle-grid { grid-template-columns: 1fr; }
   .outputs-heading, footer { align-items: start; flex-direction: column; }
   footer { gap: 8px; }
-  .brand-banner { min-height: 132px; box-shadow: inset 0 -5px 0 rgba(232, 223, 200, 0.92); }
-  .brand-banner img { width: min(280px, calc(100% - 32px)); }
+  .brand-banner { box-shadow: inset 0 -5px 0 rgba(232, 223, 200, 0.92); }
   .workspace--module .introduction { padding-left: 20px; }
 }
 
