@@ -103,19 +103,18 @@ footer {
 }
 
 .brand-banner {
-  display: grid;
   overflow: hidden;
-  place-items: center;
-  background: #06283d;
-  border-block: 1px solid rgba(232, 223, 200, 0.42);
   border-radius: 10px;
-  box-shadow: inset 0 -6px 0 rgba(232, 223, 200, 0.92), 0 12px 38px rgba(6, 31, 49, 0.12);
+  box-shadow: 0 12px 38px rgba(6, 31, 49, 0.12);
 }
 
 .brand-banner img {
   display: block;
-  width: min(900px, 100%);
-  height: auto;
+  width: 100%;
+  height: clamp(150px, 14vw, 210px);
+  object-fit: cover;
+  object-position: center 48%;
+  border-radius: inherit;
 }
 
 .workspace {
@@ -588,7 +587,7 @@ footer a {
   .principle-grid { grid-template-columns: 1fr; }
   .outputs-heading, footer { align-items: start; flex-direction: column; }
   footer { gap: 8px; }
-  .brand-banner { box-shadow: inset 0 -5px 0 rgba(232, 223, 200, 0.92); }
+  .brand-banner img { height: 125px; }
   .workspace--module .introduction { padding-left: 20px; }
 }
 
