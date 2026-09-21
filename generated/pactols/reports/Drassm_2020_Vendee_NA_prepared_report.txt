@@ -1,0 +1,62 @@
+Rapport d’enrichissement PACTOLS
+
+Fichier : Drassm_2020_Vendee_NA_prepared.xml
+SHA-256 du fichier : 38ca9459ae0bcb006119ca949d23e9208725f8d2a3868bf33b328ea742bdd071
+Référentiel PACTOLS : PACTOLS 2026-07-22 (69bf9697e24cefd645a69465bbd271702786285a)
+SHA-256 Sujets : cd38ef8bd875e96ed9220274ecc12a679b382a520779654eb3bf8141fd16e98b
+SHA-256 Chronologie : ea081dcc12d7cc1f1a74ad5aeeca2c90b1733999dba6b41f97ac85843003eaaa
+SHA-256 Concepts dépréciés : 6a60f6b3da9682d216514e9167bfee7233013000e3d1c713e493f2d400a5771b
+
+Concepts rencontrés : 89
+indexed_exact : 80
+indexed_typographic : 4
+not_found : 5
+
+Avertissements : 0
+
+Exceptions : 5
+
+NOTICE : Au large de Château d’Oléron – La Bassée
+PARAGRAPHE : p7
+ZONE : fieldwork_method
+VALEUR : sondage programmé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Au large de Dolus-d’Oléron – Plage de l’Ecuissière
+PARAGRAPHE : p43
+ZONE : fieldwork_method
+VALEUR : sondage programmé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Au large de Saint-Georges-d’Oléron, Grand-Village-Plage – Longe Boyard
+PARAGRAPHE : p84
+ZONE : subjects
+VALEUR : lest
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Au large de Soulac-sur-Mer– Plage de l’Amélie Nord
+PARAGRAPHE : p113
+ZONE : fieldwork_method
+VALEUR : sondage programmé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Au large de Hendaye/Fontarabie – Prospection en baie de Saint-Jean-de-Luz
+PARAGRAPHE : p156
+ZONE : fieldwork_method
+VALEUR : sondage programmé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
