@@ -1,0 +1,459 @@
+Rapport d’enrichissement PACTOLS
+
+Fichier : AdlFI_PACA_2023_prepared.xml
+SHA-256 du fichier : 70c187d8ceeb07af435059952bb1f5c33e0699fb26d9adff15af4dbb64e1c35b
+Référentiel PACTOLS : PACTOLS 2026-07-22 (69bf9697e24cefd645a69465bbd271702786285a)
+SHA-256 Sujets : cd38ef8bd875e96ed9220274ecc12a679b382a520779654eb3bf8141fd16e98b
+SHA-256 Chronologie : ea081dcc12d7cc1f1a74ad5aeeca2c90b1733999dba6b41f97ac85843003eaaa
+SHA-256 Concepts dépréciés : 6a60f6b3da9682d216514e9167bfee7233013000e3d1c713e493f2d400a5771b
+
+Concepts rencontrés : 1171
+indexed_altlabel : 6
+indexed_exact : 1016
+indexed_typographic : 106
+not_found : 43
+
+Avertissements : 6
+
+NOTICE : Draix – Territoire communal
+PARAGRAPHE : p102
+ZONE : subjects
+VALEUR : moulin hydraulique
+STATUT : indexed_altlabel
+PREFLABEL/CANDIDAT : moulin à eau
+ARK : https://ark.frantiq.fr/ark:/26678/pcrt6oKbFdZxqF
+DÉTAIL : enrichissement effectué depuis un skos:altLabel français
+
+NOTICE : Méailles – Grotte de Pertus II
+PARAGRAPHE : p263
+ZONE : subjects
+VALEUR : habitat rupestre
+STATUT : indexed_altlabel
+PREFLABEL/CANDIDAT : habitat troglodytique
+ARK : https://ark.frantiq.fr/ark:/26678/crtto8Av9mkJD
+DÉTAIL : enrichissement effectué depuis un skos:altLabel français
+
+NOTICE : Marseille – Abords des stations Vieux Port et Jules Guesde, place Gabriel-Péri
+PARAGRAPHE : p1682
+ZONE : chronology
+VALEUR : époque classique
+STATUT : indexed_altlabel
+PREFLABEL/CANDIDAT : époque classique grecque
+ARK : https://ark.frantiq.fr/ark:/26678/pcrtsjGGaTgSBv
+DÉTAIL : enrichissement effectué depuis un skos:altLabel français
+
+NOTICE : Mouriès – Les Caisses de Jean-Jean
+PARAGRAPHE : p1714
+ZONE : chronology
+VALEUR : époque classique
+STATUT : indexed_altlabel
+PREFLABEL/CANDIDAT : époque classique grecque
+ARK : https://ark.frantiq.fr/ark:/26678/pcrtsjGGaTgSBv
+DÉTAIL : enrichissement effectué depuis un skos:altLabel français
+
+NOTICE : Orange – Théâtre antique
+PARAGRAPHE : p2575
+ZONE : subjects
+VALEUR : théâtre
+STATUT : indexed_altlabel
+PREFLABEL/CANDIDAT : théâtre (édifice)
+ARK : https://ark.frantiq.fr/ark:/26678/pcrtU6s8jjsWol
+DÉTAIL : enrichissement effectué depuis un skos:altLabel français
+
+NOTICE : Orange – Théâtre antique
+PARAGRAPHE : p2575
+ZONE : subjects
+VALEUR : cavea
+STATUT : indexed_altlabel
+PREFLABEL/CANDIDAT : gradins
+ARK : https://ark.frantiq.fr/ark:/26678/crtnfRBaJHwwp
+DÉTAIL : enrichissement effectué depuis un skos:altLabel français
+
+Exceptions : 43
+
+NOTICE : Digne-les-Bains – Collège Borrély 2
+PARAGRAPHE : p79
+ZONE : subjects
+VALEUR : bassin
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Gréoux-les-Bains – Le Paradis 2
+PARAGRAPHE : p187
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Moustiers-Sainte-Marie – Saint-Saturnin
+PARAGRAPHE : p314
+ZONE : subjects
+VALEUR : villa
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Pierrevert – Traverse du Quair 2
+PARAGRAPHE : p371
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Saint-Jurs – Le château
+PARAGRAPHE : p431
+ZONE : subjects
+VALEUR : logis
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Sigonce – Bel-Air
+PARAGRAPHE : p474
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Embrun – L’archevêché, corps nord et central
+PARAGRAPHE : p563
+ZONE : subjects
+VALEUR : archevêché
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aiglun – Abri fortifié d’Aiglun
+PARAGRAPHE : p715
+ZONE : subjects
+VALEUR : abris sous roche
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aiglun – Abri fortifié d’Aiglun
+PARAGRAPHE : p715
+ZONE : subjects
+VALEUR : bassin
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Grasse – Places du Petit-Puy, Godeau et du 24-Août
+PARAGRAPHE : p821
+ZONE : subjects
+VALEUR : carrière
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Levens – Notre-Dame-des-Prés
+PARAGRAPHE : p833
+ZONE : subjects
+VALEUR : bassin
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aix-en-Provence – Chemin de la Présidente
+PARAGRAPHE : p993
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aix-en-Provence – Analyses archéométriques de céramiques antiques et contemporaines
+PARAGRAPHE : p1092
+ZONE : subjects
+VALEUR : céramique non tournée
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aix-en-Provence – Établissement scolaire Sainte-Catherine-de-Sienne
+PARAGRAPHE : p1105
+ZONE : subjects
+VALEUR : bassin
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aix-en-Provence – Collège Mignet, avenue Malherbe
+PARAGRAPHE : p1139
+ZONE : subjects
+VALEUR : bâtiment sur poteau
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aubagne – Le Gast, route de Napollon
+PARAGRAPHE : p1257
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aubagne – Le Gast, route Napollon
+PARAGRAPHE : p1268
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aubagne – Chemin des Passons
+PARAGRAPHE : p1309
+ZONE : chronology
+VALEUR : Sauveterrien
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aubagne – Abords de l’Huveaune, centre-ville
+PARAGRAPHE : p1325
+ZONE : subjects
+VALEUR : pieux
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Aubagne – Traverse de l’église, Saint-Pierre
+PARAGRAPHE : p1338
+ZONE : chronology
+VALEUR : Néolithique âge du Bronze
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Coudoux – La Planche, tranche 2
+PARAGRAPHE : p1405
+ZONE : subjects
+VALEUR : bûcher
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Marseille – Tour des Catalans, rue des Catalans
+PARAGRAPHE : p1495
+ZONE : subjects
+VALEUR : lazaret
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Marseille – Parc Bougainville, phase 2
+PARAGRAPHE : p1616
+ZONE : subjects
+VALEUR : savonnerie
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Maussane-les-Alpilles – Roquerousse et Capelette
+PARAGRAPHE : p1695
+ZONE : subjects
+VALEUR : villa
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Peyrolles-en-Provence – Les Rivaux, 123 route du Plan
+PARAGRAPHE : p1737
+ZONE : subjects
+VALEUR : villa
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Saint-Rémy-de-Provence – Le château
+PARAGRAPHE : p1764
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Ventabren – L’Héritière
+PARAGRAPHE : p1821
+ZONE : subjects
+VALEUR : villa
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Comps-sur-Artuby – Baumes de la Bruyère
+PARAGRAPHE : p1890
+ZONE : subjects
+VALEUR : restes d’origine biologique
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Forcalqueiret – Le Castellas
+PARAGRAPHE : p1959
+ZONE : subjects
+VALEUR : logis
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Hyères – 299 chemin de Pomponiana
+PARAGRAPHE : p2079
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Le Muy – Les Cadenades, tranche 1
+PARAGRAPHE : p2134
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Saint-Cyr-sur-Mer – 6 boulevard Anatole Ducros
+PARAGRAPHE : p2181
+ZONE : chronology
+VALEUR : Second Guerre mondiale
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Saint-Maximin-la-Sainte-Baume – Jardins de l’Enclos
+PARAGRAPHE : p2194
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Saint-Maximin-la-Sainte-Baume – Jardins de l’Enclos
+PARAGRAPHE : p2194
+ZONE : subjects
+VALEUR : bassin
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Saint-Tropez – 42 avenue Paul-Roussel
+PARAGRAPHE : p2239
+ZONE : subjects
+VALEUR : villa
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Toulon – Palais de justice
+PARAGRAPHE : p2304
+ZONE : subjects
+VALEUR : bassin
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Toulon – Chemin des Terres-Rouges
+PARAGRAPHE : p2321
+ZONE : subjects
+VALEUR : villa
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Cavaillon – 181 avenue de la Libération
+PARAGRAPHE : p2454
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Entraigues-sur-la-Sorgue – Zac du Plan
+PARAGRAPHE : p2494
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Gigondas – Chapelle Saint-Cosme
+PARAGRAPHE : p2513
+ZONE : chronology
+VALEUR : haut Moyen Âge ; Moyen Âge classique
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Saignon – Les remparts
+PARAGRAPHE : p2633
+ZONE : subjects
+VALEUR : céramique protohistorique
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Sorgues – Le Mourre de Sève
+PARAGRAPHE : p2662
+ZONE : subjects
+VALEUR : céramique protohistorique
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Présence de la lèpre en Provence
+PARAGRAPHE : p2744
+ZONE : subjects
+VALEUR : léproserie
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
