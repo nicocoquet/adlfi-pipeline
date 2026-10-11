@@ -110,8 +110,8 @@
     account.login.hidden = connected;
     account.logout.hidden = !connected;
     account.connectedActions.hidden = !connected;
-    account.kicker.textContent = connected ? "Connecté avec GitHub" : "Accès aux traitements";
-    account.label.textContent = connected ? displayName(user.login) : "Connexion requise";
+    account.kicker.textContent = connected ? "Identification GitHub" : "Accès aux traitements";
+    account.label.textContent = connected ? `Connexion : ${displayName(user.login)}` : "Connexion requise";
     account.help.hidden = connected;
     account.moduleGrid.dataset.locked = connected ? "false" : "true";
     account.moduleGrid.setAttribute("aria-disabled", String(!connected));
