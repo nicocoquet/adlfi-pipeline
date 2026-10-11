@@ -84,6 +84,12 @@
     return body;
   }
 
+  // Noms d'affichage uniquement ; les autorisations restent fondées sur le login GitHub.
+  const displayNames = Object.freeze({
+    nicocoquet: 'Nicolas Coquet (MSH Mondes)',
+    'gaelle-david': 'Gaëlle David (MSH Mondes)',
+  });
+  function displayName(login) { return displayNames[String(login || '').toLowerCase()] || login; }
   function authorized() { return Boolean(state.user && allowedUsers.has(state.user.login)); }
   function formatBytes(bytes) {
     if (bytes < 1024) return `${bytes} octets`;
@@ -105,7 +111,7 @@
     account.logout.hidden = !connected;
     account.connectedActions.hidden = !connected;
     account.kicker.textContent = connected ? "Connecté avec GitHub" : "Accès aux traitements";
-    account.label.textContent = connected ? user.login : "Connexion requise";
+    account.label.textContent = connected ? displayName(user.login) : "Connexion requise";
     account.help.hidden = connected;
     account.moduleGrid.dataset.locked = connected ? "false" : "true";
     account.moduleGrid.setAttribute("aria-disabled", String(!connected));
