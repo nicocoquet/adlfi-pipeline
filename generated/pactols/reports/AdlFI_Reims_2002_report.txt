@@ -1,0 +1,14 @@
+Rapport d’enrichissement PACTOLS
+
+Fichier : AdlFI_Reims_2002.xml
+SHA-256 du fichier : 6628b3af9b51da5044782a58bafcf2920ca16d6742996ee10ce290f004be3fd4
+Référentiel PACTOLS : PACTOLS 2026-07-22 (69bf9697e24cefd645a69465bbd271702786285a)
+SHA-256 Sujets : cd38ef8bd875e96ed9220274ecc12a679b382a520779654eb3bf8141fd16e98b
+SHA-256 Chronologie : ea081dcc12d7cc1f1a74ad5aeeca2c90b1733999dba6b41f97ac85843003eaaa
+SHA-256 Concepts dépréciés : 6a60f6b3da9682d216514e9167bfee7233013000e3d1c713e493f2d400a5771b
+
+Concepts rencontrés : 0
+
+Avertissements : 0
+
+Exceptions : 0
