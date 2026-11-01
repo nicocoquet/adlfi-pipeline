@@ -1,0 +1,4896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI
+change="metopes_edition"
+xml:lang="fr-FR"
+xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:ns="http://www.tei-c.org/ns/1.0"
+xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0"
+xmlns:dcr="http://www.isocat.org/ns/dcr"
+><teiHeader
+><fileDesc
+><titleStmt
+><title
+type="main"
+>2001</title
+></titleStmt
+><editionStmt
+><edition
+><date
+>2022-11-14T15:56:00</date
+></edition
+></editionStmt
+><publicationStmt
+><publisher
+></publisher
+><ab
+type="papier"
+><dimensions
+><dim
+type="pagination"
+></dim
+></dimensions
+><date
+></date
+></ab
+><idno
+type="book"
+></idno
+><ab
+type="lodel"
+><date
+>30/11/2022</date
+></ab
+></publicationStmt
+><sourceDesc
+><p
+>Version Métopes : 3.0</p
+><p
+>Written by OpenOffice</p
+></sourceDesc
+></fileDesc
+><encodingDesc
+><tagsDecl
+><rendition
+scheme="css"
+xml:id="Cell1.A1"
+>border-bottom:0.5pt solid #000000;border-left:none;border-right:0.5pt solid #000000;border-top:none;</rendition
+><rendition
+scheme="css"
+xml:id="Cell1.B1"
+>border:0.5pt solid #000000;</rendition
+><rendition
+scheme="css"
+xml:id="Cell2.A1"
+>border-bottom:0.5pt solid #000000;border-left:none;border-right:0.5pt solid #000000;border-top:none;</rendition
+><rendition
+scheme="css"
+xml:id="Cell2.B1"
+>border:0.5pt solid #000000;</rendition
+><rendition
+scheme="css"
+xml:id="Cell3.A1"
+>border-bottom:0.5pt solid #000000;border-left:none;border-right:0.5pt solid #000000;border-top:none;</rendition
+><rendition
+scheme="css"
+xml:id="Cell3.B1"
+>border:0.5pt solid #000000;</rendition
+></tagsDecl
+></encodingDesc
+><profileDesc
+><langUsage
+><language
+ident="fr-FR"
+>fr-FRfr-FR</language
+></langUsage
+><textClass
+></textClass
+></profileDesc
+><revisionDesc
+><change
+when="2022-11-30T16:19:55"
+who="Nicolas Coquet"
+>Révision</change
+></revisionDesc
+></teiHeader
+><text
+xml:id="text"
+><front
+><titlePage
+><docTitle
+><titlePart
+style="T_3_Article"
+type="main"
+>2001</titlePart
+></docTitle
+></titlePage
+></front
+><body
+><div
+type="chapitre"
+xml:id="mainDiv"
+><div
+subtype="rubrique"
+type="section1"
+><head
+style="T_1"
+subtype="level1"
+>51 – Marne</head
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+><index
+indexName="Index"
+><term
+type="orig"
+>Reims</term
+><index
+indexName="pactols:Lieux"
+n="1"
+rendition="oe"
+source="26678/pcrtJIWNXBzTj3"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="de"
+>Europa</term
+><term
+xml:lang="es"
+>Europa</term
+><term
+xml:lang="it"
+>Europa</term
+><term
+xml:lang="nl"
+>Europa</term
+><term
+xml:lang="en"
+>Europe</term
+><term
+xml:lang="fr"
+>Europe</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtL2k0b4mTtD"
+><term
+xml:lang="en"
+>France</term
+><term
+xml:lang="fr"
+>France</term
+><term
+xml:lang="es"
+>Francia</term
+><term
+xml:lang="it"
+>Francia</term
+><term
+xml:lang="de"
+>Frankreich</term
+><term
+xml:lang="nl"
+>Frankrijk</term
+><term
+xml:lang="el"
+>Γαλλία</term
+><term
+xml:lang="ru"
+>Франция</term
+><term
+xml:lang="he"
+>צרפת</term
+><term
+xml:lang="ar"
+>فرنسا</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtSEeAipsBlD"
+><term
+xml:lang="de"
+>France métropolitaine</term
+><term
+xml:lang="fr"
+>France métropolitaine</term
+><term
+xml:lang="nl"
+>France métropolitaine</term
+><term
+xml:lang="es"
+>Francia metropolitana</term
+><term
+xml:lang="it"
+>Francia metropolitana</term
+><term
+xml:lang="en"
+>Metropolitan France</term
+><index
+n="4"
+rendition="oe"
+source="26678/crtcJOiyPujgF"
+><term
+xml:lang="de"
+>Grand Est</term
+><term
+xml:lang="en"
+>Grand Est</term
+><term
+xml:lang="fr"
+>Grand Est</term
+><term
+xml:lang="it"
+>Grand Est</term
+><term
+xml:lang="nl"
+>Grand Est</term
+><term
+xml:lang="es"
+>Gran Este</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtT6hDSQ75Y8"
+><term
+xml:lang="es"
+>Departamento de Marne</term
+><term
+xml:lang="fr"
+>Département de la Marne</term
+><term
+xml:lang="nl"
+>Departement Marne</term
+><term
+xml:lang="de"
+>Département Marne</term
+><term
+xml:lang="it"
+>Dipartimento della Marna</term
+><term
+xml:lang="en"
+>Marne (department)</term
+><index
+n="6"
+rendition="oe"
+source="26678/pcrtSH4UWeGNfZ"
+><term
+xml:lang="de"
+>Reims</term
+><term
+xml:lang="en"
+>Reims</term
+><term
+xml:lang="es"
+>Reims</term
+><term
+xml:lang="fr"
+>Reims</term
+><term
+xml:lang="it"
+>Reims</term
+><term
+xml:lang="nl"
+>Reims</term
+></index
+></index
+></index
+></index
+></index
+></index
+></index
+> – 17 boulevard de la Paix</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2001)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Agnès Balmelle</name
+><affiliation
+xml:id="aff01"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+><index
+indexName="Index"
+><term
+type="orig"
+>Protohistoire</term
+><index
+indexName="pactols:Chronologie"
+n="1"
+rendition="oe"
+source="26678/pcrtgSbjUSVUr8"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="fr"
+>entités temporelles</term
+><term
+xml:lang="en"
+>types of epochs</term
+><index
+n="2"
+rendition="oe"
+source="26678/crtxhXbaDgYSc"
+><term
+xml:lang="fr"
+>périodisations</term
+><term
+xml:lang="nl"
+>periodisering</term
+><term
+xml:lang="de"
+>Periodisierung</term
+><term
+xml:lang="es"
+>periodización</term
+><term
+xml:lang="en"
+>periodization</term
+><term
+xml:lang="it"
+>periodizzazione</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtHlenwSnkDM"
+><term
+xml:lang="fr"
+>âge des métaux</term
+><term
+xml:lang="de"
+>Frühgeschichte</term
+><term
+xml:lang="es"
+>Protohistoria</term
+><term
+xml:lang="nl"
+>protohistorie</term
+><term
+xml:lang="en"
+>Protohistory</term
+><term
+xml:lang="it"
+>Protostoria</term
+><term
+xml:lang="ar"
+>فجر التاريخ</term
+></index
+></index
+></index
+></index
+>, <index
+indexName="Index"
+><term
+type="orig"
+>Antiquité romaine</term
+><index
+indexName="pactols:Chronologie"
+n="1"
+rendition="oe"
+source="26678/pcrtgSbjUSVUr8"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="fr"
+>entités temporelles</term
+><term
+xml:lang="en"
+>types of epochs</term
+><index
+n="2"
+rendition="oe"
+source="26678/crtxhXbaDgYSc"
+><term
+xml:lang="fr"
+>périodisations</term
+><term
+xml:lang="nl"
+>periodisering</term
+><term
+xml:lang="de"
+>Periodisierung</term
+><term
+xml:lang="es"
+>periodización</term
+><term
+xml:lang="en"
+>periodization</term
+><term
+xml:lang="it"
+>periodizzazione</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtxT02uJOogm"
+><term
+xml:lang="it"
+>Antichità</term
+><term
+xml:lang="es"
+>Antigüedad</term
+><term
+xml:lang="de"
+>Antike</term
+><term
+xml:lang="fr"
+>Antiquité</term
+><term
+xml:lang="en"
+>Antiquity</term
+><term
+xml:lang="nl"
+>Oudheid</term
+><term
+xml:lang="ar"
+>تاريخ قديم</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrtof7EHNsS2e"
+><term
+xml:lang="it"
+>Antichità greco-romana</term
+><term
+xml:lang="es"
+>Antigüedad greco-romana</term
+><term
+xml:lang="fr"
+>Antiquité gréco-romaine</term
+><term
+xml:lang="en"
+>Greco-Roman Antiquity</term
+><term
+xml:lang="de"
+>Griechisch-Römische Antike</term
+><term
+xml:lang="nl"
+>Grieks-Romeinse Oudheid</term
+><term
+xml:lang="ar"
+>تاريخ قديم يوناني-روماني</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtZTmusVUU24"
+><term
+xml:lang="it"
+>Antichità romana</term
+><term
+xml:lang="es"
+>Antigüedad romana</term
+><term
+xml:lang="fr"
+>Antiquité romaine</term
+><term
+xml:lang="en"
+>Roman Antiquity</term
+><term
+xml:lang="nl"
+>Romeinse Oudheid</term
+><term
+xml:lang="de"
+>Römische Antike</term
+><term
+xml:lang="ar"
+>تاريخ قديم روماني</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>3450</idno
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2001</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>opération de diagnostic</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="en"
+>archaeological requirement</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrt9A9KDllfAq"
+><term
+xml:lang="it"
+>archeologia preventiva</term
+><term
+xml:lang="es"
+>arqueología preventiva</term
+><term
+xml:lang="fr"
+>opération d'archéologie préventive</term
+><term
+xml:lang="de"
+>Präventivarchäologie</term
+><term
+xml:lang="nl"
+>preventieve archeologie</term
+><term
+xml:lang="en"
+>preventive archaeology</term
+><term
+xml:lang="ar"
+>علم إنقاذ الآثار</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtWWQS75V5Bc"
+><term
+xml:lang="fr"
+>opération de diagnostic</term
+><term
+xml:lang="nl"
+>proefboring</term
+><term
+xml:lang="de"
+>Sondage</term
+><term
+xml:lang="it"
+>sondaggio</term
+><term
+xml:lang="es"
+>sondeo</term
+><term
+xml:lang="en"
+>test trench</term
+><term
+xml:lang="ar"
+>سَبْر</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>La parcelle de 850 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> située au 17 boulevard de la Paix se trouve d’une part en bordure intérieure et immédiate du fossé de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+>, et d’autre part dans un secteur connu pour être densément occupé durant la période gallo-romaine. L’intervention archéologique menée au cours de l’été 2001 a en effet permis de mettre en évidence des occupations de la fin de la période gauloise à la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. apr. J.-C.</p
+><p
+style="txt_Normal"
+>De nombreuses ornières sillonnent le substrat géologique sur une emprise supérieure à 15 m de large. Ce niveau de circulation dont la position stratigraphique, l’orientation et la proximité des fortifications de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+> est probablement à mettre en relation avec celles-ci. Dans le courant du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s., la levée de terre est arasée et le secteur s’urbanise. Des rues et des habitations sont implantées. L’évolution du quartier se manifestera par l’abandon d’une des rues, une modification des orientations des constructions et par un changement dans les matériaux. Du premier habitat, en pierre, ne subsistait que quelques murs. En revanche, des secondes constructions, fondées en craie, plusieurs murs ont été relevés. Les plans ainsi obtenus viendront compléter ceux qui ont été dégagés sur les opérations voisines.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+><index
+indexName="Index"
+><term
+type="orig"
+>Reims</term
+><index
+indexName="pactols:Lieux"
+n="1"
+rendition="oe"
+source="26678/pcrtJIWNXBzTj3"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="de"
+>Europa</term
+><term
+xml:lang="es"
+>Europa</term
+><term
+xml:lang="it"
+>Europa</term
+><term
+xml:lang="nl"
+>Europa</term
+><term
+xml:lang="en"
+>Europe</term
+><term
+xml:lang="fr"
+>Europe</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtL2k0b4mTtD"
+><term
+xml:lang="en"
+>France</term
+><term
+xml:lang="fr"
+>France</term
+><term
+xml:lang="es"
+>Francia</term
+><term
+xml:lang="it"
+>Francia</term
+><term
+xml:lang="de"
+>Frankreich</term
+><term
+xml:lang="nl"
+>Frankrijk</term
+><term
+xml:lang="el"
+>Γαλλία</term
+><term
+xml:lang="ru"
+>Франция</term
+><term
+xml:lang="he"
+>צרפת</term
+><term
+xml:lang="ar"
+>فرنسا</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtSEeAipsBlD"
+><term
+xml:lang="de"
+>France métropolitaine</term
+><term
+xml:lang="fr"
+>France métropolitaine</term
+><term
+xml:lang="nl"
+>France métropolitaine</term
+><term
+xml:lang="es"
+>Francia metropolitana</term
+><term
+xml:lang="it"
+>Francia metropolitana</term
+><term
+xml:lang="en"
+>Metropolitan France</term
+><index
+n="4"
+rendition="oe"
+source="26678/crtcJOiyPujgF"
+><term
+xml:lang="de"
+>Grand Est</term
+><term
+xml:lang="en"
+>Grand Est</term
+><term
+xml:lang="fr"
+>Grand Est</term
+><term
+xml:lang="it"
+>Grand Est</term
+><term
+xml:lang="nl"
+>Grand Est</term
+><term
+xml:lang="es"
+>Gran Este</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtT6hDSQ75Y8"
+><term
+xml:lang="es"
+>Departamento de Marne</term
+><term
+xml:lang="fr"
+>Département de la Marne</term
+><term
+xml:lang="nl"
+>Departement Marne</term
+><term
+xml:lang="de"
+>Département Marne</term
+><term
+xml:lang="it"
+>Dipartimento della Marna</term
+><term
+xml:lang="en"
+>Marne (department)</term
+><index
+n="6"
+rendition="oe"
+source="26678/pcrtSH4UWeGNfZ"
+><term
+xml:lang="de"
+>Reims</term
+><term
+xml:lang="en"
+>Reims</term
+><term
+xml:lang="es"
+>Reims</term
+><term
+xml:lang="fr"
+>Reims</term
+><term
+xml:lang="it"
+>Reims</term
+><term
+xml:lang="nl"
+>Reims</term
+></index
+></index
+></index
+></index
+></index
+></index
+></index
+> – Rue du Commerce</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2001)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff02"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>3572</idno
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2001</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>opération de diagnostic</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="en"
+>archaeological requirement</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrt9A9KDllfAq"
+><term
+xml:lang="it"
+>archeologia preventiva</term
+><term
+xml:lang="es"
+>arqueología preventiva</term
+><term
+xml:lang="fr"
+>opération d'archéologie préventive</term
+><term
+xml:lang="de"
+>Präventivarchäologie</term
+><term
+xml:lang="nl"
+>preventieve archeologie</term
+><term
+xml:lang="en"
+>preventive archaeology</term
+><term
+xml:lang="ar"
+>علم إنقاذ الآثار</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtWWQS75V5Bc"
+><term
+xml:lang="fr"
+>opération de diagnostic</term
+><term
+xml:lang="nl"
+>proefboring</term
+><term
+xml:lang="de"
+>Sondage</term
+><term
+xml:lang="it"
+>sondaggio</term
+><term
+xml:lang="es"
+>sondeo</term
+><term
+xml:lang="en"
+>test trench</term
+><term
+xml:lang="ar"
+>سَبْر</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>Sur l’emplacement présumé du passage du fossé de la grande enceinte antique de Reims, la construction d’un supermarché a motivé un diagnostic archéologique. L’ensemble des parcelles concernées sont recouvertes d’au moins 2,50 m de remblai issus probablement des démolitions du premier conflit mondial. Les terrassements prévus pour le projet de construction n’excédant pas 1 m au maximum, il n’a pas été donné suite à cette opération.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+><index
+indexName="Index"
+><term
+type="orig"
+>Reims</term
+><index
+indexName="pactols:Lieux"
+n="1"
+rendition="oe"
+source="26678/pcrtJIWNXBzTj3"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="de"
+>Europa</term
+><term
+xml:lang="es"
+>Europa</term
+><term
+xml:lang="it"
+>Europa</term
+><term
+xml:lang="nl"
+>Europa</term
+><term
+xml:lang="en"
+>Europe</term
+><term
+xml:lang="fr"
+>Europe</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtL2k0b4mTtD"
+><term
+xml:lang="en"
+>France</term
+><term
+xml:lang="fr"
+>France</term
+><term
+xml:lang="es"
+>Francia</term
+><term
+xml:lang="it"
+>Francia</term
+><term
+xml:lang="de"
+>Frankreich</term
+><term
+xml:lang="nl"
+>Frankrijk</term
+><term
+xml:lang="el"
+>Γαλλία</term
+><term
+xml:lang="ru"
+>Франция</term
+><term
+xml:lang="he"
+>צרפת</term
+><term
+xml:lang="ar"
+>فرنسا</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtSEeAipsBlD"
+><term
+xml:lang="de"
+>France métropolitaine</term
+><term
+xml:lang="fr"
+>France métropolitaine</term
+><term
+xml:lang="nl"
+>France métropolitaine</term
+><term
+xml:lang="es"
+>Francia metropolitana</term
+><term
+xml:lang="it"
+>Francia metropolitana</term
+><term
+xml:lang="en"
+>Metropolitan France</term
+><index
+n="4"
+rendition="oe"
+source="26678/crtcJOiyPujgF"
+><term
+xml:lang="de"
+>Grand Est</term
+><term
+xml:lang="en"
+>Grand Est</term
+><term
+xml:lang="fr"
+>Grand Est</term
+><term
+xml:lang="it"
+>Grand Est</term
+><term
+xml:lang="nl"
+>Grand Est</term
+><term
+xml:lang="es"
+>Gran Este</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtT6hDSQ75Y8"
+><term
+xml:lang="es"
+>Departamento de Marne</term
+><term
+xml:lang="fr"
+>Département de la Marne</term
+><term
+xml:lang="nl"
+>Departement Marne</term
+><term
+xml:lang="de"
+>Département Marne</term
+><term
+xml:lang="it"
+>Dipartimento della Marna</term
+><term
+xml:lang="en"
+>Marne (department)</term
+><index
+n="6"
+rendition="oe"
+source="26678/pcrtSH4UWeGNfZ"
+><term
+xml:lang="de"
+>Reims</term
+><term
+xml:lang="en"
+>Reims</term
+><term
+xml:lang="es"
+>Reims</term
+><term
+xml:lang="fr"
+>Reims</term
+><term
+xml:lang="it"
+>Reims</term
+><term
+xml:lang="nl"
+>Reims</term
+></index
+></index
+></index
+></index
+></index
+></index
+></index
+> – 20 rue Édouard-Vaillant</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2001)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff03"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+><index
+indexName="Index"
+><term
+type="orig"
+>époque moderne</term
+><index
+indexName="pactols:Chronologie"
+n="1"
+rendition="oe"
+source="26678/pcrtgSbjUSVUr8"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="fr"
+>entités temporelles</term
+><term
+xml:lang="en"
+>types of epochs</term
+><index
+n="2"
+rendition="oe"
+source="26678/crtxhXbaDgYSc"
+><term
+xml:lang="fr"
+>périodisations</term
+><term
+xml:lang="nl"
+>periodisering</term
+><term
+xml:lang="de"
+>Periodisierung</term
+><term
+xml:lang="es"
+>periodización</term
+><term
+xml:lang="en"
+>periodization</term
+><term
+xml:lang="it"
+>periodizzazione</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtPSEEZSBEJp"
+><term
+xml:lang="en"
+>Early modern period</term
+><term
+xml:lang="fr"
+>époque moderne</term
+><term
+xml:lang="it"
+>Età moderna</term
+><term
+xml:lang="de"
+>Neuzeit</term
+><term
+xml:lang="nl"
+>Nieuwe Tijd</term
+><term
+xml:lang="es"
+>Tiempos Modernos</term
+><term
+xml:lang="ar"
+>العصر الحديث</term
+></index
+></index
+></index
+></index
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>3605</idno
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2001</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>opération de diagnostic</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="en"
+>archaeological requirement</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrt9A9KDllfAq"
+><term
+xml:lang="it"
+>archeologia preventiva</term
+><term
+xml:lang="es"
+>arqueología preventiva</term
+><term
+xml:lang="fr"
+>opération d'archéologie préventive</term
+><term
+xml:lang="de"
+>Präventivarchäologie</term
+><term
+xml:lang="nl"
+>preventieve archeologie</term
+><term
+xml:lang="en"
+>preventive archaeology</term
+><term
+xml:lang="ar"
+>علم إنقاذ الآثار</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtWWQS75V5Bc"
+><term
+xml:lang="fr"
+>opération de diagnostic</term
+><term
+xml:lang="nl"
+>proefboring</term
+><term
+xml:lang="de"
+>Sondage</term
+><term
+xml:lang="it"
+>sondaggio</term
+><term
+xml:lang="es"
+>sondeo</term
+><term
+xml:lang="en"
+>test trench</term
+><term
+xml:lang="ar"
+>سَبْر</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>Le projet de construction d’un immeuble résidentiel avec sous-sol, dans un quartier de la périphérie sud de la ville antique, a entraîné un diagnostic archéologique. Une puissante couche de remblais modernes de 4 m d’épaisseur, issus probablement de la reconstruction de Reims après le premier conflit mondial a été observée, reposant directement sur la craie géologique.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+><index
+indexName="Index"
+><term
+type="orig"
+>Reims</term
+><index
+indexName="pactols:Lieux"
+n="1"
+rendition="oe"
+source="26678/pcrtJIWNXBzTj3"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="de"
+>Europa</term
+><term
+xml:lang="es"
+>Europa</term
+><term
+xml:lang="it"
+>Europa</term
+><term
+xml:lang="nl"
+>Europa</term
+><term
+xml:lang="en"
+>Europe</term
+><term
+xml:lang="fr"
+>Europe</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtL2k0b4mTtD"
+><term
+xml:lang="en"
+>France</term
+><term
+xml:lang="fr"
+>France</term
+><term
+xml:lang="es"
+>Francia</term
+><term
+xml:lang="it"
+>Francia</term
+><term
+xml:lang="de"
+>Frankreich</term
+><term
+xml:lang="nl"
+>Frankrijk</term
+><term
+xml:lang="el"
+>Γαλλία</term
+><term
+xml:lang="ru"
+>Франция</term
+><term
+xml:lang="he"
+>צרפת</term
+><term
+xml:lang="ar"
+>فرنسا</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtSEeAipsBlD"
+><term
+xml:lang="de"
+>France métropolitaine</term
+><term
+xml:lang="fr"
+>France métropolitaine</term
+><term
+xml:lang="nl"
+>France métropolitaine</term
+><term
+xml:lang="es"
+>Francia metropolitana</term
+><term
+xml:lang="it"
+>Francia metropolitana</term
+><term
+xml:lang="en"
+>Metropolitan France</term
+><index
+n="4"
+rendition="oe"
+source="26678/crtcJOiyPujgF"
+><term
+xml:lang="de"
+>Grand Est</term
+><term
+xml:lang="en"
+>Grand Est</term
+><term
+xml:lang="fr"
+>Grand Est</term
+><term
+xml:lang="it"
+>Grand Est</term
+><term
+xml:lang="nl"
+>Grand Est</term
+><term
+xml:lang="es"
+>Gran Este</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtT6hDSQ75Y8"
+><term
+xml:lang="es"
+>Departamento de Marne</term
+><term
+xml:lang="fr"
+>Département de la Marne</term
+><term
+xml:lang="nl"
+>Departement Marne</term
+><term
+xml:lang="de"
+>Département Marne</term
+><term
+xml:lang="it"
+>Dipartimento della Marna</term
+><term
+xml:lang="en"
+>Marne (department)</term
+><index
+n="6"
+rendition="oe"
+source="26678/pcrtSH4UWeGNfZ"
+><term
+xml:lang="de"
+>Reims</term
+><term
+xml:lang="en"
+>Reims</term
+><term
+xml:lang="es"
+>Reims</term
+><term
+xml:lang="fr"
+>Reims</term
+><term
+xml:lang="it"
+>Reims</term
+><term
+xml:lang="nl"
+>Reims</term
+></index
+></index
+></index
+></index
+></index
+></index
+></index
+> – 10-24 rue Boudet</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2001)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff04"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+><index
+indexName="Index"
+><term
+type="orig"
+>époque moderne</term
+><index
+indexName="pactols:Chronologie"
+n="1"
+rendition="oe"
+source="26678/pcrtgSbjUSVUr8"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="fr"
+>entités temporelles</term
+><term
+xml:lang="en"
+>types of epochs</term
+><index
+n="2"
+rendition="oe"
+source="26678/crtxhXbaDgYSc"
+><term
+xml:lang="fr"
+>périodisations</term
+><term
+xml:lang="nl"
+>periodisering</term
+><term
+xml:lang="de"
+>Periodisierung</term
+><term
+xml:lang="es"
+>periodización</term
+><term
+xml:lang="en"
+>periodization</term
+><term
+xml:lang="it"
+>periodizzazione</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtPSEEZSBEJp"
+><term
+xml:lang="en"
+>Early modern period</term
+><term
+xml:lang="fr"
+>époque moderne</term
+><term
+xml:lang="it"
+>Età moderna</term
+><term
+xml:lang="de"
+>Neuzeit</term
+><term
+xml:lang="nl"
+>Nieuwe Tijd</term
+><term
+xml:lang="es"
+>Tiempos Modernos</term
+><term
+xml:lang="ar"
+>العصر الحديث</term
+></index
+></index
+></index
+></index
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>3618</idno
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2001</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>opération de diagnostic</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="en"
+>archaeological requirement</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrt9A9KDllfAq"
+><term
+xml:lang="it"
+>archeologia preventiva</term
+><term
+xml:lang="es"
+>arqueología preventiva</term
+><term
+xml:lang="fr"
+>opération d'archéologie préventive</term
+><term
+xml:lang="de"
+>Präventivarchäologie</term
+><term
+xml:lang="nl"
+>preventieve archeologie</term
+><term
+xml:lang="en"
+>preventive archaeology</term
+><term
+xml:lang="ar"
+>علم إنقاذ الآثار</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtWWQS75V5Bc"
+><term
+xml:lang="fr"
+>opération de diagnostic</term
+><term
+xml:lang="nl"
+>proefboring</term
+><term
+xml:lang="de"
+>Sondage</term
+><term
+xml:lang="it"
+>sondaggio</term
+><term
+xml:lang="es"
+>sondeo</term
+><term
+xml:lang="en"
+>test trench</term
+><term
+xml:lang="ar"
+>سَبْر</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>La construction d’un immeuble avec sous-sol en bordure de la voie romaine Reims-Laon, à la sortie de la ville du Haut-Empire, a nécessité la réalisation d’un diagnostic archéologique. Sous une couche de remblais modernes, variant de 0.30 à 1 m, seuls deux petits tronçons de fossés non datables ont été observés en limite de terrassement.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+><index
+indexName="Index"
+><term
+type="orig"
+>Reims</term
+><index
+indexName="pactols:Lieux"
+n="1"
+rendition="oe"
+source="26678/pcrtJIWNXBzTj3"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="de"
+>Europa</term
+><term
+xml:lang="es"
+>Europa</term
+><term
+xml:lang="it"
+>Europa</term
+><term
+xml:lang="nl"
+>Europa</term
+><term
+xml:lang="en"
+>Europe</term
+><term
+xml:lang="fr"
+>Europe</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtL2k0b4mTtD"
+><term
+xml:lang="en"
+>France</term
+><term
+xml:lang="fr"
+>France</term
+><term
+xml:lang="es"
+>Francia</term
+><term
+xml:lang="it"
+>Francia</term
+><term
+xml:lang="de"
+>Frankreich</term
+><term
+xml:lang="nl"
+>Frankrijk</term
+><term
+xml:lang="el"
+>Γαλλία</term
+><term
+xml:lang="ru"
+>Франция</term
+><term
+xml:lang="he"
+>צרפת</term
+><term
+xml:lang="ar"
+>فرنسا</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtSEeAipsBlD"
+><term
+xml:lang="de"
+>France métropolitaine</term
+><term
+xml:lang="fr"
+>France métropolitaine</term
+><term
+xml:lang="nl"
+>France métropolitaine</term
+><term
+xml:lang="es"
+>Francia metropolitana</term
+><term
+xml:lang="it"
+>Francia metropolitana</term
+><term
+xml:lang="en"
+>Metropolitan France</term
+><index
+n="4"
+rendition="oe"
+source="26678/crtcJOiyPujgF"
+><term
+xml:lang="de"
+>Grand Est</term
+><term
+xml:lang="en"
+>Grand Est</term
+><term
+xml:lang="fr"
+>Grand Est</term
+><term
+xml:lang="it"
+>Grand Est</term
+><term
+xml:lang="nl"
+>Grand Est</term
+><term
+xml:lang="es"
+>Gran Este</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtT6hDSQ75Y8"
+><term
+xml:lang="es"
+>Departamento de Marne</term
+><term
+xml:lang="fr"
+>Département de la Marne</term
+><term
+xml:lang="nl"
+>Departement Marne</term
+><term
+xml:lang="de"
+>Département Marne</term
+><term
+xml:lang="it"
+>Dipartimento della Marna</term
+><term
+xml:lang="en"
+>Marne (department)</term
+><index
+n="6"
+rendition="oe"
+source="26678/pcrtSH4UWeGNfZ"
+><term
+xml:lang="de"
+>Reims</term
+><term
+xml:lang="en"
+>Reims</term
+><term
+xml:lang="es"
+>Reims</term
+><term
+xml:lang="fr"
+>Reims</term
+><term
+xml:lang="it"
+>Reims</term
+><term
+xml:lang="nl"
+>Reims</term
+></index
+></index
+></index
+></index
+></index
+></index
+></index
+> – 11 rue Lesage</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2001)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff05"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>3677</idno
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2001</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>opération de diagnostic</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="en"
+>archaeological requirement</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrt9A9KDllfAq"
+><term
+xml:lang="it"
+>archeologia preventiva</term
+><term
+xml:lang="es"
+>arqueología preventiva</term
+><term
+xml:lang="fr"
+>opération d'archéologie préventive</term
+><term
+xml:lang="de"
+>Präventivarchäologie</term
+><term
+xml:lang="nl"
+>preventieve archeologie</term
+><term
+xml:lang="en"
+>preventive archaeology</term
+><term
+xml:lang="ar"
+>علم إنقاذ الآثار</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtWWQS75V5Bc"
+><term
+xml:lang="fr"
+>opération de diagnostic</term
+><term
+xml:lang="nl"
+>proefboring</term
+><term
+xml:lang="de"
+>Sondage</term
+><term
+xml:lang="it"
+>sondaggio</term
+><term
+xml:lang="es"
+>sondeo</term
+><term
+xml:lang="en"
+>test trench</term
+><term
+xml:lang="ar"
+>سَبْر</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>Situé à proximité d’une découverte de tombes de l’Antiquité tardive, la construction d’un ensemble de maisons particulières a entraîné un diagnostic archéologique. La craie a été repérée au niveau sol actuel. Aucune structure archéologique n’a été observée.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+><index
+indexName="Index"
+><term
+type="orig"
+>Reims</term
+><index
+indexName="pactols:Lieux"
+n="1"
+rendition="oe"
+source="26678/pcrtJIWNXBzTj3"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="de"
+>Europa</term
+><term
+xml:lang="es"
+>Europa</term
+><term
+xml:lang="it"
+>Europa</term
+><term
+xml:lang="nl"
+>Europa</term
+><term
+xml:lang="en"
+>Europe</term
+><term
+xml:lang="fr"
+>Europe</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtL2k0b4mTtD"
+><term
+xml:lang="en"
+>France</term
+><term
+xml:lang="fr"
+>France</term
+><term
+xml:lang="es"
+>Francia</term
+><term
+xml:lang="it"
+>Francia</term
+><term
+xml:lang="de"
+>Frankreich</term
+><term
+xml:lang="nl"
+>Frankrijk</term
+><term
+xml:lang="el"
+>Γαλλία</term
+><term
+xml:lang="ru"
+>Франция</term
+><term
+xml:lang="he"
+>צרפת</term
+><term
+xml:lang="ar"
+>فرنسا</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtSEeAipsBlD"
+><term
+xml:lang="de"
+>France métropolitaine</term
+><term
+xml:lang="fr"
+>France métropolitaine</term
+><term
+xml:lang="nl"
+>France métropolitaine</term
+><term
+xml:lang="es"
+>Francia metropolitana</term
+><term
+xml:lang="it"
+>Francia metropolitana</term
+><term
+xml:lang="en"
+>Metropolitan France</term
+><index
+n="4"
+rendition="oe"
+source="26678/crtcJOiyPujgF"
+><term
+xml:lang="de"
+>Grand Est</term
+><term
+xml:lang="en"
+>Grand Est</term
+><term
+xml:lang="fr"
+>Grand Est</term
+><term
+xml:lang="it"
+>Grand Est</term
+><term
+xml:lang="nl"
+>Grand Est</term
+><term
+xml:lang="es"
+>Gran Este</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtT6hDSQ75Y8"
+><term
+xml:lang="es"
+>Departamento de Marne</term
+><term
+xml:lang="fr"
+>Département de la Marne</term
+><term
+xml:lang="nl"
+>Departement Marne</term
+><term
+xml:lang="de"
+>Département Marne</term
+><term
+xml:lang="it"
+>Dipartimento della Marna</term
+><term
+xml:lang="en"
+>Marne (department)</term
+><index
+n="6"
+rendition="oe"
+source="26678/pcrtSH4UWeGNfZ"
+><term
+xml:lang="de"
+>Reims</term
+><term
+xml:lang="en"
+>Reims</term
+><term
+xml:lang="es"
+>Reims</term
+><term
+xml:lang="fr"
+>Reims</term
+><term
+xml:lang="it"
+>Reims</term
+><term
+xml:lang="nl"
+>Reims</term
+></index
+></index
+></index
+></index
+></index
+></index
+></index
+> – 17-25 rue de Châtivesle</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (2001)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Gilles Deborde</name
+><affiliation
+xml:id="aff06"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+><index
+indexName="Index"
+><term
+type="orig"
+>Antiquité romaine</term
+><index
+indexName="pactols:Chronologie"
+n="1"
+rendition="oe"
+source="26678/pcrtgSbjUSVUr8"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="fr"
+>entités temporelles</term
+><term
+xml:lang="en"
+>types of epochs</term
+><index
+n="2"
+rendition="oe"
+source="26678/crtxhXbaDgYSc"
+><term
+xml:lang="fr"
+>périodisations</term
+><term
+xml:lang="nl"
+>periodisering</term
+><term
+xml:lang="de"
+>Periodisierung</term
+><term
+xml:lang="es"
+>periodización</term
+><term
+xml:lang="en"
+>periodization</term
+><term
+xml:lang="it"
+>periodizzazione</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtxT02uJOogm"
+><term
+xml:lang="it"
+>Antichità</term
+><term
+xml:lang="es"
+>Antigüedad</term
+><term
+xml:lang="de"
+>Antike</term
+><term
+xml:lang="fr"
+>Antiquité</term
+><term
+xml:lang="en"
+>Antiquity</term
+><term
+xml:lang="nl"
+>Oudheid</term
+><term
+xml:lang="ar"
+>تاريخ قديم</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrtof7EHNsS2e"
+><term
+xml:lang="it"
+>Antichità greco-romana</term
+><term
+xml:lang="es"
+>Antigüedad greco-romana</term
+><term
+xml:lang="fr"
+>Antiquité gréco-romaine</term
+><term
+xml:lang="en"
+>Greco-Roman Antiquity</term
+><term
+xml:lang="de"
+>Griechisch-Römische Antike</term
+><term
+xml:lang="nl"
+>Grieks-Romeinse Oudheid</term
+><term
+xml:lang="ar"
+>تاريخ قديم يوناني-روماني</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtZTmusVUU24"
+><term
+xml:lang="it"
+>Antichità romana</term
+><term
+xml:lang="es"
+>Antigüedad romana</term
+><term
+xml:lang="fr"
+>Antiquité romaine</term
+><term
+xml:lang="en"
+>Roman Antiquity</term
+><term
+xml:lang="nl"
+>Romeinse Oudheid</term
+><term
+xml:lang="de"
+>Römische Antike</term
+><term
+xml:lang="ar"
+>تاريخ قديم روماني</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>3394</idno
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2001</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>fouille préventive</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="en"
+>archaeological requirement</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrt9A9KDllfAq"
+><term
+xml:lang="it"
+>archeologia preventiva</term
+><term
+xml:lang="es"
+>arqueología preventiva</term
+><term
+xml:lang="fr"
+>opération d'archéologie préventive</term
+><term
+xml:lang="de"
+>Präventivarchäologie</term
+><term
+xml:lang="nl"
+>preventieve archeologie</term
+><term
+xml:lang="en"
+>preventive archaeology</term
+><term
+xml:lang="ar"
+>علم إنقاذ الآثار</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtcJxzOpgs7T"
+><term
+xml:lang="fr"
+>fouille préventive</term
+><term
+xml:lang="nl"
+>noodopgraving</term
+><term
+xml:lang="de"
+>Notgrabung</term
+><term
+xml:lang="en"
+>rescue</term
+><term
+xml:lang="es"
+>salvamento</term
+><term
+xml:lang="it"
+>scavo di salvataggio</term
+><term
+xml:lang="ar"
+>إنقاذ</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>Le projet d’extension du centre commercial de l’espace Drouet-d’Erlon en bordure de la rue de Châtivesle, n<hi
+rend="sup"
+style="typo_Exposant"
+>os </hi
+>19 à 25, a fait l’objet d’un diagnostic archéologique préalable, puis d’une opération de fouille préventive réalisée en mars 2001.</p
+><p
+style="txt_Normal"
+>L’emprise du projet est située au contact et à l’extérieur du fossé de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+> de La Tène finale, à 600 m du cours actuel de la Vesle. Elle est distante de 600 m du centre de la cité du Haut-Empire et de 200 m du rempart du Bas-Empire.</p
+><p
+style="txt_Normal"
+>La fouille exhaustive d’une surface de 500 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> a révélé une imbrication de structures d’habitat associées à un tronçon de voirie antique.</p
+><p
+style="txt_Normal"
+>Les données enregistrées au cours de la fouille ont permis l’élaboration d’un diagramme stratigraphique illustrant la totalité de l’occupation antique du site et mettant en évidence six grandes phases d’aménagements. Ces données relatives ont ensuite été confrontées aux informations chrono-typologiques d’une étude céramologique supervisée par Xavier Deru (université de Lille 3, Halma, EA 2457). Cette corrélation a permis de différencier cinq horizons bien marqués, datés de la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. av. J.-C. au <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. apr. J.-C. :</p
+><list
+type="unordered"
+><item
+style="txt_Liste_"
+>occupation augustéenne (5 av.J.-C.-20 apr. J.­C.) marquée par un alignement de fosses-celliers non maçonnées de 4 à 6 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> qui devaient être à l’origine associées à un bâti dont nous n’avons pas retrouvé les traces. Orientées 150° est, ces excavations limitent une aire d’activité caractérisée par un groupe de fosses circulaires et de fossés installés au bord de la contrescarpe du fossé de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+> ;</item
+><item
+style="txt_Liste_"
+>mise en place d’une voirie au cours de la période claudienne (40-60 apr. J.-C.) Son orientation nord-sud et les ornières marquées dans le substrat témoignent d’un arasement de la contrescarpe du fossé de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+>. L’usage de la pierre, dans les fondations et la construction, transforme le bâti ;</item
+><item
+style="txt_Liste_"
+>déplacement de la zone d’activité vers le sud. Des amphores plantées dans le trottoir, à l’aplomb d’une pièce formant l’angle d’une ruelle, révèlent une boutique de salaisons et de fruits de mer (60-90 apr. J.-C.) ;</item
+><item
+style="txt_Liste_"
+>réduction de la voirie et transformation en impasse. La voie débouche désormais sur un ensemble de grandes fosses servant de réceptacle aux eaux pluviales et usées du secteur (90-150 apr. J.-C.). L’origine de ces structures n’a pu être déterminée précisément (fig. 1) ;</item
+><item
+style="txt_Liste_"
+>comblement progressif du cloaque et du fossé de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+>. Les constructions se densifient et sont à présent bordées de portiques. La métamorphose du quartier est patente, mais sa vocation demeure. Un atelier dépendant d’une activité de boucherie (extraction d’huiles et de graisses) est installé à l’extrémité de l’impasse (milieu du <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+>-<hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.).</item
+></list
+><p
+style="txt_Normal"
+>L’occupation antique du secteur s’achève au cours du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. par la récupération des matériaux dans les fondations des murs. Une longue période de désertion du site contribue à la formation d’une épaisse couverture de terre végétale sur les vestiges durant tout le Moyen Âge.</p
+><figure
+><graphic
+url="../icono/br/Fig01.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 1 –</hi
+> Phase 4 (90-150 apr. J.-C.)</head
+><p
+style="ill-credits-sources"
+>Relevé et DAO : J. Deborde (Afan).</p
+></figure
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+><index
+indexName="Index"
+><term
+type="orig"
+>Reims</term
+><index
+indexName="pactols:Lieux"
+n="1"
+rendition="oe"
+source="26678/pcrtJIWNXBzTj3"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="de"
+>Europa</term
+><term
+xml:lang="es"
+>Europa</term
+><term
+xml:lang="it"
+>Europa</term
+><term
+xml:lang="nl"
+>Europa</term
+><term
+xml:lang="en"
+>Europe</term
+><term
+xml:lang="fr"
+>Europe</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtL2k0b4mTtD"
+><term
+xml:lang="en"
+>France</term
+><term
+xml:lang="fr"
+>France</term
+><term
+xml:lang="es"
+>Francia</term
+><term
+xml:lang="it"
+>Francia</term
+><term
+xml:lang="de"
+>Frankreich</term
+><term
+xml:lang="nl"
+>Frankrijk</term
+><term
+xml:lang="el"
+>Γαλλία</term
+><term
+xml:lang="ru"
+>Франция</term
+><term
+xml:lang="he"
+>צרפת</term
+><term
+xml:lang="ar"
+>فرنسا</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtSEeAipsBlD"
+><term
+xml:lang="de"
+>France métropolitaine</term
+><term
+xml:lang="fr"
+>France métropolitaine</term
+><term
+xml:lang="nl"
+>France métropolitaine</term
+><term
+xml:lang="es"
+>Francia metropolitana</term
+><term
+xml:lang="it"
+>Francia metropolitana</term
+><term
+xml:lang="en"
+>Metropolitan France</term
+><index
+n="4"
+rendition="oe"
+source="26678/crtcJOiyPujgF"
+><term
+xml:lang="de"
+>Grand Est</term
+><term
+xml:lang="en"
+>Grand Est</term
+><term
+xml:lang="fr"
+>Grand Est</term
+><term
+xml:lang="it"
+>Grand Est</term
+><term
+xml:lang="nl"
+>Grand Est</term
+><term
+xml:lang="es"
+>Gran Este</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtT6hDSQ75Y8"
+><term
+xml:lang="es"
+>Departamento de Marne</term
+><term
+xml:lang="fr"
+>Département de la Marne</term
+><term
+xml:lang="nl"
+>Departement Marne</term
+><term
+xml:lang="de"
+>Département Marne</term
+><term
+xml:lang="it"
+>Dipartimento della Marna</term
+><term
+xml:lang="en"
+>Marne (department)</term
+><index
+n="6"
+rendition="oe"
+source="26678/pcrtSH4UWeGNfZ"
+><term
+xml:lang="de"
+>Reims</term
+><term
+xml:lang="en"
+>Reims</term
+><term
+xml:lang="es"
+>Reims</term
+><term
+xml:lang="fr"
+>Reims</term
+><term
+xml:lang="it"
+>Reims</term
+><term
+xml:lang="nl"
+>Reims</term
+></index
+></index
+></index
+></index
+></index
+></index
+></index
+> – Zac La Neuvilette</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (2001)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Sophie Desenne</name
+><affiliation
+xml:id="aff07"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Lola Bonnabel</name
+><affiliation
+xml:id="aff08"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+><index
+indexName="Index"
+><term
+type="orig"
+>Protohistoire</term
+><index
+indexName="pactols:Chronologie"
+n="1"
+rendition="oe"
+source="26678/pcrtgSbjUSVUr8"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="fr"
+>entités temporelles</term
+><term
+xml:lang="en"
+>types of epochs</term
+><index
+n="2"
+rendition="oe"
+source="26678/crtxhXbaDgYSc"
+><term
+xml:lang="fr"
+>périodisations</term
+><term
+xml:lang="nl"
+>periodisering</term
+><term
+xml:lang="de"
+>Periodisierung</term
+><term
+xml:lang="es"
+>periodización</term
+><term
+xml:lang="en"
+>periodization</term
+><term
+xml:lang="it"
+>periodizzazione</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtHlenwSnkDM"
+><term
+xml:lang="fr"
+>âge des métaux</term
+><term
+xml:lang="de"
+>Frühgeschichte</term
+><term
+xml:lang="es"
+>Protohistoria</term
+><term
+xml:lang="nl"
+>protohistorie</term
+><term
+xml:lang="en"
+>Protohistory</term
+><term
+xml:lang="it"
+>Protostoria</term
+><term
+xml:lang="ar"
+>فجر التاريخ</term
+></index
+></index
+></index
+></index
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>3399</idno
+>, <idno
+type="patriarche"
+>3443</idno
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2001</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>fouille préventive</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="en"
+>archaeological requirement</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrt9A9KDllfAq"
+><term
+xml:lang="it"
+>archeologia preventiva</term
+><term
+xml:lang="es"
+>arqueología preventiva</term
+><term
+xml:lang="fr"
+>opération d'archéologie préventive</term
+><term
+xml:lang="de"
+>Präventivarchäologie</term
+><term
+xml:lang="nl"
+>preventieve archeologie</term
+><term
+xml:lang="en"
+>preventive archaeology</term
+><term
+xml:lang="ar"
+>علم إنقاذ الآثار</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtcJxzOpgs7T"
+><term
+xml:lang="fr"
+>fouille préventive</term
+><term
+xml:lang="nl"
+>noodopgraving</term
+><term
+xml:lang="de"
+>Notgrabung</term
+><term
+xml:lang="en"
+>rescue</term
+><term
+xml:lang="es"
+>salvamento</term
+><term
+xml:lang="it"
+>scavo di salvataggio</term
+><term
+xml:lang="ar"
+>إنقاذ</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>Le projet d’extension de la Zac de « la Neuvillette » a entraîné un suivi archéologique. Le diagnostic en décembre 2000, puis la campagne de fouille de fin mars à fin juin 2001 ont mis au jour une nécropole du second âge du Fer. Cette découverte a suscité un intérêt majeur auprès des archéologue set de l’aménageur. Le coût pris en charge par la SAEM « Reims Développement », ainsi que la mise à disposition des moyens nécessaires aux travaux (engins de terrassement), ont facilité l’intervention archéologique et le bon déroulement des opérations.</p
+><p
+style="txt_Normal"
+>Le cimetière est localisé au lieu-dit « La Neuvillette » en périphérie nord du territoire de la commune de Reims et à l’ouest de Bétheny. Il s’agit d’une nécropole d’une surface de 2,8 ha qui s’étend sur le flanc sud d’une légère butte. Dans le paysage, trois monuments funéraires devaient être visibles, sous la forme de buttes de terre (tumuli), ou palissade (soit deux enclos circulaires et un enclos circulaire à appendice en « trou de serrure »).</p
+><p
+style="txt_Normal"
+>Cette nécropole regroupe 72 individus répartis dans 64 sépultures. La durée d’occupation de cet ensemble, moins d’un siècle, s’étale de la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>v</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. au milieu du <hi
+rend="small-caps"
+style="typo_SC"
+>iv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. av. J.-C. Les tombes sont orientées nord-ouest – sud-est, et les défunts sont déposés tête à l’ouest, sur le fond de la fosse, allongés sur le dos, les bras le long du corps. On observe dans cinq cas une superposition des corps des défunts, avec soit un recreusement exact de la fosse, soit un creusement légèrement décalé d’une nouvelle fosse sur l’emplacement de la précédente. Ces associations, indiquent sans doute une volonté de la part des proches de réunir les défunts dans leur dernière demeure. L’étude des squelettes permettra de dire si elles sont d’origine familiale.</p
+><p
+style="txt_Normal"
+>Les tombes sont réparties de façon lâche par petits groupes, sans organisation topographique nette.</p
+><p
+style="txt_Normal"
+>Cet ensemble, comme les autres cimetières contemporains, donne l’image d’une population aux caractères physiques extrêmement variés, qui sont l’indice d’importants brassages. Si les enfants sont présents sur le cimetière, leur nombre est très inférieur à ce que l’on peut attendre des populations ignorant la vaccination pour lesquelles un enfant sur quatre n’atteignait pas l’âge d’1 an et la moitié décédait avant l’âge de 5 ans.</p
+><p
+style="txt_Normal"
+>Les défunts sont enterrés avec une parure et/ou un équipement militaire et des accessoires vestimentaires, qui permettent de définir une « panoplie » féminine (tabl. I) et une « panoplie » masculine (tabl. II). Dans de nombreux cas, les parures sont incrustées de corail ou richement décorées d’incisions de palmettes et de griffons (animaux mythologiques à corps de félin et à tête d’aigle).</p
+><table
+cols="3"
+rend="frame"
+rows="4"
+xml:id="Table1"
+><head
+><hi
+rend="bold"
+style="typo_gras"
+>Tabl. I –</hi
+> Panoplie féminine</head
+><row
+><cell
+rend="text-align:start;"
+rendition="#Cell1.A1"
+></cell
+><cell
+rend="text-align:center;"
+rendition="#Cell1.B1"
+><hi
+rend="bold"
+style="typo_gras"
+>Nbre d’individus</hi
+></cell
+><cell
+rend="text-align:center;"
+rendition="#Cell1.B1"
+><hi
+rend="bold"
+style="typo_gras"
+>Effectif</hi
+></cell
+></row
+><row
+><cell
+rend="text-align:center;"
+rendition="#Cell1.B1"
+>Torque (en bronze)</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell1.B1"
+>3</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell1.B1"
+>3</cell
+></row
+><row
+><cell
+rend="text-align:center;"
+rendition="#Cell1.B1"
+>Bracelet (en bronze ou en lignite)</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell1.B1"
+>8</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell1.B1"
+>10</cell
+></row
+><row
+><cell
+rend="text-align:center;"
+rendition="#Cell1.B1"
+>Perle(s) en pâte de verre ou en ambre</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell1.B1"
+>2</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell1.B1"
+>3</cell
+></row
+></table
+><p
+style="txt_Normal"
+>Les épées sont déposées dans un fourreau et les deux seuls cas de fourreau sans épée correspondent à des tombes pillées (sépultures 17 et 24).</p
+><table
+cols="3"
+rend="frame"
+rows="4"
+xml:id="Table2"
+><head
+><hi
+rend="bold"
+style="typo_gras"
+>Tabl. II –</hi
+> Panoplie masculine</head
+><row
+><cell
+rend="text-align:start;"
+rendition="#Cell2.A1"
+></cell
+><cell
+rend="text-align:center;"
+rendition="#Cell2.B1"
+><hi
+rend="bold"
+style="typo_gras"
+>Nbre d’individus</hi
+></cell
+><cell
+rend="text-align:center;"
+rendition="#Cell2.B1"
+><hi
+rend="bold"
+style="typo_gras"
+>Effectif</hi
+></cell
+></row
+><row
+><cell
+rend="text-align:center;"
+rendition="#Cell2.B1"
+>Épée (en fer)</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell2.B1"
+>3</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell2.B1"
+>3</cell
+></row
+><row
+><cell
+rend="text-align:center;"
+rendition="#Cell2.B1"
+>Fourreau (en fer)</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell2.B1"
+>5</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell2.B1"
+>5</cell
+></row
+><row
+><cell
+rend="text-align:center;"
+rendition="#Cell2.B1"
+>Arme d’hast(s)</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell2.B1"
+>6</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell2.B1"
+>7</cell
+></row
+></table
+><p
+style="txt_Normal"
+>Du costume, seuls sont conservés les accessoires vestimentaires métalliques.</p
+><table
+cols="3"
+rend="frame"
+rows="3"
+xml:id="Table3"
+><head
+><hi
+rend="bold"
+style="typo_gras"
+>Tabl. III –</hi
+> Accessoires vestimentaires</head
+><row
+><cell
+rend="text-align:start;"
+rendition="#Cell3.A1"
+></cell
+><cell
+rend="text-align:center;"
+rendition="#Cell3.B1"
+><hi
+rend="bold"
+style="typo_gras"
+>Nbre d’individus</hi
+></cell
+><cell
+rend="text-align:center;"
+rendition="#Cell3.B1"
+><hi
+rend="bold"
+style="typo_gras"
+>Effectif</hi
+></cell
+></row
+><row
+><cell
+rend="text-align:center;"
+rendition="#Cell3.B1"
+>Fibule (en bronze ou en fer)</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell3.B1"
+>15</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell3.B1"
+>17</cell
+></row
+><row
+><cell
+rend="text-align:center;"
+rendition="#Cell3.B1"
+>Ceinture (anneaux en fer ou en bronze)</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell3.B1"
+>8</cell
+><cell
+rend="text-align:center;"
+rendition="#Cell3.B1"
+>10</cell
+></row
+></table
+><p
+style="txt_Normal"
+>Des instruments de toilette sont fréquemment déposés également (pince à épiler, ou rasoir comme c’est le cas précisément ici dans deux tombes masculines, sépultures 23 et 120).</p
+><p
+style="txt_Normal"
+>Enfin, les offrandes alimentaires se matérialisent sous forme de récipients en céramique (130 vases), de pièces de viande (33 quartiers de porc, mouton ou bœuf) avec dans quelques cas la présence d’un couteau (sépultures 50, 56, 101, 109).</p
+><p
+style="txt_Normal"
+>Quatre degrés de « richesse » sont déterminés à l’aide du mobilier et du type de sépulture (simple ou monumental). Le niveau le plus « riche » ou « ostentatoire » correspond ici à trois sépultures (tombes 1, 13 et 23), et un enclos palissadé circulaire (structure 41) qui se distinguent par leur dimension ou la présence d’un monument. Parmi les quatre ensembles funéraires attribuables à ce rang, seul un ensemble nous est parvenu « intact » (sépulture 13), les trois autres étant pillés (sépulture 1 : enclos en trou de serrure), ou arasés (sépulture 23 : fosse aux dimensions modestes, et enclos circulaire – et structure 41 – enclos palissadé et sépulture arasée ?). La sépulture 13 (fig. 1) qui semble « intact » appartient à un individu masculin déposé sur un char, « accompagné » d’un autre individu (absence de monument). L’analyse sur le terrain a permis de mettre en évidence la simultanéité des dépôts. On note également les indices d’un réemploi de cet espace funéraire avec les restes très arasés de deux sépultures au-dessus de la tombe initiale. Ces dépôts paraissent avoir eu lieu après le colmatage complet de la sépulture à char.</p
+><p
+style="txt_Normal"
+>Les nombreuses tombes au caractère « ostentatoire » marqué correspondent aux sépultures de personnes ayant appartenu à l’aristocratie locale, élite dirigeante de cette société. La nécropole de Reims « La Neuvillette » dévoile ici le lieu d’inhumation d’un groupe humain de rang hiérarchique élevé qui contrôlait probablement un territoire regroupant plusieurs communautés avoisinantes.</p
+><figure
+><graphic
+url="../icono/br/Fig04.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 1 –</hi
+> Vue de la tombe à char et de l’enclos</head
+><p
+style="ill-credits-sources"
+>Cliché : Afan.</p
+></figure
+><figure
+><graphic
+url="../icono/br/Fig02.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 2 –</hi
+> La tombe à char (st. 13) a accueilli simultanément deux défunts masculins, dont un déposé sur le char</head
+><p
+style="txt_Legende"
+>À cet emplacement ont été inhumés plus tardivement deux autres défunts.</p
+><p
+style="ill-credits-sources"
+>Cliché : Afan.</p
+></figure
+><figure
+><graphic
+url="../icono/br/Fig03.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 3 –</hi
+> Sépulture 5</head
+><p
+style="ill-credits-sources"
+>Cliché et DAO : Afan.</p
+></figure
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+><index
+indexName="Index"
+><term
+type="orig"
+>Reims</term
+><index
+indexName="pactols:Lieux"
+n="1"
+rendition="oe"
+source="26678/pcrtJIWNXBzTj3"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="de"
+>Europa</term
+><term
+xml:lang="es"
+>Europa</term
+><term
+xml:lang="it"
+>Europa</term
+><term
+xml:lang="nl"
+>Europa</term
+><term
+xml:lang="en"
+>Europe</term
+><term
+xml:lang="fr"
+>Europe</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtL2k0b4mTtD"
+><term
+xml:lang="en"
+>France</term
+><term
+xml:lang="fr"
+>France</term
+><term
+xml:lang="es"
+>Francia</term
+><term
+xml:lang="it"
+>Francia</term
+><term
+xml:lang="de"
+>Frankreich</term
+><term
+xml:lang="nl"
+>Frankrijk</term
+><term
+xml:lang="el"
+>Γαλλία</term
+><term
+xml:lang="ru"
+>Франция</term
+><term
+xml:lang="he"
+>צרפת</term
+><term
+xml:lang="ar"
+>فرنسا</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtSEeAipsBlD"
+><term
+xml:lang="de"
+>France métropolitaine</term
+><term
+xml:lang="fr"
+>France métropolitaine</term
+><term
+xml:lang="nl"
+>France métropolitaine</term
+><term
+xml:lang="es"
+>Francia metropolitana</term
+><term
+xml:lang="it"
+>Francia metropolitana</term
+><term
+xml:lang="en"
+>Metropolitan France</term
+><index
+n="4"
+rendition="oe"
+source="26678/crtcJOiyPujgF"
+><term
+xml:lang="de"
+>Grand Est</term
+><term
+xml:lang="en"
+>Grand Est</term
+><term
+xml:lang="fr"
+>Grand Est</term
+><term
+xml:lang="it"
+>Grand Est</term
+><term
+xml:lang="nl"
+>Grand Est</term
+><term
+xml:lang="es"
+>Gran Este</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtT6hDSQ75Y8"
+><term
+xml:lang="es"
+>Departamento de Marne</term
+><term
+xml:lang="fr"
+>Département de la Marne</term
+><term
+xml:lang="nl"
+>Departement Marne</term
+><term
+xml:lang="de"
+>Département Marne</term
+><term
+xml:lang="it"
+>Dipartimento della Marna</term
+><term
+xml:lang="en"
+>Marne (department)</term
+><index
+n="6"
+rendition="oe"
+source="26678/pcrtSH4UWeGNfZ"
+><term
+xml:lang="de"
+>Reims</term
+><term
+xml:lang="en"
+>Reims</term
+><term
+xml:lang="es"
+>Reims</term
+><term
+xml:lang="fr"
+>Reims</term
+><term
+xml:lang="it"
+>Reims</term
+><term
+xml:lang="nl"
+>Reims</term
+></index
+></index
+></index
+></index
+></index
+></index
+></index
+> – 13bis-27 rue Anquetil</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (2001)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Philippe Rollet</name
+><affiliation
+xml:id="aff09"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>3531</idno
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2001</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>fouille préventive</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="en"
+>archaeological requirement</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrt9A9KDllfAq"
+><term
+xml:lang="it"
+>archeologia preventiva</term
+><term
+xml:lang="es"
+>arqueología preventiva</term
+><term
+xml:lang="fr"
+>opération d'archéologie préventive</term
+><term
+xml:lang="de"
+>Präventivarchäologie</term
+><term
+xml:lang="nl"
+>preventieve archeologie</term
+><term
+xml:lang="en"
+>preventive archaeology</term
+><term
+xml:lang="ar"
+>علم إنقاذ الآثار</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtcJxzOpgs7T"
+><term
+xml:lang="fr"
+>fouille préventive</term
+><term
+xml:lang="nl"
+>noodopgraving</term
+><term
+xml:lang="de"
+>Notgrabung</term
+><term
+xml:lang="en"
+>rescue</term
+><term
+xml:lang="es"
+>salvamento</term
+><term
+xml:lang="it"
+>scavo di salvataggio</term
+><term
+xml:lang="ar"
+>إنقاذ</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>Les sondages de diagnostic réalisés à l’emplacement du futur groupe scolaire Anquetil, au 13bis-27 rue Anquetil, ont permis de recueillir des données significatives (absence/présence) dans un secteur localisé immédiatement au nord-ouest de l’emplacement probable de l’amphithéâtre antique de Reims. En effet, hormis le départ d’un grand creusement, dont seul le bord nord-est se trouve dans l’emprise de la surface sondée, aucune structure caractéristique de construction n’a été mise au jour. Cependant, il n’est pas à exclure que le creusement mis en évidence sur le chantier puisse correspondre à un aménagement lié aux travaux de construction du monument antique. À l’heure actuelle, si la localisation du monument public antique ne peut être précisée davantage, les sondages pratiqués ici ainsi que les récents effondrements survenus dans la rue Maillefer (au sud de la rue Anquetil) semblent confirmer les observations faites par N. Brunette dans ce secteur. En tout état de cause les résultats de cette opération ne nécessitent pas de mener plus en avant les investigations sur ce terrain, mais il apparaît nécessaire que ce quartier de la ville antique fasse l’objet d’un suivi archéologique.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+><index
+indexName="Index"
+><term
+type="orig"
+>Reims</term
+><index
+indexName="pactols:Lieux"
+n="1"
+rendition="oe"
+source="26678/pcrtJIWNXBzTj3"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="de"
+>Europa</term
+><term
+xml:lang="es"
+>Europa</term
+><term
+xml:lang="it"
+>Europa</term
+><term
+xml:lang="nl"
+>Europa</term
+><term
+xml:lang="en"
+>Europe</term
+><term
+xml:lang="fr"
+>Europe</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtL2k0b4mTtD"
+><term
+xml:lang="en"
+>France</term
+><term
+xml:lang="fr"
+>France</term
+><term
+xml:lang="es"
+>Francia</term
+><term
+xml:lang="it"
+>Francia</term
+><term
+xml:lang="de"
+>Frankreich</term
+><term
+xml:lang="nl"
+>Frankrijk</term
+><term
+xml:lang="el"
+>Γαλλία</term
+><term
+xml:lang="ru"
+>Франция</term
+><term
+xml:lang="he"
+>צרפת</term
+><term
+xml:lang="ar"
+>فرنسا</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtSEeAipsBlD"
+><term
+xml:lang="de"
+>France métropolitaine</term
+><term
+xml:lang="fr"
+>France métropolitaine</term
+><term
+xml:lang="nl"
+>France métropolitaine</term
+><term
+xml:lang="es"
+>Francia metropolitana</term
+><term
+xml:lang="it"
+>Francia metropolitana</term
+><term
+xml:lang="en"
+>Metropolitan France</term
+><index
+n="4"
+rendition="oe"
+source="26678/crtcJOiyPujgF"
+><term
+xml:lang="de"
+>Grand Est</term
+><term
+xml:lang="en"
+>Grand Est</term
+><term
+xml:lang="fr"
+>Grand Est</term
+><term
+xml:lang="it"
+>Grand Est</term
+><term
+xml:lang="nl"
+>Grand Est</term
+><term
+xml:lang="es"
+>Gran Este</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtT6hDSQ75Y8"
+><term
+xml:lang="es"
+>Departamento de Marne</term
+><term
+xml:lang="fr"
+>Département de la Marne</term
+><term
+xml:lang="nl"
+>Departement Marne</term
+><term
+xml:lang="de"
+>Département Marne</term
+><term
+xml:lang="it"
+>Dipartimento della Marna</term
+><term
+xml:lang="en"
+>Marne (department)</term
+><index
+n="6"
+rendition="oe"
+source="26678/pcrtSH4UWeGNfZ"
+><term
+xml:lang="de"
+>Reims</term
+><term
+xml:lang="en"
+>Reims</term
+><term
+xml:lang="es"
+>Reims</term
+><term
+xml:lang="fr"
+>Reims</term
+><term
+xml:lang="it"
+>Reims</term
+><term
+xml:lang="nl"
+>Reims</term
+></index
+></index
+></index
+></index
+></index
+></index
+></index
+> – Rue de l’Équerre</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (2001)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Philippe Rollet</name
+><affiliation
+xml:id="aff10"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+><index
+indexName="Index"
+><term
+type="orig"
+>Antiquité romaine</term
+><index
+indexName="pactols:Chronologie"
+n="1"
+rendition="oe"
+source="26678/pcrtgSbjUSVUr8"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="fr"
+>entités temporelles</term
+><term
+xml:lang="en"
+>types of epochs</term
+><index
+n="2"
+rendition="oe"
+source="26678/crtxhXbaDgYSc"
+><term
+xml:lang="fr"
+>périodisations</term
+><term
+xml:lang="nl"
+>periodisering</term
+><term
+xml:lang="de"
+>Periodisierung</term
+><term
+xml:lang="es"
+>periodización</term
+><term
+xml:lang="en"
+>periodization</term
+><term
+xml:lang="it"
+>periodizzazione</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtxT02uJOogm"
+><term
+xml:lang="it"
+>Antichità</term
+><term
+xml:lang="es"
+>Antigüedad</term
+><term
+xml:lang="de"
+>Antike</term
+><term
+xml:lang="fr"
+>Antiquité</term
+><term
+xml:lang="en"
+>Antiquity</term
+><term
+xml:lang="nl"
+>Oudheid</term
+><term
+xml:lang="ar"
+>تاريخ قديم</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrtof7EHNsS2e"
+><term
+xml:lang="it"
+>Antichità greco-romana</term
+><term
+xml:lang="es"
+>Antigüedad greco-romana</term
+><term
+xml:lang="fr"
+>Antiquité gréco-romaine</term
+><term
+xml:lang="en"
+>Greco-Roman Antiquity</term
+><term
+xml:lang="de"
+>Griechisch-Römische Antike</term
+><term
+xml:lang="nl"
+>Grieks-Romeinse Oudheid</term
+><term
+xml:lang="ar"
+>تاريخ قديم يوناني-روماني</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtZTmusVUU24"
+><term
+xml:lang="it"
+>Antichità romana</term
+><term
+xml:lang="es"
+>Antigüedad romana</term
+><term
+xml:lang="fr"
+>Antiquité romaine</term
+><term
+xml:lang="en"
+>Roman Antiquity</term
+><term
+xml:lang="nl"
+>Romeinse Oudheid</term
+><term
+xml:lang="de"
+>Römische Antike</term
+><term
+xml:lang="ar"
+>تاريخ قديم روماني</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>3654</idno
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2001</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>fouille préventive</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="en"
+>archaeological requirement</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrt9A9KDllfAq"
+><term
+xml:lang="it"
+>archeologia preventiva</term
+><term
+xml:lang="es"
+>arqueología preventiva</term
+><term
+xml:lang="fr"
+>opération d'archéologie préventive</term
+><term
+xml:lang="de"
+>Präventivarchäologie</term
+><term
+xml:lang="nl"
+>preventieve archeologie</term
+><term
+xml:lang="en"
+>preventive archaeology</term
+><term
+xml:lang="ar"
+>علم إنقاذ الآثار</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtcJxzOpgs7T"
+><term
+xml:lang="fr"
+>fouille préventive</term
+><term
+xml:lang="nl"
+>noodopgraving</term
+><term
+xml:lang="de"
+>Notgrabung</term
+><term
+xml:lang="en"
+>rescue</term
+><term
+xml:lang="es"
+>salvamento</term
+><term
+xml:lang="it"
+>scavo di salvataggio</term
+><term
+xml:lang="ar"
+>إنقاذ</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>Le chantier de la rue de l’Équerre, d’une surface totale de 6 000 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+>, est localisé dans le quart sud-ouest de la ville antique. Il s’inscrit dans une zone où les nombreuses opérations menées depuis plus de 10 ans ont révélé une occupation particulièrement dense durant toute la période du Haut-Empire. Les 20 000 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> déjà étudiés dans ce secteur permettent de restituer précisément le réseau des rues, ainsi que certaines des activités qui y régnaient.</p
+><p
+style="txt_Normal"
+>L’opération immobilière couvre la deuxième tranche des travaux de la rue de l’Équerre concerne une zone d’une superficie de 1 500 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> localisée immédiatement au nord de la rue antique ouest-est mise au jour lors de la première tranche. La fouille a donc concerné une partie d’un îlot antique, dans lequel les premières traces d’occupation sont datées de la première période du règne d’Auguste. Cette occupation correspond à des structures d’habitat en matériaux périssables (alignements de trous de poteau), repérées sur l’ensemble de la surface fouillée. Associé aux structures d’habitat, un four de potier a été mis au jour : il s’agit d’une structure circulaire de 1,50 m de diamètre reposant directement sur la craie géologique, dotée de deux alandiers. Il contenait environ 20 kg de tessons de poterie (<hi
+rend="italic"
+style="typo_Italique"
+>terra rubra</hi
+>) correspondant à des fragments d’assiettes à lèvre carrée et des gobelets engobés. Une grande phase d’urbanisation est ensuite observée, présentant des techniques nouvelles de construction. La pierre est utilisée pour les fondations ainsi que la craie pilée. Les nouveaux murs reprennent parfois le tracé des alignements de la phase précédente ou définissent de nouvelles pièces d’habitat où le tissage semble être une activité importante.</p
+><p
+style="txt_Normal"
+>Cette activité est beaucoup plus difficile à cerner que la précédente dans la mesure où la matière brute (la laine), ainsi que le métier à tisser (en bois), sont par nature des matériaux périssables. Sur le chantier, le tissage est représenté par de nombreux pesons en terre cuite, recueillis en divers endroits, généralement dans des remblais de cave et sur des sols, mais la localisation exacte de cette activité ne peut être précisée.</p
+><p
+style="txt_Normal"
+>Dans cet îlot, l’élément marquant de la deuxième phase d’occupation correspond à une couche homogène de rejets qui couvre une surface de plus de 20 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> et qui contient un mobilier archéologique très particulier. Celui-ci est constitué d’une importante quantité de céramique sigillée (plus de 8 000 tessons, dont la majorité est décorée), de tessons de céramique plombifère (céramique généralement décorée dont, les surfaces externes et internes sont glaçurées), de fragments de lampes à huile, de fragments de figurines en terre cuite et de nombreux tessons de verre (de couleur bleue, verte, ou jaune) associés à des fragments de matière brute dont la présence laisse supposer la proximité d’un atelier de verrier.</p
+><p
+style="txt_Normal"
+>L’association de ces différents types de mobiliers, trop important pour une unité domestique, semble plutôt correspondre aux rejets d’une boutique apparemment « spécialisée » dans l’importation de vaisselle de luxe. En effet, excepté le verre, qui semble correspondre à une récupération, les autres types de mobiliers proviennent du centre et du sud de la Gaule. La dernière tranche des travaux de l’opération de la rue de l’Équerre permettra de dégager un tronçon de la rue nord-sud, au bord de laquelle était peut-être installée la boutique.</p
+><p
+style="txt_Normal"
+>Une dernière phase de reconstruction intervient au cours de la première partie du <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. apr. J.-C. La qualité des nouvelles constructions associée à l’installation de sols en béton montrent que le quartier devient plus résidentiel, attestant une certaine aisance des occupants.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+><index
+indexName="Index"
+><term
+type="orig"
+>Reims</term
+><index
+indexName="pactols:Lieux"
+n="1"
+rendition="oe"
+source="26678/pcrtJIWNXBzTj3"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="de"
+>Europa</term
+><term
+xml:lang="es"
+>Europa</term
+><term
+xml:lang="it"
+>Europa</term
+><term
+xml:lang="nl"
+>Europa</term
+><term
+xml:lang="en"
+>Europe</term
+><term
+xml:lang="fr"
+>Europe</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtL2k0b4mTtD"
+><term
+xml:lang="en"
+>France</term
+><term
+xml:lang="fr"
+>France</term
+><term
+xml:lang="es"
+>Francia</term
+><term
+xml:lang="it"
+>Francia</term
+><term
+xml:lang="de"
+>Frankreich</term
+><term
+xml:lang="nl"
+>Frankrijk</term
+><term
+xml:lang="el"
+>Γαλλία</term
+><term
+xml:lang="ru"
+>Франция</term
+><term
+xml:lang="he"
+>צרפת</term
+><term
+xml:lang="ar"
+>فرنسا</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtSEeAipsBlD"
+><term
+xml:lang="de"
+>France métropolitaine</term
+><term
+xml:lang="fr"
+>France métropolitaine</term
+><term
+xml:lang="nl"
+>France métropolitaine</term
+><term
+xml:lang="es"
+>Francia metropolitana</term
+><term
+xml:lang="it"
+>Francia metropolitana</term
+><term
+xml:lang="en"
+>Metropolitan France</term
+><index
+n="4"
+rendition="oe"
+source="26678/crtcJOiyPujgF"
+><term
+xml:lang="de"
+>Grand Est</term
+><term
+xml:lang="en"
+>Grand Est</term
+><term
+xml:lang="fr"
+>Grand Est</term
+><term
+xml:lang="it"
+>Grand Est</term
+><term
+xml:lang="nl"
+>Grand Est</term
+><term
+xml:lang="es"
+>Gran Este</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtT6hDSQ75Y8"
+><term
+xml:lang="es"
+>Departamento de Marne</term
+><term
+xml:lang="fr"
+>Département de la Marne</term
+><term
+xml:lang="nl"
+>Departement Marne</term
+><term
+xml:lang="de"
+>Département Marne</term
+><term
+xml:lang="it"
+>Dipartimento della Marna</term
+><term
+xml:lang="en"
+>Marne (department)</term
+><index
+n="6"
+rendition="oe"
+source="26678/pcrtSH4UWeGNfZ"
+><term
+xml:lang="de"
+>Reims</term
+><term
+xml:lang="en"
+>Reims</term
+><term
+xml:lang="es"
+>Reims</term
+><term
+xml:lang="fr"
+>Reims</term
+><term
+xml:lang="it"
+>Reims</term
+><term
+xml:lang="nl"
+>Reims</term
+></index
+></index
+></index
+></index
+></index
+></index
+></index
+> – 40 boulevard Jamin</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (2001)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Stéphane Sindonino</name
+><affiliation
+xml:id="aff11"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+><index
+indexName="Index"
+><term
+type="orig"
+>Antiquité romaine</term
+><index
+indexName="pactols:Chronologie"
+n="1"
+rendition="oe"
+source="26678/pcrtgSbjUSVUr8"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="fr"
+>entités temporelles</term
+><term
+xml:lang="en"
+>types of epochs</term
+><index
+n="2"
+rendition="oe"
+source="26678/crtxhXbaDgYSc"
+><term
+xml:lang="fr"
+>périodisations</term
+><term
+xml:lang="nl"
+>periodisering</term
+><term
+xml:lang="de"
+>Periodisierung</term
+><term
+xml:lang="es"
+>periodización</term
+><term
+xml:lang="en"
+>periodization</term
+><term
+xml:lang="it"
+>periodizzazione</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtxT02uJOogm"
+><term
+xml:lang="it"
+>Antichità</term
+><term
+xml:lang="es"
+>Antigüedad</term
+><term
+xml:lang="de"
+>Antike</term
+><term
+xml:lang="fr"
+>Antiquité</term
+><term
+xml:lang="en"
+>Antiquity</term
+><term
+xml:lang="nl"
+>Oudheid</term
+><term
+xml:lang="ar"
+>تاريخ قديم</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrtof7EHNsS2e"
+><term
+xml:lang="it"
+>Antichità greco-romana</term
+><term
+xml:lang="es"
+>Antigüedad greco-romana</term
+><term
+xml:lang="fr"
+>Antiquité gréco-romaine</term
+><term
+xml:lang="en"
+>Greco-Roman Antiquity</term
+><term
+xml:lang="de"
+>Griechisch-Römische Antike</term
+><term
+xml:lang="nl"
+>Grieks-Romeinse Oudheid</term
+><term
+xml:lang="ar"
+>تاريخ قديم يوناني-روماني</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtZTmusVUU24"
+><term
+xml:lang="it"
+>Antichità romana</term
+><term
+xml:lang="es"
+>Antigüedad romana</term
+><term
+xml:lang="fr"
+>Antiquité romaine</term
+><term
+xml:lang="en"
+>Roman Antiquity</term
+><term
+xml:lang="nl"
+>Romeinse Oudheid</term
+><term
+xml:lang="de"
+>Römische Antike</term
+><term
+xml:lang="ar"
+>تاريخ قديم روماني</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>3451</idno
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2001</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>fouille préventive</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="en"
+>archaeological requirement</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrt9A9KDllfAq"
+><term
+xml:lang="it"
+>archeologia preventiva</term
+><term
+xml:lang="es"
+>arqueología preventiva</term
+><term
+xml:lang="fr"
+>opération d'archéologie préventive</term
+><term
+xml:lang="de"
+>Präventivarchäologie</term
+><term
+xml:lang="nl"
+>preventieve archeologie</term
+><term
+xml:lang="en"
+>preventive archaeology</term
+><term
+xml:lang="ar"
+>علم إنقاذ الآثار</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtcJxzOpgs7T"
+><term
+xml:lang="fr"
+>fouille préventive</term
+><term
+xml:lang="nl"
+>noodopgraving</term
+><term
+xml:lang="de"
+>Notgrabung</term
+><term
+xml:lang="en"
+>rescue</term
+><term
+xml:lang="es"
+>salvamento</term
+><term
+xml:lang="it"
+>scavo di salvataggio</term
+><term
+xml:lang="ar"
+>إنقاذ</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>Une opération de sauvetage urgent a été menée par deux personnes, du 1<hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> au 22 juin 2001 sur une superficie de 300 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> et sur une épaisseur de 1,50 m en moyenne, préalablement à la construction de deux bâtiments du projet immobilier « La Villa Saint Louis ». La parcelle concernée se trouve à l’extérieur de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+>, à l’intérieur de la grande enceinte et à l’extérieur des enceintes de l’Antiquité tardive et du <hi
+rend="small-caps"
+style="typo_SC"
+>xiv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Des opérations, en 1997 (A. Balmelle, 23bis rue de Sébastopol) et 1999 (A. Balmelle, 75bis rue Jean-Jaurès) ainsi que la réalisation d’un diagnostic par François Berthelot en février 2001, laissaient supposer une occupation antique dans ce secteur.</p
+><p
+style="txt_Normal"
+>Deux types de structure ont été mis au jour lors du décapage : une rue et une nécropole.</p
+><p
+style="txt_Normal"
+>La rue, orientée est-ouest et construite dans le courant du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. apr. J.-C., est occupée jusqu’à la fin de l’Antiquité. Sa première phase d’utilisation est caractérisée par de nombreuses ornières profondément marquées dans la craie géologique. Cette rue est rechargée continuellement avec différent type de matériaux et en particulier de la démolition contenant des fragments de creusets et des déchets de tabletterie. Dans son dernier état, la rue, moins large que précédemment, comporte un caniveau sur son côté sud.</p
+><p
+style="txt_Normal"
+>Ce caniveau semble servir de limite à l’extension de la nécropole, qui se développe au sud de l’emprise de la voirie. La nécropole comporte 53 inhumations orientées nord-ouest – sud-est, sauf quatre orientées est-ouest. Les tombes sont alignées en 5 rangées et sont espacées les unes des autres d’une cinquantaine de centimètres. Nous n’avons eu le temps de fouiller que sept tombes sur la totalité. Deux étaient très arasées et ne contenaient que quelques os, une était pillée et les quatre autres étaient en bon état. Les tombes les mieux conservées permettent de savoir que la profondeur des fosses était comprise entre 2 et 3 m depuis le niveau antique. La présence de cercueil en bois est attestée par la présence de clous et de traces de bois. Aucun mobilier funéraire n’a été mis au jour dans les sépultures fouillées, mais la présence de monnaies dans la couche recoupée par les creusements nous permet de dater son utilisation à la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> et au <hi
+rend="small-caps"
+style="typo_SC"
+>iv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. apr. J.-C. Quelques découvertes sporadiques mal localisées et l’organisation des tombes laissent supposer que cette nécropole s’étend sur une vaste superficie. Nous sommes certainement en présence d’une des importantes nécropoles extra-muros de la ville tardive.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+><index
+indexName="Index"
+><term
+type="orig"
+>Reims</term
+><index
+indexName="pactols:Lieux"
+n="1"
+rendition="oe"
+source="26678/pcrtJIWNXBzTj3"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="de"
+>Europa</term
+><term
+xml:lang="es"
+>Europa</term
+><term
+xml:lang="it"
+>Europa</term
+><term
+xml:lang="nl"
+>Europa</term
+><term
+xml:lang="en"
+>Europe</term
+><term
+xml:lang="fr"
+>Europe</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtL2k0b4mTtD"
+><term
+xml:lang="en"
+>France</term
+><term
+xml:lang="fr"
+>France</term
+><term
+xml:lang="es"
+>Francia</term
+><term
+xml:lang="it"
+>Francia</term
+><term
+xml:lang="de"
+>Frankreich</term
+><term
+xml:lang="nl"
+>Frankrijk</term
+><term
+xml:lang="el"
+>Γαλλία</term
+><term
+xml:lang="ru"
+>Франция</term
+><term
+xml:lang="he"
+>צרפת</term
+><term
+xml:lang="ar"
+>فرنسا</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtSEeAipsBlD"
+><term
+xml:lang="de"
+>France métropolitaine</term
+><term
+xml:lang="fr"
+>France métropolitaine</term
+><term
+xml:lang="nl"
+>France métropolitaine</term
+><term
+xml:lang="es"
+>Francia metropolitana</term
+><term
+xml:lang="it"
+>Francia metropolitana</term
+><term
+xml:lang="en"
+>Metropolitan France</term
+><index
+n="4"
+rendition="oe"
+source="26678/crtcJOiyPujgF"
+><term
+xml:lang="de"
+>Grand Est</term
+><term
+xml:lang="en"
+>Grand Est</term
+><term
+xml:lang="fr"
+>Grand Est</term
+><term
+xml:lang="it"
+>Grand Est</term
+><term
+xml:lang="nl"
+>Grand Est</term
+><term
+xml:lang="es"
+>Gran Este</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtT6hDSQ75Y8"
+><term
+xml:lang="es"
+>Departamento de Marne</term
+><term
+xml:lang="fr"
+>Département de la Marne</term
+><term
+xml:lang="nl"
+>Departement Marne</term
+><term
+xml:lang="de"
+>Département Marne</term
+><term
+xml:lang="it"
+>Dipartimento della Marna</term
+><term
+xml:lang="en"
+>Marne (department)</term
+><index
+n="6"
+rendition="oe"
+source="26678/pcrtSH4UWeGNfZ"
+><term
+xml:lang="de"
+>Reims</term
+><term
+xml:lang="en"
+>Reims</term
+><term
+xml:lang="es"
+>Reims</term
+><term
+xml:lang="fr"
+>Reims</term
+><term
+xml:lang="it"
+>Reims</term
+><term
+xml:lang="nl"
+>Reims</term
+></index
+></index
+></index
+></index
+></index
+></index
+></index
+> – Giratoire RD 366</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (2001)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Stéphane Sindonino</name
+><affiliation
+xml:id="aff12"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+><index
+indexName="Index"
+><term
+type="orig"
+>Antiquité romaine</term
+><index
+indexName="pactols:Chronologie"
+n="1"
+rendition="oe"
+source="26678/pcrtgSbjUSVUr8"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="fr"
+>entités temporelles</term
+><term
+xml:lang="en"
+>types of epochs</term
+><index
+n="2"
+rendition="oe"
+source="26678/crtxhXbaDgYSc"
+><term
+xml:lang="fr"
+>périodisations</term
+><term
+xml:lang="nl"
+>periodisering</term
+><term
+xml:lang="de"
+>Periodisierung</term
+><term
+xml:lang="es"
+>periodización</term
+><term
+xml:lang="en"
+>periodization</term
+><term
+xml:lang="it"
+>periodizzazione</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrtxT02uJOogm"
+><term
+xml:lang="it"
+>Antichità</term
+><term
+xml:lang="es"
+>Antigüedad</term
+><term
+xml:lang="de"
+>Antike</term
+><term
+xml:lang="fr"
+>Antiquité</term
+><term
+xml:lang="en"
+>Antiquity</term
+><term
+xml:lang="nl"
+>Oudheid</term
+><term
+xml:lang="ar"
+>تاريخ قديم</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrtof7EHNsS2e"
+><term
+xml:lang="it"
+>Antichità greco-romana</term
+><term
+xml:lang="es"
+>Antigüedad greco-romana</term
+><term
+xml:lang="fr"
+>Antiquité gréco-romaine</term
+><term
+xml:lang="en"
+>Greco-Roman Antiquity</term
+><term
+xml:lang="de"
+>Griechisch-Römische Antike</term
+><term
+xml:lang="nl"
+>Grieks-Romeinse Oudheid</term
+><term
+xml:lang="ar"
+>تاريخ قديم يوناني-روماني</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtZTmusVUU24"
+><term
+xml:lang="it"
+>Antichità romana</term
+><term
+xml:lang="es"
+>Antigüedad romana</term
+><term
+xml:lang="fr"
+>Antiquité romaine</term
+><term
+xml:lang="en"
+>Roman Antiquity</term
+><term
+xml:lang="nl"
+>Romeinse Oudheid</term
+><term
+xml:lang="de"
+>Römische Antike</term
+><term
+xml:lang="ar"
+>تاريخ قديم روماني</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>3621</idno
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2001</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>fouille préventive</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="en"
+>archaeological requirement</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrt9A9KDllfAq"
+><term
+xml:lang="it"
+>archeologia preventiva</term
+><term
+xml:lang="es"
+>arqueología preventiva</term
+><term
+xml:lang="fr"
+>opération d'archéologie préventive</term
+><term
+xml:lang="de"
+>Präventivarchäologie</term
+><term
+xml:lang="nl"
+>preventieve archeologie</term
+><term
+xml:lang="en"
+>preventive archaeology</term
+><term
+xml:lang="ar"
+>علم إنقاذ الآثار</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtcJxzOpgs7T"
+><term
+xml:lang="fr"
+>fouille préventive</term
+><term
+xml:lang="nl"
+>noodopgraving</term
+><term
+xml:lang="de"
+>Notgrabung</term
+><term
+xml:lang="en"
+>rescue</term
+><term
+xml:lang="es"
+>salvamento</term
+><term
+xml:lang="it"
+>scavo di salvataggio</term
+><term
+xml:lang="ar"
+>إنقاذ</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>La zone fouillée se situe au nord-est de Reims, à l’emplacement d’un futur giratoire construit sur la RD 366 reliant les Zac des Naues (commune de Bétheny) et de La Neuvillette (commune de Reims). Cette opération fait suite à deux campagnes de diagnostics réalisées par Alain Koehler en 1999 et Pascal Stocker en 2000. Il a été découvert, de part et d’autre de la route départementale, deux chemins creux bordés de fossés. Ils longent en parallèle la départementale qui se superpose à la voie romaine Reims-Bavai. Une première fouille a été réalisée en mars 2001 par Nathalie Achard-Corompt sur la partie est du giratoire. À cette occasion le chemin et le fossé oriental ont pu être fouillé.</p
+><p
+style="txt_Normal"
+>La suite des travaux d’aménagement de la partie ouest du giratoire ont nécessité une campagne de fouille préventive du 26 octobre au 12 novembre 2001.</p
+><p
+style="txt_Normal"
+>Elle a permis de mettre au jour le chemin creux ouest et son fossé parallèle, ainsi que deux niveaux de circulations orientés nord-sud.</p
+><p
+style="txt_Normal"
+>Le premier niveau de roulement correspond à des ornières installées dans la craie géologique qui a été décapée. Un fossé de 1,50 m de large, ayant subi un recreusement, est associé à ces ornières. Si les ornières s’étendent jusqu’au bord du fossé, on n’en retrouve aucune du côté ouest, ce qui corrobore le rôle structurant de celui-ci. Le rattachement de la fouille de mars 2001 à cette nouvelle campagne permet de penser que l’emprise totale de la voie et des deux chemins creux avoisine 46 m de large. La fouille d’environ 200 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> d’emprise, nous a permis de mettre en évidence au moins trois zones de circulation plus dense. Dans ces zones, l’écartement des ornières est compris entre 1,20 et 1,40 m.</p
+><p
+style="txt_Normal"
+>Le mobilier mis au jour dans ce premier niveau atteste de son occupation au moins jusque dans la seconde moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>iv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</p
+><p
+style="txt_Normal"
+>Une nouvelle occupation s’installe sur un sédiment qui colmate complètement l’occupation antique. Elle se caractérise par la présence d’ornières en moins grand nombre que pour le niveau antérieur. À ce moment, le fossé a disparu du paysage et le chemin n’est à proprement parlé plus creux, mais l’emprise de la circulation reste la même.</p
+><p
+style="txt_Normal"
+>Les éléments de datation découverts dans ces ornières nous indiquent qu’elles se sont formées au bas Moyen Âge et à l’époque moderne. Cela prouve, comme la permanence de la départementale, qu’à cet endroit l’emplacement de l’axe Reims-Bavai s’est toujours maintenu.</p
+><p
+style="txt_Normal"
+>Quant à la voie centrale, la réalisation d’une canalisation coupant la départementale nous a permis de reconnaître des niveaux d’empierrement conservés à plus d’un mètre sous la route. Il semble que se soient là les vestiges de la chaussée romaine. La réalisation du centre du giratoire nécessitera une troisième intervention, qui permettra de mettre en évidence les restes de celle-ci.</p
+></div
+></div
+></div
+></body
+></text
+></TEI
+>
