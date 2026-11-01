@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI
+change="metopes_edition"
+xml:lang="fr-FR"
+xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:ns="http://www.tei-c.org/ns/1.0"
+xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0"
+xmlns:dcr="http://www.isocat.org/ns/dcr"
+><teiHeader
+><fileDesc
+><titleStmt
+><title
+type="main"
+>1996</title
+></titleStmt
+><editionStmt
+><edition
+><date
+>2022-11-02T13:47:00</date
+></edition
+></editionStmt
+><publicationStmt
+><publisher
+></publisher
+><ab
+type="papier"
+><dimensions
+><dim
+type="pagination"
+></dim
+></dimensions
+><date
+></date
+></ab
+><idno
+type="book"
+></idno
+><ab
+type="lodel"
+><date
+></date
+></ab
+></publicationStmt
+><sourceDesc
+><p
+>Version Métopes : 3.0</p
+><p
+>Written by OpenOffice</p
+></sourceDesc
+></fileDesc
+><encodingDesc
+><tagsDecl
+><rendition
+scheme="css"
+xml:id="none"
+>color:black;</rendition
+></tagsDecl
+></encodingDesc
+><profileDesc
+><langUsage
+><language
+ident="fr-FR"
+>fr-FRfr-FR</language
+></langUsage
+><textClass
+></textClass
+></profileDesc
+><revisionDesc
+><change
+when="2022-11-02T15:37:23"
+who="Nicolas Coquet"
+>Révision</change
+></revisionDesc
+></teiHeader
+><text
+xml:id="text"
+><front
+><titlePage
+><docTitle
+><titlePart
+style="T_3_Article"
+type="main"
+>1996</titlePart
+></docTitle
+></titlePage
+></front
+><body
+><div
+type="chapitre"
+xml:id="mainDiv"
+><div
+subtype="rubrique"
+type="section1"
+><head
+style="T_1"
+subtype="level1"
+>51 – Marne</head
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 93-103 rue Gambetta</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (1996)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Marek Tycjan Olszewski</name
+></p
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut"
+>David Billoin</name
+><affiliation
+xml:id="aff01"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1996</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération :</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>En préalable à la réalisation d’un projet de construction immobilière dans un quartier sud de Reims concernant une surface de 1 000 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+>, une fouille préventive a pu avoir lieu durant un mois.</p
+><p
+style="txt_Normal"
+>Elle a mis en évidence une occupation intensive à partir de la deuxième moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. jusqu’à la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., lorsque l’îlot a été abandonné. Ensuite, une activité humaine, plus au moins sporadique, est attestée encore au moins pendant un siècle.</p
+><p
+style="txt_Normal"
+>Deux bâtiments ont été découverts. Ils se développent autour d’une cour se situant de part et d’autre d’une ruelle orientée nord-ouest – sud-est. Cette petite rue (3,25 m à 3,55 m de large), parallèle au <hi
+rend="italic"
+style="typo_Italique"
+>cardo maximus</hi
+>, traverse l’îlot en son milieu, assurant la circulation intérieure entre les bâtiments et les ateliers. Cette rue était suffisamment large pour permettre l’accès des véhicules dont les traces d’ornières ont été attestées. Elle est d’une importance secondaire par rapport aux grandes rues rémoises dont la largeur moyenne est comprise entre 6 et 17 m (avec trottoirs).</p
+><p
+style="txt_Normal"
+>Les techniques et l’utilisation des matériaux de construction évoluent durant les deux cents ans de l’existence de l’îlot.</p
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>Phase 1</head
+><p
+style="txt_Normal"
+>La phase 1 (deuxième moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s.-deuxième quart du <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.) est représentée par des tranchées de fondations témoignant de murs de fondation en pierres, récupérés par la suite. Les murs en élévation étaient, certainement, en brique crue ou en carreaux de terre ; une technique typique pour la région. Les sols sont en craie pilée, dont on retrouve des traces d’exploitation sur le site. Une charpente en bois soutenait des tuiles de type romain (<hi
+rend="italic"
+style="typo_Italique"
+>tegula</hi
+> et <hi
+rend="italic"
+style="typo_Italique"
+>imbrex</hi
+>). Les maisons sont composées de plusieurs pièces en enfilade, donnant d’un côté sur la ruelle et de l’autre sur une cour, parfois par l’intermédiaire d’un portique en bois ; des puits et des fosses-poubelles ont été retrouvés dans les cours. Une seule grande cave est attestée.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>Phase 2</head
+><p
+style="txt_Normal"
+>La phase 2 (deuxième quart du <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.-après 215) se caractérise par l’agrandissement de la maison A, au détriment de la cour. Plusieurs réfections de pièces et de murs sont attestées. Les fondations sont en blocaille de craie et fonctionnent avec celles de la phase 1. Des scories de fer sont utilisées comme isolant sous des sols en béton et dans des murs de fondation. La plupart des sols sont en craie pilée et en terre battue. La construction d’un hypocauste et de plusieurs caves témoignent d’une richesse relative de l’îlot. La récupération des pierres de construction est attestée dans l’étude des murs des caves.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>Phase 3</head
+><p
+style="txt_Normal"
+>La phase 3 (après 215-fin du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.) se caractérise par une réorganisation générale du plan avec abandon de la ruelle. La pièce équipée d’un système de chauffage par hypocauste est toujours en usage. De nouvelles constructions se caractérisent par des murs de fondation en blocaille de craie sur lesquels se placent deux ou trois assises en <hi
+rend="italic"
+style="typo_Italique"
+>opus incertum</hi
+>. L’utilisation de briques pour la construction des murs apparaît bien avant la phase 3, dans la cave 314 (en <hi
+rend="italic"
+style="typo_Italique"
+>opus mixtum</hi
+>) dont la datation est incertaine. Les sols sont en terre battue, en béton et mortier. Plusieurs caves sont attestées dont l’une d’entre elles est de très grande dimension, haute sous plafond et conserve encore son escalier ; il est construit en craie, pierres calcaires de récupération (tombe ?) provenant des carrières de Saint-Dizier, <hi
+rend="italic"
+style="typo_Italique"
+>tegulae</hi
+> et dalles en terre cuite de récupération. Elle a été édifiée sur l’emplacement d’une cuvette d’exploitation industrielle de la craie. L’abandon du quartier correspond à la période des grandes invasions des peuples barbares venus de l’autre côté du limes, lorsque la ville se replie à l’intérieur de ses remparts fraîchement construits.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>Phase 4</head
+><p
+style="txt_Normal"
+>La phase 4 (fin du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.-deuxième moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>iv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.) a laissé des traces d’occupations éphémères de l’îlot. Il est encore fréquenté par une population qui récupère tout ce qui peut être utile. Le quartier fut probablement squatté jusqu’à la deuxième moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>iv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>Phase 5</head
+><p
+style="txt_Normal"
+>Elle se caractérise par la construction d’habitats modernes dans la partie ouest du chantier. Quelques caves et fondations de murs en blocs de craie ont été retrouvés. Un puits de ventilation descendant dans les galeries d’exploitation de craie a été identifié. La fouille d’une latrine a fourni plusieurs pièces de monnaie datant de la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>xviii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Une concentration de onze fosses est attestée dans la partie est du chantier ; elles datent des <hi
+rend="small-caps"
+style="typo_SC"
+>xix</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> et <hi
+rend="small-caps"
+style="typo_SC"
+>xx</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., mais certaines d’entre-elles peuvent également témoigner d’une activité plus ancienne.</p
+><p
+style="txt_Normal"
+>Depuis le début de l’existence de ce quartier, une activité artisanale y tient une place importante. Nous pensons qu’une production métallurgique s’y est développée, dont témoigneraient les scories et l’aménagement d’une forge (?). L’extraction minière ou demi-minière de la craie y a laissé des traces incontestables. Une étude préliminaire, réalisée par Christophe Dunikowski, a montré que des scories de fer prélevées sur le chantier s’apparentent à des résidus d’un travail de forge (batitures) ; on a également constaté des parois de bas-foyer scarifiées et fondues ainsi que des parois de tuyère. Ces scories témoignent d’une activité métallurgique permanente dans l’îlot et certainement, plus généralement dans le quartier. L’accumulat ion de scories dans des couches de la phase 1 et leur utilisation dans des constructions, des fondations et des sols de la phase 2 prouvent une activité particulière et le besoin de se débarrasser de ces déchets métallurgiques. Comme nous avons pu l’observer, le meilleur moyen de faire disparaître des scories, est de les enterrer dans des fosses ou de les utiliser pour des fondations et des couches isolantes sous les sols d’hypocauste, par exemple.</p
+><p
+style="txt_Normal"
+>La quantité importante des scories de fer trouvées sur le site, liées à la production métallurgique dans des ateliers, évoque le célèbre texte de <hi
+rend="italic"
+style="typo_Italique"
+>Notitia Dignitatum</hi
+>, document officiel dont le sujet est la structure administrative et économique de l’État à l’époque du Bas-Empire. Dans le chapitre XI consacré aux provinces occidentales, il donne une liste de <hi
+rend="italic"
+style="typo_Italique"
+>fabricae</hi
+>, organismes étatiques, chargés de la production et de l’approvisionnement de l’Empire. Parmi certaines villes de Gaule, nous trouvons cité <hi
+rend="italic"
+style="typo_Italique"
+>Remensis</hi
+> avec une production de <hi
+rend="italic"
+style="typo_Italique"
+>spatharia</hi
+>. Le document doit être relatif à l’époque de la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. ou, peut-être, même de sa deuxième moitié. L’installation d’ateliers étatiques, et de <hi
+rend="italic"
+style="typo_Italique"
+>fabricae</hi
+> d’épées dans le cas de Reims ou d’autres villes, n’est pas due au hasard ; ils ont été fondés dans certaines régions de longue tradition métallurgique, où de petits ateliers fabriquaient leur artisanat pour des besoins locaux. Il semblerait que les déchets d’une production métallurgique sur ce chantier témoignent bien de ce type d’activité que les Romains ont transformée en arsenal officiel.</p
+><p
+style="txt_Normal"
+>La situation de l’îlot dans le contexte urbanistique du quartier nous apporte une série d’informations non négligeables. Le chantier se situe à une distance médiane entre le <hi
+rend="italic"
+style="typo_Italique"
+>cardo</hi
+> et la rue Gambetta ; on soupçonnait déjà cette dernière de reprendre un tracé romain selon· d’anciennes découvertes. La ruelle qui facilitait la circulation à l’intérieur de l’îlot, confirme l’existence de la rue principale dont la rue Gambetta a repris partiellement le tracé ; elle formait la limite ouest de l’îlot antique. Un espace important entre deux <hi
+rend="italic"
+style="typo_Italique"
+>cardo</hi
+>, à peu près 160 m, obligeait la création de voies secondaires, facilitant la circulation entre les bâtiments. La ruelle partage l’îlot, à peu près en son milieu, laissant de part et d’autre environ 80 m. L’emplacement du chantier prouve également que l’occupation du terrain par des habitats et des ateliers, à l’intérieur même de l’îlot, était assez dense dans la partie sud de la ville, ou plutôt dans sa périphérie.</p
+><p
+style="txt_Normal"
+>Les résultats de cette étude confirment bien ce que Robert Neiss avait constaté à plusieurs reprises, après avoir suivi de près les opérations archéologiques à Reims. À partir de la deuxième moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s., on peut parler de quartiers artisanaux s’installant dans la périphérie sud de la ville. Rappelons que l’on note le regroupement d’ateliers de potiers dans le quartier Saint Rémi, sur une surface supérieure à 5 ha. Il faut désormais voir, dans le quartier sud, d’autres types de concentrations artisanales : des ateliers métallurgiques (forgerons, par exemple).</p
+></div
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 14 rue de Venise</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (1995-1996)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Philippe Rollet</name
+><affiliation
+xml:id="aff02"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Haut-Empire romain, époque médiévale</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1995</date
+><date
+>1996</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>Préalablement à la construction d’un vaste ensemble immobilier, une fouille préventive a été menée à l’emplacement des biscotteries Auga – 14 rue de Venise. La superficie totale du projet couvre 8 000 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> et la surface explorée lors des fouilles est de l’ordre de 6 000 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+>. L’opération archéologique a permis de mettre au jour un ensemble urbanisé qui complète celui dégagé sur le site voisin du Conservatoire, rue Gambetta, en 1992.</p
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>La voirie antique</head
+><p
+style="txt_Normal"
+>Deux rues perpendiculaires qui délimitent quatre <hi
+rend="italic"
+style="typo_Italique"
+>insulae</hi
+> ont été mises au jour. L’hypothèse, émise lors de la fouille du Conservatoire rue Gambetta, d’un gauchissement de l’orientation de la rue A qui suivrait la courbe du fossé de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+> n’est pas vérifiée ici mais reste envisageable plus à l’ouest, pour rejoindre la rue mise au jour rue des Capucins en 1989. Vers l’est, le prolongement de la rue passe immédiatement devant l’arc antique de la Porte Sazée.</p
+><p
+style="txt_Normal"
+>La rue B correspond à un axe de circulation qui traverse la ville du nord au sud (sur au moins 1 400 m), repéré déjà plusieurs fois, notamment, sur le site du 28 boulevard Joffre en 1988 et rue Libergier en 1983.</p
+><p
+style="txt_Normal"
+>Les rues sont implantées vers la fin du règne d’Auguste. À l’origine, elles sont bordées de caniveaux peu profonds qui délimitent une surface de roulement de 9,50 m de large, directement sur le terrain naturel ou le paléosol.</p
+><p
+style="txt_Normal"
+>En ce qui concerne la rue B, lors de la première décennie de notre ère, des niveaux de circulation construits en craie compactée, généralement surmontés d’un cailloutis, vont se succéder et de nouveaux caniveaux latéraux, vraisemblablement boisés, en retrait des précédents, vont être aménagés. Ils rétrécissent ainsi la largeur de la chaussée de roulement à 8,50 m puis à environ 5,80 m.</p
+><p
+style="txt_Normal"
+>Au cours des deuxième et troisième décennies, un niveau de circulation empierré est construit sur une chape de craie et les fossés latéraux sont placés sur le même emplacement que ceux auxquels ils succèdent ; côté est de la rue nord-sud, le remplissage du fossé Présente un surcreusement qui semble correspondre à n curage.</p
+><p
+style="txt_Normal"
+>À la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s., deux niveaux de chaussées sont construits en craie. Au premier niveau, sont associés de larges fossés latéraux qui contiennent un abondant mobilier archéologique. Ils sont implantés légèrement en retrait des précédents, vers l’extérieur, et délimitent une surface de roulement sensiblement plus large que la précédente (environ 6,80 m). Le second niveau est recouvert d’une épaisse couche d’utilisation.</p
+><p
+style="txt_Normal"
+>Les caniveaux contiennent un matériel archéologique très abondant au moment où la rue est la plus étroite, et correspond probablement au plein essor de l’urbanisation du site. La réduction de la surface de roulement peut correspondre à une colonisation temporaire des trottoirs des chaussées par les riverains. Les piliers de portique sont construits au <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. sur l’emplacement des tous premiers caniveaux. Les fondations de piliers sont construites en craie pilée et descendent généralement jusqu’au substrat géologique. La surface de circulation contemporaine du portique n’est pas conservée, mais peut être déduite de la distance entre les piliers qui est de l’ordre de 8,50 m. Ces portiques matérialisent une stabilisation de l’espace public qui met fin à la colonisation des trottoirs.</p
+><p
+style="txt_Normal"
+>Les dernières chaussées étaient vraisemblablement empierrées, puisque récupérées.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>L’habitat antique</head
+><p
+style="txt_Normal"
+>Il apparaît qu’initialement seules les rues existent. Peu de traces d’occupation correspondant aux premières décennies de notre ère, ont pu être mises en évidence. Cependant, les réfections des niveaux de circulation, observées dans un laps de temps assez court témoignent bien d’une activité dans le quartier, dès l’époque augustéenne, ce qui tendrait à confirmer la présence de constructions, probablement en matériaux périssables, au moins en bordure des rues ; l’urbanisation n’intervenant qu’ensuite, car les premières constructions, fondées en pierres et alignées avec les rues sont datées du milieu du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s.</p
+><p
+style="txt_Normal"
+>Dans la seconde moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s., interviennent des changements qui concernent à la fois les techniques de construction et la densité de l’occupation. On voit apparaître des murs fondés en craie pilée compactée. À Reims, il est admis que ce type de fondation succède et souvent coexiste avec les fondations en pierres. Généralement cette technique apparaît lors de réaménagements (par exemple, découpage d’une pièce), ou pour de nouvelles constructions. Pour la première fois on a eu l’occasion, sur ce site, d’avoir la preuve que lors de reconstructions, certaines fondations en pierres sont récupérées et remplacées par des fondations en craie qui reprennent exactement leur tracé, ce qui confirme les hypothèses antérieures. La raison de ce phénomène est à rechercher dans le fait qu’on récupère les pierres, un matériau utile pour la construction des élévations, et qu’on le remplace par la craie, matériau qui présente une meilleure stabilité d’ensemble.</p
+><p
+style="txt_Normal"
+>Les techniques romaines sont désormais largement présentes : murs maçonnés (<hi
+rend="italic"
+style="typo_Italique"
+>opus caementicum</hi
+> pour les parties basses des élévations, les parties hautes étant généralement construites en briques crues), peintures murales, sols avec inclusions de tesselles, sols en <hi
+rend="italic"
+style="typo_Italique"
+>terrazzo</hi
+>, caves maçonnées en moellons de craie ou en pierres avec chaînages de briques et joints lissés au fer. La forte densité des structures révèle une occupation quasi totale de la surface, avec une réduction des espaces non construits comme les cours, ce qui atteste une urbanisation en plein essor.</p
+><p
+style="txt_Normal"
+>La dernière phase de construction semble s’établir dans le courant du <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. et correspond à la création d’hypocaustes, de puits, et utilise principalement les fondations en craie.</p
+><p
+style="txt_Normal"
+>Le site est occupé jusqu’au <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. L’abandon est marqué par la récupération systématique des matériaux. Le rare mobilier présent sur les sols et le peu de tuiles retrouvé dans les couches de démolition, témoignent plus d’un abandon progressif que d’un abandon rapide et brutal. La construction du rempart du Bas-Empire (situé à environ 200 m) qui nécessite un volume considérable de matériaux, peut être éventuellement mise en relation avec ce phénomène de récupération.</p
+><p
+style="txt_Normal"
+>La nature de l’habitat, quant à elle, est plus complexe à identifier. On constate que les trois <hi
+rend="italic"
+style="typo_Italique"
+>insulae</hi
+> étudiées présentent des caractéristiques différentes. Fouillée en 1991, l’<hi
+rend="italic"
+style="typo_Italique"
+>insula</hi
+>, au nord de la rue A, est occupée par de petite unités d’habitation. 22 caves sont présentes dans les pièces en façade sur rue, ce qui peut laisser supposer la présence de petits commerces.</p
+><p
+style="txt_Normal"
+>L’<hi
+rend="italic"
+style="typo_Italique"
+>insula</hi
+> à l’ouest de la rue B possède des caractéristiques différentes. Le dernier état tend à montrer l’existence d’au moins 3 parcelles de 29 m sur 27 m à l’intérieur desquelles on distingue des petites cours et des passages destinés à la circulation interne. L’organisation des pièces est régulière et alignée sur l’axe des rues au niveau des façades qui présentent probablement des boutiques sur la rue, alors que l’intérieur de l’îlot montre une distribution plus irrégulière. D’où l’hypothèse d’une première phase de construction en bordure des rues avec une densification progressive dans les espaces libres en cœur d’îlot. Là aussi, il est possible qu’une activité dont la nature ne peut être précisée en raison de l’érosion des couches, se soit développée avec des ateliers, des aires de stockage et des boutiques au rez-de-chaussée et les pièces d’habitation à l’étage.</p
+><p
+style="txt_Normal"
+>L’<hi
+rend="italic"
+style="typo_Italique"
+>insula</hi
+> à l’ouest de la rue B, a été en partie observée en 1991, sur une faible surface en façade des deux rues. Lors de cette opération seule un secteur conserve des vestiges antiques qui ne sont pas en connexion avec la rue. L’orientation légèrement divergente de ces structures, en cœur d’îlot, est peut-être due à la présence d’un habitat antérieur à l’urbanisation du quartier comme c’est le cas sur la fouille du boulevard Joffre, mais il n’a pu être mis en évidence. Par contre, il apparaît qu’à l’approche de la rue, les murs sont à nouveau orientés en fonction de celle-ci. À l’intérieur de cette <hi
+rend="italic"
+style="typo_Italique"
+>insula</hi
+>, une meilleure conservation des couches a permis de définir plusieurs phases de construction, du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. jusqu’à l’abandon du site. Ainsi des relations ont été établies, grâce à la chronologie, entre l’évolution des rues et celle de l’habitat qui peuvent servir pour une modélisation de l’évolution de l’ensemble de ce quartier antique.</p
+><p
+style="txt_Normal"
+>À partir du Bas-Empire, le site n’est plus occupé et a certainement été remis en culture.</p
+><p
+style="txt_Normal"
+>Vers la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>xiii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., les Clarisses de Reims y établissent leur couvent. Les terrains étudiés correspondent à la partie sud de l’enclos du couvent des Clarisses de Reims. Il s’agit principalement d’une zone de jardins, d’après les plans anciens. L’occupation est matérialisée par des fondations en moellons de craie correspondant à des murs de parcelles qui délimitent des jardins, des fosses dont deux ont livré un matériel relativement abondant daté de la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>xv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+>-première moitié <hi
+rend="small-caps"
+style="typo_SC"
+>xvi</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., puits et glacières. Deux creusements importants de la même période, dont la fonction reste énigmatique (carrières d’exploitation de la craie à ciel ouvert, étang ?) ont, en grande partie, détruit les traces d’occupation antiques et médiévales.</p
+><p
+style="txt_Normal"
+>Le site est abandonné par les religieuses à la Révolution. Des maisons vont d’abord occuper les terrains en façade de la rue de Venise puis viendra ensuite l’installation de la biscotterie.</p
+><p
+style="txt_Normal"
+>Pour conclure, les chantiers mitoyens de la rue de Venise et de la rue Gambetta ont fourni l’opportunité rare d’étudier la structure urbaine d’un quartier antique du Haut-Empire et un enclos monastique sur une surface de l’ordre de 1,5 ha.</p
+><figure
+><graphic
+url="../icono/br/Fig01.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 1 –</hi
+> Plan d’ensemble des structures antiques des fouilles de la rue Gambetta (1991) et de la rue de Venise (1995-1996)</head
+><p
+style="txt_Legende"
+><hi
+rend="bold"
+style="typo_gras"
+>En noir,</hi
+> les murs relevés ; <hi
+rend="bold"
+style="typo_gras"
+>en gris,</hi
+> les murs restitués.</p
+></figure
+><figure
+><graphic
+url="../icono/br/Fig02.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 2 –</hi
+> Zone 3, état 1, pièce A : hypothèse de restitution</head
+><p
+style="txt_Legende"
+>La présence des pierres crapaudines permet d’imaginer une structure à l’étage, indépendante des murs.</p
+><p
+style="ill-credits-sources"
+>Dessin : M. Poirier.</p
+></figure
+><figure
+><graphic
+url="../icono/br/Fig03.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 3 –</hi
+> Caniveaux est de la rue B</head
+></figure
+></div
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Salle basse du Palais du Tau</head
+><head
+style="T_sub"
+type="sub"
+>Surveillance de travaux (1996)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Walter Berry</name
+><affiliation
+xml:id="aff03"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine, époque médiévale</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1996</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : surveillance de travaux, archéologie du bâti</p
+><p
+style="txt_Normal"
+>L’aménagement de la salle basse, sous l’aile est du Palais du Tau, a fait l’objet d’un aménagement muséographique réalisé par la CNMHS. Une étude archéologique préalable sur les structures en élévation et une surveillance des travaux de terrassement ont permis une première approche archéologique de cette partie du groupe épiscopal.</p
+><p
+style="txt_Normal"
+>Le Palais du Tau, c’est-à-dire l’ancienne résidence de l’archevêque, située sur le flanc sud de la cathédrale, s’est, semble-t-il, établi dès l’époque de saint Nicaise sur une structure plus ancienne qui pourrait être le Palais des gouverneurs romains. Les textes mentionnent peu le Palais résidentiel de l’évêque. Fortunat dit qu’Egidius a agrandi l’édifice à la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>v</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Nous savons également que l’archevêque Séulphe (922-925) fit orner le palais de peintures et que Ebale (1055-1071) entreprit d’autres travaux d’agrandissement.</p
+><p
+style="txt_Normal"
+>La salle basse du Palais du Tau forme un vaste espace en forme de L, situé sous la grande salle des banquets, ou salle du Tau. Son aspect actuel date des aménagements des <hi
+rend="small-caps"
+style="typo_SC"
+>xiii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> et <hi
+rend="small-caps"
+style="typo_SC"
+>xv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Au <hi
+rend="small-caps"
+style="typo_SC"
+>xix</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., elle est transformée en sacristie pour la cathédrale. Dans les années 20 et 30 apr. J.-C., elle accueille le mobilier archéologique provenant de la fouille de Henri Deneux et devient un dépôt lapidaire.</p
+><p
+style="txt_Normal"
+>Au cours de l’opération de cette année, les vestiges d’un ensemble de salles gallo-romaines ont été partiellement mis au jour. L’une d’elles était somptueusement décorée. Ses murs étaient revêtus de grandes plaques de calcaire gris tandis que le sol, en <hi
+rend="italic"
+style="typo_Italique"
+>opus sectile</hi
+>, était réalisé avec des morceaux de marbre et d’autres types de pierres de grande qualité. Les découvertes numismatiques peuvent situer la destruction de ces salles aux environs de 270 apr. J.‑C. D’autres éléments découverts attestent la présence d’un édifice prestigieux antérieur à l’époque de Nicaise, c’est-à-dire avant le <hi
+rend="small-caps"
+style="typo_SC"
+>v</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</p
+><p
+style="txt_Normal"
+>D’autre part, il a pu être établi que les murs est et ouest de la salle basse, qui datent du <hi
+rend="small-caps"
+style="typo_SC"
+>xv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., englobent, en élévation et noyés dans la maçonnerie, des arcs reposant sur des piliers massifs et mesurant près de 6 m de hauteur. Ils font vraisemblablement partie d’un grand bâtiment appartenant à une phase de restructuration du Palais des archevêques, peut-être au <hi
+rend="small-caps"
+style="typo_SC"
+>ix</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., époque de l’agrandissement de la cathédrale sous les évêques Ebbon et Hincmar. Des phases importantes de l’histoire ancienne, assez méconnue, du Palais du Tau sont ainsi abordées et mériteraient des études plus approfondies.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Cours du Palais du Tau</head
+><head
+style="T_sub"
+type="sub"
+>Surveillance de travaux (1996)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Walter Berry</name
+><affiliation
+xml:id="aff04"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>bas Moyen Âge, époque moderne</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1996</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : surveillance de travaux</p
+><p
+style="txt_Normal"
+>Dans la cour du Palais du Tau, à l’ouest de la salle basse, lors du creusement de tranchées pour la pose de câbles électriques, une surveillance archéologique a permis de reconnaître un niveau de pavés dessinant un cercle et sur lequel pouvaient circuler les véhicules au <hi
+rend="small-caps"
+style="typo_SC"
+>xviii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Au-dessous, tous les niveaux de l’époque moderne et du bas Moyen Âge sont intacts sans toutefois qu’apparaisse une structure particulière. L’espace semble avoir toujours été une cour, du moins dans les périodes les plus récentes.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Cathédrale Notre-Dame</head
+><head
+style="T_sub"
+type="sub"
+>Fouille programmée (1996)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Robert Neiss</name
+><affiliation
+xml:id="aff05"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut"
+>Walter Berry</name
+><affiliation
+xml:id="aff06"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>époque médiévale</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1996</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille programmée</p
+><p
+style="txt_Normal"
+>Les principaux travaux de fouille ayant été réalisés en 1995, il a fallu procéder, cette année 1996, aux recherches complémentaires par sondages et surtout au relevé des structures mises au jour tant par les fouilles anciennes de Henri Deneux que par les investigations actuelles. Plus d’un kilomètre de murs de toutes les époques sont dessinés pierre à pierre en élévation et en plan. Le tout est réparti sur quatre zones de recherche englobant une surface proche d’un hectare : la fouille à ciel ouvert de la rue Robert-de-Coucy, la crypte archéologique des années 20, appelée cour nord par Henri Deneux, au nord de la nef, les sous-sols de la cathédrale et la salle basse du Palais du Tau.</p
+><p
+style="txt_Normal"
+>Ainsi, grâce à des interventions de terrain limitées à des secteurs ciblés, comme le transept nord, la jonction entre la cour nord et la fouille à ciel ouvert et surtout la zone occidentale de la nef, et grâce à l’avancement de l’étude et de la réflexion, la connaissance du site très complexe du groupe épiscopal de Reims a bien progressé malgré des retards dans la mise en place des crédits de l’opération.</p
+><p
+style="txt_Normal"
+>Dans le cadre de cette campagne, les éléments significatifs à relever sont les suivants :</p
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>Rue Robert-de-Coucy</head
+><p
+style="txt_Normal"
+>Une glacière du <hi
+rend="small-caps"
+style="typo_SC"
+>xvii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. et une fosse de grande taille du bas Moyen Âge ont fourni un important mobilier archéologique. Des couches d’occupation datant du très haut Moyen Âge ont également été mises au jour à l’occasion du démontage du mur de séparation entre la crypte de la cour nord et la fouille sous la rue. Ces couches permettent de compléter la suite chronologique entre les niveaux du Bas-Empire et ceux du Moyen Âge. Par là-même la partie des thermes, interprétée comme baptistère par Henri Deneux, en 1924, a été dégagée sur sa partie nord et mieux mise en relation avec les remaniements du Bas-Empire.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>Crypte, dite de Saint-Remi</head
+><p
+style="txt_Normal"
+>D’après l’étude de la crypte, située sous la croisée de la cathédrale, et notamment le relevé et l’analyse détaillée des couches d’enduit toujours en place à certains endroits, la mise en relation avec le sanctuaire carolingien situé immédiatement à l’ouest et l’étude des mortiers, encore en cours, il est désormais assuré que cette construction est d’origine ancienne. En effet la crypte, réalisée en 901 d’après les textes, reprend une structure plus ancienne dont certains éléments sont encore présents mais qui ne peuvent être datés avec précision avant des investigations archéologiques complémentaires.</p
+><p
+style="txt_Normal"
+>Immédiatement à l’ouest, des vérifications ont permis de délimiter les sondages de Henri Deneux et de retrouver des niveaux stratigraphiques en place. Ces couches, conservées sous les dalles du sanctuaire édifié vers 860, présentent une succession ininterrompue allant du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. au <hi
+rend="small-caps"
+style="typo_SC"
+>ix</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. mais n’ont pas encore pu être fouillées.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>Bras nord du transept</head
+><p
+style="txt_Normal"
+>Dans le bras nord du transept, l’étude des mortiers en cours, entreprise par le Laboratoire de Dynamique des Bassins Sédimentaires du département de géologie de l’URCA, sur l’ensemble du site, a déjà permis de constater que le mortier de la fondation de cette partie de la cathédrale du <hi
+rend="small-caps"
+style="typo_SC"
+>xiii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. est identique à celui des dernières travées ouest de la nef, réalisées vers 1250. Aussi la datation du transept vers 1210-1220, proposée par les historiens de l’art jusqu’ici, doit-elle être revue soit dans le sens d’un autre phasage des campagnes de construction, soit dans le sens d’un remaniement de cette partie de l’édifice. Par ailleurs les niveaux de remplissage réalisés au <hi
+rend="small-caps"
+style="typo_SC"
+>xiii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. pour asseoir l’église gothique et mis en évidence par Henri Deneux, ont été redécouverts dans le même secteur. De nombreux éléments de construction de l’église du <hi
+rend="small-caps"
+style="typo_SC"
+>xii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. ont ainsi pu être relevés. Parmi eux, deux chapiteaux d’une facture délicate et particulièrement bien conservés méritent d’être mentionnés. Ils présentent des motifs végétaux et peuvent être datés, par comparaison, des environs des années 1160-1180. De par leur forme et leur taille, ils étaient probablement destinés à orner un <hi
+rend="italic"
+style="typo_Italique"
+>triforium</hi
+>, vraisemblablement celui du chœur. Des traces de pose révèlent que ces chapiteaux ont bien été utilisés et qu’il ne s’agit pas de rebus. Aucune trace d’incendie n’a cependant été mise en évidence, malgré le sinistre qui aurait détruit les parties orientales de la cathédrale du <hi
+rend="small-caps"
+style="typo_SC"
+>xii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., comme il est coutume de le dire. En même temps enfin, les fondations du bras nord du transept carolingien ont été reconnues et mises au jour pour la première fois.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>Bras sud du transept</head
+><p
+style="txt_Normal"
+>Dans le bras sud du transept, des structures du Bas-Empire ont été découvertes ainsi que des éléments appartenant aux premières résidences épiscopales, situées vraisemblablement de ce côté de la cathédrale.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>Nef</head
+><p
+style="txt_Normal"
+>Sous la nef, l’analyse des tombeaux des archevêques des <hi
+rend="small-caps"
+style="typo_SC"
+>x</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> et <hi
+rend="small-caps"
+style="typo_SC"
+>xi</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. a continué. Le caveau d’Adalbéron a été dégagé tandis que des accès à ceux de Gervais et d’Ebale ont été aménagés. Ces caveaux, antérieurement mis au jour par Henri Deneux et qui sont tout à fait exceptionnels pour l’époque, ont été relevés avec précision. Comme sous la croisée, il a été possible de trouver encore en place, malgré le passage d’Henri Deneux, une stratigraphie intacte sur près de 1,50 m et couvrant la période allant du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> au <hi
+rend="small-caps"
+style="typo_SC"
+>ix</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. La chronologie d’ensemble s’en trouve précisée. L’autre surprise vient de l’étude du caveau d’Adalbéron. Le cercueil en bois de ce prélat a été fouillé par Henri Deneux et les ossements replacés dans un sarcophage de réduction au même endroit. Sous cet élément récent, est en effet apparu un sarcophage plus ancien, datant vraisemblablement du <hi
+rend="small-caps"
+style="typo_SC"
+>viii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Cette sépulture, qui est désormais la plus ancienne connue de la cathédrale, était placée juste à l’est de l’emplacement traditionnellement attribué à la rouelle de saint Nicaise commémorant le lieu du martyre de l’évêque du <hi
+rend="small-caps"
+style="typo_SC"
+>v</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Le personnage inhumé là devait donc être important. Peut-être s’agit-il de saint Rigobert dont les reliques ont été transférées à la cathédrale au <hi
+rend="small-caps"
+style="typo_SC"
+>viii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Les ossements, retrouvés dans le sarcophage de réduction d’Adalbéron et qui doivent donc lui appartenir, ont été prélevés et seront analysés.</p
+><p
+style="txt_Normal"
+>En avant de la tombe d’Adalbéron et au niveau des fondations du jubé du <hi
+rend="small-caps"
+style="typo_SC"
+>xv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e </hi
+>s., le sarcophage de réduction de l’évêque Odalric, également réalisé à l’époque d’Henri Deneux, a été retrouvé. Au <hi
+rend="small-caps"
+style="typo_SC"
+>xvii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., les restes de cet évêque avaient été envoyés en Belgique car ils avaient été identifiés alors comme appartenant à saint Albert, l’évêque de Liège mort à Reims en 1192 et enterré dans la cathédrale. En 1920, Henri Deneux après avoir découvert le véritable sarcophage de saint Albert, a procédé à l’échange des reliques afin de réparer cette ancienne méprise. Odalric ne se trouvait apparemment pas dans un caveau puisqu’aucune trace n’en a été décelée. Le sarcophage de réduction n’a pas encore été ouvert mais les ossements devraient eux-aussi être étudiés prochainement.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>La structure baptismale</head
+><p
+style="txt_Normal"
+>Sous la cinquième travée de la nef, une attention particulière a été portée à la structure dégagée en juin 1995 et qui présentait des éléments attribuables à une structure baptismale. Les divers travaux d’éclairage et de confortement du sol de la cathédrale, liés aux commémorations du XV<hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> centenaire du baptême de Clovis, ont quelque peu restreint et retardé l’étude qui s’est poursuivie jusqu’à la fin de l’année.</p
+><p
+style="txt_Normal"
+>La piscine, déjà évoquée dans le <hi
+rend="italic"
+style="typo_Italique"
+>BSR</hi
+> 1995, a été plus amplement dégagée. Il est désormais possible de la qualifier de baptistère dont l’organisation architecturale se révèle petit à petit. La piscine rectangulaire, de 3 m sur 2,75 m, comporte des marches au centre de chacun de ses côtés. Disposée au centre d’une salle d’environ 10 m de côté, elle est entourée d’une banquette massive qui devait supporter des colonnes soit d’un ciborium, soit d’une superstructure voûtée. Les conduits d’alimentation et d’évacuation d’eau n’ont pas encore été retrouvés. Probablement se trouvaient-ils au centre du bassin et ont-ils été détruits par les fondations du massif occidental carolingien qui passe à cet endroit. Une première restitution en élévation a été tentée avec la précieuse collaboration de l’équipe archéologique de Genève, dirigée par Charles Bonnet. De nombreuses tesselles dorées et de couleurs attestent la présence de mosaïques pariétales.</p
+><p
+style="txt_Normal"
+>Des sondages ont permis de déceler plusieurs phases de construction et de modification successives : de nombreuses pièces de monnaie de la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>iv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. (à partir de 375) ont en effet été recueillies dans les niveaux de préparation de la piscine. Cette première installation a été restructurée et la piscine réduite au-moins trois fois avant l’époque carolingienne.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>Conclusions</head
+><p
+style="txt_Normal"
+>Le classement, l’archivage et la réalisation d’une base de données complète sur la documentation ancienne et récente est en cours. Elle aura au moins pour résultat la mise en forme raisonnée globale de toutes les informations disponibles sur le site.</p
+><p
+style="txt_Normal"
+>L’étude précise des transformations de la structure baptismale n’est pas encore achevée. Il est en effet primordial de mieux comprendre le développement des structures architecturales appartenant aux différentes phases du baptistère depuis l’époque paléochrétienne jusqu’à l’époque carolingienne.</p
+><p
+style="txt_Normal"
+>Un questionnement plus large concerne l’identification des vestiges des différentes églises cathédrales successives. Les premiers constats de l’étude en cours ont montré que les hypothèses de Henri Deneux, complétées par Hans Reinhardt, étaient complètement à revoir. En 1997, la reprise et l’analyse détaillée des documents écrits et dessinés par Henri Deneux, à la lumière des acquis de la fouille actuelle, devraient permettre de renouveler complètement l’interprétation des différentes phases de construction et, éventuellement, préparer un nouveau programme de recherche sur le site du groupe épiscopal.</p
+><figure
+><graphic
+url="../icono/br/Fig04.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 1 –</hi
+> Phasage de l’évolution des structures baptismales</head
+></figure
+><figure
+><graphic
+url="../icono/br/Fig05.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 2 –</hi
+> Proposition de restitution de l’élévation du baptistère paléochrétien</head
+><p
+style="ill-credits-sources"
+>Dessin : W. Berry (Afan), G. Deuber (SCA GE).</p
+></figure
+></div
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 75 rue Pierre-Brossolette</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (1996)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff07"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1996</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Des sondages, sous la forme de tranchées réalisées mécaniquement, ont été effectués préalablement à la construction d’un bâtiment sur sous-sol. L’objectif étant de rechercher la présence du fossé de la grande enceinte de Reims daté de la période de La Tène finale ou gallo-romaine précoce, ainsi que celle d’incinérations antiques.</p
+><p
+style="txt_Normal"
+>Des sédiments d’origine contemporaine sont apparus sur l’ensemble des tranchées. Le toit du substrat crayeux a été rencontré à 30 cm de profondeur. L’absence du fossé d’enceinte à cet endroit permet de confirmer son passage légèrement plus au sud.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 199-205 avenue de Laon</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (1996)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff08"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1996</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Des sondages, sous la forme de tranchées réalisées mécaniquement, ont été effectués préalablement à la construction d’un bâtiment sur sous-sol. L’objectif étant de rechercher la présence ou l’absence du fossé de la grande enceinte de Reims daté de la période de La Tène finale ou gallo-romaine précoce, ainsi que celle de tombes à incinérations. La façade du projet immobilier se trouvait également immédiatement à proximité du <hi
+rend="italic"
+style="typo_Italique"
+>cardo maximus</hi
+> qui se prolonge par la voie romaine Reims-Laon.</p
+><p
+style="txt_Normal"
+>Dans l’ensemble des tranchées réalisées on constate que sous un remblai moderne variant de 0,50 m à 1 m, se trouve une couche limoneuse de 1,50 m à 1 m qui couvre le substrat géologique rencontré à 2 m de profondeur, en moyenne. L’origine de la couche limoneuse reste indéterminée. Aucun élément attestant une occupation antique dans ce secteur n’a été découvert.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 3 chaussée Saint-Martin</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (1996)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff09"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1996</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Dans un secteur de la ville encore peu exploré, la rive gauche de la Vesle en fond de vallée, un projet de construction a motivé une évaluation archéologique préalable.</p
+><p
+style="txt_Normal"
+>À l’exception de remblais contemporains, aucun autre élément d’origine anthropique n’a pu être mis en évidence dans les deux sondages mécaniques effectués sur le site. Néanmoins, des couches géologiques dont la formation semble remonter au Quaternaire (Tanétien) ont été observées. Les colonnes d’échantillons prélevés ont été confiées au Laboratoire de dynamique des bassins sédimentaires du Département de géologie de l’URCA, pour étude.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 58-68 rue Chanzy</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (1996)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff10"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1996</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>À l’issue d’une phase de démolition précédant la réalisation d’un projet de construction qui comporte deux niveaux de sous-sols, une première série de sondages d’évaluation a été pratiquée. En effet, le terrain concerné se situe dans la ville du Haut-Empire, immédiatement à proximité du fossé de l’enceinte du Bas-Empire. L’étude de sol préliminaire comportant des anomalies sur la profondeur du substrat crayeux, il était important de vérifier dans un premier temps, si le tracé du fossé ne s’infléchissait pas de façon anormale par rapport aux restitutions les plus récentes.</p
+><p
+style="txt_Normal"
+>Deux sondages mécaniques pratiqués dans l’axe est-ouest de la parcelle ont permis d’observer le toit du substrat crayeux à 4,20 m et 4,60 m, ce qui correspond aux profondeurs habituelles dans ce secteur de la ville. Des niveaux antiques apparaissent, sous des couches modernes, entre 2,20 m de profondeur et le substrat. Les anomalies de l’étude de sol sont dues à un sondage certainement effectué dans un puits ancien et à la mauvaise qualité des couches supérieures de la craie probablement liée à la présence d’une nappe de fluage postglaciaire.</p
+><p
+style="txt_Normal"
+>Le diagnostic sera poursuivi en 1997 lorsque la totalité des terrains seront accessibles.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Le Champs Dolent, Les Voieries</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (1996)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Alain Koehler</name
+><affiliation
+xml:id="aff11"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1996</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>C’est en 1829 qu’est pour la première fois mentionnée officiellement l’existence de l’aqueduc de la Suippe. Depuis, plusieurs travaux, et tout particulièrement le suivi effectué par les membres de l’association GEACA, ont permis d’avancer dans les questions de son tracé et des techniques de construction. Bien que réalisé en tranchée profonde, le passage de l’ouvrage à hauteur du projet routier n’avait pas encore été identifié, masqué par les remblais d’un important chemin médiéval. Les fouilles ont permis d’en relever précisément le tracé, de déterminer les principales caractéristiques techniques (dimensions, matériaux, pente d’écoulement, etc.), et d’effectuer un échantillonnage de matériaux de construction. L’aqueduc nous est parvenu mal conservé, les dalles d’écoulement ayant été systématiquement récupérées. Il est vraisemblable que la destruction de cet ouvrage ait été effectuée dès la fin de la période romaine.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – La Croix Muiron</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (1996)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Alain Koehler</name
+><affiliation
+xml:id="aff12"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Protohistoire, Antiquité romaine, époque médiévale</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1996</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>Quatre chemins creux ont été relevés dans les tranchées de diagnostic archéologique. Les observations permises dans ce cadre nous ont paru être suffisantes : aucun décapage complémentaire n’a été effectué. Deux uniques ornières ont été observées au sein de deux de ces structures. Celles-ci apparaissent à leur base, entaillant le substrat géologique et donc parfaitement reconnaissables. Ces deux chemins présentent un tracé parallèle, à quelques mètres l’un de l’autre. Les distances entre les ornières ne sont pas comparables, ce qui pourrait indiquer deux états chronologiques différents. Ils apparaissent liés à un établissement antique à proximité du tracé, dont l’implantation succède à une occupation plus ancienne (opération suivante), et leur prolongement vers l’est pourrait desservir six sites d’habitat et une nécropole protohistoriques. L’intérêt de l’approche de ces chemins sera sans doute accru lorsque seront effectuées les observations de leurs liens avec l’établissement.</p
+><figure
+><graphic
+url="../icono/br/Fig06.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 1 –</hi
+> Plan de localisation des chemins creux et plan des structures d’habitats protohistoriques et gallo-romains</head
+></figure
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – La Croix Muiron, Le Haut des Nervas</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (1996)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Alain Koehler</name
+><affiliation
+xml:id="aff13"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Protohistoire, Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1996</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>Le site de « La Croix Muiron » et « Le Haut des Nervas » occupe la partie sommitale d’un des reliefs les plus élevés du tracé. Le secteur appréhendé constitue une partie d’un vaste ensemble s’étendant sur plusieurs hectares. La fonction de ce secteur du site, en partie délimité par de larges fossés, est directement associée aux activités agraires de l’établissement. Plus d’une dizaine de silos, globalement répartis en deux zones d’ensilage, appartiennent à plusieurs périodes distinctes de La Tène ancienne et partagent l’espace, sans chevauchement, avec de petits bâtiments sur quatre à six poteaux (unités techniques annexes ou petits greniers surélevés). L’abondance du matériel (céramique, fibule, ossements animaux) indique la proximité du secteur d’habitation. Le premier fossé, au nord, décrit une légère courbe de l’est vers l’ouest. Il s’agit d’un ouvrage important, de presque 2,50 m de largeur à l’ouverture et environ 1,50 m de profondeur sous l’horizon de terre végétale. Malgré la fouille d’une grande partie du tronçon accessible, le matériel présent y est peu nombreux et provient essentiellement des horizons intermédiaires et supérieurs. Il semble à première vue attribuable à La Tène C2 et D1. Le second fossé, une centaine de mètres au sud, est assez comparable dans sa morphologie, bien que de dimensions un peu plus modestes. Il présente pour nous l’avantage d’avoir été utilisé comme dépotoir. Les éléments recueillis concernent principalement La Tène C2. Le processus d’abandon pour ces deux fossés paraît ainsi bien entamé pour La Tène moyenne. Que La Tène ancienne soit la période de leur mise en place est très plausible, mais reste à démontrer.</p
+><p
+style="txt_Normal"
+>Le seul bâtiment d’ampleur qui a été mis au jour est une structure à l’ossature puissante : les négatifs de poteaux parfois très nettement marqués par une couronne d’agglomérat de craie indurée nous permettent de restituer des diamètres de l’ordre d’une cinquantaine de centimètres. Le plan général s’organise sur la base de trois alignements de quatre trous de poteau circulaires, dispositif complété en périphérie par onze trous de poteau ovales à rectangulaires. Le peu de matériel recueilli dans ces fondations appartient à La Tène finale ou à la période gallo-romaine. Ceci est d’ailleurs corrélé par la présence spécifique de matériel céramique gallo­ romain relevé lors des prospections préalables, ce qui nous permet d’envisager l’utilisation de ce bâtiment au <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. apr. J.-C. La fonction pourrait être celle d’un grenier, appartenant à un vaste établissement (<hi
+rend="italic"
+style="typo_Italique"
+>villa</hi
+> ?) dont les substructions pourraient correspondre à des anomalies observées sur un cliché de l’IGN, juste à l’ouest du tracé.</p
+><p
+style="txt_Normal"
+>Enfin, un fossé étroit et peu profond à fond plat, et irrégulièrement accompagné de surcreusements rectangulaires, correspond à un angle d’enclos délimité par une palissade. Les éléments recueillis ne permettent pas de proposer de datation. Une structure analogue a été observée dans le dispositif de délimitation de la <hi
+rend="italic"
+style="typo_Italique"
+>villa</hi
+> gallo-romaine des « Petits Didris ».</p
+><p
+style="txt_Normal"
+>Ce site constitue l’ensemble le plus important pour la période du deuxième âge du Fer sur le tracé. Le relevé des anomalies observées sur plusieurs missions de l’IGN montre que nous avons ici affaire à un ensemble couvrant plusieurs hectares, de surcroît complexe et fortement structuré. Le fossé nord apparaît comme appartenant à un dispositif de délimitation dont sont visibles les éléments au nord et à l’ouest. L’absence d’indice au sud pourrait s’expliquer par un appui du site sur un des chemins creux, à moins que le fossé n’ait été occulté par les diverses perturbations engendrées dans ce secteur par les conflits de la Première Guerre Mondiale. L’habitat apparaît clairement occuper une situation de crête, qui lui confère un caractère de domination topographique. Nous pouvons avancer l’hypothèse de l’importance du gisement, voire même celle de son caractère stratégique. D’autre part, il est clair que cet établissement a connu une occupation longue, depuis La Tène ancienne jusqu’à la période romaine. L’emplacement de plus grande concentration d’anomalies, soit à l’est, correspond aux données de prospection pédestre révélant la présence notamment de matériel gallo-romain.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Chemin de Beine</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (1996)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Alain Koehler</name
+><affiliation
+xml:id="aff14"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Protohistoire, Antiquité romaine, époque médiévale</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1996</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>Nous nous sommes ici principalement intéressés au chemin de Beine, considéré comme d’origine gauloise et dont le tracé actuel est parfaitement rectiligne. Les états anciens de son tracé sont apparus sous la forme de plusieurs chemins creux. D’autres structures ont également été reconnues, dont quelques fossés qui pourraient, sous réserve des résultats de leur fouille, annoncer la proximité d’un établissement antique plus à l’ouest, probablement à l’origine de la présence de matériel gallo-romain dans le secteur de l’emprise. L’écartement des ornières (1,10 m) que l’on pensait initialement lié à un type de transport particulier, correspond plus vraisemblablement à un « standard » à valeur chronologique et/ou microrégionale : le même gabarit a été observé sur plusieurs autres chemins découverts sur le projet routier. Le principe de ces chemins est d’avantage celui de rails que de chaussées (la présence d’un troisième creusement axial entre les deux ornières est interprétée comme résultant du piétinement des animaux tracteurs). Ce type de chemin exclut le croisement de deux véhicules. Il était donc nécessaire que de place en place ces chemins soient élargis, ou que soit ménagées des places de garage d’attente. Pour les itinéraires de plus grande importance, ce qui nous paraît être le cas de chemin dit de Beine, la solution de deux voies creuses distinctes plus ou moins parallèles qui se croisent de temps à autre semble avoir été adoptée. Il semblerait que ces croisements s’effectuent en des zones topographiquement un peu plus hautes. La grande quantité de ces aménagements de croisement observée sur les clichés de l’IGN peut être expliquée par l’importance de cette voie de communication et donc celle de son trafic.</p
+></div
+></div
+></div
+></body
+></text
+></TEI
+>
