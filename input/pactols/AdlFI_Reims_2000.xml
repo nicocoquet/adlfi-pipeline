@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI
+change="metopes_edition"
+xml:lang="fr-FR"
+xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:ns="http://www.tei-c.org/ns/1.0"
+xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0"
+xmlns:dcr="http://www.isocat.org/ns/dcr"
+><teiHeader
+><fileDesc
+><titleStmt
+><title
+type="main"
+>2000</title
+></titleStmt
+><editionStmt
+><edition
+><date
+>2022-11-02T17:24:00</date
+></edition
+></editionStmt
+><publicationStmt
+><publisher
+></publisher
+><ab
+type="papier"
+><dimensions
+><dim
+type="pagination"
+></dim
+></dimensions
+><date
+></date
+></ab
+><idno
+type="book"
+></idno
+><ab
+type="lodel"
+><date
+>15/11/2022</date
+></ab
+></publicationStmt
+><sourceDesc
+><p
+>Version Métopes : 3.0</p
+><p
+>Written by OpenOffice</p
+></sourceDesc
+></fileDesc
+><encodingDesc
+><tagsDecl
+><rendition
+scheme="css"
+xml:id="none"
+>color:black;</rendition
+></tagsDecl
+></encodingDesc
+><profileDesc
+><langUsage
+><language
+ident="fr-FR"
+>fr-FRfr-FR</language
+></langUsage
+><textClass
+></textClass
+></profileDesc
+><revisionDesc
+><change
+when="2022-11-07T09:46:25"
+who="Nicolas Coquet"
+>Révision</change
+></revisionDesc
+></teiHeader
+><text
+xml:id="text"
+><front
+><titlePage
+><docTitle
+><titlePart
+style="T_3_Article"
+type="main"
+>2000</titlePart
+></docTitle
+></titlePage
+></front
+><body
+><div
+type="chapitre"
+xml:id="mainDiv"
+><div
+subtype="rubrique"
+type="section1"
+><head
+style="T_1"
+subtype="level1"
+>51 – Marne</head
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 55 rue Libergier</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2000)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff01"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2000</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Dans le cadre de la restructuration du lycée Libergier, la création d’un sous-sol dans la cour intérieure a nécessité un diagnostic archéologique. Un sondage a été réalisé mécaniquement. Sous une épaisse couche de terre brune, un mur maçonné antique, orienté nord-sud, est apparu à la cote 76,70 m NGF puis, fonctionnant avec le mur, un sol en craie compactée à la cote 76,20 NGF. Ces niveaux d’apparition des couches archéologiques sont également confirmés en plusieurs points de la cour par l’étude géotechnique. Le sous-sol projeté n’atteignant que la cote de 78 m NGF, il n’a pas été donné de suite à cette opération.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 1 place Museux</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2000)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff02"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>époque moderne</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2000</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>La réhabilitation de la Maison des Associations, malgré le peu de travaux en sous-sol prévus, a néanmoins fait l’objet d’une opération de diagnostic dans ce secteur sensible de la ville antique et médiévale, à proximité immédiate du carda. Une tranchée continue a été réalisée mécaniquement dans la cour est de l’ancien collège perpendiculairement à l’église Saint-Maurice, dont l’origine pourrait être paléochrétienne. Deux sondages complémentaires ont été réalisés dont un à l’emplacement d’un futur sous-sol.</p
+><p
+style="txt_Normal"
+>La tranchée continue a fait apparaître une couche de remblai hétérogène sur environ 0,80 m d’épaisseur. Elle surmontait un niveau de craie horizontal de faible épaisseur et discontinu. Sous ce niveau et jusqu’à 1,10 m de profondeur, limite du sondage, se trouvait une couche de terre végétale. Les seuls éléments relevés sont une fosse où un dépôt d’ossements humains était présent. Il est constitué d’os longs et de crânes en très mauvais état. Il s’agit probablement de la réduction de tombes post médiévales à l’occasion de la construction d’un égout qui se trouve à proximité immédiate de la fosse.</p
+><p
+style="txt_Normal"
+>Le sondage ponctuel à l’emplacement d’un petit sous-sol en projet a fait apparaître une tombe en place à 2 m sous le niveau actuel.</p
+><p
+style="txt_Normal"
+>Aucun niveau antique n’a été repéré, alors qu’un sondage mené par le GEACA en 1986 avait permis de mettre au jour des éléments de la toiture effondrée d’une maison antique, à 1 m de profondeur.</p
+><p
+style="txt_Normal"
+>Par précaution, une convention a été signée avec la Ville de Reims pour prévoir les moyens nécessaires à une intervention archéologique préventive au cas où la surveillance des travaux, en particulier dans un autre secteur inaccessible aux sondages, ferait apparaître des structures archéologiques.</p
+><p
+style="txt_Normal"
+>Parallèlement, une étude réalisée par P. Tourtebatte a permis de mettre en évidence la présence de nouvelles cavités effondrées ou remblayées qui appartiennent au réseau d’exploitation de crayères déjà recensé.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 17-25 rue de Chativesle</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2000)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff03"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Protohistoire, Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2000</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Le projet de construction d’un centre commercial, immédiatement à l’extérieur de l’enceinte de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+> et dans un quartier antique et médiéval, a nécessité un diagnostic archéologique. Une voirie qui suit sensiblement la courbure de l’enceinte gauloise, ainsi que des structures appartenant à la période gallo-romaine, ont été mises au jour. Cette intervention sera suivie d’une fouille archéologique préventive à la fin de l’année 2000 ou au début de l’année 2001.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Rue Saint-Julien</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2000)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Philippe Tourtebatte</name
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>époque médiévale, époque moderne</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2000</date
+></ab
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>À la suite d’un effondrement survenu dans la partie centrale du chevet de l’ancienne église Saint-Julien en mars 1999, et considérant la proximité immédiate des structures de l’édifice, il était important de prendre des mesures d’urgence : réalisation d’un sondage manuel au niveau de l’effondrement afin d’en déterminer la cause, surveillance archéologique des opérations de sondage et détermination des mesures de confortation à effectuer. La technique de sondage retenue est une technique manuelle : un puits de section rectangulaire (1,50 x 1 m) a été foncé à la main jusqu’à une profondeur de -6 m par rapport au sol du chevet de l’église. Ce sondage suit sensiblement l’axe de l’effondrement. Les deux premiers mètres de creusement ont traversé des remblais et une maçonnerie de moellons de craie très déstabilisée. Cette maçonnerie semble correspondre à la fondation du pilier nord de l’arc triomphal. À -2 m apparaît un <hi
+rend="italic"
+style="typo_Italique"
+>substratum</hi
+> crayeux très altéré et fortement gélifracté. Il s’agit de la craie de Reims (ère secondaire – Crétacé supérieur), qui à cet endroit est fortement diaclasée et fracturée et ce jusqu’à la côte -6 m.</p
+><p
+style="txt_Normal"
+>Aux vues des premières observations, il nous a semblé être en présence d’une tête de crayère qui se serait abîmée. Cependant, après une observation précise des parois et de la cavité, il s’est avéré qu’il s’agissait d’un puits d’effondrement causé par un fontis (aucune trace d’outils sur les parois, forme circulaire constante, craie très fracturée à cassure conchoïdale...).</p
+><p
+style="txt_Normal"
+>En conséquence, il s’agit bien d’un puits d’effondrement suite à la venue au jour d’un fontis inférieur.</p
+><p
+style="txt_Normal"
+>Cet effondrement s’est produit avant la descente des remblais observée en 1999 et causé par une humidification importante du secteur.</p
+><p
+style="txt_Normal"
+>La présence d’une cavité inférieure effondrée paraît donc inévitable, rappelons que les carrières de craie dans ce secteur de la ville se situent à une profondeur moyenne de 10 à 12 m.</p
+><p
+style="txt_Normal"
+>La nature des remblais et leur faible densité nous indique un traitement de cet effondrement qui fut probablement réalisé vers la fin du moyen-âge. Il est impossible d’exclure la présence d’une cavité sous-jacente.</p
+><p
+style="txt_Normal"
+>La proximité immédiate des fondations de l’édifice est un risque important qui prime sur toute autre considération. La nature de la cavité responsable des désordres nous est inconnue, cependant, il s’agit certainement d’une carrière de craie (la présence d’une crypte ou d’un édifice similaire à la profondeur de 10 m paraît peu probable).</p
+><p
+style="txt_Normal"
+>La présence de nombreuses cavités dans le périmètre de l’édifice est un facteur de risques supplémentaires.</p
+><p
+style="txt_Normal"
+>L’origine des désordres semble liée à la dégradation des carrières de craie qui affecte soit le ciel des galeries, soit la chute de piliers de masse</p
+><p
+style="txt_Normal"
+>Le désordre observé en 1999 est un tassement important d’un remblai de fontis préexistant. En premier lieu, il est fondamental d’identifier la nature précise des désordres pour cela il est nécessaire de continuer le sondage jusqu’à -10 m afin d’identifier cette nature. À la vue de la nature des désordres, il est nécessaire de réaliser des forages ciblés afin de déterminer la présence de galeries périphériques ou non sous les constructions.</p
+><p
+style="txt_Normal"
+>La constitution des remblais actuels de la cavité et leur densité ne permettent pas une confortation efficace des zones de fondations situées à proximité.</p
+><p
+style="txt_Normal"
+>L’intense fracturation de la craie, naturelle ou provoquée par la venue au jour du fontis sous les fondations du pilier nord de l’édifice, nécessite une confortation sous-jacente en cas de découverte de cavités. Après observation et afin d’éviter un défrettage du puits d’effondrement (fontis), ainsi qu’un tassement conséquent des terrains sous les bâtiments existants, il est impératif d’effectuer un bourrage de tous les vides de carrières constatés.</p
+><p
+style="txt_Normal"
+>Le volume des vides concernés peut globalement d’estimer à 50 m<hi
+rend="sup"
+style="typo_Exposant"
+>3</hi
+> y compris le puits foncé à la main.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Zac Neuvillette</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2000)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Pascal Stocker</name
+><affiliation
+xml:id="aff04"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Protohistoire</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2000</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Dans le cadre d’un projet d’extension de la Zac Neuvillette, située au nord-est de Reims, une évaluation archéologique a été mise en place par le Service régional de l’archéologie. L’ensemble de la zone concernée couvre une surface d’environ 24 ha de terres cultivées.</p
+><p
+style="txt_Normal"
+>Elle est comprise entre la RD 366 de Reims à Vervins (ancienne voie romaine Reims-Bavay) à l’est et par une voirie récente au sud. Au sud-est, l’emprise est délimitée par un axe rectiligne sensiblement orienté est-ouest, passant par le centre du rond-point où aboutissent les rues Docteur Robert-Creuzat, Jean-Legros et Louis-Verel. Ce secteur jouxte, au sud-ouest, l’aire occupée par le complexe commercial CORA-Nord de Reims.</p
+><p
+style="txt_Normal"
+>Cette opération a permis de mettre au jour une nécropole à inhumation de l’âge du Fer accompagnée de deux enclos funéraires. Plusieurs vestiges correspondant à des aménagements d’anciens chemins ont pu être observés, ainsi que des traces linéaires pouvant correspondre à des anciens fossés de parcellaires.</p
+><p
+style="txt_Normal"
+>Les vestiges archéologiques apparaissent à la base du labour dont l’épaisseur est de 0,40 m en moyenne. Ils s’inscrivent directement dans la craie géologique.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Médiathèque</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (2000)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Agnès Balmelle</name
+><affiliation
+xml:id="aff05"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut"
+>Stéphane Sindonino</name
+><affiliation
+xml:id="aff06"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine, époque médiévale</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2000</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>La fouille archéologique qui a précédé la construction de la médiathèque centrale a confirmé le potentiel du site, riche en vestiges historiques et archéologiques avec d’une part, une stratigraphie captivante, et d’autre part, un état de conservation exceptionnel. La deuxième phase de l’opération (première phase en 1998), effectuée durant les six premiers mois de l’année 2000, a été enrichie par les interventions ponctuelles menée lors de reprises en sous­ œuvre au cours de l’automne-hiver.</p
+><p
+style="txt_Normal"
+>L’élaboration du diagramme stratigraphique et l’étude des données a permis d’identifier plusieurs périodes.</p
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>La période 1 : 50 av. J.-C.-20 apr. J.-C.</head
+><p
+style="txt_Normal"
+>Dans la seconde moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. av. J.-C., les premières constructions sont en matériaux légers (bois et torchis), les sols en terre battue et l’activité semble plutôt agricole au vu des nombreuses structures d’ensilage. L’étude menée sur l’alimentation indique une consommation principalement basée sur le porc et le bœuf ; !’hippophagie est également attestée. Parmi les mammifères sauvages, seul le lièvre est ici représenté. L’étude nous renseigne aussi sur les âges d’abattage du cheptel en vue de sa consommation – la plupart des porcs est abattu entre 1,5 an et 2 ans et sur la taille des animaux : la hauteur au garrot est de 1,07 m pour le bœuf, de 1,31 m et 1,22 m pour le cheval. Les deux espèces appartiennent incontestablement à une population gauloise indigène de petite taille.</p
+><p
+style="txt_Normal"
+>Au début du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. apr. J.-C., les constructions sont encore en matériaux légers, les élévations en bois, torchis et clayonnage, les sols sont en craie pilée. L’un d’eux, sur un secteur d’environ 30 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+>, était couvert de graines carbonisées. L’étude carpologique a révélé qu’il s’agissait de blé tendre ou froment, très soigneusement vanné et criblé pour en éliminer les rachis, les balles et les semences indésirables comme celles de la nielle qui, de calibre similaire à celui des céréales, nécessitent un tri à la main. Des fragments de meules en granit ont été découverts avec le blé. Ils confirment les données de cette étude où l’amas de grain est probablement destiné à la mouture ou à la consommation et permettent de proposer une activité liée à la meunerie.</p
+><p
+style="txt_Normal"
+>L’activité d’un cornetier est également attestée, à partir des traces de sciage à la base de la cheville osseuse, sur un nombre minimum de 36 bêtes recueillies dans une importante fosse. Les âges d’abattage se situent dans un intervalle de plus ou moins 30 mois pour les plus jeunes et 40 à 50 mois pour les plus âgés.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>La période 2 : <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s.-début <hi
+rend="small-caps"
+style="typo_SC"
+>iv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</head
+><p
+style="txt_Normal"
+>Elle correspond à une nouvelle structuration de l’espace qui vient définitivement couvrir la couche d’abandon de la période précédente. Elle concerne la mise en place d’un îlot urbain (rue et constructions qui la bordent), dès le début du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s., qui va se développer et s’achever au tout début du <hi
+rend="small-caps"
+style="typo_SC"
+>iv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. apr. J.-C. Plusieurs états caractéristiques ont été identifiés. Ils se distinguent essentiellement par une évolution architecturale du secteur bâti, par des réfections de chaussées et par une évolution du système de gestion de l’eau. Dans la seconde partie du règne d’Auguste, quelques vestiges de constructions en matériaux légers subsistent, mais sont rapidement remplacés par des constructions en pierres. Les cellules en façade de rue sont alors d’imposantes pièces de 50 à 60 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+>. Le dernier tiers du <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. voit l’apparition des fondations en craie. Durant la première moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., on assiste à une totale modification du quartier marqué par l’abandon du mur de façade en dur, la réfection des murs de refend existants, l’implantation de nouveaux murs de refend en briques crues et bois, et la création de portique en bordure de rue. Un bâtiment commercial, identifié dans le secteur oriental du terrain, sera occupé en partie par un atelier de tablettier. Une sablière basse fermera alors le bâtiment au <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Un important réseau de canalisations d’amenée d’eau semble supplanter les puits alors abandonnés. Au tout début du <hi
+rend="small-caps"
+style="typo_SC"
+>iv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. le quartier est totalement démoli.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>La période 3 : <hi
+rend="small-caps"
+style="typo_SC"
+>iv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.-<hi
+rend="small-caps"
+style="typo_SC"
+>vi</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</head
+><p
+style="txt_Normal"
+>On assiste à la mise en place de l’enceinte, qui a pu être étudiée sur toute sa largeur, et d’une rue <hi
+rend="italic"
+style="typo_Italique"
+>intra muros</hi
+> construite plus à l’est que celle du Haut-Empire. Des bâtiments sont seulement observés sur le côté oriental ; ils vont subir des remaniements jusqu’au haut Moyen Âge. L’enceinte, découverte sur une longueur de 45 m est composée d’une courtine et précédée d’un fossé. Elle a livré pour la première fois les vestiges d’une tour. L’état de conservation du mur a permis d’effectuer un démontage exhaustif de ses fondations et ainsi d’étudier son mode de construction.</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>La période 4 : <hi
+rend="small-caps"
+style="typo_SC"
+>vii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.-<hi
+rend="small-caps"
+style="typo_SC"
+>xi</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</head
+><p
+style="txt_Normal"
+>L’extérieur de l’enceinte est occupé par plusieurs inhumations d’immatures et de périnataux datées des <hi
+rend="small-caps"
+style="typo_SC"
+>vii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+>-<hi
+rend="small-caps"
+style="typo_SC"
+>viii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Après cette occupation, une partie de la courtine et la tour sont démolies et récupérées. Des bâtiments en matériaux périssables sont construits sur cette démolition. À la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>ix</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., une fortification est élevée à l’emplacement de l’enceinte romaine. Elle est constituée d’une courtine en moellons et d’un double fossé renforcé plus tard par des murs d’escarpe et contrescarpe. Une porte fortifiée complète ce système défensif. À l’intérieur de l’enceinte, la rue implantée au cours de la période précédente est conservée. Les autres traces d’occupation pour cette époque se limitent à des structures excavées (fosses et latrines).</p
+></div
+><div
+type="section3"
+><head
+style="T_3"
+subtype="level3"
+>La période 5 : <hi
+rend="small-caps"
+style="typo_SC"
+>xii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.-<hi
+rend="small-caps"
+style="typo_SC"
+>xiv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</head
+><p
+style="txt_Normal"
+>À partir du <hi
+rend="small-caps"
+style="typo_SC"
+>xii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., des constructions colonisent l’emprise des fortifications carolingiennes, alors abandonnées. Néanmoins, la porte est reconstruite et agrandie au <hi
+rend="small-caps"
+style="typo_SC"
+>xiii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</p
+><p
+style="txt_Normal"
+>Des vestiges d’habitat ont été mis au jour aussi bien <hi
+rend="italic"
+style="typo_Italique"
+>intra muros</hi
+> qu’<hi
+rend="italic"
+style="typo_Italique"
+>extra muros</hi
+>. Les latrines sont les structures les plus caractéristiques. Les dix latrines utilisées entre le <hi
+rend="small-caps"
+style="typo_SC"
+>xii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> et le <hi
+rend="small-caps"
+style="typo_SC"
+>xiv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. ont permis l’étude des couches excrémentielles qui ont concentré un nombre important de rejets de cuisine et de reliefs de repas. Ils se sont révélés riches, d’une part en paléosemences qui témoignent d’habitudes alimentaires réservant une large place aux fruits frais ou aux compotes, et d’autre part, en restes de poissons dont l’abondance et la grande variété témoignent du statut privilégié des consommateurs présents sur le site.</p
+><p
+style="txt_Normal"
+>Le remplissage des latrines datant du <hi
+rend="small-caps"
+style="typo_SC"
+>xiv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. indique un changement des habitudes alimentaires, qui démontre un abandon du quartier par les classes les plus aisées.</p
+><p
+style="txt_Normal"
+>À partir du <hi
+rend="small-caps"
+style="typo_SC"
+>xv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. et jusqu’au début du <hi
+rend="small-caps"
+style="typo_SC"
+>xx</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. le quartier garde la même physionomie, les bâtiments sont régulièrement reconstruits de part et d’autre de la rue implantée dès le <hi
+rend="small-caps"
+style="typo_SC"
+>iv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. La trame urbaine mise en place à cette époque a subsisté jusqu’aux destructions massives du premier conflit mondial.</p
+></div
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Avenue de Paris</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2000)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff07"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2000</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>La construction d’un immeuble sur sous-sol a motivé une intervention de diagnostic dans un secteur où la présence d’une nécropole antique est probable. La partie est des parcelles était entièrement occupée par les caves d’une ancienne maison de champagne. Dans la partie ouest, deux tranchées continues ont été pratiquées.</p
+><p
+style="txt_Normal"
+>Le terrain présentant une forte pente, il s’avère qu’une plateforme a été aménagée pour accueillir un parking. La craie géologique est présente partout. Aucun indice archéologique n’a été repéré.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Rue de l’Équerre</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (2000)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Philippe Rollet</name
+><affiliation
+xml:id="aff08"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2000</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>Menée sur une surface de 3 000 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> dans le secteur sud­ ouest de la ville du Haut-Empire, la première phase de l’opération archéologique a permis de mettre au jour un carrefour constitué de deux rues antiques bordées de structures d’habitat.</p
+><p
+style="txt_Normal"
+>En ce qui concerne les rues, les datations obtenues par l’étude de la céramique proposen.t une première implantation durant le premier tiers du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. apr. J.-C. Elles vont évoluer jusqu’au <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. avec la création de portiques et seront définitivement abandonnées durant le troisième quart du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</p
+><p
+style="txt_Normal"
+>Le premier niveau de circulation a été repéré directement sur la craie géologique et la bande de roulement est flanquée de profonds caniveaux. Ensuite les informations sont plus fragmentaires et il apparaît que de nouveaux caniveaux sont installés sur l’emplacement des précédents, délimitant une chaussée probablement empierrée. Mais la récupération des matériaux de construction ne permet pas d’en connaître exactement la morphologie. Une importante phase de réaménagement intervient durant la deuxième moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. apr. J.-C. Bien représentée, elle correspond à un ensemble de travaux importants qui vont fixer définitivement les limites de l’espace public, avec la construction de piliers de portique, l’aménagement de trottoirs en craie pilée compactée et, pour les caniveaux, le creusement de tranchées dont les parois seront ensuite boisées. C’est seulement pendant cette phase que la technique utilisée pour le boisage du système d’évacuation des eaux usées et/ou pluviales permet d’effectuer la traversée de la rue nord-sud, la pente générale du terrain allant de l’est vers l’ouest, en direction de la rivière la Vesle.</p
+><p
+style="txt_Normal"
+>En ce qui concerne l’habitat, la première phase d’occupation correspond à un îlot composé de petites unités et occupé par des potiers. Plusieurs fosses correspondant à l’installation de tours de potier ont été mises en évidence. Au début du <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. l’activité artisanale est abandonnée et l’îlot semble revêtir un caractère plus « résidentiel » avec la création d’hypocaustes et des constructions généralement plus soignées (sols et murs).</p
+><figure
+><graphic
+url="../icono/br/Fig01.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 1 –</hi
+> Vestiges d’un hypocauste gallo-romain avec quelques éléments de pilette en place sur l’<hi
+rend="italic"
+style="typo_Italique"
+>area</hi
+></head
+></figure
+><figure
+><graphic
+url="../icono/br/Fig02.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 2 –</hi
+> Cave gallo-romaine en pierres</head
+><p
+style="txt_Legende"
+>La base de la niche est constituée de deux <hi
+rend="italic"
+style="typo_Italique"
+>tegulae</hi
+> posées en arase.</p
+></figure
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Rue Neufchâtel, quartier Châtelus</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2000)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Alain Koehler</name
+><affiliation
+xml:id="aff09"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2000</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>En préalable à la réalisation d’un ensemble de logements, Quartier Châtelus à Reims, il a été procédé à une campagne de sondages d’évaluation archéologique. Le maître d’ouvrage de la construction est la Nationale Immobilière, au nom de la SCIC Développement.</p
+><p
+style="txt_Normal"
+>La surface concernée est d’environs 4,5 ha auxquels doit être retranchée une superficie de 1,2 ha maintenue comme parc public.</p
+><p
+style="txt_Normal"
+>Cette vaste parcelle est localisée à l’est et le long de la voie Reims-Bavay, juste au-delà de l’enceinte fossoyée du Haut-Empire de la ville de Reims, à moins de 1,8 km du centre urbain antique. Elle constitue l’un des derniers emplacements conséquents ayant pu préserver de manière significative des structures anciennes au plus près de la ville antique à hauteur de cet axe.</p
+><p
+style="txt_Normal"
+>Au moment de notre intervention, les constructions de la caserne étaient démolies depuis plusieurs années et de grandes dalles en béton occupaient la plus grande part de l’espace en friche.</p
+><p
+style="txt_Normal"
+>31 sondages ont été réalisés, totalisant une longueur de 890 m, ce qui ne correspond qu’à 6,1 % de l’emprise. De plus, la profondeur des sondages ne devant pas excéder 0,8 m, la moitié seulement de la superficie de ces sondages peut être considérée comme significative. En prenant en compte l’ensemble de ces paramètres, le taux de surface ayant bénéficié d’un examen significatif chute à 3 %, ce qui est très nettement insuffisant pour permettre un avis définitif.</p
+><p
+style="txt_Normal"
+>La surface topographique de la parcelle est relativement plane, à une altitude comprise entre les cotes 86 et 88 NGF. Le quartier Châtelus a visiblement été très remanié lors de la construction de la caserne. En particulier, les sondages nous ont permis de constater de nettes fluctuations de profondeur d’apparition du substrat crayeux (craie limoneuse et craie blanche). Ce qui alimente l’idée d’un aspect topographique antérieur au <hi
+rend="small-caps"
+style="typo_SC"
+>xix</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. légèrement vallonné, dont l’amplitude des mouvements serait de l’ordre d’un peu plus d’un mètre.</p
+><p
+style="txt_Normal"
+>En plusieurs endroits ont été reconnues des fondations de murs utilisant le calcaire, recoupées parfois par des tranchées attribuées au premier conflit mondial (dont une tranchée boisée de rondins et une sape, observée sous la forme d’un cône d’effondrement). Quelques observations ponctuelles indiquent, par la présence de matériaux récents, le caractère peu ancien de ces substructions. L’examen du cadastre napoléonien pour ce secteur indique d’autre part qu’aucune construction n’existait à cet emplacement au début du <hi
+rend="small-caps"
+style="typo_SC"
+>xix</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</p
+><p
+style="txt_Normal"
+>L’îlot du quartier Châtelus se trouve à quelques mètres du tracé de la grande enceinte du Haut-Empire. Il est localisé entre deux grandes zones ayant livré des structures funéraires antiques, l’une s’appuyant sur les axes antiques définis actuellement par la rue Paul-Vaillant-Couturier, l’avenue de Laon et la rue Émile-Zola/rue de Neufchâtel ; l’autre se développant plus à l’est, à peu près jusque la rue de la 12<hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> escadre d’Avalon. Actuellement, rien n’interdit de penser que ces deux zones correspondent en fait à un seul site très étendu que l’on pourrait concevoir comme la nécropole à la sortie nord-ouest du Reims antique et s’appuyant sur l’un des deux axes générateurs de la cité. Dans ce contexte, le potentiel de découverte de vestiges funéraires antiques pouvait être conçue comme concourant en premier lieu à la problématique scientifique de l’opération d’évaluation. Les seuls témoins anciens observés dans les sondages de ce secteur concernent la période romaine, mais se réduisent en un rebord de <hi
+rend="italic"
+style="typo_Italique"
+>tegula</hi
+> et un fragment d’amphore. La présence d’une nécropole dense paraît devoir ici être exclue, mais l’hypothèse de l’existence de tombes dispersées ne peut être exclue.</p
+><p
+style="txt_Normal"
+>Trois sondages ont été réalisés plus ou moins perpendiculairement à la voie romaine Reims-Bavay. Bien que très perturbés par divers aménagements du quartier militaire et d’ouvrages relevant probablement de la guerre 14-18, ils ont permis de mettre en évidence l’existence d’une zone dépressionnaire ancienne bordant la voie. Elle s’étend sur une largeur d’environs 13 m depuis le mur de clôture (17,5 m de la chaussée actuelle) et se caractérise par un remplissage superficiel de terre végétale compactée, nourrie de granulat de craie et livrant quelques tessons de tuile et de céramique antique. Elle se prolonge un peu plus à l’écart par des ornières discrètes, parallèles à l’axe de la voie. Ces témoins semblent donc indiquer une largeur de bande de circulation atteignant 26,5 m (toutes périodes confondues), depuis le bord de la chaussée actuelle. La voie romaine Reims-Bavay semble donc présenter, à proximité immédiate de la grande enceinte des abords assez comparables à ce qui a été constaté pour cet ouvrage quelques 1,5 km plus à l’écart de la cité.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Boulevard de la Paix</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2000)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff10"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2000</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Le projet de construction du futur CROP, immédiatement à l’arrière du fossé de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+> et dans un quartier antique où plusieurs mosaïques ont été découvertes, a motivé un diagnostic archéologique préalable. Il a permis de mettre au jour une voirie et des vestiges d’habitats antiques ainsi qu’une puissante couche de craie, à l’ouest, qui semble appartenir à la levée de terre de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+>. Les terrains concernés feront donc l’objet d’une fouille archéologique préventive en 2001.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Avenue Hoche</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (2000)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Pascal Stocker</name
+><affiliation
+xml:id="aff11"
+>Afan</affiliation
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2000</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Préalablement à la construction d’un bâtiment, situé à l’intérieur de la Zac Farman « Avenue Hoche » à l’emplacement d’un ancien camping, une évaluation archéologique s’est déroulée en zone périurbaine sur le territoire de la commune de Reims. La zone concernée couvre une surface d’environ 1,5 ha. Après examen des différents sondages, aucun indice archéologique n’a été mis au jour.</p
+></div
+></div
+></div
+></body
+></text
+></TEI
+>
