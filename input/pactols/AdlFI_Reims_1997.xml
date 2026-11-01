@@ -1,0 +1,1799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI
+change="metopes_edition"
+xml:lang="fr-FR"
+xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:xhtml="http://www.w3.org/TR/xhtml/strict"
+xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:opentheso="http://purl.org/umu/uneskos#"
+xmlns:ns="http://www.tei-c.org/ns/1.0"
+xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0"
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:dcr="http://www.isocat.org/ns/dcr"
+xmlns:ad="http://ns.adobe.com/AdobeInDesign/5.0/"
+xmlns:a="http://ns.adobe.com/AdobeInDesign/4.0/"
+><teiHeader
+><fileDesc
+><titleStmt
+><title
+type="main"
+>1997</title
+></titleStmt
+><editionStmt
+><edition
+><date
+>2022-11-02T13:48:00</date
+></edition
+></editionStmt
+><publicationStmt
+><publisher
+></publisher
+><ab
+type="papier"
+><dimensions
+><dim
+type="pagination"
+></dim
+></dimensions
+><date
+></date
+></ab
+><idno
+type="book"
+></idno
+><ab
+type="lodel"
+><date
+>15/11/2022</date
+></ab
+></publicationStmt
+><sourceDesc
+><p
+>Version Métopes : 3.0</p
+><p
+>Written by OpenOffice</p
+></sourceDesc
+></fileDesc
+><encodingDesc
+><tagsDecl
+><rendition
+scheme="css"
+xml:id="none"
+>color:black;</rendition
+></tagsDecl
+></encodingDesc
+><profileDesc
+><langUsage
+><language
+ident="fr-FR"
+>fr-FRfr-FR</language
+></langUsage
+><textClass
+></textClass
+></profileDesc
+><revisionDesc
+><change
+when="2022-11-02T15:39:15"
+who="Nicolas Coquet"
+>Révision</change
+></revisionDesc
+></teiHeader
+><text
+xml:id="text"
+><front
+><titlePage
+><docTitle
+><titlePart
+style="T_3_Article"
+type="main"
+>1997</titlePart
+></docTitle
+></titlePage
+></front
+><body
+><div
+type="chapitre"
+xml:id="mainDiv"
+><div
+subtype="rubrique"
+type="section1"
+><head
+style="T_1"
+subtype="level1"
+>51 – Marne</head
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Rue de l’Université</head
+><head
+style="T_sub"
+type="sub"
+>Sondage (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff01"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine, époque médiévale</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>sondage programmé</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="es"
+>entidades intangibles</term
+><term
+xml:lang="it"
+>entità immateriali</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><term
+xml:lang="de"
+>immaterielle Einheiten</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="es"
+>normas</term
+><term
+xml:lang="it"
+>norme</term
+><term
+xml:lang="de"
+>Normen</term
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="es"
+>excavación (estatuto administrativo)</term
+><term
+xml:lang="en"
+>excavation (administrative status)</term
+><term
+xml:lang="de"
+>Grabung (administrativer Status)</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><term
+xml:lang="it"
+>scavo (statuto amministrativo)</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrtUpTKpEpXJ5"
+><term
+xml:lang="es"
+>operación arqueológica programada</term
+><term
+xml:lang="fr"
+>opération d'archéologie programmée</term
+><term
+xml:lang="it"
+>operazione archeologica programmata</term
+><term
+xml:lang="de"
+>Plangrabung</term
+><term
+xml:lang="en"
+>programmed archaeology</term
+><term
+xml:lang="ar"
+>ترتيبات الأعمال الأثرية</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtjf21909jq940v0h8gm44"
+><term
+xml:lang="de"
+>Grabungssondage</term
+><term
+xml:lang="en"
+>sondage</term
+><term
+xml:lang="fr"
+>sondage programmé</term
+><term
+xml:lang="it"
+>sondaggio programmato</term
+><term
+xml:lang="es"
+>sondeo programado</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>Dans le cadre d’une étude préalable de l’architecte en chef des monuments historiques, Pierre-Antoine Gatier, concernant la mise en valeur des vestiges archéologiques de l’arc antique de « La Porte Bazée » et la création d’un accès pompier, une opération de reconnaissance des sous-sols a été menée. En effet, les fouilles menées par Robert Neiss avaient permis de mettre au jour un escalier d’accès à des caves dont le relevé n’avait pu être dressé. En outre, des travaux destructeurs menés par le Conseil général de la Marne pour réaliser un accès pompier provisoire, avaient à la fois endommagé les vestiges du rempart du Bas-Empire, les couches archéologiques antiques et médiévales, et entamé la voûte de caves plus récentes.</p
+><p
+style="txt_Normal"
+>L’opération de relevé a été confiée à M. Tourtebatte. Elle a permis de déceler la présence d’au moins deux caves anciennes et de passages, issus de l’escalier déjà mis au jour, qui semblent donner accès à d’autres caves en bordure de la rue de l’Université.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Église Saint-Julien</head
+><head
+style="T_sub"
+type="sub"
+>Sondage (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Walter Berry</name
+><affiliation
+xml:id="aff02"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>époque médiévale</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>sondage programmé</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="es"
+>entidades intangibles</term
+><term
+xml:lang="it"
+>entità immateriali</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><term
+xml:lang="de"
+>immaterielle Einheiten</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="es"
+>normas</term
+><term
+xml:lang="it"
+>norme</term
+><term
+xml:lang="de"
+>Normen</term
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="es"
+>excavación (estatuto administrativo)</term
+><term
+xml:lang="en"
+>excavation (administrative status)</term
+><term
+xml:lang="de"
+>Grabung (administrativer Status)</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><term
+xml:lang="it"
+>scavo (statuto amministrativo)</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrtUpTKpEpXJ5"
+><term
+xml:lang="es"
+>operación arqueológica programada</term
+><term
+xml:lang="fr"
+>opération d'archéologie programmée</term
+><term
+xml:lang="it"
+>operazione archeologica programmata</term
+><term
+xml:lang="de"
+>Plangrabung</term
+><term
+xml:lang="en"
+>programmed archaeology</term
+><term
+xml:lang="ar"
+>ترتيبات الأعمال الأثرية</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtjf21909jq940v0h8gm44"
+><term
+xml:lang="de"
+>Grabungssondage</term
+><term
+xml:lang="en"
+>sondage</term
+><term
+xml:lang="fr"
+>sondage programmé</term
+><term
+xml:lang="it"
+>sondaggio programmato</term
+><term
+xml:lang="es"
+>sondeo programado</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>L’ancienne église Saint-Julien de Reims se situe juste au sud de la basilique Saint-Rémi. Avant la Révolution, le bâtiment comprenait une nef à trois vaisseaux, un transept surmonté d’une tour de croisée et un chevet tripartite. Seul, ce dernier, datant du <hi
+rend="small-caps"
+style="typo_SC"
+>xii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., est toujours en élévation aujourd’hui bien qu’il soit très remanié. Rien de ce qui subsiste permet de mesurer l’importance de cet édifice. En effet, sa fondation remonte au <hi
+rend="small-caps"
+style="typo_SC"
+>vi</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., voire un peu avant. À cette époque, Saint-Julien correspondait à une église funéraire suburbaine comme le mentionne Grégoire de Tours. Elle abritait vraisemblablement le mausolée de la famille d’un certain Attolus mais aussi les reliques de saint Julien de Brioude. Une intervention archéologique a été menée dans le chœur en décembre 1997, en complément de celle réalisée en 1991 dans la nef. Elle avait pour but de vérifier la présence et l’état de conservation des niveaux archéologiques et ce en préalable à l’aménagement de cette partie de la construction. Parallèlement, une étude documentaire a été entreprise.</p
+><p
+style="txt_Normal"
+>II s’est avéré que les niveaux archéologiques sont en grande partie intacts. Au centre de l’abside, une fondation d’autel est bien conservée. Elle est cernée de différents types de carreaux de pavement du <hi
+rend="small-caps"
+style="typo_SC"
+>xiii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+>-<hi
+rend="small-caps"
+style="typo_SC"
+>xiv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., et toujours en place. À l’ouest de l’autel, à l’emplacement d’une fosse destinée à accueillir une tombe, un sondage restreint a été réalisé. Des niveaux de construction et un sol du <hi
+rend="small-caps"
+style="typo_SC"
+>xii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., contemporains de l’édification du chevet actuel, ont été mis au jour. Une phase carolingienne a été décelée ainsi qu’une surface datant peut-être de l’Antiquité tardive, soit à l’époque de la fondation de l’église. Cette surface présente des traces d’incendie.</p
+><p
+style="txt_Normal"
+>Bien que très limitée, l’intervention archéologique menée à Saint-Julien de Reims a permis de déceler et de dater de manière relative les différentes phases de construction de l’église. Beaucoup de questions restent en suspens. Une fouille plus extensive permettrait éventuellement d’établir une chronologie absolue et de déterminer plus précisément la date de fondation de l’édifice ainsi que ses relations avec la basilique Saint-Rémi.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Cathédrale Notre-Dame, rue Robert-de-Coucy</head
+><head
+style="T_sub"
+type="sub"
+>Sondage (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Robert Neiss</name
+><affiliation
+xml:id="aff03"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine, époque médiévale</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>sondage programmé</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="es"
+>entidades intangibles</term
+><term
+xml:lang="it"
+>entità immateriali</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><term
+xml:lang="de"
+>immaterielle Einheiten</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="es"
+>normas</term
+><term
+xml:lang="it"
+>norme</term
+><term
+xml:lang="de"
+>Normen</term
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="es"
+>excavación (estatuto administrativo)</term
+><term
+xml:lang="en"
+>excavation (administrative status)</term
+><term
+xml:lang="de"
+>Grabung (administrativer Status)</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><term
+xml:lang="it"
+>scavo (statuto amministrativo)</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrtUpTKpEpXJ5"
+><term
+xml:lang="es"
+>operación arqueológica programada</term
+><term
+xml:lang="fr"
+>opération d'archéologie programmée</term
+><term
+xml:lang="it"
+>operazione archeologica programmata</term
+><term
+xml:lang="de"
+>Plangrabung</term
+><term
+xml:lang="en"
+>programmed archaeology</term
+><term
+xml:lang="ar"
+>ترتيبات الأعمال الأثرية</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtjf21909jq940v0h8gm44"
+><term
+xml:lang="de"
+>Grabungssondage</term
+><term
+xml:lang="en"
+>sondage</term
+><term
+xml:lang="fr"
+>sondage programmé</term
+><term
+xml:lang="it"
+>sondaggio programmato</term
+><term
+xml:lang="es"
+>sondeo programado</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>Les opérations ne se sont pas poursuivies sur le terrain cette année à l’exception des travaux de relevés complémentaires sur les structures conservées dans les sous-sols de la cathédrale.</p
+><p
+style="txt_Normal"
+>En revanche l’étude des archives laissées par H. Deneux a permis de progresser dans l’identification des constructions mises au jour dans les années 1920. L’ensemble des minutes de relevés a été numérisé pour en faciliter la conservation et l’exploitation. Un important travail de superposition des données graphiques devrait pouvoir être réalisé à partir de ces données. L’interprétation doit évidemment s’appuyer sur l’exploitation des textes et des photographies laissés également par H. Deneux. Mais ce travail s’est avéré plus long et plus difficile que prévu si bien qu’il n’est pas encore possible d’en tirer des conclusions définitives.</p
+><p
+style="txt_Normal"
+>La principale leçon que l’on peut tirer de ce travail pour l’instant réside dans la difficulté d’identifier des éléments architecturaux qui peuvent avec certitude appartenir à la première église du site. Un seul mur est attribuable à cette époque du début du <hi
+rend="small-caps"
+style="typo_SC"
+>v</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Il pourrait constituer la limite orientale d’un chevet plat. C’est la différence des niveaux d’occupation de part et d’autre de ce mur qui permet de penser qu’il forme la limite entre l’intérieur de l’église et une zone d’extérieur, à l’est. Mais comme aucun sol n’est conservé dans les surfaces actuellement dégagées sur l’aire attribuable à la nef, il n’est pas encore assuré que la cathédrale de Saint-Nicaise se trouve bien à l’endroit où on la situe depuis toujours, c’est-à-dire dans l’axe de l’édifice actuel. Une couche d’argile de grande étendue peut avoir servi de forme à un pavage qui aurait été entièrement démonté mais il ne s’agit là que d’une hypothèse. Si ce n’était pas le cas, le baptistère serait dissocié du bâtiment de l’église proprement dite, conformément d’ailleurs à ce que le texte de Grégoire de Tours semble suggérer par l’expression <hi
+rend="italic"
+style="typo_Italique"
+>templum baptisterii</hi
+> qui évoque une construction isolée.</p
+><p
+style="txt_Normal"
+>Cette question restera peut-être sans réponse définitive pour l’instant à moins que l’examen attentif de toute la documentation accumulée ne permettre de déboucher sur des interprétations plus assurées.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 56-58 rue Chanzy</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Agnès Balmelle</name
+><affiliation
+xml:id="aff04"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Protohistoire, Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>Le site de la rue Chanzy a fait l’objet d’une opération d’archéologie préventive sur une surface de 1 000 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+>. L’occupation la plus ancienne remonte à La Tène finale. Elle est matérialisée par des fosses dépotoirs qui contiennent du mobilier de La Tène D2, et par un niveau d’occupation ou d’épandage de la même période. La présence de ces vestiges précise la densité de l’habitat à l’intérieur de l’enceinte de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+>. Le mobilier céramique, les potins, l’étude de la faune avec les observations menées sur les traces de découpe bouchère, indiquent la présence d’une occupation de type domestique, comparable à celles observées sur les sites proches (rue Carnot et rue d’Anjou).</p
+><p
+style="txt_Normal"
+>La période gallo-romaine est représentée par des vestiges d’habitat et deux rues.</p
+><p
+style="txt_Normal"
+>La période augustéenne est matérialisée à la fois par des caves boisées et par des enduits peints précoces (« première génération ») trouvés en remblai dans une cave maçonnée. Ces enduits, associés à de nombreuses tesselles de mosaïque, sont les témoins d’un habitat « en dur », apparemment luxueux. Aucun niveau de circulation construit n’est contemporain de ces structures, cependant, l’existence d’un passage ou d’un chemin, n’est pas exclue.</p
+><p
+style="txt_Normal"
+>Les premiers niveaux de rue construits sont postérieurs au règne d’Auguste. Une grande phase d’urbanisation apparaît sous Tibère, avec la construction de chaussées (niveaux de circulation, caniveaux et trottoirs) et d’un secteur bâti, apparemment résidentiel semblable à celui de la rue Libergier (où une maison à péristyle, mosaïque et fresques murales ont été mises au jour). Cet ensemble, bien organisé, va se développer durant les deux premiers siècles de notre ère au cours desquels cinq états sont distingués.</p
+><p
+style="txt_Normal"
+>Le dernier état est rarement aussi bien représenté. Il est en effet exceptionnel d’avoir encore la chaussée contemporaine des portiques. Les fûts de colonnes et la peinture sur l’extérieur du mur de façade laissent présager un « paysage urbain » qui devait être coloré.</p
+><p
+style="txt_Normal"
+>Le mobilier le plus tardif se situe dans la première moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. L’abandon du site n’est pas caractérisé par une récupération systématique et organisée des matériaux de construction comme il est habituel de le voir sur des sites plus éloignés du rempart du Bas-Empire.</p
+><p
+style="txt_Normal"
+>Ainsi cette fouille a permis de préciser le tracé de deux axes urbains antiques et de mettre au jour les peintures murales les plus anciennes connues à Reims, et dans le nord de la Gaule. Elles sont actuellement en cours d’étude et de restauration au centre d’études des peintures murales romaines à Soissons.</p
+><figure
+><graphic
+url="../icono/br/Fig01.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 1 –</hi
+> Fragment d’enduit peint d’époque augustéenne</head
+><p
+style="ill-credits-sources"
+>DAO : B. Postel-Vinay.</p
+></figure
+><figure
+><graphic
+url="../icono/br/Fig02.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 2 –</hi
+> Foyer gallo-romain adossé contre le mur sud d’une maison d’habitat</head
+></figure
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 17 rue Laurent-Déramez</head
+><head
+style="T_sub"
+type="sub"
+>Sondage (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff05"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>À l’occasion de la construction d’un immeuble, une opération de sondage a été effectuée. Le terrain concerné par les travaux se trouve immédiatement à l’extérieur de l’enceinte de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+> et à proximité du <hi
+rend="italic"
+style="typo_Italique"
+>decumanus maximus</hi
+>. Les sondages ont permis de mettre au jour, sous une couche de remblai moderne de l’ordre de 1 m, une couche hétérogène de remblai de démolition d’origine antique d’une épaisseur d’environ 0,80 m, sans qu’aucune structure archéologique ne soit reconnue, à l’exception d’une petite fosse circulaire datant du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. de apr. J.-C. Celle-ci avait déjà été en partie saccagée par des terrassements destructeurs qui avaient également affecté la moitié du site. En conséquence, un procès-verbal a été dressé par le Service régional de l’archéologie et transmis au procureur de la République.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 81-85 rue de Venise</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Philippe Rollet</name
+><affiliation
+xml:id="aff06"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>À l’angle des rues de Venise et Folle Peine, une opération préventive portant sur une surface relativement petite de l’ordre de 650 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+>, a été menée préalablement à la construction d’un immeuble.</p
+><p
+style="txt_Normal"
+>Les couches les plus anciennes qui ne sont pas affectées par la construction ont néanmoins pu être explorées au moyen de tranchées. Celles-ci ont fait apparaître des sédiments hydromorphes confirmant la présence d’une zone semi-palustre, en fond de vallée de la Vesle, pendant le <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. apr. J.-C. Sur ces couches initiales, un remblai horizontal a été aménagé au <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., permettant ainsi l’établissement d’un habitat à cet endroit.</p
+><p
+style="txt_Normal"
+>Ce changement d’utilisation du terrain qui n’est plus inondé à partir de cette époque, suggère un aménagement du cours de la rivière ou un changement du régime des eaux et traduit également un besoin d’extension des secteurs bâtis.</p
+><p
+style="txt_Normal"
+>Les structures archéologiques mises au jour appartiennent à un habitat antique dégagé sur 600 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> et dont la superficie s’étend au-delà des limites de la fouille. Les vestiges relevés présentent un plan de maison peu habituel à Reims qui peut rappeler celui d’une <hi
+rend="italic"
+style="typo_Italique"
+>villa</hi
+> ou d’une <hi
+rend="italic"
+style="typo_Italique"
+>domus</hi
+>, avec une grande cour rectangulaire et au moins deux pièces chauffées. On note également la présence d’une cave ou peut-être d’un laraire dont la construction est particulièrement soignée. L’abandon du site date de la deuxième moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</p
+><p
+style="txt_Normal"
+>Malgré une faible surface et un délai d’intervention relativement court, cette opération est riche d’enseignement pour le projet de la future Zac « du Vieux Port » prévue immédiatement à proximité. C’est aussi la première fois que l’occasion nous a été donnée d’observer un secteur palustre et son évolution en fond de vallée de la Vesle.</p
+><figure
+><graphic
+url="../icono/br/Fig03.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 1 –</hi
+> Plan d’ensemble des structures d’habitat du <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+>-<hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. apr. J.‑C.</head
+><p
+style="ill-credits-sources"
+>Plan : P. Rollet (Afan) ; DAO : B. Postel-Vinay.</p
+></figure
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 120-140 rue du Mont-d’Arène</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Agnès Balmelle</name
+><affiliation
+xml:id="aff07"
+>Afan</affiliation
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>La création d’une Zac sur 6 000 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+>, en périphérie de la ville antique, sur le passage présumé du fossé de la « grande enceinte » (de la fin de l’époque gauloise ou gallo-romaine précoce ?) et dans le secteur de la nécropole du Haut-Empire dite de « Clairmarais » ou « Fosse Planta » a nécessité la réalisation d’une fouille d’évaluation archéologique.</p
+><p
+style="txt_Normal"
+>Des tranchées de sondage ont été réalisées sur 12 % de la surface disponible. Elles ont permis de mettre au jour quelques structures rectilinéaires (petits fossés ?), quelques trous de poteau isolés, et plusieurs fosses. Une partie de ces structures semble relativement récente, le reste, en l’absence de mobilier significatif, n’est pas datable.</p
+><p
+style="txt_Normal"
+>On doit également signaler la présence d’un chemin non daté, mais qui pourrait être relativement ancien du fait de sa position stratigraphique, immédiatement au-dessus d’un paléosol qui coiffe le toit du substrat géologique. Il mesure 2,30 m de large et est flanqué de fossés latéraux. Une fine couche de craie compactée correspond à sa surface de roulement.</p
+><p
+style="txt_Normal"
+>L’amorce d’un creusement important en limite ouest de la zone étudiée peut éventuellement correspondre à l’escarpe du fossé de la « grande enceinte ». Cependant, le remplissage observé ; une couche de terre très fine de couleur brun clair à gris, d’aspect silto-argileux, qui présente les mêmes caractéristiques que celle retrouvée cette année dans un chantier proche, rue Ernest-Renan ; laisse planer un doute sur son identification. La surveillance archéologique de l’extension de la Zac vers le nord, devrait apporter une réponse sur la définition de cette structure.</p
+><p
+style="txt_Normal"
+>Pour conclure, on peut dire que cette opération soulève un certain nombre d’interrogations. En effet, aucune trace de la nécropole du Haut-Empire n’a été décelée, repoussant ainsi ses limites plus au nord.</p
+><p
+style="txt_Normal"
+>Les quelques tessons de céramique gallo-romaine recueillis et le peu de structures mises au jour semblent plutôt témoigner d’une occupation sporadique des lieux, probablement liée à une activité agricole.</p
+><p
+style="txt_Normal"
+>Quant à la « grande enceinte », le problème de son tracé reste posé. Les restitutions récentes qui lui font traverser la Zac en son milieu, sont infirmées. Aussi faut-il voir son passage, soit à l’emplacement du creusement mis au jour lors de cette opération, soit plus à l’est vers la rue de Courcelles.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 75 avenue Jean-Jaurès</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Agnès Balmelle</name
+><affiliation
+xml:id="aff08"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>Cette opération archéologique menée dans une zone peu explorée, éloignée du centre antique, apporte de nouvelles informations sur l’étendue de l’occupation gallo-romaine et ses caractéristiques, dans le secteur nord-ouest de la ville ; le site de l’avenue Jean Jaurès étant situé à 300 m des fortifications de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+>, à l’extérieur.</p
+><p
+style="txt_Normal"
+>La première occupation, implantée dès le <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. av. J.‑C., dont l’importance reste imprécise, est matérialisée par une cave associée à des structures en matériaux légers, dont l’orientation diverge légèrement des constructions postérieures, et un potin trouvé hors stratigraphie, lors du second décapage.</p
+><p
+style="txt_Normal"
+>L’occupation est continue jusque dans la première moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Elle est constituée de deux ensembles de constructions séparés par une ruelle orientée est-ouest, large de 3 m.</p
+><p
+style="txt_Normal"
+>Les constructions « en dur » se densifient dans le courant du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. Des modifications du bâti sont observées ponctuellement, à travers trois ou quatre états. D’une façon plus générale, des fondations reprennent d’abord les orientations des premières constructions en matériaux légers puis sont en partie abandonnées au profit de transformations plus marquées (nouvelles orientations, création de nouvelles pièces de tailles différentes, construction des hypocaustes). L’apparition des nombreux sols en <hi
+rend="italic"
+style="typo_Italique"
+>terrazzo</hi
+> et hypocaustes se situe dans le courant du <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. (première moitié ?). Au nombre de 5 dans la partie nord du site, soit sur 180 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+>, ils évoquent un quartier aux résidences confortables.</p
+><p
+style="txt_Normal"
+>Cette opération présente également un intérêt certain grâce à la mise au jour d’une activité métallurgique spécialisée dans le travail de la forge, dans la première moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Son importance reste à déterminer, mais elle témoigne plutôt d’une petite sidérurgie urbaine travaillant au moins pour les besoins du marché plutôt que d’un artisanat à grande échelle. S’il n’est pas rare de trouver des scories sur les sites rémois, c’est la première fois qu’une réelle activité, matérialisée par plusieurs foyers et plusieurs surfaces de travail (zones de battitures) évoquant un travail organisé, est mise en évidence.</p
+><p
+style="txt_Normal"
+>La fin de l’activité et plus généralement l’abandon du site est probablement lié à la crise qui traverse l’Empire et au repli vers l’intérieur de la ville au <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</p
+><p
+style="txt_Normal"
+>L’opération donne donc de nouvelles informations à la fois sur la densité de l’occupation dans ce secteur de la ville et sur sa nature ; elle précise par là même l’amplitude de ce repli, proportionnelle à l’étendue de l’occupation au Haut-Empire.</p
+><figure
+><graphic
+url="../icono/br/Fig04.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 1 –</hi
+> Reims, 75 avenue Jean-Jaurès</head
+><p
+style="txt_Legende"
+>Échelle : 1/50<hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+>.</p
+><p
+style="ill-credits-sources"
+>Dessin : M. Poirier ; DAO : B. Postel-Vinay.</p
+></figure
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Caserne Jeanne-d’Arc</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Agnès Balmelle</name
+><affiliation
+xml:id="aff09"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine, époque contemporaine, Seconde Guerre mondiale</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Lors de l’élaboration du projet de construction de la « Maison de la Mémoire Contemporaine », le Service national des travaux du ministère de la Culture a demandé au Service régional de l’archéologie de procéder à une évaluation archéologique. Le terrain concerné se trouve à l’intérieur de l’ancienne caserne Jeanne-d’Arc, boulevard Pommery. Il est également sur le tracé de la grande enceinte et à proximité de l’importante nécropole du Haut-Empire du « Chemin Vert ». L’ensemble des tranchées réalisées sur au moins 10 % de la surface disponible ont permis de mettre en évidence une fosse qui contenait des armes datant de la dernière guerre mondiale. Les quelques fragments épars de pierres taillées recueillis, peuvent appartenir à des stèles funéraires, mais aucune tombe n’a été observée, ce qui laisse supposer que l’on soit à proximité de la limite nord de la nécropole du « Chemin Vert ». L’élément le plus significatif mis au jour consiste en la présence de l’amorce de la contrescarpe du fossé de la grande enceinte. Cette découverte permet donc d’en préciser le tracé que, jusqu’à présent, les auteurs situaient légèrement plus à l’ouest.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 18 boulevard Victor-Hugo, 11 rue des Salines</head
+><head
+style="T_sub"
+type="sub"
+>Sondage (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff10"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Dans un secteur où la présence de nécropoles paléochrétiennes est avérée, la construction d’un immeuble a entraîné la réalisation d’un diagnostic archéologique. Les tranchées mécaniques, réalisées sur l’ensemble de la parcelle concernée, n’ont mis en évidence aucun vestige de cette période. Un remblai récent coiffait l’ensemble du substrat géologique crayeux. Néanmoins deux essors de crayères ont été mis au jour. Un relevé de celles-ci et du réseau d’exploitation souterrain a été réalisé par le centre d’études du bâtiment et des travaux publics à la demande du Service régional de l’archéologie.</p
+><p
+style="txt_Normal"
+>Il vient en complément des relevés déjà effectués sur le même site à l’occasion de l’étude technique de sols, préalable à la construction.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 23 rue Houzeau-Muiron</head
+><head
+style="T_sub"
+type="sub"
+>Sondage (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff11"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>La réalisation d’un immeuble sur sous-sol a motivé un diagnostic archéologique préalable. L’objectif de l’opération était d’évaluer le potentiel archéologique d’un terrain situé dans un secteur de la ville où de nombreuses découvertes concernant la période antique avaient été signalées, notamment plusieurs mosaïques. Les sondages ont fait apparaître une couche de terre végétale de 1 m d’épaisseur qui coiffe le toit du substrat crayeux. Cette absence de témoins de l’occupation gallo-romaine dans cette zone peut être due à la situation de la parcelle qui semble se trouver au cœur d’une <hi
+rend="italic"
+style="typo_Italique"
+>insula</hi
+> antique, dans un espace non construit et occupé par des jardins. Ce type d’organisation a déjà été observé, à Reims, à plusieurs reprises.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 21 boulevard de la Paix</head
+><head
+style="T_sub"
+type="sub"
+>Sauvetage urgent (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Agnès Balmelle</name
+><affiliation
+xml:id="aff12"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Protohistoire, Antiquité romaine, époque médiévale</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>L’opération d’archéologie préventive du boulevard de la Paix a été motivée par la construction d’un immeuble avec sous-sol dans un secteur de la ville particulièrement riche en vestiges gallo-romains. Malgré une surface relativement réduite, de l’ordre de 500 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+>, cette opération s’est révélée fructueuse à différents niveaux.</p
+><p
+style="txt_Normal"
+>Les témoins les plus anciens de l’occupation du site sont matérialisés par la présence de la fortification de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+>. Une partie de l’escarpe du fossé et de la levée de craie formant rempart ont pu être observées.</p
+><p
+style="txt_Normal"
+>Ensuite, probablement vers la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. apr. J.-C., cet espace a été occupé par deux maisons romaines dont le plan reste incomplet, les vestiges s’étendant hors de la surface étudiée. Les orientations relevées divergent nettement de l’orientation habituelle du quadrillage antique et s’appuient sur celle du fossé de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+>, ce qui démontre une fois encore, l’influence de celui-ci dans la topographie de la ville gallo-romaine.</p
+><p
+style="txt_Normal"
+>Ces deux ensembles sont séparés par une ruelle large de 2,20 m, qui est plutôt un espace piétonnier en pied d’échelle, éventuellement destiné à l’entretien des maisons. Les murs des façades sur la ruelle sont de dimensions inusitées, de l’ordre de 1 m ce qui peut éventuellement se justifier par la dénivellation du fossé de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+>.</p
+><p
+style="txt_Normal"
+>La maison à l’Est est mieux conservée. Elle comporte une pièce à mosaïque, trois caves, deux d’hypocaustes dont les <hi
+rend="italic"
+style="typo_Italique"
+>area</hi
+> sont conservées, deux sols en <hi
+rend="italic"
+style="typo_Italique"
+>terrazzo</hi
+>, des sols en terre battue ou en craie compactée. Il ne subsistait que la bordure de la mosaïque sur une largeur de 0,18 m de large sur 0,80 m de long. Il s’agit de tesselles noires et blanches figurant des motifs en peltes. Cette pièce a été remaniée et recouverte ultérieurement d’un mortier de tuileau.</p
+><p
+style="txt_Normal"
+>Un sol en terre battue qui appartient à la dernière phase de l’évolution de l’habitat comportait un foyer domestique dans lequel 3 monnaies ont été découvertes dont une de <hi
+rend="italic"
+style="typo_Italique"
+>Otacilia Severa</hi
+> datée de 247. L’abandon du site gallo-romain intervient donc après le milieu du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</p
+><p
+style="txt_Normal"
+>Le site sera de nouveau occupé au Moyen Âge par un cimetière, extra muros dont il n’est fait aucune mention dans les textes et qui n’apparaît sur aucun plan ancien. Les datations par <hi
+rend="sup"
+style="typo_Exposant"
+>14</hi
+>C donnent une fourchette d’utilisation qui se situe aux <hi
+rend="small-caps"
+style="typo_SC"
+>xi</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> et <hi
+rend="small-caps"
+style="typo_SC"
+>xii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</p
+><p
+style="txt_Normal"
+>Cette intervention archéologique a permis préciser le passage du fossé de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+>, d’observer les vestiges de la levée de terre formant rempart et de mettre au jour un habitat du Haut-Empire ainsi qu’un cimetière du Moyen Âge. Malgré la présence inattendue de celui-ci, non repéré lors du diagnostic, l’essentiel des structures a néanmoins pu être relevé et étudié dans les délais impartis avec une durée d’intervention prévue dans le cahier des charges, limitée à 1 mois.</p
+><figure
+><graphic
+url="../icono/br/Fig05.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 1 –</hi
+> Hypothèse de restitution des deux maisons séparées par la ruelle</head
+><p
+style="txt_Legende"
+>Échelle : 1/100<hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+>.</p
+><p
+style="ill-credits-sources"
+>Dessin : M. Poirier ; DAO : B. Postel-Vinay.</p
+></figure
+><figure
+><graphic
+url="../icono/br/Fig06.jpg"
+></graphic
+><head
+style="titre_figure"
+><hi
+rend="bold"
+style="typo_gras"
+>Fig. 2 –</hi
+> Sépulture collective médiévale en cours de fouille</head
+></figure
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 83 rue Ernest-Renan</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Philippe Rollet</name
+><affiliation
+xml:id="aff13"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Préalablement à l’agrandissement de l’usine Eurinter, un diagnostic archéologique a été effectué sur une surface de 4 000 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+>. Les objectifs étaient de repérer d’éventuelles traces d’occupation en périphérie proche de la ville romaine et de repérer la nécropole du Haut-Empire de « Clairmarais » signalée à proximité.</p
+><p
+style="txt_Normal"
+>Quelques structures, creusées dans le substrat crayeux, ont été relevées. Elles sont essentiellement concentrées à la limite nord-ouest du projet. Il s’agit de quelques trous de poteau isolés, d’une petite fosse de 0,70 m de diamètre et d’un fossé repéré sur 60 m de long, en bordure de la zone explorée. La datation de ces structures se situe dans la première moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. apr. J.-C.</p
+><p
+style="txt_Normal"
+>La présence de ces vestiges antiques que l’on peut interpréter comme faisant partie d’un établissement rural s’étendant plus vers le nord-ouest, confirme que la grande périphérie de la ville antique recèle une forte densité d’établissements ruraux comme l’avaient déjà laissé supposer des recherches récentes menées à l’occasion d’importants aménagements routiers autour de Reims (barreau Est et déviation de Witry-lès-Reims).</p
+><p
+style="txt_Normal"
+>L’absence d’éléments funéraires repousse les limites de la nécropole antique vers l’Est.</p
+><p
+style="txt_Normal"
+>Un autre point intéressant de cette opération concerne une couche de terre très fine de couleur brun clair à gris qui recouvre à la fois le substrat crayeux et les structures archéologiques. Elle est probablement, en grande partie, le résultat d’un apport éolien. Toutefois, la couleur de cette couche, et surtout son aspect silto-argileux, est certainement à mettre en relation avec des phénomènes de concentration par fluage des sédiments superficiels. Ces formations sédimentaires récentes présentent un intérêt certain dans la mesure où elles ont été peu étudiées, jusqu’à présent.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Rue Docteur-Creuzat</head
+><head
+style="T_sub"
+type="sub"
+>Sondage (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Alain Koehler</name
+><affiliation
+xml:id="aff14"
+>Afan</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Afan</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : <index
+indexName="Index"
+><term
+type="orig"
+>sondage programmé</term
+><index
+indexName="pactols:Sujets"
+n="1"
+rendition="oe"
+source="26678/pcrt1GPZLeLDoN"
+xml:base="https://ark.frantiq.fr/ark:/"
+><term
+xml:lang="en"
+>conceptual objects</term
+><term
+xml:lang="es"
+>entidades intangibles</term
+><term
+xml:lang="it"
+>entità immateriali</term
+><term
+xml:lang="fr"
+>entités immatérielles</term
+><term
+xml:lang="de"
+>immaterielle Einheiten</term
+><index
+n="2"
+rendition="oe"
+source="26678/pcrtIvSnh3tF91"
+><term
+xml:lang="es"
+>normas</term
+><term
+xml:lang="it"
+>norme</term
+><term
+xml:lang="de"
+>Normen</term
+><term
+xml:lang="fr"
+>normes</term
+><term
+xml:lang="en"
+>norms</term
+><index
+n="3"
+rendition="oe"
+source="26678/pcrt8ks478d1kn"
+><term
+xml:lang="es"
+>excavación (estatuto administrativo)</term
+><term
+xml:lang="en"
+>excavation (administrative status)</term
+><term
+xml:lang="de"
+>Grabung (administrativer Status)</term
+><term
+xml:lang="fr"
+>prescription archéologique</term
+><term
+xml:lang="it"
+>scavo (statuto amministrativo)</term
+><index
+n="4"
+rendition="oe"
+source="26678/pcrtUpTKpEpXJ5"
+><term
+xml:lang="es"
+>operación arqueológica programada</term
+><term
+xml:lang="fr"
+>opération d'archéologie programmée</term
+><term
+xml:lang="it"
+>operazione archeologica programmata</term
+><term
+xml:lang="de"
+>Plangrabung</term
+><term
+xml:lang="en"
+>programmed archaeology</term
+><term
+xml:lang="ar"
+>ترتيبات الأعمال الأثرية</term
+><index
+n="5"
+rendition="oe"
+source="26678/pcrtjf21909jq940v0h8gm44"
+><term
+xml:lang="de"
+>Grabungssondage</term
+><term
+xml:lang="en"
+>sondage</term
+><term
+xml:lang="fr"
+>sondage programmé</term
+><term
+xml:lang="it"
+>sondaggio programmato</term
+><term
+xml:lang="es"
+>sondeo programado</term
+></index
+></index
+></index
+></index
+></index
+></index
+></p
+><p
+style="txt_Normal"
+>La parcelle évaluée d’un seul tenant, représente une superficie d’environ 2,88 ha de terres cultivées. Elle se développe le long (rue Jean-Legros) du tracé d’un chemin d’origine vraisemblablement très ancien qui gagnerait par Courcy l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+> de Guignicourt (« Vieux-Reims »). Aucune découverte significative n’a été faite aux abords de ce chemin, si ce n’est vers l’angle nord, où plusieurs creusements de faible ampleur semblent pouvoir être datés de la période romaine. Le sédiment de comblement est proche de la terre végétale. À la base, sur une vingtaine de centimètres, la dominante est plutôt noirâtre, mouchetée de craie. Globalement, ils correspondent à plusieurs fosses entamant de quelques décimètres le substrat crayeux. Les observations effectuées au sein des tranchées nous permettent d’envisager une tendance prédominante de surcreusement linéaire orienté presque perpendiculairement à l’ancien chemin reliant Reims au « Vieux-Reims ». D’autres vestiges, probablement anciens, ont été observés sur la parcelle : deux trous de poteau « isolés », quelques fossés, et des ornières d’un axe de cheminement qui traversent la parcelle vers son milieu du nord-est vers le sud-ouest. D’autres observations, effectuées sur cette structure en relation avec des sites archéologiques pourront peut-être nous éclairer sur la question relative à sa datation. De toute évidence, ces terrains étaient fréquentés, probablement cultivés, durant l’Antiquité. La présence sur toute la superficie, de fragments de <hi
+rend="italic"
+style="typo_Italique"
+>tegulae</hi
+> et <hi
+rend="italic"
+style="typo_Italique"
+>imbrices</hi
+> va bien dans ce sens. Il est très probable que l’on soit ici à grande proximité d’un établissement gallo-romain.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 3 rue Irénée-Lelièvre</head
+><head
+style="T_sub"
+type="sub"
+>Sondage (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff15"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>La construction d’un immeuble sur un terrain situé non loin du <hi
+rend="italic"
+style="typo_Italique"
+>decumanus</hi
+>, aux limites de la ville antique, et en bordure du fond de vallée de la Vesle a impliqué une reconnaissance archéologique. Une couche de remblais moderne de l’ordre de 2 m à 2,50 m s’étend sur l’ensemble de la parcelle. Seuls deux sondages, excavés plus profondément jusqu’à 3 m, ont fait apparaître des sédiments hydromorphes et quelques fragments de <hi
+rend="italic"
+style="typo_Italique"
+>tegulae</hi
+>. Comme ces couches se situent sous le niveau maximum du sous-sol prévu pour la future construction, aucune suite n’a été donnée à cette opération.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 2 rue Nicolas-Roland</head
+><head
+style="T_sub"
+type="sub"
+>Évaluation (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff16"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Située à proximité de la zone artisanale de potiers gallo-romains de Saint-Remi, dans un secteur où des tombes antiques ont été signalées, la construction d’un gymnase sur sous-sol, dans l’enceinte d’un collège, a impliqué une opération d’évaluation. Deux sondages ont été réalisés mécaniquement sur les surfaces disponibles. Aucune couche archéologique n’a été décelée. Un remblai moderne de 1 m d’épaisseur couvre le substrat géologique crayeux. Il semble que cette partie du terrain occupée par le collège, ait été terrassée jusqu’à la craie, puis remblayée lors de sa construction. Néanmoins, le suivi archéologique des travaux de terrassement sera nécessaire au moment de la réalisation du projet.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 4 rue Édouard-Mignot</head
+><head
+style="T_sub"
+type="sub"
+>Sondage (1997)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>François Berthelot</name
+><affiliation
+xml:id="aff17"
+>Drac Champagne-Ardenne (service régional de l’archéologie)</affiliation
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>1997</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Ministère de la Culture</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>La construction des nouveaux locaux de l’Insee, dans un quartier périphérique de la ville romaine, a motivé une intervention de sondages archéologiques. L’essentiel des terrains concernés était déjà occupé par des sous-sols existants. Seule, une cour de 400 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> a pu être testée.</p
+><p
+style="txt_Normal"
+>Une tranchée réalisée mécaniquement a mis en évidence des couches disposées en faisceaux obliques qui correspondent au comblement d’une dépression probablement moderne, d’après le mobilier présent. C’est à une profondeur de 3,50 m qu’est apparu le sommet d’une couche grise limoneuse qui contenait quelques tessons antiques de petite taille. Le sous-sol du futur bâtiment ne descendant pas à cette profondeur, aucune suite n’a été donnée à cette opération.</p
+></div
+></div
+></div
+></body
+></text
+></TEI
+>
