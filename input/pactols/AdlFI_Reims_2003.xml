@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI
+change="metopes_edition"
+xml:lang="fr-FR"
+xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:ns="http://www.tei-c.org/ns/1.0"
+xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0"
+xmlns:dcr="http://www.isocat.org/ns/dcr"
+><teiHeader
+><fileDesc
+><titleStmt
+><title
+type="main"
+>2003</title
+></titleStmt
+><editionStmt
+><edition
+><date
+>2022-11-14T15:51:00</date
+></edition
+></editionStmt
+><publicationStmt
+><publisher
+></publisher
+><ab
+type="papier"
+><dimensions
+><dim
+type="pagination"
+></dim
+></dimensions
+><date
+></date
+></ab
+><idno
+type="book"
+></idno
+><ab
+type="lodel"
+><date
+>15/11/2022</date
+></ab
+></publicationStmt
+><sourceDesc
+><p
+>Version Métopes : 3.0</p
+><p
+>Written by OpenOffice</p
+></sourceDesc
+></fileDesc
+><encodingDesc
+><tagsDecl
+><rendition
+scheme="css"
+xml:id="none"
+>color:black;</rendition
+></tagsDecl
+></encodingDesc
+><profileDesc
+><langUsage
+><language
+ident="fr-FR"
+>fr-FRfr-FR</language
+></langUsage
+><textClass
+></textClass
+></profileDesc
+><revisionDesc
+><change
+when="2022-11-14T18:36:30"
+who="Nicolas Coquet"
+>Révision</change
+></revisionDesc
+></teiHeader
+><text
+xml:id="text"
+><front
+><titlePage
+><docTitle
+><titlePart
+style="T_3_Article"
+type="main"
+>2003</titlePart
+></docTitle
+></titlePage
+></front
+><body
+><div
+type="chapitre"
+xml:id="mainDiv"
+><div
+subtype="rubrique"
+type="section1"
+><head
+style="T_1"
+subtype="level1"
+>51 – Marne</head
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 11-19 rue Buirette</head
+><head
+style="T_sub"
+type="sub"
+>Fouille préventive (2003)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Agnès Balmelle</name
+><affiliation
+xml:id="aff01"
+>Inrap</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>4167</idno
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Protohistoire, Antiquité romaine, époque médiévale, époque moderne</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2003</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Inrap</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>Le terrain se trouvait en grande partie sur le fossé de l’<hi
+rend="italic"
+style="typo_Italique"
+>oppidum</hi
+>. Le bord extérieur de son creusement a été repéré en limite est du chantier et les dépôts d’utilisation n’ont pu être atteints que ponctuellement en raison des impératifs de construction (projet sur pieux au-delà du sous-sol).</p
+><p
+style="txt_Normal"
+>Les constructions du Haut-Empire ne sont représentées que par des fondations en craie pilée et une ruelle empierrée. Les pièces couvrent des superficies de 15 à 20 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> environ. Ces vestiges étaient très arasés en raison des aménagements postérieurs.</p
+><p
+style="txt_Normal"
+>Une maison du <hi
+rend="small-caps"
+style="typo_SC"
+>xiv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. est en revanche bien conservée et plusieurs phases de construction ont été identifiées. Des latrines y sont associées.</p
+><p
+style="txt_Normal"
+>Des caves du bas Moyen Âge et modernes ont également été relevées.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 15 rue Clovis</head
+><head
+style="T_sub"
+type="sub"
+>Fouille préventive (2003)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Agnès Balmelle</name
+><affiliation
+xml:id="aff02"
+>Inrap</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>4122</idno
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine, époque médiévale, époque moderne</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2003</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Inrap</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>Quelques tranchées de sablières basses, relevées dans le substrat géologique, sont les témoins des premières constructions en matériaux périssables. Une <hi
+rend="italic"
+style="typo_Italique"
+>domus</hi
+> a été partiellement dégagée sur une superficie de 375 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+>. Deux pièces sont couvertes de mosaïques en tesselles blanches avec des croisettes noires sur le tapis central encadré d’une double bande également noire. Fondée à la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>i</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> s. ou au début du <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. cette maison va subir quelques transformations avec notamment la création d’une cour à péristyle (superficie minimum de 80 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+>). Des réfections apparaissent aussi sur le pavement de mosaïque. Une cave désaffectée témoigne encore du remaniement de la maison. Des éléments de peintures murales indiquent un décor complexe, luxueux, d’une grande diversité chromatique ; quelques fragments ont des traces d’or.</p
+><p
+style="txt_Normal"
+>Des fondations médiévales et modernes sont également relevées.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 19 rue Eugène-Desteuque</head
+><head
+style="T_sub"
+type="sub"
+>Fouille préventive (2003)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Stéphane Sindonino</name
+><affiliation
+xml:id="aff03"
+>Inrap</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>3965</idno
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine, époque médiévale, époque moderne, époque contemporaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2003</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Inrap</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : fouille préventive</p
+><p
+style="txt_Normal"
+>L’opération de la rue Desteuque s’est déroulée pendant près de 6 mois sur un chantier de 600 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> possédant une épaisseur stratigraphique de plus de 5,50 m.</p
+><p
+style="txt_Normal"
+>Un des premiers apports de ce chantier concerne la 2<hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> partie du règne d’Auguste. Nous avons pu étudier des constructions en pierres érigées entre les années 5 av. J.-C. et 20 apr. J.-C. Elles sont contemporaines d’un entrepôt découvert sur le chantier de la médiathèque et des enduits peints mis au jour sur le chantier du 58-68 rue Chanzy. Cette découverte vient confirmer le dynamisme et la précocité du développement urbain à Reims dans les premiers temps de l’Empire. Légèrement plus tard, dans les années 20-30 apr. J.-C., une <hi
+rend="italic"
+style="typo_Italique"
+>domus</hi
+> est construite sur ces premiers vestiges. Elle est dotée d’un décor en enduit peint et de sols en mosaïque. La découverte en contexte stratifié d’un pavement en <hi
+rend="italic"
+style="typo_Italique"
+>opus signinum</hi
+> permet pour la première fois d’établir la précocité de ce type de décor à Reims. Cette <hi
+rend="italic"
+style="typo_Italique"
+>domus</hi
+> adopte un plan méditerranéen, avec une organisation des pièces autour d’une cour. Dans la cour, une cave et un foyer complètent l’équipement de la maison.</p
+><p
+style="txt_Normal"
+>Au <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., une nouvelle <hi
+rend="italic"
+style="typo_Italique"
+>domus</hi
+> est reconstruite après la démolition volontaire de la première. Toujours organisées autour de la cour, les pièces, décorées de mosaïque en <hi
+rend="italic"
+style="typo_Italique"
+>opus tesselatum</hi
+>, sont plus spacieuses. Dans la cour, une activité culinaire perdure autour du foyer.</p
+><p
+style="txt_Normal"
+>On suit l’évolution de la <hi
+rend="italic"
+style="typo_Italique"
+>domus</hi
+> à travers des réfections et des modifications au cours des <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> et <hi
+rend="small-caps"
+style="typo_SC"
+>iv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. L’évènement le plus marquant est la transformation d’une très grande pièce en plus petite, dotée d’un hypocauste. Il est notable de constater l’absence de terres noires. Comme nous l’avons déjà remarqué sur le chantier de la médiathèque, on ne retrouve pas ce type d’accumulation. Cette <hi
+rend="italic"
+style="typo_Italique"
+>domus</hi
+> est abandonnée définitivement au début du <hi
+rend="small-caps"
+style="typo_SC"
+>v</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</p
+><p
+style="txt_Normal"
+>À la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>v</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> et au début du <hi
+rend="small-caps"
+style="typo_SC"
+>vi</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., les traces de constructions réapparaissent. Une maison est édifiée sur des soubassements en pierres. Elle possède un étage et elle est très certainement décorée d’enduits peints polychromes. Cette découverte montre très probablement le statut privilégié des résidents à cette haute époque médiévale. Le mobilier céramique confirme d’ailleurs par sa qualité ce statut. La découverte d’enduits peints dans un bâtiment civil du début de l’époque mérovingienne est à notre connaissance le seul exemple connu aujourd’hui. Aux <hi
+rend="small-caps"
+style="typo_SC"
+>viii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+>-<hi
+rend="small-caps"
+style="typo_SC"
+>ix</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., la maison est détruite. La parcelle est alors occupée par de nombreuses latrines et fosses dépotoirs. L’absence de construction peut s’expliquer par une rotation des espaces ouverts et des espaces bâtis d’une époque à l’autre. Ainsi, les constructions carolingiennes sont probablement à chercher aux abords des dépotoirs, en dehors de l’emprise du chantier.</p
+><p
+style="txt_Normal"
+>Au <hi
+rend="small-caps"
+style="typo_SC"
+>x</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., de nouveaux bâtiments sont érigés. On ne note pas d’évolution importante jusqu’à une explosion « immobilière », au <hi
+rend="small-caps"
+style="typo_SC"
+>xiii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. C’est aussi de cette époque que nous parviennent les plus anciens textes concernant cette parcelle. À ce moment une riche famille bourgeoise, les Le Bœuf, achète le terrain et y développe leur habitat entre le <hi
+rend="small-caps"
+style="typo_SC"
+>xiii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> et le <hi
+rend="small-caps"
+style="typo_SC"
+>xv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. Au <hi
+rend="small-caps"
+style="typo_SC"
+>xv</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. une nouvelle famille bourgeoise, les Foulquart, rachète les bâtiments. C’est de cette époque que datent les vestiges d’une grande phase de travaux visant à embellir l’habitat. Les Foulquart créent une vaste demeure, organisée autour d’une grande cour. L’entrée principale se situe du côté de la rue Desteuque et un grand corps de logis au nord fait face à la cour.</p
+><p
+style="txt_Normal"
+>Au <hi
+rend="small-caps"
+style="typo_SC"
+>xvii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., après un incendie survenu en 1609, les nouveaux propriétaires, les Thiret, conservent le logis mais modifient l’organisation de la cour, en créant une cour d’honneur et une arrière-cour.</p
+><p
+style="txt_Normal"
+>Dans la 2<hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> moitié du <hi
+rend="small-caps"
+style="typo_SC"
+>xvii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., la ville décide d’y installer une manufacture de tissu. Le bâtiment est alors modifié en conséquence et l’hôtel de Thiret devient la « Manufacture ». Des ouvriers tisserands remplacent les hôtes illustres. Cette occupation par une communauté a laissé des traces à travers les reliefs des repas, qui montrent la préparation de repas collectifs.</p
+><p
+style="txt_Normal"
+>Malgré des modifications et des ajouts de pièces durant les <hi
+rend="small-caps"
+style="typo_SC"
+>xviii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> et <hi
+rend="small-caps"
+style="typo_SC"
+>xix</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s., l’hôtel particulier conserve son style Henry IV. C’est entre 1914 et 1918 que les bombardements allemands mettent brutalement fin à l’existence d’un des plus beaux bâtiments rémois. Après la guerre, bien que les murs aient en partie résisté à la fureur des combats, la municipalité et le propriétaire de l’époque décident sa totale démolition.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 50 rue Dérodé, 36-38 rue Prieur-de-la-Marne</head
+><head
+style="T_sub"
+type="sub"
+>Opération préventive de diagnostic (2003)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Pascal Stocker</name
+><affiliation
+xml:id="aff04"
+>Inrap</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>4165</idno
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2003</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Inrap</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Cette évaluation avait pour finalité première de contrôler une zone sensible à l’intérieur de la ville du Haut-Empire. Les résultats obtenus à l’issue de ce diagnostic mettent en évidence un tronçon de rue, déjà connu à différents endroits de la ville et la présence d’une partie d’un enclos funéraire.</p
+><p
+style="txt_Normal"
+>En effet, dans cette zone suburbaine de la ville du Haut-Empire, nous sommes en présence d’une vaste nécropole dont la localisation a certainement évolué dans le temps. Les nécropoles constituent un élément classique du paysage urbain. Les voies et les axes secondaires qui s’éloignent du noyau urbain en direction du <hi
+rend="italic"
+style="typo_Italique"
+>pomerium</hi
+> sont bordés de tombeaux.</p
+><p
+style="txt_Normal"
+>Cependant, le type d’enclos découvert sur la zone évaluée délimite un espace sacré pouvant abriter à l’intérieur un sanctuaire ou un mausolée dominant le <hi
+rend="italic"
+style="typo_Italique"
+>decumanus maximus</hi
+>.</p
+><p
+style="txt_Normal"
+>Le mobilier et les urnes prélevés au cours de l’opération se situent chronologiquement à la fin de la dynastie des Antonins et au début de celle des Sévères. Théoriquement, la fin du <hi
+rend="small-caps"
+style="typo_SC"
+>ii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s. connaît toujours la pratique de l’incinération. En revanche, l’inhumation était de règle chez les nourrissons, matérialisés par des sépultures recouvertes d’un coffrage en tuile, où les individus étaient directement placés à l’intérieur d’un gros récipient.</p
+><p
+style="txt_Normal"
+>Par ailleurs, la sépulture située à l’intérieur de l’enclos peut déterminer une phase plus tardive par sa pratique funéraire, mais également par l’orientation de la tombe. Il est difficile d’expliquer l’adoption progressive de l’inhumation, mais on peut invoquer l’influence des cultes orientaux prônant le retour à la terre qui atteignent leur apogée vers le milieu du <hi
+rend="small-caps"
+style="typo_SC"
+>iii</hi
+><hi
+rend="sup"
+style="typo_Exposant"
+>e</hi
+> s.</p
+><p
+style="txt_Normal"
+>L’ensemble des vestiges archéologiques a été étudié au cours de l’opération de diagnostic, mais le tronçon du fossé nord-sud n’a pas été examiné à cause de l’encombrement des déblais.</p
+><p
+style="txt_Normal"
+>Par conséquent, il importe qu’une surveillance soit effectuée, lors du démarrage des travaux, sur cette partie du fossé, pour compléter les données sur l’occupation du site.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Rue de Courcelles, rue Édouard-Mignot</head
+><head
+style="T_sub"
+type="sub"
+>Opération préventive de diagnostic (2003)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Pascal Stocker</name
+><affiliation
+xml:id="aff05"
+>Inrap</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>4370</idno
+></p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2003</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Inrap</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>L’ensemble de la zone évaluée couvre une surface d’environ 600 m<hi
+rend="sup"
+style="typo_Exposant"
+>2</hi
+> à l’intérieur du parcellaire urbain de Reims, situé dans la partie nord-ouest de la ville du Haut-Empire. La campagne de sondages mécaniques s’est déroulée le 1<hi
+rend="sup"
+style="typo_Exposant"
+>er</hi
+> octobre 2003.</p
+><p
+style="txt_Normal"
+>L’ensemble des sondages réalisés au cours de cette opération montre que le terrain ne recèle pas de vestiges archéologiques. Il est possible que la zone évaluée soit à l’emplacement d’un ancien marais et peut-être même à proximité d’un ancien bras du lit de la Vesle.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – 9-11 boulevard du Général-Leclerc, 14 rue de Châtivesle</head
+><head
+style="T_sub"
+type="sub"
+>Opération préventive de diagnostic (2003)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Pascal Stocker</name
+><affiliation
+xml:id="aff06"
+>Inrap</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>4414</idno
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2003</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Inrap</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Cette évaluation avait pour finalité première de contrôler une zone sensible à l’intérieur de la ville du Haut-Empire. Les résultats obtenus à l’issue de ce diagnostic mettent en évidence la partie est d’un tronçon de rue et des vestiges d’habitats qui peuvent compléter des informations sur l’urbanisation de la ville.</p
+><p
+style="txt_Normal"
+>Ce niveau de circulation semble cependant correspondre au prolongement de celui observé plus au sud, sur le chantier de la rue de Châtivesle.</p
+><p
+style="txt_Normal"
+>Au cours de l’opération, il n’a pas été possible de justifier une occupation antérieure à l’implantation de la rue, mais quelques indices recueillis dans les sondages auraient été mis en relation avec une occupation gallo-romaine précoce.</p
+></div
+><div
+subtype="notice"
+type="section2"
+><head
+style="T_2"
+subtype="level2"
+>Reims – Rue Bertrand-de-Mun</head
+><head
+style="T_sub"
+type="sub"
+>Opération préventive de diagnostic (2003)</head
+><p
+rendition="none"
+style="txt_archeo_autorites"
+><name
+role="aut fld"
+>Pascal Stocker</name
+><affiliation
+xml:id="aff07"
+>Inrap</affiliation
+></p
+><p
+rendition="none"
+style="txt_archeo_IDpatriarche"
+>Numéro d’opération : <idno
+type="patriarche"
+>3883</idno
+></p
+><p
+rendition="none"
+style="txt_archeo_mc_chrono"
+>Protohistoire, Antiquité romaine</p
+><ab
+rendition="none"
+type="meta-archeo"
+>Année de l’opération : <date
+>2003</date
+></ab
+><p
+rendition="oe"
+style="txt_archeo_org"
+>Organisme porteur de l’opération : Inrap</p
+><p
+rendition="print"
+style="txt_archeo_natureOp"
+>Nature de l’opération : opération de diagnostic</p
+><p
+style="txt_Normal"
+>Cette évaluation avait pour finalité première de contrôler une zone sensible localisée en bordure extérieure du fossé de la grande enceinte. Les résultats obtenus à l’issue de ce diagnostic mettent en évidence une occupation à fonction probablement agricole, matérialisée par un bâtiment de petites dimensions, qui semble être destiné au stockage des céréales et est situé dans un enclos.</p
+><p
+style="txt_Normal"
+>Cependant, ce type d’enclos peut appartenir, soit à une unité agricole, soit à une portion de ferme indigène dont la majeure partie se situe certainement sous les parcelles situées au nord de la rue Bertrand-de-Mun.</p
+><p
+style="txt_Normal"
+>Par ailleurs, l’arasement du site a certainement engendré la disparition de structures archéologiques peu profondes.</p
+><p
+style="txt_Normal"
+>En conséquence, l’ensemble des vestiges archéologiques a été étudié au cours de l’opération de diagnostic.</p
+><p
+style="txt_Normal"
+>Le mobilier peu abondant prélevé au cours de l’opération permet seulement de situer chronologiquement l’occupation à la période gallo-romaine, voire gallo-romaine précoce. On peut noter également que l’orientation des fossés d’enclos est similaire à celle du quadrillage des rues de la ville antique. Le phénomène peut éventuellement résulter d’une cadastration des terrains à l’extérieur de la ville antique, ce qui reste à vérifier lors d’opérations futures dans les zones périurbaines.</p
+></div
+></div
+></div
+></body
+></text
+></TEI
+>
