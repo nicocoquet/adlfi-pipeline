@@ -1,0 +1,98 @@
+Rapport d’enrichissement PACTOLS
+
+Fichier : BSR_Poitou-Charentes_2013_16_prepared.xml
+SHA-256 du fichier : 417893488ac1d0fbab17cdaca9bcd2a7def8bea776a7cff19275d3db4557f4d1
+Référentiel PACTOLS : PACTOLS 2026-07-22 (69bf9697e24cefd645a69465bbd271702786285a)
+SHA-256 Sujets : cd38ef8bd875e96ed9220274ecc12a679b382a520779654eb3bf8141fd16e98b
+SHA-256 Chronologie : ea081dcc12d7cc1f1a74ad5aeeca2c90b1733999dba6b41f97ac85843003eaaa
+SHA-256 Concepts dépréciés : 6a60f6b3da9682d216514e9167bfee7233013000e3d1c713e493f2d400a5771b
+
+Concepts rencontrés : 210
+indexed_exact : 184
+indexed_typographic : 17
+not_found : 9
+
+Avertissements : 0
+
+Exceptions : 9
+
+NOTICE : Cellefrouin – Chapelle Saint-Martin
+PARAGRAPHE : p96
+ZONE : fieldwork_method
+VALEUR : sondage programmé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Chabanais – ZAE des Chassats
+PARAGRAPHE : p106
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Reignac à Chevanceaux – RN 10 (phases 1 et 2)
+PARAGRAPHE : p333
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Reignac – Chez Marot
+PARAGRAPHE : p346
+ZONE : subjects
+VALEUR : fossé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Saint-Ciers-sur-Bonnieure – Cour de la future mairie
+PARAGRAPHE : p366
+ZONE : fieldwork_method
+VALEUR : sondage programmé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Forêt domaniale de la Braconne
+PARAGRAPHE : p410
+ZONE : fieldwork_method
+VALEUR : sondage programmé
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Gondeville – Fleuve Charente
+PARAGRAPHE : p421
+ZONE : subjects
+VALEUR : lest
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Département de la Charente
+PARAGRAPHE : p443
+ZONE : subjects
+VALEUR : enceinte quadrangulaire
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
+
+NOTICE : Département de la Charente
+PARAGRAPHE : p454
+ZONE : subjects
+VALEUR : gare
+STATUT : not_found
+PREFLABEL/CANDIDAT : 
+ARK : 
+DÉTAIL : aucun prefLabel ou altLabel français actif, exact ou équivalent typographique unique ; XML laissé inchangé
